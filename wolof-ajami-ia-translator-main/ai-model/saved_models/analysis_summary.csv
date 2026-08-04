@@ -1,0 +1,2 @@
+﻿seed,total_test,correct,incorrect,accuracy,best_epoch,validation_loss,insertions,suppressions,substitutions,edit_distance_total
+42,2057,1957,100,95.1385512882839,4,0.10606473046713151,390,90,71,551

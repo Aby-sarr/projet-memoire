@@ -1,0 +1,20 @@
+/* ============================================================
+   STYLES GLOBAUX
+   ============================================================ */
+
+/* Reset minimal */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8f9fb;
+  color: #1a1a2e;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar discrète */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #c1c9d4; border-radius: 3px; }

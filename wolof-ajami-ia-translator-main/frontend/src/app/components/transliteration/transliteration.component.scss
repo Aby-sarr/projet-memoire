@@ -1,0 +1,320 @@
+/* ============================================================
+   STYLES — Interface de translittération
+   ============================================================ */
+
+/* Variables de couleurs */
+$primary:    #185FA5;
+$primary-lt: #4A90D9;
+$bg:         #f8f9fb;
+$card-bg:    #ffffff;
+$border:     #e2e6ea;
+$text:       #1a1a2e;
+$text-light: #6c757d;
+$error:      #dc3545;
+$success:    #28a745;
+
+/* ── PAGE ──────────────────────────────────────────────────── */
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: $text;
+}
+
+/* ── EN-TÊTE ────────────────────────────────────────────────── */
+.header {
+  margin-bottom: 1.5rem;
+
+  .title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0 0 4px;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+    color: $text-light;
+    margin: 0 0 0.75rem;
+  }
+}
+
+/* Badge de statut du serveur Spring Boot */
+.server-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+
+  &.online  { background: #d4edda; color: $success; }
+  &.offline { background: #f8d7da; color: $error; }
+}
+
+/* ── SÉLECTEUR DE DIRECTION ─────────────────────────────────── */
+.direction-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+  background: $bg;
+  padding: 6px;
+  border-radius: 10px;
+  border: 1px solid $border;
+}
+
+.dir-btn {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  font-size: 0.85rem;
+  color: $text-light;
+  cursor: pointer;
+  transition: all 0.15s;
+
+  &:hover { background: rgba($primary, 0.06); }
+
+  &.active {
+    background: $card-bg;
+    color: $primary;
+    border-color: $border;
+    font-weight: 500;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+}
+
+.direction-label {
+  font-size: 0.8rem;
+  color: $text-light;
+  margin: 0 0 1rem 4px;
+}
+
+/* ── PANNEAUX TEXTE ─────────────────────────────────────────── */
+.panels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 14px;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.panel-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: $text-light;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.text-area {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid $border;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  resize: vertical;
+  font-family: inherit;
+  color: $text;
+  background: $card-bg;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+    border-color: $primary-lt;
+    box-shadow: 0 0 0 3px rgba($primary, 0.1);
+  }
+
+  &.result {
+    background: $bg;
+    color: darken($primary, 5%);
+    font-weight: 500;
+    cursor: default;
+  }
+}
+
+.hint {
+  font-size: 0.72rem;
+  color: $text-light;
+}
+
+/* ── BOUTONS ─────────────────────────────────────────────────── */
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  padding: 10px 24px;
+  background: $primary;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+
+  &:hover:not(:disabled) { background: darken($primary, 8%); }
+  &:disabled { opacity: 0.5; cursor: not-allowed; }
+}
+
+.btn-secondary {
+  padding: 10px 18px;
+  background: $card-bg;
+  color: $text-light;
+  border: 1px solid $border;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s;
+
+  &:hover:not(:disabled) { background: $bg; }
+  &:disabled { opacity: 0.5; cursor: not-allowed; }
+}
+
+/* Spinner de chargement */
+.spinner-row { display: flex; align-items: center; gap: 8px; }
+.spinner {
+  width: 14px; height: 14px;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── ERREUR ──────────────────────────────────────────────────── */
+.error-box {
+  background: #fff5f5;
+  border: 1px solid #fecaca;
+  border-left: 4px solid $error;
+  color: $error;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  margin-bottom: 1rem;
+}
+
+/* ── VISUALISATION D'ATTENTION ──────────────────────────────── */
+.attention-section {
+  background: $card-bg;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.section-desc {
+  font-size: 0.8rem;
+  color: $text-light;
+  margin: 0 0 1rem;
+}
+
+/* Grille des tokens */
+.token-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.token-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.token {
+  font-size: 0.8rem;
+  padding: 3px 8px;
+  border-radius: 6px;
+  max-width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  cursor: default;
+}
+
+.src-token {
+  background: #e8f0fe;
+  color: $primary;
+  font-weight: 500;
+}
+
+.tgt-token {
+  background: #e6f9f0;
+  color: #166534;
+  font-weight: 500;
+}
+
+/* Barre d'attention verticale */
+.attention-bar-wrap {
+  display: flex;
+  align-items: flex-end;
+  height: 80px;
+}
+
+.attention-bar {
+  width: 20px;
+  border-radius: 4px 4px 0 0;
+  transition: height 0.3s ease;
+  min-height: 4px;
+}
+
+.score-label {
+  font-size: 0.65rem;
+  color: $text-light;
+}
+
+/* ── EXEMPLES ─────────────────────────────────────────────────── */
+.examples-section {
+  .section-title {
+    font-size: 0.85rem;
+    color: $text-light;
+    margin-bottom: 8px;
+  }
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  padding: 6px 14px;
+  border: 1px solid $border;
+  border-radius: 20px;
+  background: $card-bg;
+  font-size: 0.82rem;
+  color: $text-light;
+  cursor: pointer;
+  transition: all 0.15s;
+
+  &:hover {
+    border-color: $primary-lt;
+    color: $primary;
+    background: rgba($primary, 0.04);
+  }
+}

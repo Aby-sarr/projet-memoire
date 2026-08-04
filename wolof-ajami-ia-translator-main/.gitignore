@@ -1,0 +1,5 @@
+./frontend/.angular
+./frontend/node_modules
+./backend/build
+./backend/.idea
+./backend/.gradle

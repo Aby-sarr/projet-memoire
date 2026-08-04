@@ -1,0 +1,147 @@
+<!-- ============================================================
+     TEMPLATE — Interface principale de translittération
+     ============================================================ -->
+<div class="page">
+
+  <!-- ── EN-TÊTE ────────────────────────────────────────────── -->
+  <header class="header">
+    <h1 class="title">Translittération Wolof</h1>
+    <p class="subtitle">Système bidirectionnel avec mécanisme d'attention</p>
+
+    <!-- Indicateur de connexion au serveur Spring Boot -->
+    <span class="server-badge" [class.online]="serverOnline" [class.offline]="!serverOnline">
+      {{ serverOnline ? '● Serveur connecté' : '● Serveur hors ligne' }}
+    </span>
+  </header>
+
+  <!-- ── SÉLECTEUR DE DIRECTION ─────────────────────────────── -->
+  <div class="direction-bar">
+    <button
+      class="dir-btn"
+      [class.active]="direction === 'lat2off'"
+      (click)="direction = 'lat2off'">
+      Latin → CLAD
+    </button>
+    <button
+      class="dir-btn"
+      [class.active]="direction === 'off2lat'"
+      (click)="direction = 'off2lat'">
+      CLAD → Latin
+    </button>
+    <button
+      class="dir-btn"
+      [class.active]="direction === 'lat2ajami'"
+      (click)="direction = 'lat2ajami'">
+      Latin → Ajami
+    </button>
+  </div>
+  <p class="direction-label">{{ directionLabel }}</p>
+
+  <!-- ── ZONE DE SAISIE + RÉSULTAT ──────────────────────────── -->
+  <div class="panels">
+
+    <!-- Panneau gauche : texte source -->
+    <div class="panel">
+      <label class="panel-label">Texte source</label>
+      <textarea
+        class="text-area"
+        [(ngModel)]="inputText"
+        placeholder="Saisir du texte wolof ici..."
+        (keydown.enter)="$event.preventDefault(); onTransliterate()"
+        rows="5">
+      </textarea>
+      <!-- Astuce : Entrée pour translittérer -->
+      <span class="hint">Appuyez sur Entrée pour translittérer</span>
+    </div>
+
+    <!-- Panneau droit : résultat -->
+    <div class="panel">
+      <label class="panel-label">Résultat</label>
+      <textarea
+        class="text-area result"
+        [value]="outputText"
+        readonly
+        placeholder="Le résultat apparaîtra ici..."
+        rows="5">
+      </textarea>
+      <!-- Temps de traitement -->
+      <span class="hint" *ngIf="processingTimeMs > 0">
+        Traitement : {{ processingTimeMs }}ms
+      </span>
+    </div>
+  </div>
+
+  <!-- ── BOUTONS D'ACTION ────────────────────────────────────── -->
+  <div class="actions">
+    <button
+      class="btn-primary"
+      (click)="onTransliterate()"
+      [disabled]="loading || !inputText.trim()">
+      <span *ngIf="!loading">↗ Translittérer</span>
+      <span *ngIf="loading" class="spinner-row">
+        <span class="spinner"></span> En cours...
+      </span>
+    </button>
+
+    <button class="btn-secondary" (click)="onReset()" [disabled]="loading">
+      ✕ Réinitialiser
+    </button>
+  </div>
+
+  <!-- ── MESSAGE D'ERREUR ───────────────────────────────────── -->
+  <div class="error-box" *ngIf="errorMessage">
+    ⚠ {{ errorMessage }}
+  </div>
+
+  <!-- ── VISUALISATION DU MÉCANISME D'ATTENTION ─────────────── -->
+  <div class="attention-section" *ngIf="tokenPairs.length > 0">
+    <h2 class="section-title">Mécanisme d'attention — Alignement token à token</h2>
+    <p class="section-desc">
+      Chaque colonne montre comment le modèle aligne un token source (haut)
+      vers un token cible (bas). La barre représente le poids d'attention.
+    </p>
+
+    <div class="token-grid">
+      <div class="token-col" *ngFor="let pair of tokenPairs">
+        <!-- Token source -->
+        <div class="token src-token" [title]="'Source : ' + pair.src">
+          {{ pair.src }}
+        </div>
+
+        <!-- Barre d'attention (hauteur proportionnelle au score) -->
+        <div class="attention-bar-wrap">
+          <div
+            class="attention-bar"
+            [style.height]="barWidth(pair.score)"
+            [style.opacity]="barOpacity(pair.score)"
+            [style.background-color]="barColor(pair.score)"
+            [title]="'Score : ' + (pair.score | number:'1.2-2')">
+          </div>
+        </div>
+
+        <!-- Score numérique -->
+        <div class="score-label">{{ pair.score | number:'1.2-2' }}</div>
+
+        <!-- Token cible -->
+        <div class="token tgt-token" [title]="'Cible : ' + pair.tgt">
+          {{ pair.tgt }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── EXEMPLES RAPIDES ────────────────────────────────────── -->
+  <div class="examples-section">
+    <h3 class="section-title">Exemples rapides</h3>
+    <div class="chips">
+      <button
+        class="chip"
+        *ngFor="let ex of currentExamples"
+        (click)="useExample(ex.text)"
+        [title]="ex.text">
+        {{ ex.label }}
+      </button>
+    </div>
+  </div>
+
+</div>

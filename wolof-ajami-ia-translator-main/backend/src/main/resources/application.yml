@@ -1,0 +1,17 @@
+server:
+  port: 8080  # Port du serveur Spring Boot
+
+spring:
+  application:
+    name: wolof-transliteration
+
+# Configuration CORS : autorise les requêtes Angular (port 4200)
+app:
+  cors:
+    allowed-origins: "http://localhost:4200"
+
+# Logs : INFO pour voir les requêtes, DEBUG pour le détail
+logging:
+  level:
+    com.wolof: DEBUG
+    org.springframework.web: INFO

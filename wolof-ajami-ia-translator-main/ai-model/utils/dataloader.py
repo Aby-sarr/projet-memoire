@@ -5,30 +5,32 @@ from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import DataLoader
 
 
+# ============================================================
+# COLLATE FUNCTION
+# MODELE NORMAL
+# WOLOF LATIN -> AJAMI
+# ============================================================
+
 def collate_fn(
     batch,
-    source_pad_idx,
-    target_pad_idx
+    pad_idx
 ):
     """
-    Prépare un batch pour :
+    Prépare un batch pour le modèle normal :
 
-        AJAMI -> WOLOF
+        WOLOF LATIN -> WOLOF AJAMI
 
-    avec un PAD indépendant pour la source
-    et la cible.
+    Le padding est effectué avec le PAD
+    du vocabulaire source.
     """
 
     sources = []
     targets = []
 
-
     for source, target in batch:
 
         sources.append(source)
-
         targets.append(target)
-
 
     # ========================================================
     # PADDING SOURCE
@@ -37,9 +39,8 @@ def collate_fn(
     sources = pad_sequence(
         sources,
         batch_first=True,
-        padding_value=source_pad_idx
+        padding_value=pad_idx
     )
-
 
     # ========================================================
     # PADDING CIBLE
@@ -48,9 +49,8 @@ def collate_fn(
     targets = pad_sequence(
         targets,
         batch_first=True,
-        padding_value=target_pad_idx
+        padding_value=pad_idx
     )
-
 
     return (
         sources,
@@ -58,18 +58,23 @@ def collate_fn(
     )
 
 
+# ============================================================
+# DATALOADER MODELE NORMAL
+# WOLOF LATIN -> AJAMI
+# ============================================================
 
-def create_dataloader_reverse(
+def create_dataloader(
     dataset,
     batch_size,
-    source_pad_idx,
-    target_pad_idx,
+    pad_idx,
     shuffle=True
 ):
     """
-    DataLoader spécifique au modèle reverse.
+    DataLoader du modèle principal.
 
-    AJAMI -> WOLOF LATIN
+    Direction :
+
+        WOLOF LATIN -> WOLOF AJAMI
     """
 
     loader = DataLoader(
@@ -79,10 +84,8 @@ def create_dataloader_reverse(
         collate_fn=lambda batch:
             collate_fn(
                 batch,
-                source_pad_idx,
-                target_pad_idx
+                pad_idx
             )
     )
-
 
     return loader

@@ -1,11 +1,9 @@
 import time
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
 
 from torch.utils.data import random_split
-
 
 from config.config import (
     DEVICE,
@@ -21,24 +19,33 @@ from config.config import (
     MODEL_DIR,
 )
 
-
 from utils.vocabulary import Vocabulary
 
-from utils.dataset_reverse import (
-    WolofAjamiReverseDataset
-)
+# ============================================================
+# DATASET REVERSE
+# AJAMI -> WOLOF LATIN
+# ============================================================
 
-from utils.dataloader import (
-    create_dataloader_reverse
-)
+from utils.dataset_reverse import WolofAjamiReverseDataset
 
+
+# ============================================================
+# IMPORTANT :
+# DATALOADER SPECIFIQUE AU MODELE REVERSE
+#
+# AJAMI -> WOLOF LATIN
+# ============================================================
+
+from utils.dataloader_reverse import create_dataloader_reverse
+
+
+# ============================================================
+# MODELES
+# ============================================================
 
 from models.encoder import EncoderGRU
-
 from models.attention import BahdanauAttention
-
 from models.decoder import DecoderGRU
-
 from models.seq2seq import Seq2Seq
 
 
@@ -50,7 +57,7 @@ SEED = 42
 
 MAX_EPOCHS = NUM_EPOCHS
 
-EARLY_STOPPING_PATIENCE = 5
+EARLY_STOPPING_PATIENCE = 3
 
 
 # ============================================================
@@ -60,65 +67,50 @@ EARLY_STOPPING_PATIENCE = 5
 torch.manual_seed(SEED)
 
 if torch.cuda.is_available():
-
     torch.cuda.manual_seed_all(SEED)
 
 
 # ============================================================
-# TITRE
+# 1. CONFIGURATION
 # ============================================================
 
-print()
-print("=" * 70)
-print("ENTRAINEMENT MODELE REVERSE")
-print("AJAMI -> WOLOF LATIN")
-print("=" * 70)
-
-print()
+print("=" * 60)
+print("ENTRAINEMENT MODELE AJAMI -> WOLOF LATIN")
+print("=" * 60)
 
 print("Device :", DEVICE)
-
 print("Batch size :", BATCH_SIZE)
-
 print("Embedding :", EMBEDDING)
-
 print("Hidden size :", HIDDEN_SIZE)
-
 print("Nombre maximum d'epochs :", MAX_EPOCHS)
-
 print("Learning rate :", LEARNING_RATE)
-
-print(
-    "Teacher forcing :",
-    TEACHER_FORCING_RATIO
-)
-
-print(
-    "Early stopping patience :",
-    EARLY_STOPPING_PATIENCE
-)
-
+print("Teacher forcing :", TEACHER_FORCING_RATIO)
+print("Early stopping patience :", EARLY_STOPPING_PATIENCE)
 print("Seed :", SEED)
 
 
 # ============================================================
-# VOCABULAIRES
+# 2. CHARGEMENT DES VOCABULAIRES
 # ============================================================
 
 print()
-print("=" * 70)
+print("=" * 60)
 print("CHARGEMENT DES VOCABULAIRES")
-print("=" * 70)
+print("=" * 60)
 
 
+# ------------------------------------------------------------
 # SOURCE = AJAMI
+# ------------------------------------------------------------
 
 source_vocab = Vocabulary(
     AJAMI_VOCAB_FILE
 )
 
 
-# TARGET = WOLOF
+# ------------------------------------------------------------
+# CIBLE = WOLOF LATIN
+# ------------------------------------------------------------
 
 target_vocab = Vocabulary(
     WOLOF_VOCAB_FILE
@@ -126,109 +118,75 @@ target_vocab = Vocabulary(
 
 
 print(
-    "Vocabulaire Ajami :",
+    "Vocabulaire source Ajami :",
     len(source_vocab)
 )
 
-
 print(
-    "Vocabulaire Wolof :",
+    "Vocabulaire cible Wolof :",
     len(target_vocab)
 )
 
 
+# ============================================================
+# VERIFICATION DES TOKENS
+# ============================================================
+
 print()
+print("=" * 60)
+print("VERIFICATION DES TOKENS")
+print("=" * 60)
+
 
 print(
-    "PAD Ajami :",
+    "Ajami PAD :",
     source_vocab.pad_idx
 )
 
 print(
-    "SOS Ajami :",
+    "Ajami SOS :",
     source_vocab.sos_idx
 )
 
 print(
-    "EOS Ajami :",
+    "Ajami EOS :",
     source_vocab.eos_idx
 )
 
 print(
-    "UNK Ajami :",
-    source_vocab.unk_idx
-)
-
-
-print()
-
-print(
-    "PAD Wolof :",
+    "Wolof PAD :",
     target_vocab.pad_idx
 )
 
 print(
-    "SOS Wolof :",
+    "Wolof SOS :",
     target_vocab.sos_idx
 )
 
 print(
-    "EOS Wolof :",
+    "Wolof EOS :",
     target_vocab.eos_idx
 )
 
-print(
-    "UNK Wolof :",
-    target_vocab.unk_idx
-)
-
 
 # ============================================================
-# VERIFICATION VOCABULAIRE
+# 3. CHARGEMENT DU CORPUS
 # ============================================================
 
 print()
-print("=" * 70)
-print("VERIFICATION DES TOKENS")
-print("=" * 70)
+print("=" * 60)
+print("CHARGEMENT DU CORPUS")
+print("=" * 60)
 
 
-required_wolof = [
-    "C",
-    "c",
-    "a",
-    "n",
-    "j",
-    "g",
-    "ñ",
-]
-
-
-for char in required_wolof:
-
-    if char in target_vocab.stoi:
-
-        print(
-            f"Wolof '{char}' ->",
-            target_vocab.stoi[char]
-        )
-
-    else:
-
-        print(
-            f"ATTENTION : '{char}' absent du vocabulaire"
-        )
-
-
-# ============================================================
-# DATASET
-# ============================================================
-
-print()
-print("=" * 70)
-print("CHARGEMENT DATASET REVERSE")
-print("=" * 70)
-
+# IMPORTANT :
+#
+# Dataset reverse :
+#
+# AJAMI -> WOLOF LATIN
+#
+# Source = colonne "ajami"
+# Cible  = colonne "Wolof"
 
 dataset = WolofAjamiReverseDataset(
     CORPUS_FILE,
@@ -237,8 +195,6 @@ dataset = WolofAjamiReverseDataset(
 )
 
 
-print()
-
 print(
     "Nombre total de paires :",
     len(dataset)
@@ -246,62 +202,13 @@ print(
 
 
 # ============================================================
-# VERIFICATION DIRECTE DU DATASET
+# 4. SEPARATION TRAIN / VALIDATION / TEST
 # ============================================================
 
 print()
-print("=" * 70)
-print("VERIFICATION DES PREMIERES PAIRES")
-print("=" * 70)
-
-
-for i in range(min(5, len(dataset))):
-
-    source, target = dataset[i]
-
-
-    print()
-    print(
-        f"Paire {i + 1}"
-    )
-
-
-    print(
-        "Source indices :",
-        source.tolist()
-    )
-
-
-    print(
-        "Cible indices :",
-        target.tolist()
-    )
-
-
-    print(
-        "Source texte :",
-        source_vocab.decode(
-            source.tolist()
-        )
-    )
-
-
-    print(
-        "Cible texte :",
-        target_vocab.decode(
-            target.tolist()
-        )
-    )
-
-
-# ============================================================
-# TRAIN / VALIDATION / TEST
-# ============================================================
-
-print()
-print("=" * 70)
+print("=" * 60)
 print("SEPARATION TRAIN / VALIDATION / TEST")
-print("=" * 70)
+print("=" * 60)
 
 
 total_size = len(dataset)
@@ -325,20 +232,24 @@ test_size = (
 
 
 print(
-    "Train :",
+    "Train prévu :",
     train_size
 )
 
 print(
-    "Validation :",
+    "Validation prévue :",
     valid_size
 )
 
 print(
-    "Test :",
+    "Test prévu :",
     test_size
 )
 
+
+# ------------------------------------------------------------
+# GENERATEUR AVEC SEED FIXE
+# ------------------------------------------------------------
 
 generator = torch.Generator().manual_seed(
     SEED
@@ -357,31 +268,40 @@ train_dataset, valid_dataset, test_dataset = random_split(
 
 
 print()
-
 print(
-    "Train réel :",
+    "Paires entraînement :",
     len(train_dataset)
 )
 
 print(
-    "Validation réelle :",
+    "Paires validation :",
     len(valid_dataset)
 )
 
 print(
-    "Test réel :",
+    "Paires test :",
     len(test_dataset)
 )
 
 
 # ============================================================
-# DATALOADERS
+# 5. CREATION DES DATALOADERS REVERSE
 # ============================================================
 
 print()
-print("=" * 70)
-print("CREATION DES DATALOADERS")
-print("=" * 70)
+print("=" * 60)
+print("CREATION DES DATALOADERS REVERSE")
+print("=" * 60)
+
+
+# ============================================================
+# IMPORTANT :
+#
+# SOURCE = AJAMI
+# TARGET = WOLOF LATIN
+#
+# Chaque vocabulaire possède son propre PAD.
+# ============================================================
 
 
 train_loader = create_dataloader_reverse(
@@ -407,7 +327,6 @@ print(
     len(train_loader)
 )
 
-
 print(
     "Validation batches :",
     len(valid_loader)
@@ -415,57 +334,16 @@ print(
 
 
 # ============================================================
-# VERIFICATION D'UN BATCH
+# 6. CREATION DE L'ENCODEUR
 # ============================================================
 
 print()
-print("=" * 70)
-print("VERIFICATION D'UN BATCH")
-print("=" * 70)
+print("=" * 60)
+print("CREATION DE L'ENCODEUR")
+print("=" * 60)
 
 
-sample_source, sample_target = next(
-    iter(train_loader)
-)
-
-
-print(
-    "Shape source :",
-    tuple(sample_source.shape)
-)
-
-
-print(
-    "Shape cible :",
-    tuple(sample_target.shape)
-)
-
-
-print(
-    "Premier source :",
-    sample_source[0].tolist()
-)
-
-
-print(
-    "Première cible :",
-    sample_target[0].tolist()
-)
-
-
-# ============================================================
-# MODELE
-# ============================================================
-
-print()
-print("=" * 70)
-print("CONSTRUCTION DU MODELE REVERSE")
-print("=" * 70)
-
-
-# ------------------------------------------------------------
-# ENCODEUR
-# ------------------------------------------------------------
+# SOURCE = AJAMI
 
 encoder = EncoderGRU(
     input_dim=len(source_vocab),
@@ -474,18 +352,47 @@ encoder = EncoderGRU(
 )
 
 
-# ------------------------------------------------------------
-# ATTENTION
-# ------------------------------------------------------------
+print(
+    "Encodeur créé."
+)
+
+print(
+    "Input dimension :",
+    len(source_vocab)
+)
+
+
+# ============================================================
+# 7. CREATION DE L'ATTENTION
+# ============================================================
+
+print()
+print("=" * 60)
+print("CREATION DE L'ATTENTION")
+print("=" * 60)
+
 
 attention = BahdanauAttention(
     HIDDEN_SIZE
 )
 
 
-# ------------------------------------------------------------
-# DECODEUR
-# ------------------------------------------------------------
+print(
+    "Bahdanau Attention créée."
+)
+
+
+# ============================================================
+# 8. CREATION DU DECODEUR
+# ============================================================
+
+print()
+print("=" * 60)
+print("CREATION DU DECODEUR")
+print("=" * 60)
+
+
+# CIBLE = WOLOF LATIN
 
 decoder = DecoderGRU(
     output_dim=len(target_vocab),
@@ -494,9 +401,25 @@ decoder = DecoderGRU(
 )
 
 
-# ------------------------------------------------------------
-# SEQ2SEQ
-# ------------------------------------------------------------
+print(
+    "Décodeur créé."
+)
+
+print(
+    "Output dimension :",
+    len(target_vocab)
+)
+
+
+# ============================================================
+# 9. CREATION DU MODELE SEQ2SEQ
+# ============================================================
+
+print()
+print("=" * 60)
+print("CREATION DU MODELE SEQ2SEQ REVERSE")
+print("=" * 60)
+
 
 model = Seq2Seq(
     encoder,
@@ -507,14 +430,13 @@ model = Seq2Seq(
 
 
 print()
-
-print(
-    "Modèle AJAMI -> WOLOF créé."
-)
+print("=" * 60)
+print("MODELE AJAMI -> WOLOF CREE AVEC SUCCES")
+print("=" * 60)
 
 
 # ============================================================
-# LOSS
+# 10. LOSS
 # ============================================================
 
 criterion = nn.CrossEntropyLoss(
@@ -522,8 +444,14 @@ criterion = nn.CrossEntropyLoss(
 )
 
 
+print(
+    "PAD ignoré dans la loss :",
+    target_vocab.pad_idx
+)
+
+
 # ============================================================
-# OPTIMIZER
+# 11. OPTIMIZER
 # ============================================================
 
 optimizer = optim.Adam(
@@ -533,8 +461,19 @@ optimizer = optim.Adam(
 
 
 # ============================================================
-# CHEMIN MODELE
+# 12. CHEMIN DU MODELE REVERSE
 # ============================================================
+
+# IMPORTANT :
+#
+# best_model.pt
+#       =
+# Latin -> Ajami
+#
+# best_model_reverse.pt
+#       =
+# Ajami -> Latin
+
 
 BEST_MODEL_PATH = (
     MODEL_DIR / "best_model_reverse.pt"
@@ -542,35 +481,42 @@ BEST_MODEL_PATH = (
 
 
 print()
-print("=" * 70)
-print("CONFIGURATION SAUVEGARDE")
-print("=" * 70)
+print("=" * 60)
+print("CONFIGURATION DU MODELE REVERSE")
+print("=" * 60)
 
 
 print(
-    "Ancien modèle Latin -> Ajami :"
+    "Direction : AJAMI -> WOLOF LATIN"
 )
 
 
 print(
+    "Ancien modèle Latin -> Ajami conservé :",
     MODEL_DIR / "best_model.pt"
 )
 
 
-print()
-
 print(
-    "Nouveau modèle Ajami -> Wolof :"
-)
-
-
-print(
+    "Nouveau modèle reverse :",
     BEST_MODEL_PATH
 )
 
 
+print(
+    "Découpage : 80 % train / 10 % validation / 10 % test"
+)
+
+
+print(
+    "Early stopping :",
+    EARLY_STOPPING_PATIENCE,
+    "epochs sans amélioration"
+)
+
+
 # ============================================================
-# VARIABLES
+# VARIABLES DE SUIVI
 # ============================================================
 
 best_valid_loss = float("inf")
@@ -581,61 +527,50 @@ best_epoch = 0
 
 
 # ============================================================
-# ENTRAINEMENT
+# 13. ENTRAINEMENT
 # ============================================================
 
 print()
-print("=" * 70)
-print("DEBUT ENTRAINEMENT")
-print("AJAMI -> WOLOF LATIN")
-print("=" * 70)
+print("=" * 60)
+print("DEBUT DE L'ENTRAINEMENT AJAMI -> WOLOF")
+print("=" * 60)
 
 
 for epoch in range(MAX_EPOCHS):
 
-
-    start_time = time.time()
-
-
-    # ========================================================
-    # TRAIN MODE
-    # ========================================================
+    epoch_start_time = time.time()
 
     model.train()
-
 
     epoch_loss = 0.0
 
 
     print()
-    print("=" * 70)
+    print("=" * 60)
 
     print(
         f"EPOCH {epoch + 1}/{MAX_EPOCHS}"
     )
 
-    print("=" * 70)
+    print("=" * 60)
 
 
     # ========================================================
-    # TRAINING LOOP
+    # TRAIN
     # ========================================================
 
-    for batch_idx, (
-        source,
-        target
-    ) in enumerate(train_loader):
+    for batch_idx, (source, target) in enumerate(
+        train_loader
+    ):
+
+        source = source.to(DEVICE)
+
+        target = target.to(DEVICE)
 
 
-        source = source.to(
-            DEVICE
-        )
-
-
-        target = target.to(
-            DEVICE
-        )
-
+        # ----------------------------------------------------
+        # REMISE A ZERO DES GRADIENTS
+        # ----------------------------------------------------
 
         optimizer.zero_grad()
 
@@ -652,33 +587,19 @@ for epoch in range(MAX_EPOCHS):
 
 
         # ----------------------------------------------------
-        # OUTPUT
+        # ON IGNORE LE TOKEN SOS
         # ----------------------------------------------------
-
-        output_dim = output.shape[-1]
-
-
-        # output :
-        #
-        # [batch, target_len, vocab]
-        #
-        # On ignore la position 0
-        # correspondant à SOS.
-
 
         output = output[:, 1:, :]
 
 
-        target_loss = target[:, 1:]
-
-
         output = output.reshape(
             -1,
-            output_dim
+            output.shape[-1]
         )
 
 
-        target_loss = target_loss.reshape(
+        target_loss = target[:, 1:].reshape(
             -1
         )
 
@@ -701,7 +622,7 @@ for epoch in range(MAX_EPOCHS):
 
 
         # ----------------------------------------------------
-        # GRADIENT CLIPPING
+        # CLIPPING DES GRADIENTS
         # ----------------------------------------------------
 
         torch.nn.utils.clip_grad_norm_(
@@ -711,7 +632,7 @@ for epoch in range(MAX_EPOCHS):
 
 
         # ----------------------------------------------------
-        # OPTIMISATION
+        # MISE A JOUR DES POIDS
         # ----------------------------------------------------
 
         optimizer.step()
@@ -730,16 +651,13 @@ for epoch in range(MAX_EPOCHS):
         ):
 
             print(
-                f"Batch "
-                f"{batch_idx + 1}/"
-                f"{len(train_loader)} "
-                f"- Loss : "
-                f"{loss.item():.6f}"
+                f"Batch {batch_idx + 1}/{len(train_loader)} "
+                f"- Loss : {loss.item():.4f}"
             )
 
 
     # ========================================================
-    # TRAIN LOSS
+    # LOSS MOYENNE TRAIN
     # ========================================================
 
     train_loss = (
@@ -751,35 +669,26 @@ for epoch in range(MAX_EPOCHS):
     print()
 
     print(
-        f"Loss entraînement : "
-        f"{train_loss:.6f}"
+        f"Loss entraînement : {train_loss:.4f}"
     )
 
 
     # ========================================================
-    # VALIDATION
+    # 14. VALIDATION
     # ========================================================
 
     model.eval()
-
 
     valid_loss_total = 0.0
 
 
     with torch.no_grad():
 
-
         for source, target in valid_loader:
 
+            source = source.to(DEVICE)
 
-            source = source.to(
-                DEVICE
-            )
-
-
-            target = target.to(
-                DEVICE
-            )
+            target = target.to(DEVICE)
 
 
             output = model(
@@ -789,22 +698,20 @@ for epoch in range(MAX_EPOCHS):
             )
 
 
-            output_dim = output.shape[-1]
-
+            # ------------------------------------------------
+            # IGNORER SOS
+            # ------------------------------------------------
 
             output = output[:, 1:, :]
 
 
-            target_loss = target[:, 1:]
-
-
             output = output.reshape(
                 -1,
-                output_dim
+                output.shape[-1]
             )
 
 
-            target_loss = target_loss.reshape(
+            target_loss = target[:, 1:].reshape(
                 -1
             )
 
@@ -825,28 +732,27 @@ for epoch in range(MAX_EPOCHS):
 
 
     print(
-        f"Loss validation : "
-        f"{valid_loss:.6f}"
+        f"Loss validation : {valid_loss:.4f}"
     )
 
 
     # ========================================================
-    # TEMPS
+    # 15. TEMPS
     # ========================================================
 
-    elapsed = (
+    epoch_time = (
         time.time()
-        - start_time
+        - epoch_start_time
     )
 
 
     minutes = int(
-        elapsed // 60
+        epoch_time // 60
     )
 
 
     seconds = int(
-        elapsed % 60
+        epoch_time % 60
     )
 
 
@@ -857,11 +763,10 @@ for epoch in range(MAX_EPOCHS):
 
 
     # ========================================================
-    # SAUVEGARDE
+    # 16. SAUVEGARDE DU MEILLEUR MODELE
     # ========================================================
 
     if valid_loss < best_valid_loss:
-
 
         best_valid_loss = valid_loss
 
@@ -872,8 +777,7 @@ for epoch in range(MAX_EPOCHS):
 
         torch.save(
             {
-                "epoch":
-                    epoch + 1,
+                "epoch": epoch + 1,
 
                 "model_state_dict":
                     model.state_dict(),
@@ -908,26 +812,15 @@ for epoch in range(MAX_EPOCHS):
                 "target_vocab_size":
                     len(target_vocab),
 
-                "embedding_dim":
-                    EMBEDDING,
-
-                "hidden_size":
-                    HIDDEN_SIZE,
-
-                "learning_rate":
-                    LEARNING_RATE,
-
-                "teacher_forcing_ratio":
-                    TEACHER_FORCING_RATIO,
             },
             BEST_MODEL_PATH
         )
 
 
         print()
-        print("=" * 70)
-        print("NOUVEAU MEILLEUR MODELE REVERSE")
-        print("=" * 70)
+        print("=" * 60)
+        print("NOUVEAU MEILLEUR MODELE REVERSE !")
+        print("=" * 60)
 
 
         print(
@@ -937,39 +830,37 @@ for epoch in range(MAX_EPOCHS):
 
 
         print(
-            "Validation loss :",
-            best_valid_loss
+            f"Loss validation : "
+            f"{best_valid_loss:.6f}"
         )
 
 
         print(
-            "Fichier :",
+            "Modèle sauvegardé :",
             BEST_MODEL_PATH
         )
 
 
     else:
 
-
         epochs_without_improvement += 1
 
 
         print()
-
         print(
             "Pas d'amélioration."
         )
 
 
         print(
-            "Patience :",
+            "Epochs sans amélioration :",
             f"{epochs_without_improvement}/"
             f"{EARLY_STOPPING_PATIENCE}"
         )
 
 
     # ========================================================
-    # EARLY STOPPING
+    # 17. EARLY STOPPING
     # ========================================================
 
     if (
@@ -977,31 +868,41 @@ for epoch in range(MAX_EPOCHS):
         >= EARLY_STOPPING_PATIENCE
     ):
 
-
         print()
-        print("=" * 70)
+        print("=" * 60)
         print("EARLY STOPPING")
-        print("=" * 70)
+        print("=" * 60)
 
 
         print(
-            "Arrêt après",
+            "Aucune amélioration pendant",
             EARLY_STOPPING_PATIENCE,
-            "epochs sans amélioration."
+            "epochs."
+        )
+
+
+        print(
+            "Arrêt automatique de l'entraînement."
         )
 
 
         break
 
 
+    print()
+    print(
+        f"Epoch {epoch + 1}/{MAX_EPOCHS} terminée."
+    )
+
+
 # ============================================================
-# FIN
+# 18. FIN
 # ============================================================
 
 print()
-print("=" * 70)
+print("=" * 60)
 print("ENTRAINEMENT REVERSE TERMINE")
-print("=" * 70)
+print("=" * 60)
 
 
 print(
@@ -1016,41 +917,51 @@ print(
 
 
 print(
-    "Meilleure validation loss :",
+    "Meilleure loss validation :",
     best_valid_loss
 )
 
 
 print(
-    "Modèle :",
+    "Meilleur modèle reverse :",
     BEST_MODEL_PATH
 )
 
 
 print()
-print("=" * 70)
-print("IMPORTANT")
-print("=" * 70)
+print("=" * 60)
+print("PROCHAINE ETAPE")
+print("=" * 60)
 
 
 print(
-    "Ne lancez PAS encore l'application web."
+    "Avant toute évaluation finale, vérifier :"
 )
 
 
 print(
-    "Il faut d'abord vérifier le modèle avec"
+    "1. DataLoader reverse"
 )
 
 
 print(
-    "le diagnostic teacher forcing."
+    "2. Attention"
+)
+
+
+print(
+    "3. Teacher forcing"
+)
+
+
+print(
+    "4. Prédiction réelle Ajami -> Wolof"
 )
 
 
 print()
 print(
-    "Ensuite seulement :"
+    "Commande d'évaluation prévue :"
 )
 
 

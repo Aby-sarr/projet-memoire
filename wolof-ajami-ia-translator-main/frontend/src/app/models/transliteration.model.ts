@@ -15,7 +15,7 @@
 export interface TransliterationRequest {
   text: string;
   /** 'lat2off' | 'off2lat' | 'lat2ajami' */
-  direction: 'lat2off' | 'off2lat' | 'lat2ajami';
+  direction: 'ajami2lat' | 'lat2ajami';
 }
 
 /**

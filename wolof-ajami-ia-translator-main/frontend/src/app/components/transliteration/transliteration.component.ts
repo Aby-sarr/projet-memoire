@@ -263,4 +263,4 @@ export class TransliterationComponent implements OnInit {
     return '#A0C4E8';
   }
 }
-```
+

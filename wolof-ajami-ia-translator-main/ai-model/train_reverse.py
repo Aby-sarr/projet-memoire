@@ -21,27 +21,13 @@ from config.config import (
 
 from utils.vocabulary import Vocabulary
 
-# ============================================================
-# DATASET REVERSE
-# AJAMI -> WOLOF LATIN
-# ============================================================
+from utils.dataset_reverse import (
+    WolofAjamiReverseDataset
+)
 
-from utils.dataset_reverse import WolofAjamiReverseDataset
-
-
-# ============================================================
-# IMPORTANT :
-# DATALOADER SPECIFIQUE AU MODELE REVERSE
-#
-# AJAMI -> WOLOF LATIN
-# ============================================================
-
-from utils.dataloader_reverse import create_dataloader_reverse
-
-
-# ============================================================
-# MODELES
-# ============================================================
+from utils.dataloader_reverse import (
+    create_dataloader_reverse
+)
 
 from models.encoder import EncoderGRU
 from models.attention import BahdanauAttention
@@ -67,6 +53,7 @@ EARLY_STOPPING_PATIENCE = 3
 torch.manual_seed(SEED)
 
 if torch.cuda.is_available():
+
     torch.cuda.manual_seed_all(SEED)
 
 
@@ -85,7 +72,10 @@ print("Hidden size :", HIDDEN_SIZE)
 print("Nombre maximum d'epochs :", MAX_EPOCHS)
 print("Learning rate :", LEARNING_RATE)
 print("Teacher forcing :", TEACHER_FORCING_RATIO)
-print("Early stopping patience :", EARLY_STOPPING_PATIENCE)
+print(
+    "Early stopping patience :",
+    EARLY_STOPPING_PATIENCE
+)
 print("Seed :", SEED)
 
 
@@ -129,7 +119,7 @@ print(
 
 
 # ============================================================
-# VERIFICATION DES TOKENS
+# 3. VERIFICATION DES TOKENS
 # ============================================================
 
 print()
@@ -170,7 +160,7 @@ print(
 
 
 # ============================================================
-# 3. CHARGEMENT DU CORPUS
+# 4. CHARGEMENT DU CORPUS
 # ============================================================
 
 print()
@@ -179,14 +169,22 @@ print("CHARGEMENT DU CORPUS")
 print("=" * 60)
 
 
-# IMPORTANT :
+# ============================================================
+# IMPORTANT
 #
 # Dataset reverse :
 #
-# AJAMI -> WOLOF LATIN
+# SOURCE = AJAMI
+# CIBLE = WOLOF LATIN
 #
-# Source = colonne "ajami"
-# Cible  = colonne "Wolof"
+# Format source :
+#
+# Ajami + EOS
+#
+# Format cible :
+#
+# SOS + Wolof + EOS
+# ============================================================
 
 dataset = WolofAjamiReverseDataset(
     CORPUS_FILE,
@@ -202,7 +200,7 @@ print(
 
 
 # ============================================================
-# 4. SEPARATION TRAIN / VALIDATION / TEST
+# 5. SEPARATION TRAIN / VALIDATION / TEST
 # ============================================================
 
 print()
@@ -285,23 +283,13 @@ print(
 
 
 # ============================================================
-# 5. CREATION DES DATALOADERS REVERSE
+# 6. CREATION DES DATALOADERS REVERSE
 # ============================================================
 
 print()
 print("=" * 60)
 print("CREATION DES DATALOADERS REVERSE")
 print("=" * 60)
-
-
-# ============================================================
-# IMPORTANT :
-#
-# SOURCE = AJAMI
-# TARGET = WOLOF LATIN
-#
-# Chaque vocabulaire possède son propre PAD.
-# ============================================================
 
 
 train_loader = create_dataloader_reverse(
@@ -334,7 +322,7 @@ print(
 
 
 # ============================================================
-# 6. CREATION DE L'ENCODEUR
+# 7. CREATION DE L'ENCODEUR
 # ============================================================
 
 print()
@@ -348,7 +336,8 @@ print("=" * 60)
 encoder = EncoderGRU(
     input_dim=len(source_vocab),
     embedding_dim=EMBEDDING,
-    hidden_dim=HIDDEN_SIZE
+    hidden_dim=HIDDEN_SIZE,
+    pad_idx=source_vocab.pad_idx
 )
 
 
@@ -361,9 +350,14 @@ print(
     len(source_vocab)
 )
 
+print(
+    "PAD index encodeur :",
+    source_vocab.pad_idx
+)
+
 
 # ============================================================
-# 7. CREATION DE L'ATTENTION
+# 8. CREATION DE L'ATTENTION
 # ============================================================
 
 print()
@@ -383,7 +377,7 @@ print(
 
 
 # ============================================================
-# 8. CREATION DU DECODEUR
+# 9. CREATION DU DECODEUR
 # ============================================================
 
 print()
@@ -412,7 +406,7 @@ print(
 
 
 # ============================================================
-# 9. CREATION DU MODELE SEQ2SEQ
+# 10. CREATION DU MODELE SEQ2SEQ
 # ============================================================
 
 print()
@@ -425,7 +419,8 @@ model = Seq2Seq(
     encoder,
     decoder,
     attention,
-    DEVICE
+    DEVICE,
+    src_pad_idx=source_vocab.pad_idx
 ).to(DEVICE)
 
 
@@ -436,7 +431,7 @@ print("=" * 60)
 
 
 # ============================================================
-# 10. LOSS
+# 11. LOSS
 # ============================================================
 
 criterion = nn.CrossEntropyLoss(
@@ -451,7 +446,7 @@ print(
 
 
 # ============================================================
-# 11. OPTIMIZER
+# 12. OPTIMIZER
 # ============================================================
 
 optimizer = optim.Adam(
@@ -461,19 +456,8 @@ optimizer = optim.Adam(
 
 
 # ============================================================
-# 12. CHEMIN DU MODELE REVERSE
+# 13. CHEMIN DU MODELE REVERSE
 # ============================================================
-
-# IMPORTANT :
-#
-# best_model.pt
-#       =
-# Latin -> Ajami
-#
-# best_model_reverse.pt
-#       =
-# Ajami -> Latin
-
 
 BEST_MODEL_PATH = (
     MODEL_DIR / "best_model_reverse.pt"
@@ -490,23 +474,19 @@ print(
     "Direction : AJAMI -> WOLOF LATIN"
 )
 
-
 print(
     "Ancien modèle Latin -> Ajami conservé :",
     MODEL_DIR / "best_model.pt"
 )
-
 
 print(
     "Nouveau modèle reverse :",
     BEST_MODEL_PATH
 )
 
-
 print(
     "Découpage : 80 % train / 10 % validation / 10 % test"
 )
-
 
 print(
     "Early stopping :",
@@ -516,7 +496,7 @@ print(
 
 
 # ============================================================
-# VARIABLES DE SUIVI
+# 14. VARIABLES DE SUIVI
 # ============================================================
 
 best_valid_loss = float("inf")
@@ -527,7 +507,7 @@ best_epoch = 0
 
 
 # ============================================================
-# 13. ENTRAINEMENT
+# 15. ENTRAINEMENT
 # ============================================================
 
 print()
@@ -587,7 +567,7 @@ for epoch in range(MAX_EPOCHS):
 
 
         # ----------------------------------------------------
-        # ON IGNORE LE TOKEN SOS
+        # IGNORER SOS
         # ----------------------------------------------------
 
         output = output[:, 1:, :]
@@ -674,7 +654,7 @@ for epoch in range(MAX_EPOCHS):
 
 
     # ========================================================
-    # 14. VALIDATION
+    # 16. VALIDATION
     # ========================================================
 
     model.eval()
@@ -737,7 +717,7 @@ for epoch in range(MAX_EPOCHS):
 
 
     # ========================================================
-    # 15. TEMPS
+    # 17. TEMPS
     # ========================================================
 
     epoch_time = (
@@ -763,7 +743,7 @@ for epoch in range(MAX_EPOCHS):
 
 
     # ========================================================
-    # 16. SAUVEGARDE DU MEILLEUR MODELE
+    # 18. SAUVEGARDE DU MEILLEUR MODELE
     # ========================================================
 
     if valid_loss < best_valid_loss:
@@ -860,7 +840,7 @@ for epoch in range(MAX_EPOCHS):
 
 
     # ========================================================
-    # 17. EARLY STOPPING
+    # 19. EARLY STOPPING
     # ========================================================
 
     if (
@@ -896,7 +876,7 @@ for epoch in range(MAX_EPOCHS):
 
 
 # ============================================================
-# 18. FIN
+# 20. FIN
 # ============================================================
 
 print()
@@ -909,18 +889,15 @@ print(
     "Direction : AJAMI -> WOLOF LATIN"
 )
 
-
 print(
     "Meilleure epoch :",
     best_epoch
 )
 
-
 print(
     "Meilleure loss validation :",
     best_valid_loss
 )
-
 
 print(
     "Meilleur modèle reverse :",
@@ -935,36 +912,14 @@ print("=" * 60)
 
 
 print(
-    "Avant toute évaluation finale, vérifier :"
+    "Le modèle reverse est maintenant prêt "
+    "pour les tests de prédiction."
 )
 
-
 print(
-    "1. DataLoader reverse"
+    "Commande :"
 )
 
-
 print(
-    "2. Attention"
-)
-
-
-print(
-    "3. Teacher forcing"
-)
-
-
-print(
-    "4. Prédiction réelle Ajami -> Wolof"
-)
-
-
-print()
-print(
-    "Commande d'évaluation prévue :"
-)
-
-
-print(
-    "python evaluate_test_reverse.py"
+    "python predict_reverse.py"
 )

@@ -13,17 +13,21 @@ import {
  * ============================================================
  *
  * Gère :
- *  - La saisie du texte wolof
+ *  - La saisie du texte
  *  - Le choix de direction
  *  - L'affichage du résultat
  *  - La visualisation du mécanisme d'attention
  *  - Les exemples rapides cliquables
+ *
+ * Directions disponibles :
+ *  - Ajami → Latin
+ *  - Latin → Ajami
  * ============================================================
  */
 @Component({
   selector: 'app-transliteration',
   standalone: true,
-  imports: [CommonModule, FormsModule],  // FormsModule pour [(ngModel)]
+  imports: [CommonModule, FormsModule],
   templateUrl: './transliteration.component.html',
   styleUrls: ['./transliteration.component.scss']
 })
@@ -40,7 +44,7 @@ export class TransliterationComponent implements OnInit {
   outputText = '';
 
   /** Direction sélectionnée */
-  direction: 'lat2off' | 'off2lat' | 'lat2ajami' = 'lat2off';
+  direction: 'ajami2lat' | 'lat2ajami' = 'ajami2lat';
 
   /** Paires token source/cible avec leurs scores d'attention */
   tokenPairs: TokenPair[] = [];
@@ -51,7 +55,7 @@ export class TransliterationComponent implements OnInit {
   /** true pendant l'appel HTTP */
   loading = false;
 
-  /** Message d'erreur à afficher (null = pas d'erreur) */
+  /** Message d'erreur à afficher */
   errorMessage: string | null = null;
 
   /** true si Spring Boot est accessible */
@@ -60,57 +64,96 @@ export class TransliterationComponent implements OnInit {
   // -------------------------------------------------------
   // EXEMPLES RAPIDES par direction
   // -------------------------------------------------------
-  readonly examples: Record<string, { label: string; text: string }[]> = {
-    lat2off: [
-      { label: 'Je vais au marché', text: 'Maa ngi dem ci marché bi' },
-      { label: 'Merci beaucoup',    text: 'Jerejef bu baax' },
-      { label: 'L\'enfant apprend', text: 'Xale bi jàng ci école bi' },
-      { label: 'Il travaille',      text: 'Mu ngi liggéey ci bureau bi' },
-      { label: 'Bonne nuit',        text: 'Nelaw naa bu neex' },
+
+  readonly examples: Record<
+    string,
+    { label: string; text: string }[]
+  > = {
+
+    // -----------------------------------------------------
+    // AJAMI → LATIN
+    // -----------------------------------------------------
+    ajami2lat: [
+      { label: 'Jamm',     text: 'جامم' },
+      { label: 'Jërëjëf',  text: 'جەرەجەف' },
+      { label: 'Kër',      text: 'كەر' },
+      { label: 'Nit',      text: 'نيت' },
+      { label: 'Jàng',     text: 'جاڠ' }
     ],
-    off2lat: [
-      { label: 'Je vais au marché', text: 'Maa ngi dem ci màrse bi' },
-      { label: 'Il travaille',      text: 'Mu ngi liggéey ci biiro bi' },
-      { label: 'L\'enfant apprend', text: 'Xale bi jàng ci ekol bi' },
-    ],
+
+    // -----------------------------------------------------
+    // LATIN → AJAMI
+    // -----------------------------------------------------
     lat2ajami: [
-      { label: 'Je vais au marché', text: 'Maa ngi dem ci marché bi' },
-      { label: 'Merci',             text: 'Jerejef' },
-      { label: 'L\'eau',            text: 'ndox mi' },
+      { label: 'Jàmm',     text: 'jàmm' },
+      { label: 'Jërëjëf',  text: 'jërejëf' },
+      { label: 'Kër',      text: 'kër' },
+      { label: 'Nit',      text: 'nit' },
+      { label: 'Jàng',     text: 'jàng' }
     ]
   };
 
-  constructor(private transliterationService: TransliterationService) {}
+  constructor(
+    private transliterationService: TransliterationService
+  ) {}
+
+  // -------------------------------------------------------
+  // INITIALISATION
+  // -------------------------------------------------------
 
   ngOnInit(): void {
+
     // Vérifier la connexion au démarrage
     this.transliterationService.checkHealth().subscribe({
-      next: () => { this.serverOnline = true; },
-      error: () => { this.serverOnline = false; }
+      next: () => {
+        this.serverOnline = true;
+      },
+      error: () => {
+        this.serverOnline = false;
+      }
     });
   }
+
+  // -------------------------------------------------------
+  // EXEMPLES
+  // -------------------------------------------------------
 
   /** Retourne les exemples de la direction courante */
   get currentExamples() {
     return this.examples[this.direction] || [];
   }
 
+  // -------------------------------------------------------
+  // LABEL DE LA DIRECTION
+  // -------------------------------------------------------
+
   /** Label lisible de la direction courante */
   get directionLabel(): string {
+
     const labels: Record<string, string> = {
-      lat2off:   'Latin courant → Officiel CLAD',
-      off2lat:   'Officiel CLAD → Latin courant',
+      ajami2lat: 'Ajami → Latin',
       lat2ajami: 'Latin → Ajami (arabe wolof)'
     };
+
     return labels[this.direction];
   }
 
+  // -------------------------------------------------------
+  // TRANSLITTÉRATION
+  // -------------------------------------------------------
+
   /**
    * Appelé quand l'utilisateur clique sur "Translittérer".
+   *
    * Envoie la requête à Spring Boot via le service.
    */
   onTransliterate(): void {
-    if (!this.inputText.trim() || this.loading) return;
+
+    // Ne rien faire si le champ est vide
+    // ou si une requête est déjà en cours
+    if (!this.inputText.trim() || this.loading) {
+      return;
+    }
 
     this.loading = true;
     this.errorMessage = null;
@@ -121,55 +164,103 @@ export class TransliterationComponent implements OnInit {
       text: this.inputText.trim(),
       direction: this.direction
     }).subscribe({
+
+      // ---------------------------------------------------
+      // SUCCÈS
+      // ---------------------------------------------------
       next: (res: TransliterationResponse) => {
-        this.outputText      = res.output;
+
+        this.outputText = res.output;
+
         this.processingTimeMs = res.processingTimeMs;
-        // Construire les paires token pour la visualisation d'attention
+
+        // Construire les paires token source/cible
+        // pour la visualisation du mécanisme d'attention
         this.tokenPairs = res.tokensSrc.map((src, i) => ({
           src,
-          tgt:   res.tokensTgt[i]   ?? '',
+          tgt: res.tokensTgt[i] ?? '',
           score: res.attentionScores[i] ?? 0.5
         }));
+
         this.loading = false;
       },
+
+      // ---------------------------------------------------
+      // ERREUR
+      // ---------------------------------------------------
       error: (err: Error) => {
+
         this.errorMessage = err.message;
+
         this.loading = false;
       }
     });
   }
 
+  // -------------------------------------------------------
+  // CHARGEMENT D'UN EXEMPLE
+  // -------------------------------------------------------
+
   /** Charge un exemple dans le champ de saisie */
   useExample(text: string): void {
-    this.inputText = text;
-    this.outputText = '';
-    this.tokenPairs = [];
-    this.errorMessage = null;
-  }
 
-  /** Réinitialise le formulaire */
-  onReset(): void {
-    this.inputText = '';
+    this.inputText = text;
+
     this.outputText = '';
+
     this.tokenPairs = [];
+
     this.errorMessage = null;
+
     this.processingTimeMs = 0;
   }
 
-  /** Convertit un score (0–1) en largeur CSS pour la barre d'attention */
+  // -------------------------------------------------------
+  // RÉINITIALISATION
+  // -------------------------------------------------------
+
+  /** Réinitialise le formulaire */
+  onReset(): void {
+
+    this.inputText = '';
+
+    this.outputText = '';
+
+    this.tokenPairs = [];
+
+    this.errorMessage = null;
+
+    this.processingTimeMs = 0;
+  }
+
+  // -------------------------------------------------------
+  // VISUALISATION DE L'ATTENTION
+  // -------------------------------------------------------
+
+  /** Convertit un score (0–1) en largeur CSS */
   barWidth(score: number): string {
+
     return `${Math.round(10 + score * 70)}px`;
   }
 
   /** Convertit un score en opacité CSS */
   barOpacity(score: number): number {
+
     return 0.25 + score * 0.75;
   }
 
   /** Retourne la couleur de la barre selon le score */
   barColor(score: number): string {
-    if (score >= 0.8) return '#185FA5';  // Bleu fort = haute attention
-    if (score >= 0.5) return '#4A90D9';  // Bleu moyen
-    return '#A0C4E8';                    // Bleu clair = faible attention
+
+    if (score >= 0.8) {
+      return '#185FA5';
+    }
+
+    if (score >= 0.5) {
+      return '#4A90D9';
+    }
+
+    return '#A0C4E8';
   }
 }
+```

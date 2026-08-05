@@ -6,6 +6,8 @@ class Seq2Seq(nn.Module):
     """
     Modèle Seq2Seq complet :
     Encodeur GRU + Attention Bahdanau + Décodeur GRU
+
+    Version avec masque des PAD côté source.
     """
 
     def __init__(
@@ -13,7 +15,8 @@ class Seq2Seq(nn.Module):
         encoder,
         decoder,
         attention,
-        device
+        device,
+        src_pad_idx=0
     ):
         super().__init__()
 
@@ -22,6 +25,26 @@ class Seq2Seq(nn.Module):
         self.attention = attention
         self.device = device
 
+        # Indice du PAD dans le vocabulaire source
+        self.src_pad_idx = src_pad_idx
+
+    def create_src_mask(self, src):
+        """
+        Crée le masque de la séquence source.
+
+        1 = vraie position
+        0 = PAD
+
+        src :
+        [batch, source_length]
+
+        mask :
+        [batch, source_length]
+        """
+
+        return (
+            src != self.src_pad_idx
+        )
 
     def forward(
         self,
@@ -36,35 +59,57 @@ class Seq2Seq(nn.Module):
 
         trg_vocab_size = self.decoder.output_dim
 
-
         outputs = torch.zeros(
             batch_size,
             trg_length,
-            trg_vocab_size
-        ).to(self.device)
+            trg_vocab_size,
+            device=self.device
+        )
 
+        # ----------------------------------------------------
+        # MASQUE SOURCE
+        # ----------------------------------------------------
 
-        # Passage dans l'encodeur
+        src_mask = self.create_src_mask(
+            src
+        )
 
-        encoder_outputs, hidden = self.encoder(src)
+        # ----------------------------------------------------
+        # ENCODEUR
+        # ----------------------------------------------------
 
+        encoder_outputs, hidden = self.encoder(
+            src
+        )
 
-        # Premier token du décodeur = SOS
+        # ----------------------------------------------------
+        # PREMIER TOKEN = SOS
+        # ----------------------------------------------------
 
-        input = trg[:,0]
+        input = trg[:, 0]
 
+        # ----------------------------------------------------
+        # DECODAGE
+        # ----------------------------------------------------
 
-        for t in range(1, trg_length):
+        for t in range(
+            1,
+            trg_length
+        ):
 
-            # Calcul attention
+            # ------------------------------------------------
+            # ATTENTION AVEC MASQUE
+            # ------------------------------------------------
 
             context, attention_weights = self.attention(
                 hidden,
-                encoder_outputs
+                encoder_outputs,
+                mask=src_mask
             )
 
-
-            # Décodeur
+            # ------------------------------------------------
+            # DECODEUR
+            # ------------------------------------------------
 
             output, hidden = self.decoder(
                 input,
@@ -72,26 +117,29 @@ class Seq2Seq(nn.Module):
                 context
             )
 
+            outputs[:, t, :] = output
 
-            outputs[:,t,:] = output
+            # ------------------------------------------------
+            # PREDICTION
+            # ------------------------------------------------
 
+            best_guess = output.argmax(
+                dim=1
+            )
 
-            # Teacher forcing
-
-            best_guess = output.argmax(1)
-
+            # ------------------------------------------------
+            # TEACHER FORCING
+            # ------------------------------------------------
 
             teacher_force = (
                 torch.rand(1).item()
                 < teacher_forcing_ratio
             )
 
-
             input = (
-                trg[:,t]
+                trg[:, t]
                 if teacher_force
                 else best_guess
             )
-
 
         return outputs

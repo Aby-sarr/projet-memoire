@@ -14,6 +14,13 @@ class WolofAjamiReverseDataset(Dataset):
 
     Cible :
         colonne "Wolof"
+
+    IMPORTANT :
+        La source Ajami ne reçoit PAS de <SOS>.
+        Elle reçoit uniquement <EOS> à la fin.
+
+        La cible Wolof reçoit :
+            <SOS> + texte + <EOS>
     """
 
     def __init__(
@@ -31,8 +38,14 @@ class WolofAjamiReverseDataset(Dataset):
         self.source_vocab = source_vocab
         self.target_vocab = target_vocab
 
-        # Vérification des colonnes
-        required_columns = ["ajami", "Wolof"]
+        # ====================================================
+        # VERIFICATION DES COLONNES
+        # ====================================================
+
+        required_columns = [
+            "ajami",
+            "Wolof"
+        ]
 
         for column in required_columns:
 
@@ -40,7 +53,8 @@ class WolofAjamiReverseDataset(Dataset):
 
                 raise ValueError(
                     f"Colonne '{column}' absente du corpus. "
-                    f"Colonnes disponibles : {list(self.data.columns)}"
+                    f"Colonnes disponibles : "
+                    f"{list(self.data.columns)}"
                 )
 
         print()
@@ -113,12 +127,19 @@ class WolofAjamiReverseDataset(Dataset):
 
 
         # ====================================================
-        # AJOUT SOS / EOS
+        # TOKENS SPECIAUX
+        #
+        # SOURCE :
+        #     Ajami + EOS
+        #
+        # PAS DE SOS AU DEBUT
+        #
+        # CIBLE :
+        #     SOS + Wolof + EOS
         # ====================================================
 
         source_ids = (
-            [self.source_vocab.sos_idx]
-            + source_ids
+            source_ids
             + [self.source_vocab.eos_idx]
         )
 

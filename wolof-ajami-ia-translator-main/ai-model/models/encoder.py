@@ -4,7 +4,10 @@ import torch.nn as nn
 
 class EncoderGRU(nn.Module):
     """
-    Encodeur GRU pour le modèle Seq2Seq.
+    Encodeur GRU.
+
+    Transforme une séquence de tokens source
+    en représentations contextuelles.
     """
 
     def __init__(
@@ -12,43 +15,59 @@ class EncoderGRU(nn.Module):
         input_dim,
         embedding_dim,
         hidden_dim,
-        num_layers=1
+        pad_idx=0
     ):
-        super(EncoderGRU, self).__init__()
 
-        # Transformation des indices en vecteurs
+        super().__init__()
+
+        self.hidden_dim = hidden_dim
+
+        self.pad_idx = pad_idx
+
+
+        # ====================================================
+        # EMBEDDING
+        # ====================================================
+
         self.embedding = nn.Embedding(
             input_dim,
-            embedding_dim
+            embedding_dim,
+            padding_idx=pad_idx
         )
 
-        # Réseau GRU
-        self.gru = nn.GRU(
+
+        # ====================================================
+        # GRU
+        # ====================================================
+
+        self.rnn = nn.GRU(
             embedding_dim,
             hidden_dim,
-            num_layers=num_layers,
             batch_first=True
         )
 
 
-    def forward(self, src):
+    def forward(
+        self,
+        src
+    ):
 
-        # src :
-        # [batch_size, longueur_sequence]
+        # ----------------------------------------------------
+        # Embedding
+        # ----------------------------------------------------
 
-        embedded = self.embedding(src)
+        embedded = self.embedding(
+            src
+        )
 
-        # embedded :
-        # [batch_size, longueur_sequence, embedding_dim]
 
-        outputs, hidden = self.gru(
+        # ----------------------------------------------------
+        # GRU
+        # ----------------------------------------------------
+
+        outputs, hidden = self.rnn(
             embedded
         )
 
-        # outputs :
-        # tous les états cachés h1,h2,...hn
-        #
-        # hidden :
-        # dernier état caché
 
         return outputs, hidden

@@ -7,19 +7,12 @@ import lombok.Data;
 /**
  * Objet reçu depuis Angular dans le corps de la requête POST.
  *
- * Exemple JSON envoyé par Angular :
+ * Contient le texte à translittérer ainsi que la direction
+ * de translittération sélectionnée dans l'interface web.
  *
- * {
- *   "text": "jàmm",
- *   "direction": "lat2ajami"
- * }
- *
- * Les directions disponibles sont :
- *
- * - lat2off   : Latin courant → Orthographe officielle CLAD
- * - off2lat   : Orthographe officielle CLAD → Latin courant
- * - lat2ajami : Latin → Écriture Ajami
- * - ajami2lat : Écriture Ajami → Latin
+ * Directions disponibles :
+ * - lat2ajami : Latin → Ajami
+ * - ajami2lat : Ajami → Latin
  */
 @Data
 public class TransliterationRequest {
@@ -32,10 +25,13 @@ public class TransliterationRequest {
 
     /**
      * Direction de translittération.
+     *
+     * lat2ajami : Latin → Ajami
+     * ajami2lat : Ajami → Latin
      */
     @Pattern(
-        regexp = "lat2off|off2lat|lat2ajami|ajami2lat",
-        message = "Direction invalide. Valeurs: lat2off, off2lat, lat2ajami, ajami2lat"
+        regexp = "lat2ajami|ajami2lat",
+        message = "Direction invalide. Valeurs: lat2ajami, ajami2lat"
     )
     private String direction;
 }

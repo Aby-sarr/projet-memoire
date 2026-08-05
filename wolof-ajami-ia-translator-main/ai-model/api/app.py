@@ -292,16 +292,40 @@ if (
     and "model_state_dict" in checkpoint_ajami2lat
 ):
 
-    model_ajami2lat.load_state_dict(
+    state_dict_ajami2lat = (
         checkpoint_ajami2lat["model_state_dict"]
     )
 
 else:
 
-    model_ajami2lat.load_state_dict(
-        checkpoint_ajami2lat
-    )
+    state_dict_ajami2lat = checkpoint_ajami2lat
 
+
+# ============================================================
+# COMPATIBILITE ANCIEN MODELE REVERSE
+# ============================================================
+
+state_dict_ajami2lat = {
+    key.replace(
+        "encoder.rnn.",
+        "encoder.gru."
+    ): value
+
+    for key, value in state_dict_ajami2lat.items()
+}
+
+
+model_ajami2lat.load_state_dict(
+    state_dict_ajami2lat
+)
+
+
+model_ajami2lat.eval()
+
+
+print(
+    "best_model_reverse.pt charge avec succes !"
+)
 
 model_ajami2lat.eval()
 

@@ -24,6 +24,7 @@ from models.seq2seq import Seq2Seq
 # ============================================================
 
 SEED = 42
+
 MAX_LENGTH = 100
 
 random.seed(SEED)
@@ -76,7 +77,10 @@ ajami_stoi = ajami_vocab["stoi"]
 ajami_itos = ajami_vocab["itos"]
 
 
+# ============================================================
 # Conversion éventuelle de itos
+# ============================================================
+
 if isinstance(wolof_itos, dict):
 
     wolof_itos = {
@@ -105,7 +109,7 @@ print(
 
 
 # ============================================================
-# 3. VERIFICATION DES TOKENS
+# 3. VERIFICATION DES TOKENS SPECIAUX
 # ============================================================
 
 print()
@@ -120,6 +124,7 @@ required_ajami_tokens = [
     "<EOS>",
     "<UNK>"
 ]
+
 
 required_wolof_tokens = [
     "<PAD>",
@@ -151,6 +156,40 @@ print("Tokens spéciaux Ajami : OK")
 print("Tokens spéciaux Wolof : OK")
 
 
+print()
+print("Indices des tokens :")
+
+print(
+    "Ajami <PAD> =",
+    ajami_stoi["<PAD>"]
+)
+
+print(
+    "Ajami <SOS> =",
+    ajami_stoi["<SOS>"]
+)
+
+print(
+    "Ajami <EOS> =",
+    ajami_stoi["<EOS>"]
+)
+
+print(
+    "Wolof <PAD> =",
+    wolof_stoi["<PAD>"]
+)
+
+print(
+    "Wolof <SOS> =",
+    wolof_stoi["<SOS>"]
+)
+
+print(
+    "Wolof <EOS> =",
+    wolof_stoi["<EOS>"]
+)
+
+
 # ============================================================
 # 4. CONSTRUCTION DU MODELE REVERSE
 # ============================================================
@@ -161,6 +200,11 @@ print("CONSTRUCTION DU MODELE AJAMI -> WOLOF")
 print("=" * 60)
 
 
+# ------------------------------------------------------------
+# ENCODEUR
+# Source = Ajami
+# ------------------------------------------------------------
+
 encoder = EncoderGRU(
     input_dim=len(ajami_stoi),
     embedding_dim=EMBEDDING,
@@ -168,10 +212,19 @@ encoder = EncoderGRU(
 )
 
 
+# ------------------------------------------------------------
+# ATTENTION
+# ------------------------------------------------------------
+
 attention = BahdanauAttention(
     HIDDEN_SIZE
 )
 
+
+# ------------------------------------------------------------
+# DECODEUR
+# Cible = Wolof Latin
+# ------------------------------------------------------------
 
 decoder = DecoderGRU(
     output_dim=len(wolof_stoi),
@@ -179,6 +232,10 @@ decoder = DecoderGRU(
     hidden_dim=HIDDEN_SIZE
 )
 
+
+# ------------------------------------------------------------
+# SEQ2SEQ
+# ------------------------------------------------------------
 
 model = Seq2Seq(
     encoder,
@@ -194,7 +251,7 @@ print(
 
 
 # ============================================================
-# 5. CHARGEMENT DU MODELE REVERSE
+# 5. CHARGEMENT DU MEILLEUR MODELE
 # ============================================================
 
 print()
@@ -278,7 +335,7 @@ print(
 
 
 # ============================================================
-# 7. MEME SEPARATION TRAIN / VALIDATION / TEST
+# 7. RECONSTRUCTION EXACTE DU SPLIT
 # ============================================================
 
 print()
@@ -339,12 +396,10 @@ print(
     len(train_indices)
 )
 
-
 print(
     "Validation :",
     len(valid_indices)
 )
-
 
 print(
     "Test :",
@@ -367,7 +422,7 @@ print(
 
 
 # ============================================================
-# 8. PREDICTION MANUELLE AJAMI -> WOLOF
+# 8. PREDICTION AJAMI -> WOLOF
 # ============================================================
 
 def predict(sentence):
@@ -376,7 +431,7 @@ def predict(sentence):
 
 
     # --------------------------------------------------------
-    # Encodage de la phrase Ajami
+    # Encodage de la source Ajami
     # --------------------------------------------------------
 
     tokens = []
@@ -412,7 +467,7 @@ def predict(sentence):
 
 
     # --------------------------------------------------------
-    # ENCODER
+    # ENCODEUR
     # --------------------------------------------------------
 
     with torch.no_grad():
@@ -423,7 +478,7 @@ def predict(sentence):
 
 
     # --------------------------------------------------------
-    # PREMIER TOKEN DU DECODER
+    # PREMIER TOKEN DU DECODEUR
     # --------------------------------------------------------
 
     input_token = torch.tensor(
@@ -481,13 +536,19 @@ def predict(sentence):
         ]
 
 
-        # Fin de génération
+        # ----------------------------------------------------
+        # EOS
+        # ----------------------------------------------------
+
         if predicted_char == "<EOS>":
 
             break
 
 
-        # Ignorer tokens spéciaux
+        # ----------------------------------------------------
+        # Ignorer PAD / SOS
+        # ----------------------------------------------------
+
         if predicted_char not in [
             "<PAD>",
             "<SOS>"
@@ -498,8 +559,11 @@ def predict(sentence):
             )
 
 
+        # ----------------------------------------------------
         # Le token prédit devient
-        # l'entrée du prochain pas
+        # l'entrée suivante
+        # ----------------------------------------------------
+
         input_token = torch.tensor(
             [predicted_token],
             dtype=torch.long,
@@ -520,6 +584,7 @@ def levenshtein_distance(
 ):
 
     rows = len(reference) + 1
+
     cols = len(hypothesis) + 1
 
 
@@ -581,24 +646,29 @@ print("=" * 60)
 
 
 correct = 0
+
 total = 0
 
 
 total_char_errors = 0
+
 total_reference_chars = 0
 
 
 total_word_errors = 0
+
 total_reference_words = 0
 
 
 errors = []
 
 
-# Quelques prédictions pour vérifier
-# que le modèle produit bien du texte.
 preview_count = 0
 
+
+# ============================================================
+# PARCOURS DU TEST
+# ============================================================
 
 for index, row in test_df.iterrows():
 
@@ -618,7 +688,7 @@ for index, row in test_df.iterrows():
 
 
     # --------------------------------------------------------
-    # Affichage des premières prédictions
+    # Affichage des 10 premiers exemples
     # --------------------------------------------------------
 
     if preview_count < 10:
@@ -646,18 +716,25 @@ for index, row in test_df.iterrows():
         preview_count += 1
 
 
-    # --------------------------------------------------------
-    # Accuracy
-    # --------------------------------------------------------
+    # ========================================================
+    # TOTAL
+    # ========================================================
+
+    total += 1
+
+
+    # ========================================================
+    # ACCURACY
+    # ========================================================
 
     if prediction == expected:
 
         correct += 1
 
 
-    # --------------------------------------------------------
+    # ========================================================
     # CER
-    # --------------------------------------------------------
+    # ========================================================
 
     char_distance = (
         levenshtein_distance(
@@ -677,9 +754,9 @@ for index, row in test_df.iterrows():
     )
 
 
-    # --------------------------------------------------------
+    # ========================================================
     # WER
-    # --------------------------------------------------------
+    # ========================================================
 
     reference_words = (
         expected.split()
@@ -709,9 +786,9 @@ for index, row in test_df.iterrows():
     )
 
 
-    # --------------------------------------------------------
-    # ERREURS
-    # --------------------------------------------------------
+    # ========================================================
+    # ENREGISTREMENT DES ERREURS
+    # ========================================================
 
     if prediction != expected:
 
@@ -729,12 +806,9 @@ for index, row in test_df.iterrows():
         })
 
 
-    total += 1
-
-
-    # --------------------------------------------------------
+    # ========================================================
     # PROGRESSION
-    # --------------------------------------------------------
+    # ========================================================
 
     if total % 100 == 0:
 
@@ -855,6 +929,7 @@ else:
     ):
 
         print()
+
         print(
             "Erreur",
             i

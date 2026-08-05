@@ -40,7 +40,7 @@ class EncoderGRU(nn.Module):
         # GRU
         # ====================================================
 
-        self.rnn = nn.GRU(
+        self.gru = nn.GRU(
             embedding_dim,
             hidden_dim,
             batch_first=True
@@ -65,7 +65,7 @@ class EncoderGRU(nn.Module):
         # GRU
         # ----------------------------------------------------
 
-        outputs, hidden = self.rnn(
+        outputs, hidden = self.gru(
             embedded
         )
 

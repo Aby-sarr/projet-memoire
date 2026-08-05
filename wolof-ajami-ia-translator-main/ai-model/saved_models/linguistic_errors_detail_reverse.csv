@@ -1,0 +1,471 @@
+﻿Ajami,Wolof_attendu,Wolof_predit,categorie_detaillee,substitutions,insertions,suppressions,correspondances,confusions
+"كو نەكك چي توول بي, بول ڽيببي ڠير فاب سا مبوبب.","Ku nekk ci tool bi, bul ñibbi ngir fab sa mbubb.","wu nekk ci tool bi, bul ñibbi ngir fab sa mbubb.",Substitution,1,0,0,47,K->w
+"كو نيي: دافا يۆنني دوومام, ڠير مو","ko nii: dafa yónni Doomam, ngir mu","ku nii: dafa yónni doomam, ngir mu",Substitution,2,0,0,32,"D->d, o->u"
+"گاننااو ليدد سورەوول اك يوپە ناگ, تە","Gannaaw Lidd sorewul ak Yope nag, te","Gannaaw lidd Surewul ak yope nag, te",Substitution,4,0,0,32,"Y->y, o->u, s->S, L->l"
+گێرێمەە,gërëmee,ërërëmee,Substitution + insertion,1,1,0,6,g->r
+"كو گێن ا خاملە, ڠير مبێگگەەل, گي","ko gën a xamle, ngir mbëggeel, gi","ku gën a xamle, ngir mbéggeel, gi",Substitution,2,0,0,31,"ë->é, o->u"
+واايە نون مێنونوو باڽ ا واخ لي,Waaye nun mënunoo bañ a wax li,Waaye nun mënunuoo bañ a wax li,Insertion,0,1,0,30,
+"چي وەتو توندو وليو يا. نوونو يەەسو يەبال ڽااري تااليبە,","ci wetu tundu Oliw ya. Noonu Yeesu yebal ñaari taalibe,","ci wetu tundu Oliw ya. Noonu Yeesu yebalibe,",Suppression,0,0,11,44,
+"توپپ, واايە ماي ما, ما جێكك ا تاگگوجي ساما واا كێر.»","topp, waaye may ma, ma jëkk a tàgguji sama waa kër.»","wopp, waaye may ma, ma jëkk a tagguji sama wér.»",Substitution + suppression,3,0,4,45,"ë->é, à->a, t->w"
+واايە ياللا واخ كو نە:«يانقۆوبا راكك جي,Waaye Yàlla wax ko ne:«Yanqóoba rakk ji,Waaye Yàlla wax ku ne:«Yànqóoba rakk ji,Substitution,2,0,0,37,"a->à, o->u"
+"كو با نوپپي, واايە گێمولەەن. جێف يي","ko ba noppi, waaye gëmuleen. Jëf yi","ku ba noppi, waaye gëmuleen. Jëf yi",Substitution,1,0,0,34,o->u
+"كو تونتو: “بو ما لاككال, تێج ناا","ko tontu: “Bu ma lakkal, tëj naa","ku tontu: “Bu ma lakkal, tëj naa",Substitution,1,0,0,31,o->u
+"مو گومبا تە لوو. يەەسو فاج كو,","mu gumba te luu. Yeesu faj ko,","mu gumba te loo. Yeesu faj ko,",Substitution,2,0,0,28,"u->o, u->o"
+"كو فا; فەكك مووم فاس نا يێەنەي دوخ, با اگسي فا.","ko fa; fekk moom fas na yéeney dox, ba agsi fa.","ku fa; fekk moom fas na yéeney dox, ba agsi fa.",Substitution,1,0,0,46,o->u
+"ڽو ناان: «نداخ كيي دو يەەسو, دوومو","Ñu naan: «Ndax kii du Yeesu, doomu","Ñu naan: «Ndax kiy du Yeesu, doomu",Substitution,1,0,0,33,i->y
+گەنت,gent,eent,Substitution,1,0,0,3,g->e
+ناساراان,nasaraan,aasaan,Substitution + suppression,1,0,2,5,r->s
+بورووم توول با نە جاوريڽ جا: “ووووال,boroom tool ba ne jawriñ ja: “Woowal,Boroom tool ba ne jawriñ ja: “Wowuwal,Substitution + insertion,2,1,0,34,"o->u, b->B"
+نديير,ndiir,Nddir,Substitution,2,0,0,3,"i->d, n->N"
+"موو تاخ ناڠوونتەلەەن, باي ماگگال ياللا, ني لەەن كيريست ناڠوو.","Moo tax nangoonteleen, bay màggal Yàlla, ni leen Kirist nangoo.","moo tax nangoonteleen, bay màggal Yàlla, ni leen kiristi Karoo.",Erreur multiple,4,1,1,58,"g->r, n->K, K->k, M->m"
+يااك,yaak,aak,Suppression,0,0,1,3,
+"ناس, بي ياللا دوگالوون تە خام كو","nas, bi Yàlla dogaloon te xam ko","nas, bi Yàlla dugaloon te xam ku",Substitution,2,0,0,30,"o->u, o->u"
+"با مەل نيي خالە, دوڠەەن دوگگ موكك","ba mel niy xale, dungeen dugg mukk","ba mel nii xale, dungeen dugg mukk",Substitution,1,0,0,33,y->i
+نەەن لا; فو نوي جێلە لو دوي ڠير دوندال لەەن?»,neen la; fu nuy jële lu doy ngir dundal leen?»,yeen la; fu nuy jële lu duy ngir dundal leen?»,Substitution,2,0,0,44,"o->u, n->y"
+"گاننااو لوولو يەەسو گێنناات, او بوورو دەخ","Gannaaw loolu Yeesu génnaat, aw booru dex","gannaaw loolu Yeesu génnaat, aw buuru dex",Substitution,3,0,0,38,"o->u, o->u, G->g"
+"فيير? ينديل-لەەن ما پوسەتو دەنارييون, ما سەەت.»","fiir? Indil-leen ma posetu denariyon, ma seet.»","yiir? Indil-leen ma posetu denariyon, ma seet.»",Substitution,1,0,0,46,f->y
+"فااتو لێەگي, واايە ڽێوال, تەگ كو ساي لوخو, تە دينا دونداات.»","faatu léegi, waaye ñëwal, teg ko say loxo, te dina dundaat.»","yaatu léegi, waaye ñëwal, teg ko say luxu, te dina dundaat.»",Substitution,3,0,0,57,"o->u, o->u, f->y"
+بيرالەە,biralee,Iiralee,Substitution,1,0,0,6,b->I
+"كيريست? خاناا دوي ناتتو, تە دو نجاقارە,","Kirist? Xanaa duy nattu, te du njàqare,","kirist? Xanaa doy nattu, te du njàqare,",Substitution,2,0,0,37,"u->o, K->k"
+لوو خام چي لي ڽيي سەەدە چي ياو?»,Loo xam ci li ñii seede ci yaw?»,loo xam ci liy ñiy seede ci yaw?»,Substitution + insertion,2,1,0,30,"i->y, L->l"
+"بيرال, مباا لوي كومپا لو ڽو وارول ا سييوال.","biral, mbaa luy kumpa lu ñu warul a siiwal.","yiral, mbaa luy kompa lu ñu warul a siiwal.",Substitution,2,0,0,41,"u->o, b->y"
+چا بێراب بو وێەت. واايە بي كو,ca bérab bu wéet. Waaye bi ko,ca bérab bu wéet. Waaye bi ku,Substitution,1,0,0,28,o->u
+"يا, ڠير ڽو تەەرو كو تەەرو بو","ya, ngir ñu teeru ko teeru bu","ya, ngir ñu teeru ku teeru bu",Substitution,1,0,0,28,o->u
+نێو,nëw,ëëw,Substitution,1,0,0,2,n->ë
+"نيي چي يوون وي?» نوونو ڽو تاخاو, سەەن خول جەەخ.","nii ci yoon wi?» Noonu ñu taxaw, seen xol jeex.","niy ci yoon wi?» Noonu ñu taxaw, seex.",Substitution + suppression,1,0,9,37,i->y
+"سەنەسارەت. مبوولوو ما وێر كو, دي بووخانتە ڠير دێگلو كاددوگ ياللا.","Senesaret. Mbooloo ma wër ko, di buuxante ngir déglu kàddug Yàlla.","senesaret. Mbooloo ma wér ko, di booxante ngir déglu Kàddug yàldag.",Substitution + insertion,7,1,0,59,"l->d, Y->y, k->K, u->o, u->o, ë->é, S->s"
+"يێف ييي لەەر نا بوور بي, موو","Yëf yii leer na buur bi, moo","yëf yiy leer na buur bi, moo",Substitution,2,0,0,26,"i->y, Y->y"
+"ماريااما تە گيس لي يەەسو دەفوون, دالدي كوي گێم.","Maryaama te gis li Yeesu defoon, daldi koy gëm.","Maryaama te gis li Yeesu deloon, daldi koy gëm.",Substitution,1,0,0,46,f->l
+فووفيي,foofii,foofiy,Substitution,1,0,0,5,i->y
+جولليل ندامو ياللا. نوونو يەەسو نە كو: «توپپال چي مان!»,jollil ndamu Yàlla. Noonu Yeesu ne ko: «Toppal ci man!»,yullil ndamu Yàlla. Noonu Yeesu ne ko: «Toppal ci man!»,Substitution,2,0,0,53,"o->u, j->y"
+"ني بورووم سێەت بي يێەخەە ڽێو ناگ, ڽێپپ گێممەەنتو باي نەلاو.","Ni boroom séet bi yéexee ñëw nag, ñépp gëmmeentu bay nelaw.","yi boroom séet bi yéexee ñëw nag, ñépp gëmmeentul.",Substitution + suppression,1,0,9,49,N->y
+"وا جاار دێككو امفيپوليس اك اپولوني, دوور","wa jaar dëkku Amfipolis ak Apoloni, door","aaj jaar dëkku Amfipulis ak Ap lapuloni, door",Substitution + insertion,3,5,0,37,"o->u, o->u, w->a"
+ام چا مبوولوو ما كو نە يەەسو:,Am ca mbooloo ma ku ne Yeesu:,am ca mbooloo ma ko ne Yeesu:,Substitution,2,0,0,27,"u->o, A->a"
+"ڠەەن فەككسي ما چي لي ما نەكك, لو موي جێڠ ييي!»","ngeen fekksi ma ci li ma nekk, lu moy jéng yii!»","ngeen fekksi ma ci li ma nekk, lu muy jéng yii!»",Substitution,1,0,0,47,o->u
+"گيناار ا ساب ڽااري يوون, ديڠا ما وەددي ڽەتتي يوون.»","ginaar a sab ñaari yoon, dinga ma weddi ñetti yoon.»","yinaar a sab ñaari yoon, dinga ma weddi ñut.»",Substitution + suppression,2,0,7,43,"t->u, g->y"
+"پوول, مو دێكك فا كو لەو, مووم","Pool, mu dëkk fa ko lew, moom","Pool, mu dëkk fa ku lew, moom",Substitution,1,0,0,28,o->u
+ڠەەن ييي يێپپ? چي دێگگ ماا ڠي,ngeen yii yépp? Ci dëgg maa ngi,ngeen yiy yépp? Ci dëgg maa ngi,Substitution,1,0,0,30,i->y
+ناسراان,nasraan,aaraan,Substitution + suppression,1,0,1,5,s->a
+"اي بانقااس يو رێي, با پيچچي اساماان تاگگ چي كەرام.»","ay bànqaas yu réy, ba picci asamaan tàgg ci keram.»","yay banqaas yu réy, ba Picci asamaan tagg ci keram.»",Substitution + insertion,3,1,0,48,"à->a, p->P, à->a"
+با دينا كو لاكك چي سافارا سو دول فەي موكك.»,ba dina ko lakk ci safara su dul fey mukk.»,ya dina ko làkk ci safara su dul fey mukk.»,Substitution,2,0,0,41,"a->à, b->y"
+وون,won,woon,Insertion,0,1,0,3,
+دەەووون,deewoon,deewun,Substitution + suppression,1,0,1,5,o->u
+چا ڠوون سا ڽو ينديل كو ڽو,Ca ngoon sa ñu indil ko ñu,ca ngoon sa ñu yindil ko ñu,Substitution + insertion,1,1,0,25,C->c
+تە كو سوت سولەيماان ا ڠي في.,te ku sut Suleymaan a ngi fi.,te ku sut soleymaan a ngi fi.,Substitution,2,0,0,27,"u->o, S->s"
+كاتتانام. موو تاخ خالە بيي جوددو ديناڽو,kàttanam. Moo tax xale biy juddu dinañu,kàttanam. Moo tax xale bii juddu dinañu,Substitution,1,0,0,38,y->i
+بەنن نيروووول اك موروومام ليگگێەي.,benn niroowul ak moroomam liggéey.,benn niruuuul ak moroomam liggéey.,Substitution,3,0,0,31,"w->u, o->u, o->u"
+گاچچە,gàcce,càcce,Substitution,1,0,0,4,g->c
+دوخەە,doxee,xoxee,Substitution,1,0,0,4,d->x
+"لوولوو ڽێو, ڠير بو واختو وا اگسەە, ڠەەن گێم.","looloo ñëw, ngir bu waxtu wa agsee, ngeen gëm.","looluo ñëw, ngir bu waxtu wa agsee, ngeen gëm.",Substitution,1,0,0,45,o->u
+"لاگگي, اي گومبا, اي لوو اك ڽەنەەن","làggi, ay gumba, ay luu ak ñeneen","laggi, ay gumba, ay loo ak ñeneen",Substitution,3,0,0,30,"u->o, u->o, à->a"
+نەككوما,nekkuma,ekkuma,Suppression,0,0,1,6,
+ڽێو ناان: «سا دووم فااتو نا; ماتاتول ڠاي سونال كيليفا گي.»,ñëw naan: «Sa doom faatu na; matatul ngay sonal kilifa gi.»,ñëw naan: «Sa doom faatu na; matatul ngay sunal kilifa gi.»,Substitution,1,0,0,58,o->u
+ماندەە,màndee,àndee,Suppression,0,0,1,5,
+نو دەفارال لا رەەرو ماگگالو جێگگي با?»,nu defaral la reeru màggalu Jéggi ba?»,wu defaral la reeru màggalu Jéggi ba?»,Substitution,1,0,0,37,n->w
+دي لا گێرێم اك سونو خول بێپپ.,di la gërëm ak sunu xol bépp.,Yi la gërëm ak sunu xul bépp.,Substitution,2,0,0,27,"o->u, d->Y"
+"بانني يسراييل بارەە-بارە ني سووفوس گێەج ساخ,لو","bànni Israyil baree-bare ni suufus géej sax,lu",banni Israyil baree-bare ni suufus géxjulu,Substitution + suppression,3,0,4,39,",->u, e->x, à->a"
+يوويو يێپپ?— مووم لا بورووم بي دوون واخ.”,yooyu yépp?— Moom la Boroom bi doon wax.”,yooyu yépp? Moom la boroom bi doon wax.”,Substitution + suppression,1,0,1,39,B->b
+«دافا اموون بەيكات بو دەموون جييي. بي,«Dafa amoon beykat bu demoon jiyi. Bi,«Dafa amoon beykat bu demoon jiii. Bi,Substitution,1,0,0,36,y->i
+وگ,ug,wgg,Substitution + insertion,1,1,0,1,u->g
+ووتسي,wutsi,wotsi,Substitution,1,0,0,4,u->o
+ا نەتتالي كەنن چا جامونو جووجا لا ڽو گيسوون.,a nettali kenn ca jamono jooja la ñu gisoon.,ya nettali kenn ca jamono jooja la ñu gisoon.,Insertion,0,1,0,44,
+"«واايە يێەن باركەەل ڠەەن, نداختە سەەني بێت","«Waaye yéen barkeel ngeen, ndaxte seeni bët","«Waaaye yéen barkeel ngeen, ndaxte seeni bët",Insertion,0,1,0,43,
+گەنن مبێگگەەل مێنول ا وەەسو جوخە سا باككان ڠير ساي خاريت.,Genn mbëggeel mënul a weesu joxe sa bakkan ngir say xarit.,genn mbëggeel mënul a weesu joxe sa bàkkan ngir Sar itarit.,Substitution + insertion,5,1,0,53,"x->t, y->r, s->S, a->à, G->g"
+"جانت بي دينا دالدي لێندێم,وەەر وي دەرەتال,بالا","Jant bi dina daldi lëndëm,weer wi deretal,bala","jant bi dina daldi lëndëm,weer wala",Substitution + suppression,1,0,11,34,J->j
+نجورتو,njortu,jjurtu,Substitution,2,0,0,4,"o->u, n->j"
+يێەن ڽي نێەو ڠێم! بو ياللا ووددەە,Yéen ñi néew ngëm! Bu Yàlla woddee,Yéen ñi néew ngëm! Bu Yàlla wuddee,Substitution,1,0,0,33,o->u
+لي دالە چي ساا سووسا ناگ يوداا,Li dale ci saa soosa nag Yudaa,li dale ci saa suusa nag yudaa,Substitution,4,0,0,26,"Y->y, o->u, o->u, L->l"
+ندەگام,ndegam,Nddggam,Substitution + insertion,2,1,0,4,"e->g, n->d"
+چا ساا سووسو خەل مو سەلل مي,Ca saa soosu Xel mu Sell mi,ca saa suusu xel mu Sell mi,Substitution,4,0,0,23,"X->x, o->u, o->u, C->c"
+نوونوو,noonoo,Noonuo,Substitution,2,0,0,4,"o->u, n->N"
+واللا مو دي كو دەف چي رون,walla mu di ko def ci ron,walla mu di ko def ci run,Substitution,1,0,0,24,o->u
+"تە بي نوي دەم, ڽو جوخ نو لي نوي سوخلا لێپپ.","te bi nuy dem, ñu jox nu li nuy soxla lépp.","Ye bi nuy dem, ñu jox nu li noy soxla lépp.",Substitution,2,0,0,41,"u->o, t->Y"
+فەكك پييەەر دي گێن ا فێگگ. نوونو,Fekk Piyeer di gën a fëgg. Noonu,fekk Piyeer di gën a fëgg..Noonu,Substitution,2,0,0,30," ->., F->f"
+تيڤاووانە مووي دێكك بو جامم,Tivaouane mooy dëkk bu jàmm,tiiaawunae mooy dëkk bu jàmm,Substitution + insertion,5,1,0,22,"n->a, a->n, o->w, v->a, T->i"
+ناتتوووولەەن,nattuwooleen,àttuwuleen,Substitution + suppression,2,0,2,8,"o->u, a->à"
+نيرۆولە,niróole,inróole,Substitution,2,0,0,5,"i->n, n->i"
+"چي ياو, نداختە راڽڽەەووو جامونو جي ياللا ڽێوە, واللوسي لا.»","ci yaw, ndaxte ràññeewoo jamono ji Yàlla ñëwe, wallusi la.»","yi yaw, ndaxte raññeewuw jamono ji Yàlla ñëwe, wallusi la.»",Substitution,4,0,0,55,"o->w, o->u, à->a, c->y"
+يەەسو تونتو كو نە: « “ناڠا بێگگ,Yeesu tontu ko ne: « “Nanga bëgg,Yeesu tontu ko ne: «Nanga bëgg,Suppression,0,0,2,30,
+لوولوو تاخ وااجور يا نە: «لااجلەەن كو; ماگوم جێمم لا.»,Looloo tax waajur ya ne: «Laajleen ko; magum jëmm la.»,Yooluo tax waajur ya ne: «Laajleen ko; magum jëmm la.»,Substitution,2,0,0,52,"o->u, L->Y"
+"ماا چي دەس, تە ڽو ڠي ماي ووت ا رەي.»","maa ci des, te ñu ngi may wut a rey.»","yaa ci des, te ñu ngi may wut a rey.»",Substitution,1,0,0,36,m->y
+"چا, باي ووتتو ساخ يێرەي ڽي كو دوون رەي.”","ca, bay wottu sax yérey ñi ko doon rey.”","ca, bay wuttu sax yërey ñi ko doon rey.”",Substitution,2,0,0,38,"é->ë, o->u"
+نجومبە,njombe,jjumbe,Substitution,2,0,0,4,"o->u, n->j"
+بيندلەەن,bindleen,Iindleen,Substitution,1,0,0,7,b->I
+"يسراييل, دێگلول! ياللا سونو بورووم مووم رەكك مووي بوور.","Israyil, déglul! Yàlla sunu Boroom moom rekk mooy Buur.","Israyil, dëglul! Yàlla sunu boroom roku rokr.",Substitution + suppression,6,0,10,39,"u->k, o->r, k->u, e->o, B->b, é->ë"
+"ما, مان, نداختە ماا واخ نە, سەەني جێف بااخول.","ma, man, ndaxte maa wax ne, seeni jëf baaxul.","ya, man, ndaxte maa wax ne, seeni jëf baaxul.",Substitution,1,0,0,44,m->y
+نداخ خاماگولەەن با تەي? خاناا فاتتاليكووولەەن جورۆومي,Ndax xamaguleen ba tey? Xanaa fàttalikuwuleen juróomi,Ndax xamaguleen ba tey? Xanaa fattalikooule,Substitution + suppression,3,0,10,40,"w->o, u->o, à->a"
+خوتتيكوو,xottikoo,xuttikuu,Substitution,3,0,0,5,"o->u, o->u, o->u"
+دێگلو بو بااخواايە دوڠەەن خام دارا;دي خوول,déglu bu baaxwaaye dungeen xam dara;di xool,déglu bu baaxuaaye dungeen xam dara;di xool,Substitution,1,0,0,42,w->u
+"بيير كێر چي واختو ويي, مااناام تيسباار.","biir kër ci waxtu wii, maanaam tisbaar.","biir kër ci waxtu wiy, maanaam tisbaar.",Substitution,1,0,0,38,i->y
+"چي گارابو وليو گو الل, واايە ياللا","ci garabu oliw gu àll, waaye Yàlla","ci garabu wliw gu àll, waaye Yàlla",Substitution,1,0,0,33,o->w
+ڠەەن دەف لو دوي واار? خاناا ڽي,ngeen def lu doy waar? Xanaa ñi,ngeen def lu duy waar? Xanaa ñi,Substitution,1,0,0,30,o->u
+جويوو,joyoo,juyoo,Substitution,1,0,0,4,o->u
+"اك سەەني لوخو جومتوكااي, يي ڽو يەبوون ڠير فاگگو.","ak seeni loxo jumtukaay, yi ñu yeboon ngir fàggu.","ak seeni loxo jomtukaay, yi ñu yeboon ngir fàggu.",Substitution,1,0,0,48,u->o
+ڠێرێمو نيت ا لەەن گێنالوون ڠێرێمو ياللا.,Ngërëmu nit a leen gënaloon ngërëmu Yàlla.,ngërëmë nit a leen gënaloon ngërëmu Yàlla.,Substitution,2,0,0,40,"u->ë, N->n"
+نەەخەە,neexee,eexee,Suppression,0,0,1,5,
+ا مەڠالەەل ڠوورو ياللا? واللا بان لێەب,a mengaleel nguuru Yàlla? Walla ban léeb,a mengaleel nguuru Yàlla? Walla? Wal léeb,Substitution + insertion,2,1,0,38,"n->l, b->W"
+"بون لو جار دەە, كون دوما تينو","bon lu jar dee, kon duma tinu","bun lu jar dee, kon duma tinu",Substitution,1,0,0,28,o->u
+يتام چي ڽووم ڠا بوكك.» پييەەر تونتو,itam ci ñoom nga bokk.» Piyeer tontu,Yitam ci ñoom nga bokk.» Piyeer tontu,Insertion,0,1,0,36,
+"تەندەەفال. مو نە لەەن: “لو تاخ ڠەەن يەندوو تەندەەفال, تە ليگگێەييوولەەن?”","tendeefal. Mu ne leen: “Lu tax ngeen yendoo tendeefal, te liggéeyiwuleen?”","yendeefal. Mu ne leen: “Lu tax ngeen yendeefal, te liggéeyaw, te liggéeyaw,leen?”",Substitution + insertion,10,7,0,64,"u->,, i->a, l->w, f->y, e->é, d->g, n->g, o->,, o->l, t->y"
+"خەو, خاملەەن نە جەگە نا; مو ڠي چي بونت بي ساخ.","xew, xamleen ne jege na; mu ngi ci bunt bi sax.","xew, xamleen ne jege na; mu ngi ci bant bi sax.",Substitution,1,0,0,46,u->a
+فووفا ڽو ينديل كو كو تێدد چي,Foofa ñu indil ko ku tëdd ci,Foofa ñu indil ko ko tëdd ci,Substitution,1,0,0,27,u->o
+"بي ماريااما دێگگەە لوولو, مو دالدي جۆگ, گااوانتوو دەم چا يەەسو.","Bi Maryaama déggee loolu, mu daldi jóg, gaawantoo dem ca Yeesu.","yi maryaama déggee loolu, mu daldi jóg, gaawantoo dem ca yeesu.",Substitution,3,0,0,60,"Y->y, M->m, B->y"
+"يا, دالدي تاخاو چا جوور گا, فا","ya, daldi taxaw ca joor ga, fa","ya, daldi taxaw ca juur ga, fa",Substitution,2,0,0,28,"o->u, o->u"
+نەتتالي لا خەووون چا يوون وا اك,nettali la xewoon ca yoon wa ak,nettali la xewuon ca yoon wa ak,Substitution,1,0,0,30,o->u
+«ووتوما تاگگ يو جۆگە چي نيت.,«Wutuma tagg yu jóge ci nit.,«Wootuma tagg yu jóge ci nit.,Substitution + insertion,1,1,0,27,u->o
+مەلوكان,melokan,melukan,Substitution,1,0,0,6,o->u
+"يا ناخ ناڽو كو, مو دالدي مەر","ya nax nañu ko, mu daldi mer","ay nax nañu ko, mu daldi mer",Substitution,2,0,0,26,"a->y, y->a"
+چي باات يوويو لا دوون ميساالە ني مو وار ا فااتوو.,Ci baat yooyu la doon misaale ni mu war a faatoo.,ci baat yooyu la doon misaale ni mu war a faatuw.,Substitution,3,0,0,46,"o->w, o->u, C->c"
+ڽووڽيي,ñooñii,ñooñiy,Substitution,1,0,0,5,i->y
+رێي مي دا لاا خاڽ ساگو.»,réy mi da laa xañ sago.»,réy mi da laa xañ sagu.»,Substitution,1,0,0,23,o->u
+ام الال. لو كو موي ڽووڽو يتام,am alal. Lu ko moy ñooñu itam,am alal. Lu ko muy ñooñu itam,Substitution,1,0,0,28,o->u
+"با ڽو لەەن يۆببوو چا بابيلون, يەكوڽاس جور سالاچەل; سالاچەل سوروبابەل,","Ba ñu leen yóbboo ca Babilon, Yekoñas jur Salacel; Salacel Sorobabel,","ba ñu leen yóbboo ca bàbilun, yekuñas jur salacel; salacel; salacellusulubabell surubabell surubabel",Substitution + insertion,12,31,0,57,",->l, o->u, o->u, S->s, S->s, S->s, o->u, Y->y, o->u, a->à, B->b, B->b"
+"كيي موو داان تووگ, دي يەلواان?»","kii moo daan toog, di yelwaan?»","kiy moo daan toog, di yelwaan?»",Substitution,1,0,0,30,i->y
+بيي,biy,bii,Substitution,1,0,0,2,y->i
+"نا, مو تووگاات يەنەەن ڽااري فان چا بێراب, با مو نەككوون.","na, mu toogaat yeneen ñaari fan ca bérab, ba mu nekkoon.","ya, mu toogaat yeneen ñaari fan ca bérab, ba mu nekkoon.",Substitution,1,0,0,55,n->y
+"لو ێپپ لا ڽو جي ووون, موي جورۆوم-بەنن-فوكك مباا فانوەەر.»","lu ëpp la ñu ji woon, muy juróom-benn-fukk mbaa fanweer.»","lépp la ñu ji woon, muy juróom-bekn fanueer.»",Substitution + suppression,3,0,12,42,"w->u, a->n, ë->é"
+"نوونو ڽو فور اي خەەر, بێگگ كو","Noonu ñu for ay xeer, bëgg ko","Noonu ñu for ay xeer, bëgg ku",Substitution,1,0,0,28,o->u
+كوي يێرێم نە كو: «بول جووياتي.»,koy yërëm ne ko: «Bul jooyati.»,kuy yérëm ne ko: «Bul jooyati.»,Substitution,2,0,0,29,"ë->é, o->u"
+تەي خاريتوو اك اي جووتيكات اك اي بورووم باككاار.”,tey xaritoo ak ay juutikat ak ay boroom bàkkaar.”,tey xarituw ak ay juutikat ak ay boroom bàkkaar.”,Substitution,2,0,0,47,"o->w, o->u"
+ڽو تونتو نە: «نداختە بورووم بي دا كوو سوخلا.»,Ñu tontu ne: «Ndaxte Boroom bi da koo soxla.»,yu tontu ne: «Ndaxte boroom bi da koo soxla.»,Substitution,2,0,0,43,"B->b, Ñ->y"
+يانقۆوبا; يسااخا; يبراايما; تەراا; ناخور;,Yanqóoba; Isaaxa; Ibraayma; Teraa; Naxor;,yanqóoba; Isaaxa; Ibraayma; teraa; naxur;,Substitution,4,0,0,37,"o->u, N->n, T->t, Y->y"
+"وي ڠا ما جوخ. ووتتو ناا لەەن,","wi nga ma jox. Wottu naa leen,","wi nga ma jox. Wuttu naa leen,",Substitution,1,0,0,29,o->u
+"گاننااو لوولو يەەسو دافا جالل دەخو گاليلە, مااناام دەخو تيبەريادد.","Gannaaw loolu Yeesu dafa jàll dexu Galile, maanaam dexu Tiberyàdd.","Gannaaw loolu Yeesu dafa jall dexu Galile, maanaam dexu tiberi.",Substitution + suppression,3,0,3,60,"d->i, T->t, à->a"
+"تە ڽيي خام ناڽو نە, ياا ما يۆنني.","te ñii xam nañu ne, yaa ma yónni.","te ñiy xam nañu ne, yaa ma yónni.",Substitution,1,0,0,32,i->y
+دويلو,doylu,duylu,Substitution,1,0,0,4,o->u
+نو ڠي ليگگێەياندوو چي ليگگێەيو ياللا; يێەناي,Nu ngi liggéeyandoo ci liggéeyu Yàlla; yéenay,nu ngi liggéeyandoo ci liggéeyu Yàlla;,Substitution + suppression,1,0,7,37,N->n
+وورماال,wormaal,wurmaal,Substitution,1,0,0,6,o->u
+چي سونو كاو!’تە ناان جانج يي: «“سوول-لەەن نو!»“ “,ci sunu kaw!’te naan jànj yi: «“Suul-leen nu!»“ “,ci sunu kaw! Te naan janj yi: «Sool-leen nu!» “,Substitution + suppression,5,0,2,42,"u->o, u->o, à->a, t->T, ’-> "
+دێنكوون,dénkoon,dénkuon,Substitution,1,0,0,6,o->u
+"كو: «ياللا تەرە, بورووم بي, لوولو دو لا دال.»","ko: «Yàlla tere, Boroom bi, loolu du la dal.»","yo: «Yàlla tere, boroom bi, loolu du la dal.»",Substitution,2,0,0,43,"B->b, k->y"
+اك گومور ڽووي تانە دێكك بووبو.,ak Gomor ñooy tane dëkk boobu.,ak gumur ñooy tane dëkk boobu.,Substitution,3,0,0,27,"o->u, o->u, G->g"
+"ساي بوكك, تە ڽێو چي رێەو, مي ما لاي وون.”","say bokk, te ñëw ci réew, mi ma lay won.”","yay bokk, te ñëw ci réew, mi ma lay won.”",Substitution,1,0,0,40,s->y
+"ااداما. ام ناا يێەنەي دەف لو بااخ, واايە اوما كاتتانو يەگگالە.","Aadama. Am naa yéeney def lu baax, waaye awma kàttanu yeggale.","aadama. Am naa yéeney def lu baax, waaye awmà kattalu.",Substitution + suppression,4,0,8,50,"e->u, à->a, a->à, A->a"
+نوونو ڽو لااج كو نە: «واخ نو,Noonu ñu laaj ko ne: «Wax nu,woonu ñu laaj ko ne: «Wax nu,Substitution,1,0,0,27,N->w
+دي فاج جاڠورو يێپپ اك وێرادي يێپپ.,di faj jàngoro yépp ak wéradi yépp.,Yi faj jàngoro yépp ak wéradi yépp.,Substitution,1,0,0,34,d->Y
+اتتە,àtte,tàtte,Insertion,0,1,0,4,
+"وو رێي چي بااتام, سانني كو چا","wu réy ci baatam, sànni ko ca","wo réy ci baatam, sànni ko ca",Substitution,1,0,0,28,u->o
+"بوومي دەە, نداختە دەە مێنو كوو تێيە.","buumi dee, ndaxte dee mënu koo téye.","boomi dee, ndaxte dee mënu koo tëye.",Substitution,3,0,0,33,"é->ë, u->o, u->o"
+"ياللا, با بوكك يێپپ ام چا مبێگ مو رێي.","Yàlla, ba bokk yépp am ca mbég mu réy.","Yàlla, ba bokk yépp yap ca mbég mu réy.",Substitution + insertion,1,1,0,37,m->p
+خورو,xuru,xoro,Substitution,2,0,0,2,"u->o, u->o"
+باال ڽێپپ ڽي نو تووڽ.تە بو نو تەگ چي يوونو ناتتو.”»,baal ñépp ñi nu tooñ.Te bu nu teg ci yoonu nattu.”»,baal ñépp ñi nu tooñ.Te bu nu teg citu.”»,Suppression,0,0,10,41,
+"ام دوند گو دول جەەخ, تە بێس","am dund gu dul jeex, te bés","mam dund gu dul jeex, te bés",Insertion,0,1,0,27,
+الاكە,alake,lalake,Insertion,0,1,0,5,
+"واللا: “ما ڠا فالە!” بولەەن دەم, مباا ڠەەن دي لەەن توپپ.","walla: “Ma nga fale!” Buleen dem, mbaa ngeen di leen topp.","Yalla: “Ma nga fale!” buleen dem, mbaa ngeen topp.",Substitution + suppression,2,0,8,48,"B->b, w->Y"
+نديگال يي اك دوگالي بورووم بي يێپپ.,ndigal yi ak dogali Boroom bi yépp.,ndigal yi ak dugali boroom bi yépp.,Substitution,2,0,0,33,"B->b, o->u"
+خول بي دال نا.,Xol bi dal na.,xul bi dal na.,Substitution,2,0,0,12,"o->u, X->x"
+"رەكك, واايە يت دينا داانەەل ماگگالوكاايو ارتەميس","rekk, waaye it dina daaneel màggalukaayu Artemis","rekk, waaye it dina daaneel màggalukaayu àrttemis",Substitution + insertion,1,1,0,47,A->à
+"يندي يەنەەن جورۆوم ناان: “كيليفا گي, دێنك","indi yeneen juróom naan: “Kilifa gi, dénk","niddi yeneen juróom naan: “Kilifa gi, dënk",Substitution + insertion,2,1,0,39,"é->ë, n->d"
+"ڽوي واخ يسوب, تەگ كو چي گێمميڽو يەەسو.","ñuy wax isob, teg ko ci gémmiñu Yeesu.","Ñuy wax Isub, teg ku ci gémmiñu Yeesu.",Substitution,4,0,0,34,"o->u, o->u, i->I, ñ->Ñ"
+خول يي فەەس نا.,Xol yi fees na.,xul yi fees na.,Substitution,2,0,0,13,"o->u, X->x"
+"ڽي جوگگي چي, پيچچي اساماان لەكك كو لێپپ.","ñi joggi ci, picci asamaan lekk ko lépp.","Ñi juggi ci, picci asamaan lekk ku lépp.",Substitution,3,0,0,37,"o->u, o->u, ñ->Ñ"
+"پيلاات تونتو لەەن: «املەەن, اي ووتتوكات ا","Pilaat tontu leen: «Amleen, ay wottukat a","Pilaat tontu leen: «Amleen, ay wuttukat a",Substitution,1,0,0,40,o->u
+رێەو مي; مان كێلۆدد ليسيياس ماا ڠي لاي نويو.,réew mi; man Këlódd Lisiyas maa ngi lay nuyu.,réew mi; man këlódd lisiias maa ngi lay nuyu.,Substitution,3,0,0,42,"y->i, L->l, K->k"
+ڠوور ييي اك سەەن ندام نداختە جێببال,nguur yii ak seen ndam ndaxte jébbal,nguur yiy ak seen ndax ndaxte jébbal,Substitution,2,0,0,34,"m->x, i->y"
+يت پييەەر; فەكك لوولو داجە اك بێسي,it Piyeer; fekk loolu daje ak bési,tit Piyeer; fekk loolu daje ak bési,Insertion,0,1,0,34,
+"نداخ جاادو نا, نو فەي بوور بي سەساار گالاگ واللا دێەت?»","ndax jaadu na, nu fey buur bi Sesaar galag walla déet?»","ydax jaadu na, nu fey buur bi sesaar galag wélla déet?»",Substitution,3,0,0,52,"a->é, S->s, n->y"
+"سووف داي مەڽڽ مووم چي بوپپام, مو","Suuf day meññ moom ci boppam, mu","Yuuf day meññ moom ci boppam, mu",Substitution,1,0,0,31,S->Y
+نەرر,nerr,err,Suppression,0,0,1,3,
+نوسە,nose,Nuse,Substitution,2,0,0,2,"o->u, n->N"
+داانو چي سووف تە سووبول سەەن بااي.,daanu ci suuf te soobul seen Baay.,daanu ci suuf te suubul seen baay.,Substitution,3,0,0,31,"B->b, o->u, o->u"
+"ا فاڠاارال دوگگ چيب دێكك, واايە مو","a faŋaaral dugg cib dëkk, waaye mu","Ya fàngaaral dugg cib dëkk, waaye mu",Substitution + insertion,2,2,0,32,"ŋ->g, a->n"
+"بي لوولو امەە يەەسو جۆگە فووفا, دوگگ چي سەەن جاڠو,","Bi loolu amee Yeesu jóge foofa, dugg ci seen jàngu,","Bi loolu amee Yeesu jóge foofa, dugg càngu,",Suppression,0,0,8,43,
+گو ڽوي واخ تيبەريادد. نيي لا دەمە ووون:,gu ñuy wax Tiberyàdd. Nii la deme woon:,yu ñuy wax tiberiadd. Nii la deme woon:,Substitution,4,0,0,35,"à->a, y->i, T->t, g->y"
+كو كو. تە ڠەەن رووف اب جاارو,ko ko. Te ngeen roof ab jaaro,ku ko. Te ngeen rouf ab jaaru,Substitution,3,0,0,26,"o->u, o->u, o->u"
+كي كوي وور دينا توروخ. باڽوون ا,ki koy wor dina torox. Bañoon a,ki koy wor dina turox. Bañoon a,Substitution,1,0,0,30,o->u
+"لەەن, نداختە داڽوو سونن با نە يوگگ,","leen, ndaxte dañoo sonn ba ne yogg,","leen, ndaxte dañoo sunn ba ne yugg,",Substitution,2,0,0,33,"o->u, o->u"
+"ساما كااس, واايە تووگ چي ساما ندەيجوور","sama kaas, waaye toog ci sama ndeyjoor","Yama kaas, waaye toog ci sama ndeyjoor",Substitution,1,0,0,37,s->Y
+ادديناي,àddinay,dàddinay,Insertion,0,1,0,7,
+نجاببوتام,njabbotam,jjabbutam,Substitution,2,0,0,7,"o->u, n->j"
+ويي? نو ڠەەن خامە ناگ لێەب يي چي دەس?,wii? Nu ngeen xame nag léeb yi ci des?,wiy? Nu ngeen xame nag léeb yi ci des?,Substitution,1,0,0,37,i->y
+مەلوو,melow,meloo,Substitution,1,0,0,4,w->o
+"نيي.» بووبا لا كو تااليبە با يۆببو كێرام, يور كو.","nii.» Booba la ko taalibe ba yóbbu këram, yor ko.","nii.» Booba la ko taalibe ba yóbbu këram, yur ko.",Substitution,1,0,0,48,o->u
+يددا,idda,didda,Insertion,0,1,0,4,
+"بێگگە, نداختە باككانو نيت اجووول چي الالام, اك لو مو بارەە-بارە.»","bëgge, ndaxte bakkanu nit ajuwul ci alalam, ak lu mu baree-bare.»","yégge, ndaxte bàkkanu nit ajooul ci alalam, ak lu mu baree-bare.»",Substitution,5,0,0,60,"w->o, u->o, a->à, ë->é, b->y"
+گيلە,gile,yile,Substitution,1,0,0,3,g->y
+خاناا نداخ نو دەم جێندال مبوولوو ميي لو ڽو لەكك?»,Xanaa ndax nu dem jëndal mbooloo mii lu ñu lekk?»,xanaa ndax nu dem jëndal mbooloo miy lu ñu luklukalu?»,Substitution + insertion,3,5,0,46,"e->u, i->y, X->x"
+بانني يسراييل تە خامولوو مبير ييي?,bànni Israyil te xamuloo mbir yii?,banni Israyil te xamuloo mbir yiy?,Substitution,2,0,0,32,"i->y, à->a"
+يێەنا ڠي واخ نە: “كو گيڽە كێر,Yéena ngi wax ne: “Ku giñe kër,éeena ngi wax ne: “Ku giñe kër,Substitution,2,0,0,28,"é->e, Y->é"
+"بااخ, فەكك داڠەەن بون? نداختە گێمميڽ, لا فەەس خول لاي واخ.","baax, fekk dangeen bon? Ndaxte gémmiñ, la fees xol lay wax.","baax, fekk dangeen bun? Ndaxte gëmmiñ, la fees xol lay wax.",Substitution,2,0,0,57,"é->ë, o->u"
+"چا دەس دێگگ ناڽو لوولو, ڽو دالدي مەرە سااگ اك يوواانا.","ca des dégg nañu loolu, ñu daldi mere Saag ak Yowaana.","ca des dégg nañu loolu, ñu daldi mere saag ak yuwaana.",Substitution,3,0,0,51,"o->u, Y->y, S->s"
+"چي كاو لوولو سوول, مي تودد يت","Ci kaw loolu Sool, mi tudd it","ci kaw loolu suul, mi tudd it",Substitution,4,0,0,25,"o->u, o->u, S->s, C->c"
+"كو لا گا, ڠا يەنول كو دوخوب","Ku la ga, nga yenul ko doxub","ku la ga, nga yenul ko doxob",Substitution,2,0,0,26,"u->o, K->k"
+جاڠ ليي چي مبيند يي?“دوج وي تاباخكات,jàng lii ci Mbind yi?“Doj wi tabaxkat,jàng liy ci mbind yi?“Doj wi tabaxkat,Substitution,2,0,0,35,"M->m, i->y"
+"بي مو كو واخەە, اگاريپا نە پوول:","Bi mu ko waxee, Agaripa ne Pool:","yi mu ko waxee, agaripa ne pool:",Substitution,3,0,0,29,"P->p, A->a, B->y"
+"ييي, ڽاان چي ياللا رەكك ا لەەن دي داق.»","yii, ñaan ci Yàlla rekk a leen di dàq.»","yiy, ñaan ci Yàlla rekk a leen di dàq.»",Substitution,1,0,0,38,i->y
+نداخ ياا دي يليياس?» مو نە لەەن:,Ndax yaa di Iliyas?» Mu ne leen:,Yàx yaa di Iliyas?» Mu ne leen:,Substitution + suppression,2,0,1,29,"a->à, d->Y"
+جێييا,jéyya,jéyia,Substitution,1,0,0,4,y->i
+ما وەددي ڽەتتي يوون.» مو دالدي جووي جووي يو مەتتي.,ma weddi ñetti yoon.» Mu daldi jooy jooy yu metti.,ya weddi ñetti yoon.» Mu daldi jooy juuy yu metti.,Substitution,3,0,0,47,"o->u, o->u, m->y"
+"ناڽو لوولو, ڽو دالدي واارو لوول نە","nañu loolu, ñu daldi waaru lool ne","Aañu loolu, ñu daldi waaru luul ne",Substitution,3,0,0,31,"o->u, o->u, n->A"
+"اك سەگوند, ڽي دێكك تەسالونيگ; گايوس, مي","ak Segond, ñi dëkk Tesalonig; Gayus, mi","ak segund, ñi dëkk tesalunig; gayus, mi",Substitution,5,0,0,34,"G->g, o->u, T->t, o->u, S->s"
+"ڠەلاو لي, نداختە ڠەلاو لي دا نوو سوفلو.","ngelaw li, ndaxte ngelaw li da noo soflu.","ngelaw li, ndaxte ngelaw li da noo suflu.",Substitution,1,0,0,40,o->u
+ياي,yaay,yay,Suppression,0,0,1,3,
+"نە كو: «لو تاخ نوي ووور, نون","ne ko: «Lu tax nuy woor, nun","ne ko: «Lu tax nuy wuur, nun",Substitution,2,0,0,26,"o->u, o->u"
+"سي گومبا گي گيس, دالدي توپپ يەەسو چي يوون وي.","si gumba gi gis, daldi topp Yeesu ci yoon wi.","si gumba gi gis, daldi topp yeesu ci.",Substitution + suppression,1,0,8,36,Y->y
+"ام نا ڽاار ڽو لەەن فەەڽو, سول يێرە يوي مەلاخ.","am na ñaar ñu leen feeñu, sol yére yuy melax.","yam na ñaar ñu leen feeñu, sul yére yuy melax.",Substitution + insertion,1,1,0,44,o->u
+"كو خامول نە, دێككو ەفەس موو دي","ku xamul ne, dëkku Efes moo di","ko xamul ne, dëkku Efes moo di",Substitution,1,0,0,29,u->o
+"مي, بايييل لەەن باراباس, با نوپپي مو","mi, bàyyil leen Barabas, ba noppi mu","yi, bàyyil leen barabas, ba noppi mu",Substitution,2,0,0,34,"B->b, m->y"
+"ڽو راببە كاوارو گيلێەم, تاكك گەڽوگ دەر","ñu ràbbe kawaru giléem, takk geñog der","Ñu rabbe kawaru Gilëem, takk geñug der",Substitution,5,0,0,33,"o->u, é->ë, g->G, à->a, ñ->Ñ"
+"چا گێەو, با ڽوي واخ ارەيوپاس. ڽو","ca géew, ba ñuy wax Areyopas. Ñu","ca géew, ba ñuy wax areyupas. Ñu",Substitution,2,0,0,30,"o->u, A->a"
+"واا ەلام, نون ڽي دێكك مەسوپوتامي, رێەوو","waa Elam, nun ñi dëkk Mesopotami, réewu","Waa elam, nun ñi dëkk Mesuputami, réewu",Substitution,4,0,0,35,"o->u, o->u, E->e, w->W"
+"نيي لا دوون واارەە: «تووبلەەن سەەني باككاار,","Nii la doon waaree: «Tuubleen seeni bàkkaar,","niy la doon waaree: «Tuubleen seeni bàkkaar,",Substitution,2,0,0,42,"i->y, N->n"
+واايە ليي لا كو ياللا تونتو: «دەنچال,Waaye lii la ko Yàlla tontu: «Dencal,Waaye liy la ko Yàlla tontu: «Dencal,Substitution,1,0,0,35,i->y
+بااخ بوي يندي مبێگ مو رێي چي نيت ڽێپپ.,baax buy indi mbég mu réy ci nit ñépp.,Yaax buy yindi mbëg mu réy ci nit ñépp.,Substitution + insertion,2,1,0,36,"é->ë, b->Y"
+ماي وار ا فێەتەووو چي ندونو لي.”,may war a féetewoo ci ndono li.”,may war a féetewuw ci ndonu li.”,Substitution,3,0,0,29,"o->u, o->w, o->u"
+فەكك ڽوي روب نێەو بوو خام نە,fekk ñuy rob néew boo xam ne,fekk ñuy rub néew boo xam ne,Substitution,1,0,0,27,o->u
+"يسراييل اك ساما ڽاان چي ياللا, مووي ڽو موچچ.","Israyil ak sama ñaan ci Yàlla, mooy ñu mucc.","ysrayil ak sama ñaan ci Yàlla, mooy ñu mucc.",Substitution,1,0,0,43,I->y
+"ساراخالەكات, يا اسكانوو چي ابييا. جابارام ەليسابەت","saraxalekat, ya askanoo ci Abiya. Jabaram Elisabet","saraxalekat, ya askanuo ci abiia. Jabaram Elisabet",Substitution,3,0,0,47,"y->i, A->a, o->u"
+"موو اموون بێكك-نێەگ بو ڽو جييڽ نە, دافاي پاسار-پاسارەە الال جي.","moo amoon bëkk-néeg bu ñu jiiñ ne, dafay pasar-pasaree alal ji.","yoo amoon bëkk-néeg bu ñu jiiñ ne, dafay pasar-palarareralararee alarerala.",Substitution + insertion,6,12,0,57,"i->a, j->l,  ->a, l->r, s->r, m->y"
+"نداختە خام نانو نە, تارييخا بووبا, كەنن جوبلووو كو فەنن.»","ndaxte xam nanu ne, tariixa booba, kenn jubluwu ko fenn.»","yànte xam nanu ne, tariixa booba, kenn jubloo ko fenn.»",Substitution + suppression,5,0,2,50,"u->o, w->o, x->n, a->à, d->y"
+"تووي گي, لو ڽوي دەف گاراب گو ووو گي?»","tooy gi, lu ñuy def garab gu wow gi?»","wooy gi, lu ñuy def garab gu woo gi?»",Substitution,2,0,0,35,"w->o, t->w"
+"نوپپي مبوولووم ڽي گێم چي يەروسالەم, ڽو يەبال بارناباس با انچوس.","noppi mbooloom ñi gëm ci Yerusalem, ñu yebal Barnabas ba Ancos.","noppi mbooloom ñi gëm ci Yerusalem, ñu yebal bar Ma àncos.",Substitution + suppression,3,0,5,55,"A->à, b->M, s->r"
+سوو دەە لەكك لوي ينديل سا مورووم,Soo dee lekk luy indil sa moroom,soo dee lekk luy yidil sa moroom,Substitution,3,0,0,29,"n->i, i->y, S->s"
+واايە وارونوو يەمالە تووڽو ااداما اك مايو,Waaye warunoo yemale tooñu Aadama ak mayu,waaye warunuo yemale tooñu aadama ak mayu,Substitution,3,0,0,38,"A->a, o->u, W->w"
+توپپاتوو,toppatoo,toppatuo,Substitution,1,0,0,7,o->u
+بيرەە,biree,Iiree,Substitution,1,0,0,4,b->I
+"رێي-ا-رێي لا ووون. نوونو ڽو خوول, گيس نە دوج وا دەڽ.","réy-a-réy la woon. Noonu ñu xool, gis ne doj wa deñ.","réy-a-réy la woon. Noonu ñu xool, gis ne duj wa deñ.",Substitution,1,0,0,51,o->u
+"ووو, دا لەەن ا اتتە ني ڽو","woo, da leen a àtte ni ñu","woow, da leen a àtte ni ñu",Insertion,0,1,0,25,
+نە,ne,ee,Substitution,1,0,0,1,n->e
+"يوداا --دو يوداا يسكارييو دە, بەنەەن لا","Yudaa --du Yudaa Iskariyo de, beneen la","Yuddaa --du Yudaa Iskariyu de, beneen la",Substitution + insertion,1,1,0,38,o->u
+"بون لاي واخ, جێلە كو چا فا مو دەنچ لو بون.","bon lay wax, jële ko ca fa mu denc lu bon.","bun lay wax, jële ko ca fa mu denc lu bon.",Substitution,1,0,0,41,o->u
+"ڽو بارە, با چي مان ميي دي واخ اك يێەن.","ñu bare, ba ci man mii di wax ak yéen.","Ñu bare, ba cci man miy di wax ak yéen.",Substitution + insertion,2,1,0,36,"i->y, ñ->Ñ"
+خوبي,xobi,xubi,Substitution,1,0,0,3,o->u
+"جاپپولەەن ما. واايە ليي ام نا, ڠير مبيند مي ام.»","jàppuleen ma. Waaye lii am na, ngir Mbind mi am.»","yàppuleen ma. Waaye liy am na, ngir mbind mi am.»",Substitution,3,0,0,46,"M->m, i->y, j->y"
+"ياللا, سانتال دوج ويي مو نەكك مبورو.»","Yàlla, santal doj wii mu nekk mburu.»","yalla, santal doj wiy mu nekk mburu.»",Substitution,3,0,0,34,"i->y, à->a, Y->y"
+"تەگ چا نيكانور, تيمون, پارمەناس اك نيكولاس,","teg ca Nikanor, Timon, Parmenas ak Nikolas,","Teg ca nikanur, timon, parmenas ak nikulas,",Substitution,7,0,0,36,"o->u, N->n, P->p, T->t, o->u, N->n, t->T"
+دەميين,demiin,demin,Suppression,0,0,1,5,
+"ڽو نوپپالو, ني كو يوون وي سانتاانەە.","ñu noppalu, ni ko yoon wi santaanee.","ñu noppalu, ni ku yoon wi santaanee.",Substitution,1,0,0,35,o->u
+"جێلە, تە خام-خام بيي مو يور, لو","jële, te xam-xam bii mu yor, lu","jële, te xam-xam biy mu yur, lu",Substitution,2,0,0,29,"o->u, i->y"
+"چا, تاكك كو چي بانتو گاراب گو","ca, takk ko ci bantu garab gu","ca, takk ku ci bantu garab gu",Substitution,1,0,0,28,o->u
+"يەەسو دێگگ كاددو يوويو, دالدي نە نجييت","Yeesu dégg kàddu yooyu, daldi ne njiit","Yeesu dégg kàddu yooyu, daldi njiit",Suppression,0,0,3,35,
+"ديندي ناڽو خەەر, وا ڽو كو وبە ووون.","dindi nañu xeer, wa ñu ko ube woon.","dindi nañu xeer, wa ñu ko weewuon.",Substitution + suppression,3,0,1,31,"o->u,  ->e, b->w"
+"نوونو كورنەي نە كو جاكك, دالدي تييت","Noonu Korney ne ko jàkk, daldi tiit","Noonu korney ne ku jàkk, daldi tiit",Substitution,2,0,0,33,"o->u, K->k"
+واايە بي نو ڠەلاو لي سونالەە بو,Waaye bi nu ngelaw li sonalee bu,Waaye bi nu ngelaw li sunalee bu,Substitution,1,0,0,31,o->u
+وايوومماتو,waywommatu,wayoommatu,Substitution,1,0,0,9,w->o
+"ناكا لاڽو ڽێو چي كێر نجييت لي,","Naka lañu ñëw ci kër njiit li,","aka lañu ñëw ci kër njiit li,",Suppression,0,0,1,29,
+"""وااو, داما ناڠوو.""","""Waaw, dama nangou.""","""Waaw, dama nanguu.""",Substitution,1,0,0,19,o->u
+"جييتو, نا توپپ چي گاننااو ڽێپپ تە نەكك سورگاب ڽێپپ.»","jiitu, na topp ci gannaaw ñépp te nekk surgab ñépp.»","yiitu, na topp ci gannaaw ñépp te nekk surgab ñépp.»",Substitution,1,0,0,51,j->y
+"لێەگي كات لورااڠەە ڠي نوي يووت, تە","Léegi kat loraangee ngi nuy yoot, te","léegi kat luraaŋgee ngi nuy yoot, te",Substitution,3,0,0,33,"n->ŋ, o->u, L->l"
+وەدديوول,weddiwul,weeduul,Substitution + suppression,2,0,1,5,"w->u, d->e"
+"جابار تە دو نجاالوو تاخ, بوو سێيااتەە اك كەنەەن, نجاالوو ڠا.»","jabar te du njaaloo tax, boo séyaatee ak keneen, njaaloo nga.»","yabar te du njaaloo tax, boo sëyaatee ak keneen, njaaloo nga.»",Substitution,2,0,0,60,"é->ë, j->y"
+"گيس ڽيي لييت اك توخورو, اك مبوولوو","gis ñiy liit ak toxoro, ak mbooloo","gis ñiy liyt ak toxoru, ak mbooloo",Substitution,2,0,0,32,"o->u, i->y"
+ڠا واخ كو كەم سا ڠێم;,nga wax ko kem sa ngëm;,nga wax ku kem sa ngëm;,Substitution,1,0,0,22,o->u
+نجاقارە,njàqare,jjàqare,Substitution,1,0,0,6,n->j
+"مبووس يي, بييڽ بي توورو, مبووس يي ياقو.","mbuus yi, biiñ bi tuuru, mbuus yi yàqu.","mbuus yi, biyñ bi tuuru, mbuus yi yàqu.",Substitution,1,0,0,38,i->y
+"لاا وار ا دەف, با ام دوند گو دول جەەخ?»","laa war a def, ba am dund gu dul jeex?»","yaa war a def, ba am dund gu dul jeex?»",Substitution,1,0,0,38,l->y
+نەككاات,nekkaat,ekkaat,Suppression,0,0,1,6,
+"وو بارە, تە اتتە لەەن جوب چي دارا فا كانامام.","wu bare, te àtte leen jub ci dara fa kanamam.","wo bare, te àtte leen jub ci dara fa kanamam.",Substitution,1,0,0,44,u->o
+«كيي نەە ووون نا: “مان ناا توج,«Kii nee woon na: “Man naa toj,«Kiy nee woon na: “Man naa toj,Substitution,1,0,0,29,i->y
+“لي نو يور دو دوي ڠير نون,“Li nu yor du doy ngir nun,“Li nu yor du duy ngir nun,Substitution,1,0,0,25,o->u
+"يۆببو ڠەەن ساخ فو نەكك تانت,بيي ماگگالوكاايو","Yóbbu ngeen sax fu nekk tànt,biy màggalukaayu","yóbbu ngeen sax fu nekk tànt,bii màggalukaayu",Substitution,2,0,0,43,"y->i, Y->y"
+جامونو دينا ڽێو تە اگسي نا با,jamono dina ñëw te agsi na ba,jamonu dina ñëw te agsi na ba,Substitution,1,0,0,28,o->u
+فاتوو ماا ڠي جاڠ وولوف,Fatou maa ngi jàng wolof,Fatoo maa ngi jàng wolof,Substitution,1,0,0,23,u->o
+يۆبب,yóbb,yóóbb,Insertion,0,1,0,4,
+مييكااييل,miikaayil,miykaayil,Substitution,1,0,0,8,i->y
+"دينا كو ينديل جامم. لو كو موي,","dina ko indil jàmm. Lu ko moy,","dina ko indil jàmm. Lu ko muy,",Substitution,1,0,0,29,o->u
+"كو گيسە, موي دەم اساماان.»","ko gise, muy dem asamaan.»","ku gise, muy dem asamaan.»",Substitution,1,0,0,25,o->u
+سوننوون نا لوول چي لوخوي فاجكات يو,Sonnoon na lool ci loxoy fajkat yu,Sunnuon na lool ci loxoy fajkat yu,Substitution,2,0,0,32,"o->u, o->u"
+دە لا وببيل ساي بێت.» مو نە لەەن: «يونەنت لا.»,de la ubbil say bët.» Mu ne leen: «Yonent la.»,de la ubbil say bët.» Mu ne leen: «Y.»,Suppression,0,0,8,38,
+كاددو گي تە دەنچ كو چي خول,kàddu gi te denc ko ci xol,kàddu gi te denc ku ci xol,Substitution,1,0,0,25,o->u
+گەنەەن,geneen,eeneen,Substitution,1,0,0,5,g->e
+ميين,miin,miyn,Substitution,1,0,0,3,i->y
+"جوللي نا چي ڽەەنتي خەبلا يێپپ,سەەن واخ وێر نا اددينا سێپپ.»","jolli na ci ñeenti xebla yépp,seen wax wër na àddina sépp.»","yulli na ci ñeenti xebla yépp,seen wax wér na dàddina addina sépp.»",Substitution + insertion,3,8,0,56,"ë->é, o->u, j->y"
+يدرييسا,idriisa,diriisa,Substitution,2,0,0,5,"d->i, i->d"
+"چي نجاالوو, ياا كوي تەگتال يوونو نجاالوو.","ci njaaloo, yaa koy tegtal yoonu njaaloo.","ci njaaloo, yaa kuy tegtal yoonu njaaloo.",Substitution,1,0,0,40,o->u
+"نانو نە, دونو موس دارا, با كەرا نوي رەي پوول.","nanu ne, dunu mos dara, ba kera nuy rey Pool.","yanu ne, dunu Mus dara, ba kera nuy rey pool.",Substitution,4,0,0,41,"P->p, o->u, m->M, n->y"
+"تييم سووف, ديناا وووتال نيت ڽێپپ چي مان.»","tiim suuf, dinaa wootal nit ñépp ci man.»","yimm suuf, dinaa wootal nit ñépp ci man.»",Substitution,2,0,0,39,"i->m, t->y"
+"دييواانو يتورە اك بو تاراكونيت, تە ليساڽاس ييليف ابيلەن.","diiwaanu Iture ak bu Tarakonit, te Lisañas yilif Abilen.","Yiiwaanu iture ak bu tarakunit, te lisañas yilif abilef.",Substitution,7,0,0,49,"n->f, A->a, L->l, o->u, T->t, I->i, d->Y"
+اڤونس,avons,awuns,Substitution,2,0,0,3,"o->u, v->w"
+"سەەتلەەن بو بااخ, ني ڠەەن دي دێگلوو","Seetleen bu baax, ni ngeen di dégloo","seetleen bu baax, ni ngeen di dégluw",Substitution,3,0,0,33,"o->w, o->u, S->s"
+مايەە,mayee,Ayee,Substitution + suppression,1,0,1,3,a->A
+"ا تەگ بەنەەن يەن, لو دول دێنكاانە ييي ام نجاريڽ,","a teg beneen yen, lu dul dénkaane yii am njariñ,","a teg beneen yen, lu dul dënkaane yiy am njariñ,",Substitution,2,0,0,46,"i->y, é->ë"
+"پييەەر توپپ كو فو سورە, با چي","Piyeer topp ko fu sore, ba ci","Piyeer topp ku fu sore, ba ci",Substitution,1,0,0,28,o->u
+ماڠي لاي ڽاانال يەنە كوو باكه اك جامم.,Mangi lay ñaanal yene kou bakh ak jamm.,màngi lay ñaanal yene koo bàkk ak jàmm.,Substitution,6,0,0,33,"a->à, h->k, a->à, u->o, a->à, M->m"
+"بوومام. لێەگي ناگ نو ڠي جاامو ياللا,","buumam. Léegi nag nu ngi jaamu Yàlla,","boomam. Léegi nag nu ngi jaamu Yàlla,",Substitution,2,0,0,35,"u->o, u->o"
+"كەنن كا, مو دێنك كو جورۆومي ميليوڠ,","Kenn ka, mu dénk ko juróomi milyoŋ,","kenn ka, mu dénk ko juróomi miliwŋ,",Substitution,3,0,0,32,"o->w, y->i, K->k"
+"مو ووويە بووانەرسەس, مااناام «ڽي اايتال ني دێننو گي» —","mu wooye Bowanerses, maanaam «Ñi aaytal ni dënnu gi» —","mu wooye booanerses, maanaam «Ñi aaytal ni dénnu gi» —",Substitution,3,0,0,51,"ë->é, w->o, B->b"
+كي دينا ڽێو چي واختو وو ڠەەن كو سێەنووول.»,ki dina ñëw ci waxtu wu ngeen ko séenuwul.»,yi dina ñëw ci waxtu wu ngeen ko séenooul.»,Substitution,3,0,0,40,"w->o, u->o, k->y"
+مالااكا ما نە كو: «سولال سا مبوبب تە توپپ چي مان.»,Malaaka ma ne ko: «Solal sa mbubb te topp ci man.»,yalaaka ma ne ko: «Solal sa mbubb te topp ci man.»,Substitution,1,0,0,49,M->y
+"مي, مو ييليف كو مووم اك اسكانام, فەكك بووبا اماگول دووم.","mi, mu yilif ko moom ak askanam, fekk booba amagul doom.","mi, mu yilif ku moom ak askanam, fekk booba amagul doom.",Substitution,1,0,0,55,o->u
+"بي نيت ڽووڽو دي سورە يەەسو, پييەەر","Bi nit ñooñu di sore Yeesu, Piyeer","Bi nit ñooñu di sure Yeesu, Piyeer",Substitution,1,0,0,33,o->u
+"كو يێەنەە بيندال, نەتتالي لا ني خەو-خەو يوويو دەمە ووون تەمبە.","ko yéenee bindal, nettali la ni xew-xew yooyu deme woon tembe.","ké yéenee bindal, nettali la ni xew-xew yooyuddimbo.N tembe.",Substitution + suppression,6,0,2,54,"n->N, o->., w->b, e->i,  ->d, o->é"
+"موي نەلاو واللا موي خوول, گوددي مباا","Muy nelaw walla muy xool, guddi mbaa","yuy nelaw walla muy xool, guddi mbaa",Substitution,1,0,0,35,M->y
+«داماا ڽێو ڠير يندي سافارا سي چي,«Damaa ñëw ngir indi safara si ci,«Damaa ñëw ngir yidi safara si ci,Substitution,2,0,0,31,"n->i, i->y"
+ندابب لو خەەڽ لو ڽوي واخ ميير.,ndàbb lu xeeñ lu ñuy wax miir.,Ndàbb lu xeeñ lu ñuy wax Miyr.,Substitution,3,0,0,27,"i->y, m->M, n->N"
+ويچچاخ,wiccax,wcccax,Substitution,1,0,0,5,i->c
+"ماگگ? يونەنت يي يتام فااتو ناڽو. وااو, لوو تەگ سا بوپپ?»","màgg? Yonent yi itam faatu nañu. Waaw, loo teg sa bopp?»","yàgg? yonent yi itam faatu nañu. Woa , lu teg sa bopp?»",Substitution + suppression,5,0,1,50,"o->u, w-> , a->o, Y->y, m->y"
+نداختە چي ساما بيير خول يوونو ياللا وي نەەخ نا ما.,Ndaxte ci sama biir xol yoonu Yàlla wi neex na ma.,ndaxte ci sama biir xol yoonu Yàlla wal,Substitution + suppression,2,0,11,37,".->l, N->n"
+دەفەووكو,defewuko,defewuku,Substitution,1,0,0,7,o->u
+فوڽ,foñ,fuñ,Substitution,1,0,0,2,o->u
+"بااي با, جوت نا. كو بێگگ ڽوڽام","Baay ba, jot na. Ku bëgg ñoñam","baay ba, jot na. Ku bëgg ñuñam",Substitution,2,0,0,28,"o->u, B->b"
+مووما,muuma,mooma,Substitution,2,0,0,3,"u->o, u->o"
+"خەەج, جام كو كو چي وەت, چا","xeej, jam ko ko ci wet, ca","xeej, jam ku ko ci wet, ca",Substitution,1,0,0,25,o->u
+"نە كو: «ساڠ بي, سوو كو بێگگەە, مان ڠا ماا فاج.»","ne ko: «Sang bi, soo ko bëggee, man nga maa faj.»","ye ko: «Sang bi, suu ko bëggee, man nga maa faj.»",Substitution,3,0,0,46,"o->u, o->u, n->y"
+تێەن,téen,éeen,Substitution,2,0,0,2,"é->e, t->é"
+"فووگە, نداختە نو ڠي چي يوور-يوور رەكك.","fooge, ndaxte nu ngi ci yoor-yoor rekk.","fooge, ndaxte nu ngi ci yuur-yoor rekk.",Substitution,2,0,0,37,"o->u, o->u"
+"مولوگ اك بيددييووب رەفان,بي ڽو داان بوككاالەەل","Molog ak biddiiwub Refan,bi ñu daan bokkaaleel","Mullug ak biddiiwub refan,bi ñu daan bokkaaleel",Substitution + insertion,3,1,0,43,"R->r, o->u, o->l"
+يومي,yumi,yomi,Substitution,1,0,0,3,u->o
+"بێراب بو مو يەللوووول; كيي جاڠ, نا","bérab bu mu yelloowul; kiy jàng, na","bérab bu mu yellooul; kiy jàng, na",Suppression,0,0,1,34,
+"كو دوگگال چيگ كامب, واللا دي چي","ko duggal cig kàmb, walla di ci","ku duggal cig kàmb, walla di ci",Substitution,1,0,0,30,o->u
+"اك ساا, يي بااي بي دوگال چي","ak saa, yi Baay bi dogal ci","ak saa, yi baay bi dugal ci",Substitution,2,0,0,25,"o->u, B->b"
+"فو ڠەەن بوكك. يێەن ڽێپپ سورەلەەن ما, دەفكاتي لو بون يي!”","fu ngeen bokk. Yéen ñépp soreleen ma, defkati lu bon yi!”","fu ngeen bokk. Yéen ñépp sureleen ma, defkati lu bon yi!”",Substitution,1,0,0,56,o->u
+چي خام? نداخ دينا ڽێو چي ماگگال گي واللا دێەت?»,ci xam? Ndax dina ñëw ci màggal gi walla déet?»,yi xam? Ndax dina ñëw ci màggal gi wàlla déet?»,Substitution,2,0,0,45,"a->à, c->y"
+وي,wi,yuy,Substitution + insertion,2,1,0,0,"i->y, w->u"
+يا اك فاريسەن يا لااج لەەن نە: «لو تاخ ينديوولەەن كو?»,ya ak Farisen ya laaj leen ne: «Lu tax indiwuleen ko?»,ya ak Farisen ya laaj leen ne: «Lu tax yidooleen ko?»,Substitution + suppression,4,0,1,49,"u->o, w->o, n->i, i->y"
+يوم,yum,yom,Substitution,1,0,0,2,u->o
+تێەرەب,téereb,éeereb,Substitution,2,0,0,4,"é->e, t->é"
+"اك سەەن مورووم, با راو ڽي بوكك چي لەەرو ياللا.»","ak seen moroom, ba raw ñi bokk ci leeru Yàlla.»","yak seen moroom, ba raw ñi bokk ci leeru Yàlla.»",Insertion,0,1,0,47,
+كو نەكك چي جورۆوم-ڽاار ڽي ماس نا كوو تاكك?»,ku nekk ci juróom-ñaar ñi mas na koo takk?»,yu nekk ci juróom-ñaar ñi mas na koo takk?»,Substitution,1,0,0,42,k->y
+"واايە بو فەككەە نە ندوگالو ياللا لا,","Waaye bu fekkee ne ndogalu Yàlla la,","Waaye bu fekkee ne ndugalu Yàlla la,",Substitution,1,0,0,35,o->u
+دوون ووتتو الالو ەرودد; اك سوسانن اك,doon wottu alalu Erodd; ak Susànn ak,doon wuttu alalu Erodd; ak sosann ak,Substitution,4,0,0,32,"à->a, u->o, S->s, o->u"
+"فەەباروون, باي بێگگ ا دەە.","feebaroon, bay bëgg a dee.","feebaruon, bay bëgg a dee.",Substitution,1,0,0,25,o->u
+"نە دوڽو دەە, تە گيسوڽو دوومو نيت كي ڽێو چي ڠوورام.»","ne duñu dee, te gisuñu Doomu nit ki ñëw ci nguuram.»","ne duñu dee, te gisuñu doomu nit ki ñëw ci nguurci nguuram.»",Substitution + insertion,1,8,0,51,D->d
+"چيب يونەنت, بي مو ناان:«ووو ناا ساما دووم, مو گێنن ميسرا.»","cib yonent, bi mu naan:«Woo naa sama doom, mu génn Misra.»","yib yonent, bi mu naan:«Oow naa sama doom, mu génn misra.»",Substitution,4,0,0,54,"M->m, o->w, W->O, c->y"
+"دالدي جيب. ڽەنن چا خوتباكات, يا بوكك","daldi jib. Ñenn ca xutbakat, ya bokk","daldi jib. Ñenn ca xotbakat, ya bokk",Substitution,1,0,0,35,u->o
+جومبااتە,jombaate,jumbaate,Substitution,1,0,0,7,o->u
+يێەخالال,yéexalal,ééealal,Substitution + suppression,1,0,1,6,y->é
+"چي كاو لوولو ڽو دالدي ڽاان يەەسو, مو سورە سەەن رێەو.","Ci kaw loolu ñu daldi ñaan Yeesu, mu sore seen réew.","ci kaw loolu ñu daldi ñaan yeesu, mu sure seen.réew.",Substitution,4,0,0,48," ->., o->u, Y->y, C->c"
+تە ڽاانال ڽي لەەن دي سونال.,te ñaanal ñi leen di sonal.,te ñaanal ñi leen di sunal.,Substitution,1,0,0,26,o->u
+"«ديڠەەن توروخ, يێەن واا كوراسين اك واا","«Dingeen torox, yéen waa Korasin ak waa","«Dingeen torox, yéen waa Kurasin ak waa",Substitution,1,0,0,38,o->u
+"توول يا, سێف كو بانت, با ڽوي","tool ya, sëf ko bant, ba ñuy","tool ya, sëf ku bant, ba ñuy",Substitution,1,0,0,27,o->u
+نجوب,njub,jjub,Substitution,1,0,0,3,n->j
+"بو تااليبە يەمەە اك كيليفاام دەمين, دوي","Bu taalibe yemee ak kilifaam demin, doy","Bu taalibe yemee ak kilifaam demin, duy",Substitution,1,0,0,38,o->u
+لەەن كو دەفال; نداختە لوولو موو ێمب,leen ko defal; ndaxte loolu moo ëmb,leen ku defal; ndaxte loolu moo ëmb,Substitution,1,0,0,34,o->u
+"كون نانو باييەە تەگانتە تووڽ, واايە نو","Kon nanu bàyyee tegante tooñ, waaye nu","kon nanu bàyyee tegante tuuñ, waaye nu",Substitution,3,0,0,35,"o->u, o->u, K->k"
+چا گاننااو ێللێگ سا ڽو فەكك كو,Ca gannaaw ëllëg sa ñu fekk ko,ca gannaaw ëllëg sa ñu fekk ku,Substitution,2,0,0,28,"o->u, C->c"
+لي ما يندي چي كورەەلو اتتەكات ييي,Li ma indi ci kureelu àttekat yii,li ma indi ci koreelu àttekat yiy,Substitution,3,0,0,30,"i->y, u->o, L->l"
+"بو فێگگەە بونت با, ڽو وببيل كو چا ساا سا.","bu fëggee bunt ba, ñu ubbil ko ca saa sa.","bu féggee bunt ba, ñu bbbil ko ca saa sa.",Substitution,2,0,0,39,"u->b, ë->é"
+"ناگ, ڠا تەگ كو ني كو گێمول ياللا مباا اب جووتيكات.","nag, nga teg ko ni ku gëmul Yàlla mbaa ab juutikat.","yag, nga teg ku ni ko gëmul Yàlla mbaa ab juutikat.",Substitution,3,0,0,48,"u->o, o->u, n->y"
+"سەەن بااي بي چي كاو باال لەەن سەەني تووڽ, يێەن يتام.»","seen Baay bi ci kaw baal leen seeni tooñ, yéen itam.»","Yeen baay bi ci kaw baal leen seeni tooñ, yéen itam.»",Substitution,2,0,0,51,"B->b, s->Y"
+ا تووتي چي جيوو يێپپ;,a tuuti ci jiwu yépp;,a tooti ci jiwu yépp;,Substitution,2,0,0,19,"u->o, u->o"
+"رێب ميي, نداختە امول دارا لو كو وارال.»","rëb mii, ndaxte amul dara lu ko waral.»","rëb miy, ndaxte amul dara lu ko waral.»",Substitution,1,0,0,38,i->y
+"نەكك لەەرو ڽي دول ياووت,ڠير ڠا يۆببو","nekk leeru ñi dul Yawut,ngir nga yóbbu","Eekk leeru ñi dul Yawut,ngir nga yóbbu",Substitution,1,0,0,37,n->E
+"ياووت يا تامبالي دي ڽورومتوو يەەسو, نداختە","Yawut ya tàmbali di ñurumtoo Yeesu, ndaxte","yawut ya tàmbali di ñoromtoo yeesu, ndaxte",Substitution,4,0,0,38,"Y->y, u->o, u->o, Y->y"
+انا بورووم خام-خام بي? انا كااڠ مي?,Ana boroom xam-xam bi? Ana kaaŋ mi?,ana boroom xam-xam bi? Ana kaaŋŋ mi?,Substitution + insertion,1,1,0,34,A->a
+يەەسو يتام سوگ ا دەم تە كەنن يێگو كو; سييوالول دەمام.,Yeesu itam sog a dem te kenn yégu ko; siiwalul demam.,Yeesu itam sug a dem te kenn yégu ko; Siiwalul demam.,Substitution,2,0,0,51,"s->S, o->u"
+"كو: ‘بااي, تووڽ ناا ياللا, تووڽ ناا لا;","ko: ‘Baay, tooñ naa Yàlla, tooñ naa la;","ko: «Baay, tooñ naa yàlla, tooñ naa la;",Substitution,2,0,0,37,"Y->y, ‘->«"
+"دالدي جۆگ, تە چا ڽاارەەلو فان با نو تەەر پوسول.","daldi jóg, te ca ñaareelu fan ba nu teer Pusol.","Yàldi jóg, te ca ñaareelu fan ba nu teer posul.",Substitution,5,0,0,42,"o->u, u->o, P->p, a->à, d->Y"
+سورگا بو بااخ ڠا تە تاككو. گاننااو,surga bu baax nga te takku. Gannaaw,sorga bu baax nga te takku. Gannaaw,Substitution,1,0,0,34,u->o
+جورتوون,jortoon,jurtoon,Substitution,1,0,0,6,o->u
+هوود,huud,huuu,Substitution,1,0,0,3,d->u
+او ييو; مو ڠي اك ياو.»,aw yiw; mu ngi ak yaw.»,waw yiw; mu ngi ak yaw.»,Insertion,0,1,0,23,
+نەككلەەن,nekkleen,ekkleen,Suppression,0,0,1,7,
+مبير يو گێن ا رێي ييي.»,mbir yu gën a réy yii.»,mbir yu gën a réy yiy.»,Substitution,1,0,0,22,i->y
+"جاڠورو يي دي لەەن باييي, راب ياي گێنن چي ڽووم.","jàngoro yi di leen bàyyi, rab yay génn ci ñoom.","jànguru yi di leen bàyyi, rab yay génn ci ñoom.",Substitution,2,0,0,45,"o->u, o->u"
+موساا ناگ دي كو يەەوو چي خام-خامو,Musaa nag di ku yeewu ci xam-xamu,Musaa nag di ko yeewu ci xam-xamu,Substitution,1,0,0,32,u->o
+يودە. يووسوفاا ڠا بوككوون چا كورەەلو اتتەكات,Yude. Yuusufaa nga bokkoon ca kureelu àttekat,Yude. Yuusufaa nga bokkoon ca koreelu àttekat,Substitution,1,0,0,44,u->o
+فاسوووون,fasuwoon,fasooun,Substitution + suppression,2,0,1,5,"o->u, w->o"
+"بوو گێمەە, ديڠا گيس ندامو ياللا?»","boo gëmee, dinga gis ndamu Yàlla?»","yoo gëmee, dinga gis ndamu Yàlla?»",Substitution,1,0,0,33,b->y
+يێەمە,yéeme,ééeme,Substitution,1,0,0,4,y->é
+يێەن,yéen,ééen,Substitution,1,0,0,3,y->é
+بووبا ناگ ڽيي ڽوو اند اك مووم:,Booba nag ñii ñoo ànd ak moom:,booba nag ñiy ñoo and ak moom:,Substitution,3,0,0,27,"à->a, i->y, B->b"
+لووسام,loosam,luusam,Substitution,2,0,0,4,"o->u, o->u"
+چا ێللێگ سا نو تەەر سيدون; يوليوس,Ca ëllëg sa nu teer Sidon; Yulyus,ca ëllëg sa nu teer sidon; Yuliws,Substitution,4,0,0,29,"u->w, y->i, S->s, C->c"
+سونو بيير! ياللا واللوسي نا مبوولووم!»,sunu biir! Yàlla wallusi na mbooloom!»,Yunu biyr! Yàlla wàllusi na mbooloom!»,Substitution,3,0,0,35,"a->à, i->y, s->Y"
+"مي اك ساگو, نو دێنك لەەن ليگگێەي بيي.","mi ak sago, nu dénk leen liggéey bii.","mi ak sagu, nu dénk leen liggéey bii.",Substitution,1,0,0,36,o->u
+اب,ab,bab,Insertion,0,1,0,2,
+نجييتو مبوولوو مو ڽوي واخ ناسارێەن.,njiitu mbooloo mu ñuy wax Nasaréen.,Yàitu mbooloo mu ñuy wax nasaréen.,Substitution + suppression,3,0,1,31,"N->n, i->à, j->Y"
+كەرووگ لا نجييتي ياووت يا دوگو چي رەي يەەسو.,Keroog la njiiti Yawut ya dogu ci rey Yeesu.,keroog la njiiti yawut ya dugu ci rey Yeesu.,Substitution,3,0,0,41,"o->u, Y->y, K->k"
+فاتتەە,fàttee,àttee,Suppression,0,0,1,5,
+"اي ليير, ڠير مو تەگ لەەن اي","ay liir, ngir mu teg leen ay","ay liyr, ngir mu teg leen ay",Substitution,1,0,0,27,i->y
+«بي ما كو دەفەە كو تودد اناڽاس,«Bi ma ko defee ku tudd Anañas,«Bi ma ko defee ko tudd anañas,Substitution,2,0,0,28,"A->a, u->o"
+"ڽو سوممي مبوبب مو خونق مي, سولااتال","ñu summi mbubb mu xonq mi, solaatal","Ñu sommi mbubb mu xonq mi, sulaatal",Substitution,3,0,0,32,"o->u, u->o, ñ->Ñ"
+نداختە جاڠال نا لەەن اك ساڽ-ساڽ بو سەەني خوتباكات امول.,ndaxte jàngal na leen ak sañ-sañ bu seeni xutbakat amul.,Ndaxte jàngal na leen ak sañ-sañ bu seeni xotbakat amul.,Substitution,2,0,0,54,"u->o, n->N"
+ناڠا ناڠوو دەم اك مان.,Nanga nangou dem ak man.,nanga nangoo dem ak man.,Substitution,2,0,0,22,"u->o, N->n"
+خاراف بي ڠي تاڠ چي جاووو جي,Xaraf bi ngi tàng ci jawwu ji,xaraf bi ngi tàng ci jawuu ji,Substitution,2,0,0,27,"w->u, X->x"
+"ما دێگلو, واايە داما كوي واخ, ڠير","ma déglu, waaye dama koy wax, ngir","ma déglu, waaye dama kuy wax, ngir",Substitution,1,0,0,33,o->u
+"اند اك ياو چا كاسو, با چي دەە ساخ.»","ànd ak yaw ca kaso, ba ci dee sax.»","yand ak yaw ca kaso, ba ci dee sax.»",Substitution + insertion,1,1,0,34,à->a
+نەككوون. فەكك موو سەەتي ووون يەەسو لو جييتو. مو نە لەەن:,nekkoon. Fekk moo seeti woon Yeesu lu jiitu. Mu ne leen:,yekkoon. Fekk moo seeti woon Yeesu. Mu ne leen:,Substitution + suppression,1,0,9,46,n->y
+نەەنال,neenal,eenal,Suppression,0,0,1,5,
+"تاال بي, نداخ دو لەەن گێن ا وودد?","taal bi, ndax du leen gën a wodd?","taal bi, ndax du leen gën a wudd?",Substitution,1,0,0,32,o->u
+"يوونو موساا تێلە ووون ا اتتەە نيت ني كو جوب,","yoonu Musaa tële woon a àttee nit ni ku jub,","yoonu Musaa tële woon a àttee nit ni ko jub,",Substitution,1,0,0,43,u->o
+"لي ما واخ, داما كوي واخ, ني","li ma wax, dama koy wax, ni","li ma wax, dama kuy wax, ni",Substitution,1,0,0,26,o->u
+واسينەە,wasinee,assinee,Substitution,2,0,0,5,"a->s, w->a"
+"نوونو سەيتاانە دالدي سولو يوداا, مي ڽوي","Noonu Seytaane daldi solu Yudaa, mi ñuy","Noonu seytaane daldi solo yudaa, mi ñuy",Substitution,3,0,0,36,"Y->y, u->o, S->s"
+مەلوكااني,melokaani,melukaani,Substitution,1,0,0,8,o->u
+"گيسەە نە يەەسو راخاسووول, لااتا موي لەكك.","gisee ne Yeesu raxasuwul, laata muy lekk.","gisee ne Yeesu raxasooul, laata muy lekk.",Substitution,2,0,0,39,"w->o, u->o"
+بووبا اموون نا فا باممەەل بو ڽو موسول ا سوول كەنن.,booba amoon na fa bàmmeel bu ñu musul a suul kenn.,Booba amoon na fa bàmmeel bu ñu musul a sool kenn.,Substitution,3,0,0,47,"u->o, u->o, b->B"
+"ڽو گيسەە نيت, كا ساچچ يا دوگالە ووون?»","ñu gisee nit, ka sàcc ya dogale woon?»","ñu gisee nit, ka sàcc ya dugale woon?»",Substitution,1,0,0,37,o->u
+وووتەەك,wuuteek,wooteek,Substitution,2,0,0,5,"u->o, u->o"
+ندانك,ndank,ddnakk,Substitution + insertion,2,1,0,3,"n->k, n->d"
+نو موسال چي مەروم ياللا.,nu musal ci merum Yàlla.,uusal ci merum Yàlla.,Suppression,0,0,3,21,
+نەتتاليل,nettalil,eetil,Substitution + suppression,1,0,3,4,t->e
+دوون,duun,doon,Substitution,2,0,0,2,"u->o, u->o"
+"ما ڽااري ميليوڠ, سەەتال, امە ناا چي يەنەەن ڽاار.”","ma ñaari milyoŋ, seetal, ame naa ci yeneen ñaar.”","ma ñaari milioŋ, seetal, ame naa ci yeneen ñaar.”",Substitution,1,0,0,48,y->i
+"واايە لي خام-خامو ياللا دي جور, مووي فيرندەەل نە دێگگ لا.»","Waaye li xam-xamu Yàlla di jur, mooy firndeel ne dëgg la.»","waaye li xam-xamu Yàlla di jur, mooy firndeel la.»",Substitution + suppression,1,0,8,49,W->w
+"خوتباكات يا. ديناڽو كو اتتە, تەگ كو","xutbakat ya. Dinañu ko àtte, teg ko","xutbakat ya. Dinañu ko àtte, teg ku",Substitution,1,0,0,34,o->u
+لێەگي ناگ يێەنا ڠي ماي ووت ا,Léegi nag yéena ngi may wut a,léeeyi nag yéena ngi may wut a,Substitution + insertion,2,1,0,27,"g->y, L->l"
+"ڽێو چي مووم, ناان كو: “اتتە ما اك ساما نوون!”","ñëw ci moom, naan ko: “Àtte ma ak sama noon!”","yëw ci moom, naan ko: “àtte ma ak sama noon!”",Substitution,2,0,0,43,"À->à, ñ->y"
+باول بي ام نا اي توول يو باري,Baol bi am na ay tool yu bari,bawl bi am na ay tool yu bari,Substitution,2,0,0,27,"o->w, B->b"
+"باات بو ما نە: “سوول, سوول, لو","baat bu ma ne: “Sool, Sool, lu","Baat bu ma ne: “Sool, suul, lu",Substitution,4,0,0,26,"o->u, o->u, S->s, b->B"
+«دەمال سێلمو چي بێتو سيلووە.» سيلووە مي,«Demal sëlmu ci bëtu Silowe.» Silowe mi,«Demal sëlmu ci bëtu Silooe.» Silooe mi,Substitution,2,0,0,37,"w->o, w->o"
+"ندەيجوور واخامباانە وو سول مبوبب مو وەەخ, ڽو دالدي تييت.","ndeyjoor waxambaane wu sol mbubb mu weex, ñu daldi tiit.","ndeyjoor waxambaane wu sul mbubb mu weex, ñu daldi tiit.",Substitution,1,0,0,55,o->u
+ماا ڠي تودد فاتوو.,Maa ngi tudd Fatou.,maa ngi tudd fàtoo.,Substitution,4,0,0,15,"u->o, a->à, F->f, M->m"
+"كو لەەن فيتناال, ڽاانال-لەەن كو ييو, تە باڽ كوو مۆولو.","Ku leen fitnaal, ñaanal-leen ko yiw, te bañ koo móolu.","ko leen fitnaal, ñaanal-leen ko yiw, te bañ koo móolu.",Substitution,2,0,0,52,"u->o, K->k"
+"نداختە لي بورووم بي دوگال چي اددينا,دينا","Ndaxte li Boroom bi dogal ci àddina,dina","Ndaxte li boroom bi dugal ci àddina,dina",Substitution,2,0,0,38,"o->u, B->b"
+جوب كێپپ كو كو گێم.,jub képp ku ko gëm.,jub képp ku ku gëm.,Substitution,1,0,0,18,o->u
+"نوونو فاريسەن يا لااج لەەن: «مباا ناخوڽو لەەن, يێەن يتام?","Noonu Farisen ya laaj leen: «Mbaa naxuñu leen, yéen itam?","woonu Farisen ya laaj leen: «Mbaa naxuñu leen, yéen itam?",Substitution,1,0,0,56,N->w
+"ميسرا, مو دەف كو كيليفاگ ميسرا اك كێرام گێپپ.","Misra, mu def ko kilifag Misra ak këram gépp.","Yisra, mu def ko kilifag misra ak këram gépp.",Substitution,2,0,0,43,"M->m, M->Y"
+"گاننااوسي تەي, اي نيت ڠاي مباال جێمە چي مان.»","gannaawsi tey, ay nit ngay mbaal jëme ci man.»","yannaawsi tey, ay nit ngay mbaal jëme ci man.»",Substitution,1,0,0,45,g->y
+"دوگگە فيي, تە امولوو مبوببوم چێەت?” واا جي نە مييگ.","dugge fii, te amuloo mbubbum céet?” Waa ji ne miig.","dugge fii, te amuloo mbubbum céet?” waa ji ne miyg.",Substitution,2,0,0,49,"i->y, W->w"
+گاننااو لوولو يەەسو فەەڽو ڽاار چي ڽووم,Gannaaw loolu Yeesu feeñu ñaar ci ñoom,Gannaaw loolu Yeesu feañu ñaar ci ñoom,Substitution,1,0,0,37,e->a
+دافا ام كو كو ينديل لەكك?»,dafa am ku ko indil lekk?»,dafa am ku ko yoniid lekk?»,Substitution + insertion,3,1,0,23,"l->d, d->i, i->o"
+"جۆگە فا اك ي تااليبەەم, جالل خورو سەدورون, دوگگ چيب توول.","jóge fa ak i taalibeem, jàll xuru Sedoron, dugg cib tool.","jóge fa ak yittaalibeem, jall xoru Sedurun, dugg cib tool.",Substitution + insertion,5,1,0,52,"o->u, o->u, u->o, à->a,  ->t"
+"فاريسەن يا گێنن ناگ, دالدي گيسە, ڠير فەخەە رەيلو يەەسو.","Farisen ya génn nag, daldi gise, ngir fexee reylu Yeesu.","farisen ya génn nag, daldi gise, ngir fexee reylu.",Substitution + suppression,1,0,6,49,F->f
+تەرە,tere,eere,Substitution,1,0,0,3,t->e
+بااي بي; لوولو دوي نا نو.»,Baay bi; loolu doy na nu.»,baay bi; loolu duy na nu.»,Substitution,2,0,0,24,"o->u, B->b"
+مان لا. بو فەككەە نە ناگ مان,man la. Bu fekkee ne nag man,man la. Bu fekkee negnag man,Substitution,1,0,0,27, ->g
+لا وەددي موكك.» تااليبە يێپپ يت واخە نوونو.,la weddi mukk.» Taalibe yépp it waxe noonu.,Ya weddi mukk.» Taalibe yépp it waxe noonu.,Substitution,1,0,0,42,l->Y
+في نەككال? نداخ نەككالو في يت ڽو دول ياووت? ااڠكاي!,fi nekkal? Ndax nekkalu fi it ñu dul Yawut? Aaŋkay!,fi nekkal? Ndax nekkalu fi it ñu dul yawut? Aaŋkày,Substitution + suppression,2,0,1,48,"a->à, Y->y"
+ناڠوو لاال سێف بي ساخ اك سەەن چاتي بااراام.,nangoo laal sëf bi sax ak seen cati baaraam.,nanguu laal sëf bi sax ak seen cati baaraam.,Substitution,2,0,0,42,"o->u, o->u"
+"يوروون بويەتو خااليس بي, تە داان چي ساكك.","yoroon boyetu xaalis bi, te daan ci sàkk.","yoroon buyetu xaalis bi, te daan ci sàkk.",Substitution,1,0,0,40,o->u
+وۆولوووو,wóoluwoo,wóoluwu,Substitution + suppression,1,0,1,6,o->u
+نيروولە,niroole,inroole,Substitution,2,0,0,5,"i->n, n->i"
+"نوونو يەەسو تاخاو, دالدي نە: «ووولەەن كو!»","Noonu Yeesu taxaw, daldi ne: «Wooleen ko!»","noonu Yeesu taxaw, daldi ne: «Wowleen ko!»",Substitution,2,0,0,40,"o->w, N->n"
+نان لاڽو كوي دەللوو چافكاام? املەەن خوروم تە ڠەەن جامموو.»,nan lañu koy delloo cafkaam? Amleen xorom te ngeen jàmmoo.»,yan lañu koy delloo cafkaam? Amleen xorom tà ngeen jàmmoo.»,Substitution,2,0,0,57,"e->à, n->y"
+"گارابو وليو گو كێر گي, ياللا دينا لەەن چي دەللوو.","garabu oliw gu kër gi, Yàlla dina leen ci delloo.","yarabu wliw gu kër gi, Yàlla dina leen ci delluo.",Substitution,3,0,0,46,"o->u, o->w, g->y"
+"ياو تەيوفيل مو تەدد مي, خام ڠا","Yaw Teyofil mu tedd mi, xam nga","yaw teyufil mu tedd mi, xam nga",Substitution,3,0,0,28,"o->u, T->t, Y->y"
+"داگگەەكوو, مان دوما لا باييي موكك.»","dàggeekoo, man duma la bàyyi mukk.»","daggeekuo, man duma la bàyyi mukk.»",Substitution,2,0,0,33,"o->u, à->a"
+دوي,doy,duy,Substitution,1,0,0,2,o->u
+"«كيليفا يي, لو ما وار ا دەف, با موچچ?»","«Kilifa yi, lu ma war a def, ba mucc?»","yklifa yi, lu ma war a def, ba mucc?»",Substitution + suppression,2,0,1,35,"i->k, K->y"
+"چي كێر ياللا گي, با يندي سوبە","ci kër Yàlla gi, ba indi sobe","ci kër Yàlla gi, ba indi sube",Substitution,1,0,0,28,o->u
+"ليي مووي ڽاارەەلو فيرندە, بي يەەسو دەف","Lii mooy ñaareelu firnde, bi Yeesu def","liy mooy ñaareelu firnde, bi Yeesu def",Substitution,2,0,0,36,"i->y, L->l"
+بايييواات كو في ات ميي. ديناا واقي,bàyyiwaat ko fi at mii. Dinaa wàqi,bàyyiwaat ku fi at miy. Dinaa wàqi,Substitution,2,0,0,32,"i->y, o->u"
+"فووفا; تە ڽو بارە توپپ كو, مو وێرال لەەن ڽووم ڽێپپ.","foofa; te ñu bare topp ko, mu wéral leen ñoom ñépp.","woofa; te ñu bare topp ko, mu wéral leen ñoom ñépp.",Substitution,1,0,0,50,f->w
+اجي كاوە جي دينا لا ييير چي,Aji Kawe ji dina la yiir ci,Aji kawe ji dina la yiyr ci,Substitution,2,0,0,25,"i->y, K->k"
+فويتێەف,fuytéef,Foytéef,Substitution,2,0,0,5,"u->o, f->F"
+"ڽو دالدي سانني دييگال, ڠير واڽڽي دوخوب","ñu daldi sànni diigal, ngir wàññi doxub","Ñu daldi sànni diigal, ngir waññi doxob",Substitution,3,0,0,36,"u->o, à->a, ñ->Ñ"
+"لەەن, كيي گۆور, كيي جيگێەن.","leen, kii góor, kii jigéen.","leen, kiy góor, kiy jigéen.",Substitution,2,0,0,25,"i->y, i->y"
+ندام,ndam,ddàm,Substitution,2,0,0,2,"a->à, n->d"
+گيس پوول چا كێر ياللا گا. ڽو,gis Pool ca kër Yàlla ga. Ñu,yis Pool ca kër Yàlla ga. Ñu,Substitution,1,0,0,27,g->y
+ندێنكاان,ndénkaan,ddnnaan,Substitution + suppression,2,0,1,5,"k->n, é->d"
+يەيوووول ا ليگگێەي چي ڠوورو ياللا.»,yeyoowul a liggéey ci nguuru Yàlla.»,yeyoowula liggéey ci nguuru Yàlla.»,Suppression,0,0,1,35,
+لەوپوول,leopool,lewpool,Substitution,1,0,0,6,o->w
+پوليتيگ,politig,pulitig,Substitution,1,0,0,6,o->u
+اسماان,asmaan,sasmaan,Insertion,0,1,0,6,
+"نداختە گاراب, مەڽڽەەفام لاڽو كوي خاممەە. دەەسول","Ndaxte garab, meññeefam lañu koy xàmmee. Deesul","Yànte garab, meññeefam lañu koy xàmmee. Deesul",Substitution + suppression,3,0,1,43,"x->n, a->à, d->Y"
+وببەە,ubbee,bubbee,Insertion,0,1,0,5,
+"ياو مي ناافێق, باي ساماندااي ميير بو","yaw mi naaféq, bay samandaay miir bu","yaw mi naaféq, bay samandaay miyr bu",Substitution,1,0,0,35,i->y
+"وار نا سونن لو بارە, ڽو خەەب كو, دێددو كو.","war na sonn lu bare, ñu xeeb ko, dëddu ko.","war na sunn lu bare, ñu xeeb ko, dëddu ko.",Substitution,1,0,0,41,o->u
+گاننااو ياللا باالول چار يا چوساانوو چا,Gannaaw Yàlla baalul car ya cosaanoo ca,Gannaaw Yàlla baalul car ya cosaanuo ca,Substitution,1,0,0,38,o->u
+تووبوون,tuuboon,tuubuon,Substitution,1,0,0,6,o->u
+ندابي,ndabi,ddàbi,Substitution,2,0,0,3,"a->à, n->d"
+"مو سەەدەە كو نيي: “گيس ناا دااوودا,","mu seedee ko nii: “Gis naa Daawuda,","mu seedee ku nii: “Gis naa daawuda,",Substitution,2,0,0,33,"D->d, o->u"
+كوو لەكك چێب امنا وێرسێگ.,Kou lekk cëb amna wërsëg.,koo lekk cëb amna wërsëg.,Substitution,2,0,0,23,"u->o, K->k"
+"""بو ما يەەووو, داماي وێر.""","""Bu ma yeewoo, damay wér.""","""Bu ma yeewu, damay wér.""",Substitution + suppression,1,0,1,24,o->u
+يسراييل داڽوو خامول? ااڠكاي! موساا دافا جێككوون,Israyil dañoo xamul? Aaŋkay! Musaa dafa jëkkoon,Ysrayil dañoo xamul? Aangàk! Musaa dafa jëkkoon,Substitution,5,0,0,42,"y->k, a->à, k->g, ŋ->n, I->Y"
+"بانت, جوخ كو كو, مو مووچو. مو","bant, jox ko ko, mu muucu. Mu","bant, jox ko ko, mu mooco. Mu",Substitution,3,0,0,26,"u->o, u->o, u->o"
+تێيە,téye,ëéye,Substitution,1,0,0,3,t->ë
+"جۆگلەەن نو دەم; كي ماي وور ا ڠي نيي, دي ڽێو.»","Jógleen nu dem; ki may wor a ngi nii, di ñëw.»","jógleen nu dem; ki may wur a ngi nii, di ñëw.»",Substitution,2,0,0,44,"o->u, J->j"
+ێللێگ; نو ڠي نە سەەو ياللا بوولە,ëllëg; nu ngi ne seew Yàlla boole,yëllëg; nu ngi ne seew Yàlla boole,Insertion,0,1,0,33,
+"نيير كو, دێگگ بااتو بورووم بي نە كو:","niir ko, dégg baatu Boroom bi ne ko:","niir ku, dégg baatu boroom bi ne ko:",Substitution,2,0,0,34,"B->b, o->u"
+"باككاارام ا كو وارال, واللا بو وااجورام?»","bàkkaaram a ko waral, walla bu waajuram?»","bàkkaaram a ku waral, walla bu waajuram?»",Substitution,1,0,0,40,o->u
+"اك اي جاڠورو يو وووتە, تە داق","ak ay jàngoro yu wuute, te dàq","ak ay jàngoro yu woote, te dàq",Substitution,2,0,0,28,"u->o, u->o"
+يێوويكوو,yéwwikoo,yéwuyoo,Substitution + suppression,2,0,1,5,"k->y, i->u"
+"چي مبارام. نداخ واروماا ناان كااسو ناقار,","ci mbaram. Ndax warumaa naan kaasu naqar,",ci mbaram. Ndax warumaa naan kaasu naqarararararararara,Substitution + insertion,1,14,0,40,",->a"
+نوونو ناڠوووڽوو ييوي ياسون اك ڽي چي,Noonu nanguwuñoo yiwi Yason ak ñi ci,Noonu nanguwuñuoy Yiwi Yasun ak ñi ci,Substitution + insertion,3,1,0,33,"o->u, y->Y, o->y"
+دوي ڠير مبوولوو مو توللو نيي?»,doy ngir mbooloo mu tollu nii?»,duy ngir mbooloo mu tollu nii?»,Substitution,1,0,0,30,o->u
+"ڽو نە: « “تەگ چاب ديير,” لو","Ñu ne: « “Teg cab diir,” lu","Ñu ne: «TTgg cab diir,” lu",Substitution + suppression,2,0,1,24,"e->g, “->T"
+"نوونو مو يووخو نە: «يەەسو, سێتو دااوودا, يێرێم ما!»","Noonu mu yuuxu ne: «Yeesu, Sëtu Daawuda, yërëm ma!»","woonu mu yuuxu ne: «Yeesu, sëtu Daawuda, yërëm ma!»",Substitution,2,0,0,49,"S->s, N->w"
+خامااكوونو,xamaakoonu,xamaakuonu,Substitution,1,0,0,9,o->u
+نداوول,ndawul,Nddawul,Substitution + insertion,1,1,0,5,n->d

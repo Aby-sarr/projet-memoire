@@ -19,8 +19,8 @@ import java.util.List;
  * SERVICE DE TRANSLITTÉRATION
  * ============================================================
  *
- * Le backend Spring Boot sert d'intermédiaire entre Angular
- * et le modèle IA Python/FastAPI.
+ * Ce service assure la communication entre Angular,
+ * Spring Boot et le modèle IA Python/FastAPI.
  *
  * Architecture :
  *
@@ -28,14 +28,19 @@ import java.util.List;
  *    ↓
  * Spring Boot
  *    ↓
- * FastAPI : http://127.0.0.1:5000/predict
+ * FastAPI
  *    ↓
- * PyTorch / best_model.pt
+ * Modèle Seq2Seq avec attention
  *
- * Les directions lat2off et off2lat restent gérées par
- * WolofDatasetGenerator.
+ * Directions prises en charge :
  *
- * La direction lat2ajami utilise désormais le vrai modèle IA.
+ * - lat2off   : Latin courant → Orthographe officielle CLAD
+ * - off2lat   : Orthographe officielle CLAD → Latin courant
+ * - lat2ajami : Latin → Ajami
+ * - ajami2lat : Ajami → Latin
+ *
+ * Les directions lat2ajami et ajami2lat utilisent
+ * le modèle IA Python/FastAPI.
  * ============================================================
  */
 @Service
@@ -43,9 +48,7 @@ import java.util.List;
 public class TransliterationService {
 
     private final WolofDatasetGenerator generator;
-
     private final RestClient restClient;
-
     private final ObjectMapper objectMapper;
 
     /**
@@ -67,7 +70,7 @@ public class TransliterationService {
     }
 
     /**
-     * Point d'entrée principal.
+     * Point d'entrée principal de la translittération.
      */
     public TransliterationResponse transliterate(
             TransliterationRequest request) {
@@ -78,33 +81,54 @@ public class TransliterationService {
         String direction = request.getDirection();
 
         log.debug(
-                "Translittération: '{}' [{}]",
+                "Translittération : '{}' [{}]",
                 text,
                 direction
         );
 
-        // ----------------------------------------------------
-        // 1. Texte source
-        // ----------------------------------------------------
-
+        /*
+         * 1. Tokenisation du texte source.
+         */
         List<String> srcTokens = tokenize(text);
 
-        // ----------------------------------------------------
-        // 2. Translittération selon la direction
-        // ----------------------------------------------------
-
+        /*
+         * 2. Translittération selon la direction demandée.
+         */
         String outputText;
 
         switch (direction) {
 
             case "lat2ajami":
 
-                outputText = callAiModel(text);
+                /*
+                 * Latin → Ajami
+                 * Utilise le modèle IA.
+                 */
+                outputText = callAiModel(
+                        text,
+                        "lat2ajami"
+                );
+
+                break;
+
+            case "ajami2lat":
+
+                /*
+                 * Ajami → Latin
+                 * Utilise le modèle IA inverse.
+                 */
+                outputText = callAiModel(
+                        text,
+                        "ajami2lat"
+                );
 
                 break;
 
             case "lat2off":
 
+                /*
+                 * Latin courant → orthographe officielle CLAD.
+                 */
                 outputText =
                         generator.toOfficiel(text);
 
@@ -112,6 +136,9 @@ public class TransliterationService {
 
             case "off2lat":
 
+                /*
+                 * Orthographe officielle CLAD → Latin courant.
+                 */
                 outputText =
                         generator.toLatinFromOfficiel(text);
 
@@ -119,27 +146,22 @@ public class TransliterationService {
 
             default:
 
-                outputText = text;
+                throw new IllegalArgumentException(
+                        "Direction invalide : " + direction
+                );
         }
 
-        // ----------------------------------------------------
-        // 3. Tokens cible
-        // ----------------------------------------------------
+        /*
+         * 3. Tokenisation du résultat.
+         */
+        List<String> tgtTokens = tokenize(outputText);
 
-        List<String> tgtTokens =
-                tokenize(outputText);
-
-        // ----------------------------------------------------
-        // 4. Attention
-        // ----------------------------------------------------
-        //
-        // Pour le moment, les vrais poids d'attention
-        // ne sont pas encore renvoyés par FastAPI.
-        //
-        // On conserve donc le mécanisme actuel afin de
-        // ne pas casser Angular.
-        // ----------------------------------------------------
-
+        /*
+         * 4. Calcul des scores d'attention.
+         *
+         * Les vrais poids Bahdanau ne sont pas encore
+         * retournés par FastAPI.
+         */
         List<Double> attentionScores =
                 computeAttentionScores(
                         srcTokens,
@@ -150,15 +172,14 @@ public class TransliterationService {
                 System.currentTimeMillis() - startTime;
 
         log.debug(
-                "Résultat IA: '{}' en {}ms",
+                "Résultat : '{}' en {} ms",
                 outputText,
                 processingTime
         );
 
-        // ----------------------------------------------------
-        // 5. Réponse vers Angular
-        // ----------------------------------------------------
-
+        /*
+         * 5. Réponse envoyée à Angular.
+         */
         return TransliterationResponse.builder()
                 .input(text)
                 .output(outputText)
@@ -171,9 +192,9 @@ public class TransliterationService {
     }
 
     /**
-     * ========================================================
-     * APPEL DU MODÈLE IA PYTHON
-     * ========================================================
+     * ============================================================
+     * APPEL DU MODÈLE IA PYTHON / FASTAPI
+     * ============================================================
      *
      * Appelle :
      *
@@ -182,18 +203,28 @@ public class TransliterationService {
      * avec :
      *
      * {
-     *     "text": "ndank"
-     * }
-     *
-     * et récupère :
-     *
-     * {
-     *     "input": "ndank",
-     *     "output": "ندانك",
+     *     "text": "jamm",
      *     "direction": "lat2ajami"
      * }
+     *
+     * ou :
+     *
+     * {
+     *     "text": "جامم",
+     *     "direction": "ajami2lat"
+     * }
+     *
+     * La réponse attendue contient notamment :
+     *
+     * {
+     *     "input": "...",
+     *     "output": "...",
+     *     "direction": "..."
+     * }
      */
-    private String callAiModel(String text) {
+    private String callAiModel(
+            String text,
+            String direction) {
 
         try {
 
@@ -204,7 +235,10 @@ public class TransliterationService {
                                     MediaType.APPLICATION_JSON
                             )
                             .body(
-                                    new PredictionRequest(text)
+                                    new PredictionRequest(
+                                            text,
+                                            direction
+                                    )
                             )
                             .retrieve()
                             .body(String.class);
@@ -236,7 +270,8 @@ public class TransliterationService {
         } catch (Exception e) {
 
             log.error(
-                    "Erreur lors de l'appel au modèle IA FastAPI",
+                    "Erreur lors de l'appel au modèle IA FastAPI pour la direction {}",
+                    direction,
                     e
             );
 
@@ -252,7 +287,8 @@ public class TransliterationService {
      * Requête envoyée à FastAPI.
      */
     private record PredictionRequest(
-            String text
+            String text,
+            String direction
     ) {}
 
     /**
@@ -266,7 +302,7 @@ public class TransliterationService {
         return new DatasetStats(
                 dataset.size(),
                 countUniqueTokens(dataset),
-                "modèle IA Seq2Seq pour lat2ajami"
+                "modèle Seq2Seq avec attention"
         );
     }
 
@@ -285,10 +321,9 @@ public class TransliterationService {
         );
     }
 
-    // --------------------------------------------------------
-    // MÉTHODES PRIVÉES
-    // --------------------------------------------------------
-
+    /**
+     * Tokenise le texte selon les espaces.
+     */
     private List<String> tokenize(String text) {
 
         if (text == null ||
@@ -303,11 +338,10 @@ public class TransliterationService {
     }
 
     /**
-     * Conservation temporaire de l'attention simulée.
+     * Calcule temporairement les scores d'attention.
      *
-     * IMPORTANT :
-     * Cette méthode sera remplacée ensuite par les vrais
-     * poids Bahdanau renvoyés par FastAPI.
+     * Les vrais poids Bahdanau pourront être récupérés
+     * directement depuis FastAPI dans une prochaine étape.
      */
     private List<Double> computeAttentionScores(
             List<String> src,
@@ -346,7 +380,7 @@ public class TransliterationService {
     }
 
     /**
-     * Compte les tokens uniques.
+     * Compte les tokens uniques du dataset.
      */
     private int countUniqueTokens(
             List<WolofPhrase> dataset) {
@@ -363,7 +397,7 @@ public class TransliterationService {
     }
 
     /**
-     * Statistiques du dataset.
+     * Structure contenant les statistiques du dataset.
      */
     public record DatasetStats(
             int totalPhrases,

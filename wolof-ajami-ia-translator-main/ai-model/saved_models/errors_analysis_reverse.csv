@@ -1,0 +1,1045 @@
+﻿id,Ajami,Wolof_attendu,Wolof_predit,category,operations
+1,فاريسەن يي لااج يەەسو نە كو: «كاڽ,Farisen yi laaj Yeesu ne ko: «Kañ,farisen yi laaj Yeesu ne ko: «Kañ,Majuscule / minuscule,replace
+2,"نوونو مو فاب كااس, دالدي سانت ياللا","Noonu mu fab kaas, daldi sant Yàlla","Noonu mu fab kaas, daldi sant yàlla",Majuscule / minuscule,replace
+3,دێپپ,dëpp,dépp,Diacritique / accent,replace
+4,"كو نەكك چي توول بي, بول ڽيببي ڠير فاب سا مبوبب.","Ku nekk ci tool bi, bul ñibbi ngir fab sa mbubb.","wu nekk ci tool bi, bul ñibbi ngir fab sa mbubb.",Substitution,replace
+5,چێرام,cëram,céram,Diacritique / accent,replace
+6,"كو, باييي كو مو دەم.»","ko, bàyyi ko mu dem.»","ko, bayyi ko mu dem.»",Diacritique / accent,replace
+7,نداختە بيند ناڽو: «كێپپ كو ووو بورووم,Ndaxte bind nañu: «Képp ku woo Boroom,Ndaxte bind nañu: «Képp ku woo boroom,Majuscule / minuscule,replace
+8,يوونو موساا داال دو دەف لو دول,Yoonu Musaa daal du def lu dul,yoonu Musaa daal du def lu dul,Majuscule / minuscule,replace
+9,"خارەكات يا دي واخانتە ناان: «مبوبب مي,","Xarekat ya di waxante naan: «Mbubb mi,","xarekat ya di waxante naan: «Mbubb mi,",Majuscule / minuscule,replace
+10,"بي ڽو اگسەە چي يەەسو, دامموڽو اي","Bi ñu agsee ci Yeesu, dammuñu ay","Bi ñu agsee ci Yeesu, dàmmuñu ay",Diacritique / accent,replace
+11,"كو نيي: دافا يۆنني دوومام, ڠير مو","ko nii: dafa yónni Doomam, ngir mu","ku nii: dafa yónni doomam, ngir mu",Substitution,replace | replace
+12,"ەگگ دييواانو سەنەسارەت, ڽو تەەر فا,","egg diiwaanu Senesaret, ñu teer fa,","Egg diiwaanu Senesaret, ñu teer fa,",Majuscule / minuscule,replace
+13,"گاننااو ليدد سورەوول اك يوپە ناگ, تە","Gannaaw Lidd sorewul ak Yope nag, te","Gannaaw lidd Surewul ak yope nag, te",Substitution,replace | replace | replace
+14,ناكا سا مبوكك.,Naka sa mbokk.,naka sa mbokk.,Majuscule / minuscule,replace
+15,"چي كاو, دو ساخ دووم جي, واايە","ci kaw, du sax Doom ji, waaye","ci kaw, du sax doom ji, waaye",Majuscule / minuscule,replace
+16,دێگگال,dëggal,déggal,Diacritique / accent,replace
+17,گێرێمەە,gërëmee,ërërëmee,Duplication / répétition,replace
+18,"كو گێن ا خاملە, ڠير مبێگگەەل, گي","ko gën a xamle, ngir mbëggeel, gi","ku gën a xamle, ngir mbéggeel, gi",Substitution,replace | replace
+19,واايە نون مێنونوو باڽ ا واخ لي,Waaye nun mënunoo bañ a wax li,Waaye nun mënunuoo bañ a wax li,Duplication / répétition,insert
+20,"ڽو سانني ناتتوكااي با چي بيير گێەج,","Ñu sànni nattukaay ba ci biir géej,","Ñu sanni nattukaay ba ci biir géej,",Diacritique / accent,replace
+21,"چي وەتو توندو وليو يا. نوونو يەەسو يەبال ڽااري تااليبە,","ci wetu tundu Oliw ya. Noonu Yeesu yebal ñaari taalibe,","ci wetu tundu Oliw ya. Noonu Yeesu yebalibe,",Suppression,delete
+22,"لي, لااج كو, نداخ ياگگ نا فااتو.","li, laaj ko, ndax yàgg na faatu.","li, laaj ko, ndax yagg na faatu.",Diacritique / accent,replace
+23,سا بااي بي بێت مێنتا گيس. نوونو,sa Baay bi bët mënta gis. Noonu,sa baay bi bët mënta gis. Noonu,Majuscule / minuscule,replace
+24,فاتت,fatt,fàtt,Diacritique / accent,replace
+25,"توپپ, واايە ماي ما, ما جێكك ا تاگگوجي ساما واا كێر.»","topp, waaye may ma, ma jëkk a tàgguji sama waa kër.»","wopp, waaye may ma, ma jëkk a tagguji sama wér.»",Substitution,replace | replace | replace
+26,چي كاو لوولو يەەسو واخ نجييت لا,Ci kaw loolu Yeesu wax njiit la,ci kaw loolu Yeesu wax njiit la,Majuscule / minuscule,replace
+27,بو لەەن كەنن لااجەە: “لو تاخ ڠەەن,Bu leen kenn laajee: “Lu tax ngeen,bu leen kenn laajee: “Lu tax ngeen,Majuscule / minuscule,replace
+28,ساا سا لو موي تەككي; واايە گاننااو,saa sa lu muy tekki; waaye gannaaw,saa sa lu muy tekki; waaye gànnaaw,Diacritique / accent,replace
+29,واايە ياللا واخ كو نە:«يانقۆوبا راكك جي,Waaye Yàlla wax ko ne:«Yanqóoba rakk ji,Waaye Yàlla wax ku ne:«Yànqóoba rakk ji,Substitution,replace | replace
+30,خاججالەووڽو,xàjjalewuñu,xajjalewuñu,Diacritique / accent,replace
+31,"كو با نوپپي, واايە گێمولەەن. جێف يي","ko ba noppi, waaye gëmuleen. Jëf yi","ku ba noppi, waaye gëmuleen. Jëf yi",Substitution,replace
+32,"كو تونتو: “بو ما لاككال, تێج ناا","ko tontu: “Bu ma lakkal, tëj naa","ku tontu: “Bu ma lakkal, tëj naa",Substitution,replace
+33,ياا ڠي دوخ چي ێچولە بي,Yaa ngi dox ci école bi,yaa ngi dox ci école bi,Majuscule / minuscule,replace
+34,گێوانتاگول,géwantagul,gëwantagul,Diacritique / accent,replace
+35,"مو گومبا تە لوو. يەەسو فاج كو,","mu gumba te luu. Yeesu faj ko,","mu gumba te loo. Yeesu faj ko,",Substitution,replace
+36,"كو فا; فەكك مووم فاس نا يێەنەي دوخ, با اگسي فا.","ko fa; fekk moom fas na yéeney dox, ba agsi fa.","ku fa; fekk moom fas na yéeney dox, ba agsi fa.",Substitution,replace
+37,"ڽو ناان: «نداخ كيي دو يەەسو, دوومو","Ñu naan: «Ndax kii du Yeesu, doomu","Ñu naan: «Ndax kiy du Yeesu, doomu",Substitution,replace
+38,گەنت,gent,eent,Duplication / répétition,replace
+39,كو گێرێم. فەكك نيتو ساماري لا ووون.,ko gërëm. Fekk nitu Samari la woon.,ko gërëm. Fekk nitu samari la woon.,Majuscule / minuscule,replace
+40,"لا يێككاتي بو كاوە? دێەدێەت, دەەس نا","la yékkati bu kawe? Déedéet, dees na","la yékkati bu kawe? déedéet, dees na",Majuscule / minuscule,replace
+41,ناساراان,nasaraan,aasaan,Erreur multiple / combinaison,replace | delete
+42,بورووم توول با نە جاوريڽ جا: “ووووال,boroom tool ba ne jawriñ ja: “Woowal,Boroom tool ba ne jawriñ ja: “Wowuwal,Substitution,replace | replace
+43,نديير,ndiir,Nddir,Erreur multiple / combinaison,replace | delete
+44,"موو تاخ ناڠوونتەلەەن, باي ماگگال ياللا, ني لەەن كيريست ناڠوو.","Moo tax nangoonteleen, bay màggal Yàlla, ni leen Kirist nangoo.","moo tax nangoonteleen, bay màggal Yàlla, ni leen kiristi Karoo.",Erreur multiple / combinaison,replace | replace | insert | replace | replace
+45,ياللاا,yàllaa,Yàllaa,Majuscule / minuscule,replace
+46,رێچچو,réccu,rëccu,Diacritique / accent,replace
+47,فاسانتەە,fasantee,Fasantee,Majuscule / minuscule,replace
+48,يااك,yaak,aak,Suppression,delete
+49,تە بي مو رێچچەە چا گێەج گا,te bi mu rëccee ca géej ga,Te bi mu rëccee ca géej ga,Majuscule / minuscule,replace
+50,"دينا كو دۆور اي يار يو مەتتي,","Dina ko dóor ay yar yu metti,","dina ko dóor ay yar yu metti,",Majuscule / minuscule,replace
+51,"ناس, بي ياللا دوگالوون تە خام كو","nas, bi Yàlla dogaloon te xam ko","nas, bi Yàlla dugaloon te xam ku",Substitution,replace | replace
+52,"چي جامونو جووجو ماريااما جۆگ, گااوانتو دەم","Ci jamono jooju Maryaama jóg, gaawantu dem","ci jamono jooju Maryaama jóg, gaawantu dem",Majuscule / minuscule,replace
+53,"چيگ رێەر, نداختە خامولەەن مبيند مي مباا كاتتانو ياللا.","cig réer, ndaxte xamuleen Mbind mi mbaa kàttanu Yàlla.","cig réer, ndaxte xamuleen mbind mi mbaa kattanu Yàlla.",Diacritique / accent,replace | replace
+54,"با مەل نيي خالە, دوڠەەن دوگگ موكك","ba mel niy xale, dungeen dugg mukk","ba mel nii xale, dungeen dugg mukk",Substitution,replace
+55,نەەن لا; فو نوي جێلە لو دوي ڠير دوندال لەەن?»,neen la; fu nuy jële lu doy ngir dundal leen?»,yeen la; fu nuy jële lu duy ngir dundal leen?»,Substitution,replace | replace
+56,"گاننااو لوولو يەەسو گێنناات, او بوورو دەخ","Gannaaw loolu Yeesu génnaat, aw booru dex","gannaaw loolu Yeesu génnaat, aw buuru dex",Substitution,replace | replace
+57,"فيير? ينديل-لەەن ما پوسەتو دەنارييون, ما سەەت.»","fiir? Indil-leen ma posetu denariyon, ma seet.»","yiir? Indil-leen ma posetu denariyon, ma seet.»",Substitution,replace
+58,"فااتو لێەگي, واايە ڽێوال, تەگ كو ساي لوخو, تە دينا دونداات.»","faatu léegi, waaye ñëwal, teg ko say loxo, te dina dundaat.»","yaatu léegi, waaye ñëwal, teg ko say luxu, te dina dundaat.»",Substitution,replace | replace | replace
+59,كێر گي ام نا بونتو بو ماگ.,Kër gi am na buntu bu mag.,kër gi am na buntu bu mag.,Majuscule / minuscule,replace
+60,بيرالەە,biralee,Iiralee,Substitution,replace
+61,"لەەن جاارالە; ييو وي اك دێگگ گي,","leen jaarale; yiw wi ak dëgg gi,","leen jaarale; yiw wi ak dégg gi,",Diacritique / accent,replace
+62,"كيريست? خاناا دوي ناتتو, تە دو نجاقارە,","Kirist? Xanaa duy nattu, te du njàqare,","kirist? Xanaa doy nattu, te du njàqare,",Substitution,replace | replace
+63,"بي كو بورووم با گيسەە, مو دالدي","Bi ko Boroom ba gisee, mu daldi","Bi ko boroom ba gisee, mu daldi",Majuscule / minuscule,replace
+64,لوو خام چي لي ڽيي سەەدە چي ياو?»,Loo xam ci li ñii seede ci yaw?»,loo xam ci liy ñiy seede ci yaw?»,Erreur multiple / combinaison,replace | insert | replace
+65,"بيرال, مباا لوي كومپا لو ڽو وارول ا سييوال.","biral, mbaa luy kumpa lu ñu warul a siiwal.","yiral, mbaa luy kompa lu ñu warul a siiwal.",Substitution,replace | replace
+66,چا بێراب بو وێەت. واايە بي كو,ca bérab bu wéet. Waaye bi ko,ca bérab bu wéet. Waaye bi ku,Substitution,replace
+67,"يا, ڠير ڽو تەەرو كو تەەرو بو","ya, ngir ñu teeru ko teeru bu","ya, ngir ñu teeru ku teeru bu",Substitution,replace
+68,چي لي دالە چي جامونوي ياخيا با,Ci li dale ci jamonoy Yaxya ba,ci li dale ci jamonoy Yaxya ba,Majuscule / minuscule,replace
+69,نێو,nëw,ëëw,Duplication / répétition,replace
+70,"نداختە دو دااووداا يێەگ چي اساماان, واايە","Ndaxte du Daawudaa yéeg ci asamaan, waaye","Ndaxte du daawudaa yéeg ci asamaan, waaye",Majuscule / minuscule,replace
+71,"واايە سو ڠەەن دي لااج لەنەەن, مبوولووم دێگگ دينا كو اتتە.","Waaye su ngeen di laaj leneen, mbooloom dëgg dina ko àtte.","Waaye su ngeen di laaj leneen, mbooloom dégg dina ko àtte.",Diacritique / accent,replace
+72,"نداختە اموون ڠا جورۆومي جێككێر, تە كي","ndaxte amoon nga juróomi jëkkër, te ki","Ndaxte amoon nga juróomi jëkkër, te ki",Majuscule / minuscule,replace
+73,"نيي چي يوون وي?» نوونو ڽو تاخاو, سەەن خول جەەخ.","nii ci yoon wi?» Noonu ñu taxaw, seen xol jeex.","niy ci yoon wi?» Noonu ñu taxaw, seex.",Erreur multiple / combinaison,replace | delete
+74,جيگەەن جي جاڠ چي تێەرە بي,Jigeen ji jàng ci téere bi,jigeen ji jàng ci téere bi,Majuscule / minuscule,replace
+75,"سەنەسارەت. مبوولوو ما وێر كو, دي بووخانتە ڠير دێگلو كاددوگ ياللا.","Senesaret. Mbooloo ma wër ko, di buuxante ngir déglu kàddug Yàlla.","senesaret. Mbooloo ma wér ko, di booxante ngir déglu Kàddug yàldag.",Erreur multiple / combinaison,replace | replace | replace | replace | replace | replace | insert
+76,"يێف ييي لەەر نا بوور بي, موو","Yëf yii leer na buur bi, moo","yëf yiy leer na buur bi, moo",Substitution,replace | replace
+77,"ماريااما تە گيس لي يەەسو دەفوون, دالدي كوي گێم.","Maryaama te gis li Yeesu defoon, daldi koy gëm.","Maryaama te gis li Yeesu deloon, daldi koy gëm.",Substitution,replace
+78,فووفيي,foofii,foofiy,Substitution,replace
+79,"مووي جييتو, دي يێگلە ڽێوو بورووم بي,","Mooy jiitu, di yégle ñëwu Boroom bi,","Mooy jiitu, di yégle ñëwu boroom bi,",Majuscule / minuscule,replace
+80,كو نەكك واارو نا نداخ ماگگوگ ياللا.,Ku nekk waaru na ndax màggug Yàlla.,ku nekk waaru na ndax màggug Yàlla.,Majuscule / minuscule,replace
+81,"يەروسالەم وێر كو, دي كو جييڽ تووڽ","Yerusalem wër ko, di ko jiiñ tooñ","Yerusalem wér ko, di ko jiiñ tooñ",Diacritique / accent,replace
+82,ياا ڠي واخ چي ونيڤەرسيتێ بي,Yaa ngi wax ci université bi,yaa ngi wax ci université bi,Majuscule / minuscule,replace
+83,جولليل ندامو ياللا. نوونو يەەسو نە كو: «توپپال چي مان!»,jollil ndamu Yàlla. Noonu Yeesu ne ko: «Toppal ci man!»,yullil ndamu Yàlla. Noonu Yeesu ne ko: «Toppal ci man!»,Substitution,replace
+84,"مو باڽ لەەن ا سانت, ڽو دەم","mu bañ leen a sant, ñu dem","Mu bañ leen a sant, ñu dem",Majuscule / minuscule,replace
+85,"ني بورووم سێەت بي يێەخەە ڽێو ناگ, ڽێپپ گێممەەنتو باي نەلاو.","Ni boroom séet bi yéexee ñëw nag, ñépp gëmmeentu bay nelaw.","yi boroom séet bi yéexee ñëw nag, ñépp gëmmeentul.",Erreur multiple / combinaison,replace | delete | delete
+86,"نە: «كيي چي كاتتانو بەەلسەبول, بوورو راب","ne: «Kii ci kàttanu Beelsebul, buuru rab","ne: «Kii ci kàttanu beelsebul, buuru rab",Majuscule / minuscule,replace
+87,"وا جاار دێككو امفيپوليس اك اپولوني, دوور","wa jaar dëkku Amfipolis ak Apoloni, door","aaj jaar dëkku Amfipulis ak Ap lapuloni, door",Erreur multiple / combinaison,delete | insert | replace | replace
+88,گاننااو لوولو جامونو جي ەليسابەت وار ا,Gannaaw loolu jamono ji Elisabet war a,gannaaw loolu jamono ji Elisabet war a,Majuscule / minuscule,replace
+89,"مبوولووم ياووت يێپپ, موي چي يەروسالەم, موي","mbooloom Yawut yépp, muy ci Yerusalem, muy","mbooloom yawut yépp, muy ci Yerusalem, muy",Majuscule / minuscule,replace
+90,"ڽووم, تە بو چي وەرانتە.” جورۆوم-بەنني بوكك,","ñoom, te bu ci werante.” Juróom-benni bokk,","Ñoom, te bu ci werante.” juróom-benni bokk,",Majuscule / minuscule,replace | replace
+91,ام چا مبوولوو ما كو نە يەەسو:,Am ca mbooloo ma ku ne Yeesu:,am ca mbooloo ma ko ne Yeesu:,Substitution,replace | replace
+92,بێگال,bégal,bëgal,Diacritique / accent,replace
+93,"ڠەەن فەككسي ما چي لي ما نەكك, لو موي جێڠ ييي!»","ngeen fekksi ma ci li ma nekk, lu moy jéng yii!»","ngeen fekksi ma ci li ma nekk, lu muy jéng yii!»",Substitution,replace
+94,خالە بي دەم چي مارچهێ بي,Xale bi dem ci marché bi,xale bi dem ci marché bi,Majuscule / minuscule,replace
+95,ديڠەەن دێگگ اي خارە اك چوووي خارە;,Dingeen dégg ay xare ak coowi xare;,dingeen dégg ay xare ak coowi xare;,Majuscule / minuscule,replace
+96,"گيناار ا ساب ڽااري يوون, ديڠا ما وەددي ڽەتتي يوون.»","ginaar a sab ñaari yoon, dinga ma weddi ñetti yoon.»","yinaar a sab ñaari yoon, dinga ma weddi ñut.»",Erreur multiple / combinaison,replace | replace | delete
+97,نداخ مبيند مي بيرال نا لي ياللا,Ndax Mbind mi biral na li Yàlla,Ndax mbind mi biral na li Yàlla,Majuscule / minuscule,replace
+98,"پوول, مو دێكك فا كو لەو, مووم","Pool, mu dëkk fa ko lew, moom","Pool, mu dëkk fa ku lew, moom",Substitution,replace
+99,ڠەەن ييي يێپپ? چي دێگگ ماا ڠي,ngeen yii yépp? Ci dëgg maa ngi,ngeen yiy yépp? Ci dëgg maa ngi,Substitution,replace
+100,"بااي بي ما لەەن جوخ, موو گێن","Baay bi ma leen jox, moo gën","baay bi ma leen jox, moo gën",Majuscule / minuscule,replace
+101,ناسراان,nasraan,aaraan,Erreur multiple / combinaison,delete | replace
+102,"اي بانقااس يو رێي, با پيچچي اساماان تاگگ چي كەرام.»","ay bànqaas yu réy, ba picci asamaan tàgg ci keram.»","yay banqaas yu réy, ba Picci asamaan tagg ci keram.»",Erreur multiple / combinaison,insert | replace | replace | replace
+103,ما واخاات لەەن كو: گيلێەم جاار چي,Ma waxaat leen ko: giléem jaar ci,ma waxaat leen ko: giléem jaar ci,Majuscule / minuscule,replace
+104,"توپپ بێسو وااجال با, ساراخالەكات يو ماگ","topp bésu Waajal ba, saraxalekat yu mag","topp bésu waajal ba, Saraxalekat yu mag",Majuscule / minuscule,replace | replace
+105,"بينەەگار. نوونو ڽو جێل ساگار, توويال كو","bineegar. Noonu ñu jël sagar, tooyal ko","Bineegar. Noonu ñu jël sagar, tooyal ko",Majuscule / minuscule,replace
+106,نوونو ڽو فەەس اك خەل مو سەلل,Noonu ñu fees ak Xel mu Sell,Noonu ñu fees ak xel mu Sell,Majuscule / minuscule,replace
+107,بو ڠەەن مانەە خارافال نيت چي بێسو,Bu ngeen manee xarafal nit ci bésu,bu ngeen manee xarafal nit ci bésu,Majuscule / minuscule,replace
+108,با دينا كو لاكك چي سافارا سو دول فەي موكك.»,ba dina ko lakk ci safara su dul fey mukk.»,ya dina ko làkk ci safara su dul fey mukk.»,Substitution,replace | replace
+109,موجو نيت كووكو مووي يێەس نجالبێەنام. نوونو,muju nit kooku mooy yées njàlbéenam. Noonu,muju nit kooku mooy yées njalbéenam. Noonu,Diacritique / accent,replace
+110,وون,won,woon,Duplication / répétition,insert
+111,كاددوو,kaddoo,kàddoo,Diacritique / accent,replace
+112,"واايە مووم دافا ساككو چي نێەولەەم, با","waaye moom dafa sàkku ci néewleem, ba","waaye moom dafa sakku ci néewleem, ba",Diacritique / accent,replace
+113,"باككانام, دو مان ا نەكك ساما تااليبە.","bakkanam, du man a nekk sama taalibe.","bàkkanam, du man a nekk sama taalibe.",Diacritique / accent,replace
+114,يەددەەل,yeddeel,Yeddeel,Majuscule / minuscule,replace
+115,"ڠير وونە نە, يێەناي دوومي سەەن بااي","ngir wone ne, yéenay doomi seen Baay","ngir wone ne, yéenay doomi seen baay",Majuscule / minuscule,replace
+116,جانت بي فەنكك نا.,Jant bi fenkk na.,jant bi fenkk na.,Majuscule / minuscule,replace
+117,دەەووون,deewoon,deewun,Substitution,replace
+118,"سەلل مي واچچ چي ڽووم, ني مو","Sell mi wàcc ci ñoom, ni mu","sell mi wàcc ci ñoom, ni mu",Majuscule / minuscule,replace
+119,چا ڠوون سا ڽو ينديل كو ڽو,Ca ngoon sa ñu indil ko ñu,ca ngoon sa ñu yindil ko ñu,Erreur multiple / combinaison,replace | insert
+120,تە كو سوت سولەيماان ا ڠي في.,te ku sut Suleymaan a ngi fi.,te ku sut soleymaan a ngi fi.,Substitution,replace
+121,كاتتانام. موو تاخ خالە بيي جوددو ديناڽو,kàttanam. Moo tax xale biy juddu dinañu,kàttanam. Moo tax xale bii juddu dinañu,Substitution,replace
+122,"سوقيكوو چي اسكانو دااوودا جاامام,","soqikoo ci askanu Daawuda jaamam,","soqikoo ci askanu daawuda jaamam,",Majuscule / minuscule,replace
+123,نووتەەل,nooteel,Nooteel,Majuscule / minuscule,replace
+124,بەنن نيروووول اك موروومام ليگگێەي.,benn niroowul ak moroomam liggéey.,benn niruuuul ak moroomam liggéey.,Duplication / répétition,replace
+125,"اك پامفيلي, تەەرسي ميرا چا واللي ليسي.","ak Pamfili, teersi Mira ca wàlli Lisi.","ak Pamfili, teersi mira ca wàlli lisi.",Majuscule / minuscule,replace | replace
+126,گاچچە,gàcce,càcce,Substitution,replace
+127,"تە ساما مەر داا نا تار, با","Te sama mer daa na tar, ba","te sama mer daa na tar, ba",Majuscule / minuscule,replace
+128,دوخەە,doxee,xoxee,Substitution,replace
+129,پيندوب,pindub,Pindub,Majuscule / minuscule,replace
+130,بێي,bëy,béy,Diacritique / accent,replace
+131,"«ساڠ بي, ياو سێتو دااوودا بي, يێرێم نو!»","«Sang bi, yaw Sëtu Daawuda bi, yërëm nu!»","«Sang bi, yaw sëtu Daawuda bi, yërëm nu!»",Majuscule / minuscule,replace
+132,"لوولوو ڽێو, ڠير بو واختو وا اگسەە, ڠەەن گێم.","looloo ñëw, ngir bu waxtu wa agsee, ngeen gëm.","looluo ñëw, ngir bu waxtu wa agsee, ngeen gëm.",Substitution,replace
+133,"لاگگي, اي گومبا, اي لوو اك ڽەنەەن","làggi, ay gumba, ay luu ak ñeneen","laggi, ay gumba, ay loo ak ñeneen",Substitution,replace | replace
+134,"وار ا دەف, واخوما ناگ ڠەەن ساگگانە لا چا دەس.","war a def, waxuma nag ngeen sàggane la ca des.","war a def, waxuma nag ngeen saggane la ca des.",Diacritique / accent,replace
+135,لي ساما خول بێگگ; داي بێرە با,li sama xol bëgg; day bëre ba,li sama xol bëgg; day bére ba,Diacritique / accent,replace
+136,نەككوما,nekkuma,ekkuma,Suppression,delete
+137,"فاببي مبوولوو ما, سانني پوول اي دوج,","fàbbi mbooloo ma, sànni Pool ay doj,","fàbbi mbooloo ma, sanni pool ay doj,",Diacritique / accent,replace | replace
+138,ڽێو ناان: «سا دووم فااتو نا; ماتاتول ڠاي سونال كيليفا گي.»,ñëw naan: «Sa doom faatu na; matatul ngay sonal kilifa gi.»,ñëw naan: «Sa doom faatu na; matatul ngay sunal kilifa gi.»,Substitution,replace
+139,ماندەە,màndee,àndee,Suppression,delete
+140,بي لوولو امەە يوواانا جێل كاددو گي,Bi loolu amee Yowaana jël kàddu gi,Bi loolu amee yowaana jël kàddu gi,Majuscule / minuscule,replace
+141,"يەەسو, مي دەە, تە پوول ساخ چي نە, مو ڠي دوند.","Yeesu, mi dee, te Pool sax ci ne, mu ngi dund.","yeesu, mi dee, te Pool sax ci ne, mu ngi dund.",Majuscule / minuscule,replace
+142,نو دەفارال لا رەەرو ماگگالو جێگگي با?»,nu defaral la reeru màggalu Jéggi ba?»,wu defaral la reeru màggalu Jéggi ba?»,Substitution,replace
+143,واڽڽيكو,wàññiku,waññiku,Diacritique / accent,replace
+144,دي لا گێرێم اك سونو خول بێپپ.,di la gërëm ak sunu xol bépp.,Yi la gërëm ak sunu xul bépp.,Substitution,replace | replace
+145,تە يت بو فەككەە نە مان داماي,Te it bu fekkee ne man damay,te it bu fekkee ne man damay,Majuscule / minuscule,replace
+146,"موو كو دوون سێددالە, تە لاساار بوككوون نا چا گان ڽا.","moo ko doon séddale, te Lasaar bokkoon na ca gan ña.","moo ko doon séddale, te lasaar bokkoon na ca gan ña.",Majuscule / minuscule,replace
+147,"بانني يسراييل بارەە-بارە ني سووفوس گێەج ساخ,لو","bànni Israyil baree-bare ni suufus géej sax,lu",banni Israyil baree-bare ni suufus géxjulu,Substitution,replace | replace | replace
+148,"بوڽو لەەن توددە يت اي “نجييت,” نداختە","Buñu leen tudde it ay “njiit,” ndaxte","buñu leen tudde it ay “Njiit,” ndaxte",Majuscule / minuscule,replace | replace
+149,يێف,yëf,yéf,Diacritique / accent,replace
+150,"تە ڽو بارە چي جێممي نيت ڽو سەلل ڽو دەە, دەككي.","te ñu bare ci jëmmi nit ñu sell ñu dee, dekki.","Te ñu bare ci jëmmi nit ñu sell ñu dee, dekki.",Majuscule / minuscule,replace
+151,"چي سوبا تەەل يەەسو دەللوسي چا دێكك با, مو خييف.","Ci suba teel Yeesu dellusi ca dëkk ba, mu xiif.","ci suba teel Yeesu dellusi ca dëkk ba, mu xiif.",Majuscule / minuscule,replace
+152,بااي بي دوخ چي مارچهێ بي,Baay bi dox ci marché bi,baay bi dox ci marché bi,Majuscule / minuscule,replace
+153,"ڽووم ڠير مبوگال لەەن, فەكك ڽێپپ دي","ñoom ngir mbugal leen, fekk ñépp di","Ñoom ngir mbugal leen, fekk ñépp di",Majuscule / minuscule,replace
+154,"واايە يەەسو خام نا سەەن ناافێق, مو","Waaye Yeesu xam na seen naaféq, mu","waaye Yeesu xam na seen naaféq, mu",Majuscule / minuscule,replace
+155,يوويو يێپپ?— مووم لا بورووم بي دوون واخ.”,yooyu yépp?— Moom la Boroom bi doon wax.”,yooyu yépp? Moom la boroom bi doon wax.”,Erreur multiple / combinaison,delete | replace
+156,"سيموڠ پييەەر: «سيموڠ دوومو يوواانا, نداخ گێن","Simoŋ Piyeer: «Simoŋ doomu Yowaana, ndax gën","simoŋ Piyeer: «Simoŋ doomu yowaana, ndax gën",Majuscule / minuscule,replace | replace
+157,موو ڠي بااخ.,Moo ngi baax.,moo ngi baax.,Majuscule / minuscule,replace
+158,"نە يەەسو مووي الماسي بي, ڽو داق لا چا جاڠو با.","ne Yeesu mooy Almasi bi, ñu dàq la ca jàngu ba.","ne Yeesu mooy Almasi bi, ñu dàq la cà jàngu ba.",Diacritique / accent,replace
+159,"موومو مووي ێپپ مبێگ, مي فاي ام,","moomu mooy ëpp mbég, mi fay am,","Moomu mooy ëpp mbég, mi fay am,",Majuscule / minuscule,replace
+160,«دافا اموون بەيكات بو دەموون جييي. بي,«Dafa amoon beykat bu demoon jiyi. Bi,«Dafa amoon beykat bu demoon jiii. Bi,Substitution,replace
+161,"ڽي, واايە مو فەەڽو سا بااي بي","ñi, waaye mu feeñu sa Baay bi","ñi, waaye mu feeñu sa baay bi",Majuscule / minuscule,replace
+162,وگ,ug,wgg,Duplication / répétition,replace | insert
+163,"تە ياللا دێگگال كاددوگ ييوام, با ماي","te Yàlla dëggal kàddug yiwam, ba may","Te Yàlla déggal kàddug yiwam, ba may",Diacritique / accent,replace | replace
+164,"واايە ماا ڠي لەەن دي واخ نە,","waaye maa ngi leen di wax ne,","Waaye maa ngi leen di wax ne,",Majuscule / minuscule,replace
+165,"مو نە لەەن: «ڠۆوب مي يااتو نا,","Mu ne leen: «Ngóob mi yaatu na,","mu ne leen: «Ngóob mi yaatu na,",Majuscule / minuscule,replace
+166,ووتسي,wutsi,wotsi,Substitution,replace
+167,ا نەتتالي كەنن چا جامونو جووجا لا ڽو گيسوون.,a nettali kenn ca jamono jooja la ñu gisoon.,ya nettali kenn ca jamono jooja la ñu gisoon.,Insertion,insert
+168,"«واايە يێەن باركەەل ڠەەن, نداختە سەەني بێت","«Waaye yéen barkeel ngeen, ndaxte seeni bët","«Waaaye yéen barkeel ngeen, ndaxte seeni bët",Insertion,insert
+169,گەنن مبێگگەەل مێنول ا وەەسو جوخە سا باككان ڠير ساي خاريت.,Genn mbëggeel mënul a weesu joxe sa bakkan ngir say xarit.,genn mbëggeel mënul a weesu joxe sa bàkkan ngir Sar itarit.,Substitution,replace | replace | replace | replace | replace
+170,"يندي جامم, واايە جااسي لاا ينداالە.","indi jàmm, waaye jaasi laa indaale.","Indi jàmm, waaye jaasi laa indaale.",Majuscule / minuscule,replace
+171,"چي مبيري سەەن باككاار, دينا لەەن يەي","Ci mbiri seen bàkkaar, dina leen yey","ci mbiri seen bàkkaar, dina leen yey",Majuscule / minuscule,replace
+172,"جانت بي دينا دالدي لێندێم,وەەر وي دەرەتال,بالا","Jant bi dina daldi lëndëm,weer wi deretal,bala","jant bi dina daldi lëndëm,weer wala",Erreur multiple / combinaison,replace | delete
+173,كي جوت چي جيوو وي چي سووف,Ki jot ci jiwu wi ci suuf,ki jot ci jiwu wi ci suuf,Majuscule / minuscule,replace
+174,نجورتو,njortu,jjurtu,Duplication / répétition,delete | replace
+175,يێەن ڽي نێەو ڠێم! بو ياللا ووددەە,Yéen ñi néew ngëm! Bu Yàlla woddee,Yéen ñi néew ngëm! Bu Yàlla wuddee,Substitution,replace
+176,"ڽو لاال چاتي مبوببام رەكك, تە كو كو لاال دالدي وێر.","ñu laal cati mbubbam rekk, te ku ko laal daldi wér.","Ñu laal cati mbubbam rekk, te ku ko laal daldi wér.",Majuscule / minuscule,replace
+177,ماڠي ليگگەەي مان.,Mangi liggeey man.,màngi liggeey man.,Diacritique / accent,replace
+178,"دال. ڽوو دوون پييەەر اك يوواانا, سااگ","dal. Ñoo doon Piyeer ak Yowaana, Saag","dal. Ñoo doon Piyeer ak Yowaana, saag",Majuscule / minuscule,replace
+179,لي دالە چي ساا سووسا ناگ يوداا,Li dale ci saa soosa nag Yudaa,li dale ci saa suusa nag yudaa,Substitution,replace | replace | replace
+180,ندەگام,ndegam,Nddggam,Duplication / répétition,replace | replace
+181,"با تەي نيت ڽي جۆگە فو نەكك, دي كو فا فەكك.","Ba tey nit ñi jóge fu nekk, di ko fa fekk.","ba tey nit ñi jóge fu nekk, di ko fa fekk.",Majuscule / minuscule,replace
+182,دي دێگگال نە لوولو وۆور نا.,di dëggal ne loolu wóor na.,di déggal ne loolu wóor na.,Diacritique / accent,replace
+183,كان موو لەەن مان ا تەگ تووڽ?,Kan moo leen man a teg tooñ?,kan moo leen man a teg tooñ?,Majuscule / minuscule,replace
+184,يەي نا سادوسەن يا. كون ناگ ڽو دالدي داجە.,yey na Sadusen ya. Kon nag ñu daldi daje.,yey na sadusen ya. Kon nag ñu daldi daje.,Majuscule / minuscule,replace
+185,چي ڽااري دێرێم? موونا ياللا فاتتەوول بەنن چي ڽووم.,ci ñaari dërëm? Moona Yàlla fàttewul benn ci ñoom.,ci ñaari dërëm? Moona Yàlla fattewul benn ci ñoom.,Diacritique / accent,replace
+186,چا ساا سووسو خەل مو سەلل مي,Ca saa soosu Xel mu Sell mi,ca saa suusu xel mu Sell mi,Substitution,replace | replace | replace
+187,"تاابالي وەچچيكاتو خااليس يي اك تووگوي جاايكاتي پيتاخ يي,","taabali weccikatu xaalis yi ak tooguy jaaykati pitax yi,","Taabali weccikatu xaalis yi ak tooguy jaaykati pitax yi,",Majuscule / minuscule,replace
+188,"مو بايييل لەەن كي ڽو كو ڽاانوون,","Mu bàyyil leen ki ñu ko ñaanoon,","mu bàyyil leen ki ñu ko ñaanoon,",Majuscule / minuscule,replace
+189,بو رافەت بو دەموون چي رێەو مو,bu rafet bu demoon ci réew mu,Bu rafet bu demoon ci réew mu,Majuscule / minuscule,replace
+190,نوونوو,noonoo,Noonuo,Erreur multiple / combinaison,replace | insert | delete
+191,بێگگ ناا بااي بي تە ني ما,bëgg naa Baay bi te ni ma,bëgg naa baay bi te ni ma,Majuscule / minuscule,replace
+192,واللا مو دي كو دەف چي رون,walla mu di ko def ci ron,walla mu di ko def ci run,Substitution,replace
+193,جيبريل ميي تاخاو چي كانام ياللا. داڽو,Jibril miy taxaw ci kanam Yàlla. Dañu,jibril miy taxaw ci kanam Yàlla. Dañu,Majuscule / minuscule,replace
+194,"""وااو, داما ام مبێگتە.""","""Waaw, dama am mbégte.""","""Waaw, dama am mbëgte.""",Diacritique / accent,replace
+195,"يەدد كو. بو رێچچوو, باال كو.","yedd ko. Bu réccoo, baal ko.","Yedd ko. Bu rëccoo, baal ko.",Diacritique / accent,replace | replace
+196,ڽو بيند چي اللووا بي.,Ñu bind ci alluwa bi.,Ñu bind ci àlluwa bi.,Diacritique / accent,replace
+197,"تە بي نوي دەم, ڽو جوخ نو لي نوي سوخلا لێپپ.","te bi nuy dem, ñu jox nu li nuy soxla lépp.","Ye bi nuy dem, ñu jox nu li noy soxla lépp.",Substitution,replace | replace
+198,فەكك پييەەر دي گێن ا فێگگ. نوونو,Fekk Piyeer di gën a fëgg. Noonu,fekk Piyeer di gën a fëgg..Noonu,Substitution,replace | replace
+199,ناكا نوونا پوول اك ڽي مو اندال,Naka noona Pool ak ñi mu àndal,Naka noona Pool ak ñi mu andal,Diacritique / accent,replace
+200,تيڤاووانە مووي دێكك بو جامم,Tivaouane mooy dëkk bu jàmm,tiiaawunae mooy dëkk bu jàmm,Erreur multiple / combinaison,replace | replace | replace | insert | delete
+201,يو مو وار ا دێككو ڠير ساما تور.»,yu mu war a dékku ngir sama tur.»,yu mu war a dëkku ngir sama tur.»,Diacritique / accent,replace
+202,ناتتوووولەەن,nattuwooleen,àttuwuleen,Substitution,replace | replace
+203,"چا جامونوي ەرودد, مي نەككوون بوور چا","Ca jamonoy Erodd, mi nekkoon buur ca","ca jamonoy Erodd, mi nekkoon buur ca",Majuscule / minuscule,replace
+204,نيرۆولە,niróole,inróole,Erreur multiple / combinaison,insert | delete
+205,"چي ياو, نداختە راڽڽەەووو جامونو جي ياللا ڽێوە, واللوسي لا.»","ci yaw, ndaxte ràññeewoo jamono ji Yàlla ñëwe, wallusi la.»","yi yaw, ndaxte raññeewuw jamono ji Yàlla ñëwe, wallusi la.»",Substitution,replace | replace | replace
+206,"مو ڽێو چي نون, دالدي يەەو اي","Mu ñëw ci nun, daldi yeew ay","mu ñëw ci nun, daldi yeew ay",Majuscule / minuscule,replace
+207,يەەسو تونتو كو نە: « “ناڠا بێگگ,Yeesu tontu ko ne: « “Nanga bëgg,Yeesu tontu ko ne: «Nanga bëgg,Ponctuation,delete
+208,يێەن ناگ يێەناي ڽي اند اك مان چي ساماي فيتنا.,Yéen nag yéenay ñi ànd ak man ci samay fitna.,yéen nag yéenay ñi ànd ak man ci samay fitna.,Majuscule / minuscule,replace
+209,"مارت نە يەەسو: «بورووم بي, بوو في","Màrt ne Yeesu: «Boroom bi, boo fi","Mart ne Yeesu: «Boroom bi, boo fi",Diacritique / accent,replace
+210,لوولوو تاخ وااجور يا نە: «لااجلەەن كو; ماگوم جێمم لا.»,Looloo tax waajur ya ne: «Laajleen ko; magum jëmm la.»,Yooluo tax waajur ya ne: «Laajleen ko; magum jëmm la.»,Substitution,replace | replace
+211,واايە ندەگام دێگێر ڠا بوپپ تە بێگگولوو,Waaye ndegam dëgër nga bopp te bëgguloo,Waaye ndegam dégër nga bopp te bëgguloo,Diacritique / accent,replace
+212,تە ساراخالەكات يو ماگ يي دي كو جييڽ لو بارە.,Te saraxalekat yu mag yi di ko jiiñ lu bare.,te saraxalekat yu mag yi di ko jiiñ lu bare.,Majuscule / minuscule,replace
+213,"ماا چي دەس, تە ڽو ڠي ماي ووت ا رەي.»","maa ci des, te ñu ngi may wut a rey.»","yaa ci des, te ñu ngi may wut a rey.»",Substitution,replace
+214,"چا, باي ووتتو ساخ يێرەي ڽي كو دوون رەي.”","ca, bay wottu sax yérey ñi ko doon rey.”","ca, bay wuttu sax yërey ñi ko doon rey.”",Substitution,replace | replace
+215,"سا جاام, مي دوون گێمميڽو خەل مو","sa jaam, mi doon gémmiñu Xel mu","sa jaam, mi doon gëmmiñu xel mu",Diacritique / accent,replace | replace
+216,"مو نە لەەن: «بوكك يي, لي خەل","Mu ne leen: «Bokk yi, li Xel","mu ne leen: «Bokk yi, li xel",Majuscule / minuscule,replace | replace
+217,"خارەكات يا, بي ڽو دااجەە يەەسو چا","Xarekat ya, bi ñu daajee Yeesu ca","xarekat ya, bi ñu daajee Yeesu ca",Majuscule / minuscule,replace
+218,نجومبە,njombe,jjumbe,Duplication / répétition,delete | replace
+219,ڽو نوپپالو چي بيتي.,Ñu noppalu ci biti.,ñu noppalu ci biti.,Majuscule / minuscule,replace
+220,بيندلەەن,bindleen,Iindleen,Substitution,replace
+221,بووبا لي كو تاخوون دي واخ مووي,Booba li ko taxoon di wax mooy,booba li ko taxoon di wax mooy,Majuscule / minuscule,replace
+222,"يسراييل, دێگلول! ياللا سونو بورووم مووم رەكك مووي بوور.","Israyil, déglul! Yàlla sunu Boroom moom rekk mooy Buur.","Israyil, dëglul! Yàlla sunu boroom roku rokr.",Erreur multiple / combinaison,replace | replace | replace | replace | replace | delete
+223,دەم نا با جێەم ا تەدداديل ساخ,Dem na ba jéem a teddadil sax,dem na ba jéem a teddadil sax,Majuscule / minuscule,replace
+224,خالە بي ليگگێەي چي موسقوێە بي,Xale bi liggéey ci mosquée bi,xale bi liggéey ci mosquée bi,Majuscule / minuscule,replace
+225,"ما, مان, نداختە ماا واخ نە, سەەني جێف بااخول.","ma, man, ndaxte maa wax ne, seeni jëf baaxul.","ya, man, ndaxte maa wax ne, seeni jëf baaxul.",Substitution,replace
+226,جۆگە چي واللي گاليلە اك دييواان بي,jóge ci wàlli Galile ak diiwaan bi,jóge ci walli galile ak diiwaan bi,Diacritique / accent,replace | replace
+227,نداخ خاماگولەەن با تەي? خاناا فاتتاليكووولەەن جورۆومي,Ndax xamaguleen ba tey? Xanaa fàttalikuwuleen juróomi,Ndax xamaguleen ba tey? Xanaa fattalikooule,Erreur multiple / combinaison,replace | replace | delete
+228,خوتتيكوو,xottikoo,xuttikuu,Substitution,replace | replace
+229,واايە خەلو ياللا ماا ڠي نوي ڽاانال,waaye Xelu Yàlla maa ngi nuy ñaanal,Waaye xelu Yàlla maa ngi nuy ñaanal,Majuscule / minuscule,replace | replace
+230,دێگلو بو بااخواايە دوڠەەن خام دارا;دي خوول,déglu bu baaxwaaye dungeen xam dara;di xool,déglu bu baaxuaaye dungeen xam dara;di xool,Substitution,replace
+231,"ڽو بارە چي گەرەگ يي, دي جيگێەن","ñu bare ci Gereg yi, di jigéen","Ñu bare ci gereg yi, di jigéen",Majuscule / minuscule,replace | replace
+232,"چي مبيري ساما نجوبتە, دينا لەەن يەي","Ci mbiri sama njubte, dina leen yey","ci mbiri sama njubte, dina leen yey",Majuscule / minuscule,replace
+233,"بيير كێر چي واختو ويي, مااناام تيسباار.","biir kër ci waxtu wii, maanaam tisbaar.","biir kër ci waxtu wiy, maanaam tisbaar.",Substitution,replace
+234,نيرێلەەل,nirëleel,niréleel,Diacritique / accent,replace
+235,"چي گارابو وليو گو الل, واايە ياللا","ci garabu oliw gu àll, waaye Yàlla","ci garabu wliw gu àll, waaye Yàlla",Substitution,replace
+236,"اك ييو اك دێگگ, ندام لي بااي","ak yiw ak dëgg, ndam li Baay","ak yiw ak dëgg, ndam li baay",Majuscule / minuscule,replace
+237,"فەكك نا بووبا بێسو جێگگي با, دي ماگگالو ياووت يا, جوبسي.","Fekk na booba bésu Jéggi ba, di màggalu Yawut ya, jubsi.","fekk na booba bésu Jéggi ba, di màggalu Yawut ya, jubsi.",Majuscule / minuscule,replace
+238,ڠەەن دەف لو دوي واار? خاناا ڽي,ngeen def lu doy waar? Xanaa ñi,ngeen def lu duy waar? Xanaa ñi,Substitution,replace
+239,"ليبي, يي دەند اك سيرەن, نون اك گان ڽي جۆگە رووم,","Libi, yi dend ak Siren, nun ak gan ñi jóge Room,","Libi, yi dend ak Siren, nun ak gan ñi jóge room,",Majuscule / minuscule,replace
+240,جويوو,joyoo,juyoo,Substitution,replace
+241,يەەسو كيريست دي فەەڽ چي بيير ندامام.,Yeesu Kirist di feeñ ci biir ndamam.,yeesu Kirist di feeñ ci biir ndamam.,Majuscule / minuscule,replace
+242,"يەەسو مووي بورووم بي, تە ڠا گێم","Yeesu mooy Boroom bi, te nga gëm","Yeesu mooy boroom bi, te nga gëm",Majuscule / minuscule,replace
+243,"اك سەەني لوخو جومتوكااي, يي ڽو يەبوون ڠير فاگگو.","ak seeni loxo jumtukaay, yi ñu yeboon ngir fàggu.","ak seeni loxo jomtukaay, yi ñu yeboon ngir fàggu.",Substitution,replace
+244,"چا مووم اي ياووت, دي ماگي دێكك","ca moom ay Yawut, di magi dëkk","ca moom ay yawut, di magi dëkk",Majuscule / minuscule,replace
+245,ڠێرێمو نيت ا لەەن گێنالوون ڠێرێمو ياللا.,Ngërëmu nit a leen gënaloon ngërëmu Yàlla.,ngërëmë nit a leen gënaloon ngërëmu Yàlla.,Substitution,replace | replace
+246,واخامباانە وا لااج كو: «يان لا?» يەەسو,Waxambaane wa laaj ko: «Yan la?» Yeesu,waxambaane wa laaj ko: «Yàn la?» Yeesu,Diacritique / accent,replace | replace
+247,نەەخەە,neexee,eexee,Suppression,delete
+248,ا مەڠالەەل ڠوورو ياللا? واللا بان لێەب,a mengaleel nguuru Yàlla? Walla ban léeb,a mengaleel nguuru Yàlla? Walla? Wal léeb,Erreur multiple / combinaison,insert | replace | replace
+249,"تە ياخيا موومو, سو ڠەەن بێگگەە ناڠو","Te Yaxya moomu, su ngeen bëggee nangu","te Yaxya moomu, su ngeen bëggee nangu",Majuscule / minuscule,replace
+250,لێەگي ڽو ڠي خوول.,Léegi ñu ngi xool.,léegi ñu ngi xool.,Majuscule / minuscule,replace
+251,"بون لو جار دەە, كون دوما تينو","bon lu jar dee, kon duma tinu","bun lu jar dee, kon duma tinu",Substitution,replace
+252,يتام چي ڽووم ڠا بوكك.» پييەەر تونتو,itam ci ñoom nga bokk.» Piyeer tontu,Yitam ci ñoom nga bokk.» Piyeer tontu,Insertion,insert
+253,"تەندەەفال. مو نە لەەن: “لو تاخ ڠەەن يەندوو تەندەەفال, تە ليگگێەييوولەەن?”","tendeefal. Mu ne leen: “Lu tax ngeen yendoo tendeefal, te liggéeyiwuleen?”","yendeefal. Mu ne leen: “Lu tax ngeen yendeefal, te liggéeyaw, te liggéeyaw,leen?”",Erreur multiple / combinaison,replace | delete | insert | insert | replace
+254,"خەو, خاملەەن نە جەگە نا; مو ڠي چي بونت بي ساخ.","xew, xamleen ne jege na; mu ngi ci bunt bi sax.","xew, xamleen ne jege na; mu ngi ci bant bi sax.",Substitution,replace
+255,فووفا ڽو ينديل كو كو تێدد چي,Foofa ñu indil ko ku tëdd ci,Foofa ñu indil ko ko tëdd ci,Duplication / répétition,replace
+256,"بي ماريااما دێگگەە لوولو, مو دالدي جۆگ, گااوانتوو دەم چا يەەسو.","Bi Maryaama déggee loolu, mu daldi jóg, gaawantoo dem ca Yeesu.","yi maryaama déggee loolu, mu daldi jóg, gaawantoo dem ca yeesu.",Substitution,replace | replace | replace
+257,وايموڽانديكو,waymuñandiku,Waymuñandiku,Majuscule / minuscule,replace
+258,بێسو نوفلااي بو نەكك ناگ موي دييسوو,Bésu noflaay bu nekk nag muy diisoo,bésu noflaay bu nekk nag muy diisoo,Majuscule / minuscule,replace
+259,يێەن ڽي دوف تە گومبا! لان موو,Yéen ñi dof te gumba! Lan moo,yéen ñi dof te gumba! Lan moo,Majuscule / minuscule,replace
+260,"يا, دالدي تاخاو چا جوور گا, فا","ya, daldi taxaw ca joor ga, fa","ya, daldi taxaw ca juur ga, fa",Substitution,replace
+261,"ڽاان نا, ڽو جێببال لەەن كو, ڠير","ñaan na, ñu jébbal leen ko, ngir","Ñaan na, ñu jébbal leen ko, ngir",Majuscule / minuscule,replace
+262,مبێگتە بي ام نا چي ساما خول,Mbégte bi am na ci sama xol,mbégte bi am na ci sama xol,Majuscule / minuscule,replace
+263,كون مو يۆننەەتي يەنەەن سورگا نە لەەن:,Kon mu yónneeti yeneen surga ne leen:,kon mu yónneeti yeneen surga ne leen:,Majuscule / minuscule,replace
+264,نەتتالي لا خەووون چا يوون وا اك,nettali la xewoon ca yoon wa ak,nettali la xewuon ca yoon wa ak,Substitution,replace
+265,تە سااراتا دينا ام دووم جو گۆور.»,te Saarata dina am doom ju góor.»,te saarata dina am doom ju góor.»,Majuscule / minuscule,replace
+266,"توول ا ڠا ووون چا وەتو بێراب,","Tool a nga woon ca wetu bérab,","tool a nga woon ca wetu bérab,",Majuscule / minuscule,replace
+267,«ووتوما تاگگ يو جۆگە چي نيت.,«Wutuma tagg yu jóge ci nit.,«Wootuma tagg yu jóge ci nit.,Substitution,replace
+268,"""بو گانجار امەە, ڽو بێگ.""","""Bu gànjar amee, ñu bég.""","""Bu gànjar amee, ñu bëg.""",Diacritique / accent,replace
+269,"وۆور نە, ياووت يا جوددوواالە نەكك چي","wóor ne, Yawut ya judduwaale nekk ci","wóor ne, yawut ya judduwaale nekk ci",Majuscule / minuscule,replace
+270,مەلوكان,melokan,melukan,Substitution,replace
+271,"يا ناخ ناڽو كو, مو دالدي مەر","ya nax nañu ko, mu daldi mer","ay nax nañu ko, mu daldi mer",Erreur multiple / combinaison,insert | delete
+272,لوولو كون وونە نا ني ياللا بااخە,Loolu kon wone na ni Yàlla baaxe,loolu kon wone na ni Yàlla baaxe,Majuscule / minuscule,replace
+273,چي باات يوويو لا دوون ميساالە ني مو وار ا فااتوو.,Ci baat yooyu la doon misaale ni mu war a faatoo.,ci baat yooyu la doon misaale ni mu war a faatuw.,Substitution,replace | replace
+274,مووم اك ڽا مو اندالوون?,moom ak ña mu àndaloon?,moom ak ña mu andaloon?,Diacritique / accent,replace
+275,ڽووڽيي,ñooñii,ñooñiy,Substitution,replace
+276,رێي مي دا لاا خاڽ ساگو.»,réy mi da laa xañ sago.»,réy mi da laa xañ sagu.»,Substitution,replace
+277,نداو سي جاڠ نا سابار.,Ndaw si jàng na sabar.,Ndàw Si jàng na sabar.,Diacritique / accent,replace | replace
+278,ام الال. لو كو موي ڽووڽو يتام,am alal. Lu ko moy ñooñu itam,am alal. Lu ko muy ñooñu itam,Substitution,replace
+279,"نوونو مو وێر چي دييواانو گاليلە گێپپ,","Noonu mu wër ci diiwaanu Galile gépp,","Noonu mu wér ci diiwaanu Galile gépp,",Diacritique / accent,replace
+280,"واايە ساما نوون يي, ڽي بێگگول ووون","Waaye sama noon yi, ñi bëggul woon","waaye sama noon yi, ñi bëggul woon",Majuscule / minuscule,replace
+281,"با ڽو لەەن يۆببوو چا بابيلون, يەكوڽاس جور سالاچەل; سالاچەل سوروبابەل,","Ba ñu leen yóbboo ca Babilon, Yekoñas jur Salacel; Salacel Sorobabel,","ba ñu leen yóbboo ca bàbilun, yekuñas jur salacel; salacel; salacellusulubabell surubabell surubabel",Erreur multiple / combinaison,replace | replace | replace | replace | replace | replace | replace | insert | replace | replace
+282,"كيي موو داان تووگ, دي يەلواان?»","kii moo daan toog, di yelwaan?»","kiy moo daan toog, di yelwaan?»",Substitution,replace
+283,جاڠ بي مووي نجاريڽ بو رێي,Jàng bi mooy njariñ bu rëy,jàng bi mooy njariñ bu réy,Diacritique / accent,replace | replace
+284,بيي,biy,bii,Duplication / répétition,replace
+285,"نا, مو تووگاات يەنەەن ڽااري فان چا بێراب, با مو نەككوون.","na, mu toogaat yeneen ñaari fan ca bérab, ba mu nekkoon.","ya, mu toogaat yeneen ñaari fan ca bérab, ba mu nekkoon.",Substitution,replace
+286,"لو ێپپ لا ڽو جي ووون, موي جورۆوم-بەنن-فوكك مباا فانوەەر.»","lu ëpp la ñu ji woon, muy juróom-benn-fukk mbaa fanweer.»","lépp la ñu ji woon, muy juróom-bekn fanueer.»",Erreur multiple / combinaison,replace | insert | delete | replace
+287,"ساپپەە, نان لاڽو كوي دەللوو چافكاام? دو","sàppee, nan lañu koy delloo cafkaam? Du","sappee, nan lañu koy delloo cafkaam? Du",Diacritique / accent,replace
+288,"نوونو ڽو فور اي خەەر, بێگگ كو","Noonu ñu for ay xeer, bëgg ko","Noonu ñu for ay xeer, bëgg ku",Substitution,replace
+289,"واايە سو ما كو دەفەە, بو ڠەەن","waaye su ma ko defee, bu ngeen","Waaye su ma ko defee, bu ngeen",Majuscule / minuscule,replace
+290,سالاام الەەكوم.,Salaam aleekum.,salaam aleekum.,Majuscule / minuscule,replace
+291,كوي يێرێم نە كو: «بول جووياتي.»,koy yërëm ne ko: «Bul jooyati.»,kuy yérëm ne ko: «Bul jooyati.»,Substitution,replace | replace
+292,"لااتا ڽوي جالل, بەنن خوتباكات دالدي ڽێو","Laata ñuy jàll, benn xutbakat daldi ñëw","laata ñuy jàll, benn xutbakat daldi ñëw",Majuscule / minuscule,replace
+293,تەي خاريتوو اك اي جووتيكات اك اي بورووم باككاار.”,tey xaritoo ak ay juutikat ak ay boroom bàkkaar.”,tey xarituw ak ay juutikat ak ay boroom bàkkaar.”,Substitution,replace
+294,"چا نجێل ناگ يەەسو جێم چي ڽووم,","Ca njël nag Yeesu jëm ci ñoom,","ca njël nag yeesu jëm ci ñoom,",Majuscule / minuscule,replace | replace
+295,ڽو تونتو نە: «نداختە بورووم بي دا كوو سوخلا.»,Ñu tontu ne: «Ndaxte Boroom bi da koo soxla.»,yu tontu ne: «Ndaxte boroom bi da koo soxla.»,Substitution,replace | replace
+296,يانقۆوبا; يسااخا; يبراايما; تەراا; ناخور;,Yanqóoba; Isaaxa; Ibraayma; Teraa; Naxor;,yanqóoba; Isaaxa; Ibraayma; teraa; naxur;,Substitution,replace | replace | replace | replace
+297,"وي ڠا ما جوخ. ووتتو ناا لەەن,","wi nga ma jox. Wottu naa leen,","wi nga ma jox. Wuttu naa leen,",Substitution,replace
+298,مێسوما,mësuma,mésuma,Diacritique / accent,replace
+299,فااتتالي,fàattali,faattali,Diacritique / accent,replace
+300,"گاننااو لوولو يەەسو دافا جالل دەخو گاليلە, مااناام دەخو تيبەريادد.","Gannaaw loolu Yeesu dafa jàll dexu Galile, maanaam dexu Tiberyàdd.","Gannaaw loolu Yeesu dafa jall dexu Galile, maanaam dexu tiberi.",Substitution,replace | replace | replace
+301,"نوونو فيليب تامبالي چي اايا يوويو, خامال","Noonu Filib tàmbali ci aaya yooyu, xamal","Noonu filib tàmbali ci aaya yooyu, xamal",Majuscule / minuscule,replace
+302,"نون ڽێپپ نو ڠي لەەن دي دێگگ,","nun ñépp nu ngi leen di dégg,","Nun ñépp nu ngi leen di dégg,",Majuscule / minuscule,replace
+303,"رەي, مان مي لەەن جوتتالي دێگگ, گي","rey, man mi leen jottali dëgg, gi","rey, man mi leen jottali dégg, gi",Diacritique / accent,replace
+304,"تە ڽيي خام ناڽو نە, ياا ما يۆنني.","te ñii xam nañu ne, yaa ma yónni.","te ñiy xam nañu ne, yaa ma yónni.",Substitution,replace
+305,اق,àq,aq,Diacritique / accent,replace
+306,فاس يێەنەە مويتو لێپپ لو نەكك فيير,fas yéenee moytu lépp lu nekk fiir,Fas yéenee moytu lépp lu nekk fiir,Majuscule / minuscule,replace
+307,"نداختە كوي دەف چووبارەگ ياللا, كووكو مووي","ndaxte kuy def coobareg Yàlla, kooku mooy","Ndaxte kuy def coobareg Yàlla, kooku mooy",Majuscule / minuscule,replace
+308,دويلو,doylu,duylu,Substitution,replace
+309,نو ڠي ليگگێەياندوو چي ليگگێەيو ياللا; يێەناي,Nu ngi liggéeyandoo ci liggéeyu Yàlla; yéenay,nu ngi liggéeyandoo ci liggéeyu Yàlla;,Erreur multiple / combinaison,replace | delete
+310,"ني اگ لەەر لاا واچچە چي اددينا,","Ni ag leer laa wàcce ci àddina,","ni ag leer laa wàcce ci àddina,",Majuscule / minuscule,replace
+311,وورماال,wormaal,wurmaal,Substitution,replace
+312,يسراايييل,israayiil,Israayiil,Majuscule / minuscule,replace
+313,بي لوولو وێيەە گاننااو يەەسو خام نا,Bi loolu wéyee gannaaw Yeesu xam na,bi loolu wéyee gannaaw Yeesu xam na,Majuscule / minuscule,replace
+314,بان ليگگێەي ڠا نار ا دەف?,Ban liggéey nga nar a def?,ban liggéey nga nar a def?,Majuscule / minuscule,replace
+315,چي سونو كاو!’تە ناان جانج يي: «“سوول-لەەن نو!»“ “,ci sunu kaw!’te naan jànj yi: «“Suul-leen nu!»“ “,ci sunu kaw! Te naan janj yi: «Sool-leen nu!» “,Erreur multiple / combinaison,replace | replace | delete | replace | delete
+316,دێنكوون,dénkoon,dénkuon,Substitution,replace
+317,"كو: «ياللا تەرە, بورووم بي, لوولو دو لا دال.»","ko: «Yàlla tere, Boroom bi, loolu du la dal.»","yo: «Yàlla tere, boroom bi, loolu du la dal.»",Substitution,replace | replace
+318,اددينا سێپپ. تە ڽي دول ياووت ديناڽو,àddina sépp. Te ñi dul Yawut dinañu,Addina sépp. Te ñi dul Yawut dinañu,Diacritique / accent,replace
+319,اك گومور ڽووي تانە دێكك بووبو.,ak Gomor ñooy tane dëkk boobu.,ak gumur ñooy tane dëkk boobu.,Substitution,replace | replace
+320,"ساي بوكك, تە ڽێو چي رێەو, مي ما لاي وون.”","say bokk, te ñëw ci réew, mi ma lay won.”","yay bokk, te ñëw ci réew, mi ma lay won.”",Substitution,replace
+321,"ااداما. ام ناا يێەنەي دەف لو بااخ, واايە اوما كاتتانو يەگگالە.","Aadama. Am naa yéeney def lu baax, waaye awma kàttanu yeggale.","aadama. Am naa yéeney def lu baax, waaye awmà kattalu.",Erreur multiple / combinaison,replace | replace | replace | replace | delete
+322,"مو دێپپ جێوام چا تانكي يەەسو, دي","Mu dëpp jëwam ca tànki Yeesu, di","Mu dépp jëwam ca tànki Yeesu, di",Diacritique / accent,replace
+323,واايە ڽووم ڽو ساخ چا لا ڽو,Waaye ñoom ñu sax ca la ñu,waaye ñoom ñu sax ca la ñu,Majuscule / minuscule,replace
+324,ياللااي,yàllaay,Yàllaay,Majuscule / minuscule,replace
+325,نوونو ڽو لااج كو نە: «واخ نو,Noonu ñu laaj ko ne: «Wax nu,woonu ñu laaj ko ne: «Wax nu,Substitution,replace
+326,تە يەەسو مێنو فاا دەف اي كێەماان,Te Yeesu mënu faa def ay kéemaan,te Yeesu mënu faa def ay kéemaan,Majuscule / minuscule,replace
+327,فێتتێەرلو,féttéerlu,Fëttéerlu,Diacritique / accent,replace
+328,فوو جێم چي سوبا-سێدد.,Foo jëm ci suba-sédd.,foo jëm ci suba-sédd.,Majuscule / minuscule,replace
+329,"تە يت نو ڠي بێگ چيي نێگانديكو,","Te it nu ngi bég ciy négandiku,","Te it nu ngi bëg ciy nëgandiku,",Diacritique / accent,replace | replace
+330,دي فاج جاڠورو يێپپ اك وێرادي يێپپ.,di faj jàngoro yépp ak wéradi yépp.,Yi faj jàngoro yépp ak wéradi yépp.,Substitution,replace
+331,"بي جورۆومي فان وێيەە, اناڽاس ساراخالەكات بو","Bi juróomi fan wéyee, Anañas saraxalekat bu","Bi juróomi fan wéyee, anañas saraxalekat bu",Majuscule / minuscule,replace
+332,"بي موساا دێگگەە واخ جووجو, مو دالدي","Bi Musaa déggee wax jooju, mu daldi","Bi musaa déggee wax jooju, mu daldi",Majuscule / minuscule,replace
+333,"موسوڽوو جاڠ مباا ڽوي گێستو چي ديينە,","musuñoo jàng mbaa ñuy gëstu ci diine,","Musuñoo jàng mbaa ñuy géstu ci diine,",Diacritique / accent,replace | replace
+334,اتتە,àtte,tàtte,Insertion,insert
+335,"يەروسالەم, جاار چي دييوااني ماسەدووان اك اكايي.","Yerusalem, jaar ci diiwaani Maseduwan ak Akayi.","yerusalem, jaar ci diiwaani maseduwan ak akayi.",Majuscule / minuscule,replace | replace | replace
+336,"وو رێي چي بااتام, سانني كو چا","wu réy ci baatam, sànni ko ca","wo réy ci baatam, sànni ko ca",Substitution,replace
+337,چا ساا سا سەەني بێت دالدي وببيكو.,Ca saa sa seeni bët daldi ubbiku.,ca saa sa seeni bët daldi ubbiku.,Majuscule / minuscule,replace
+338,"ناڽو ياووت, مو جاخاسوو اك كو مو","nañu Yawut, mu jaxasoo ak ku mu","nañu yawut, mu jaxasoo ak ku mu",Majuscule / minuscule,replace
+339,"كو: «نويو نانو لا, ياو بوورو ياووت يي!»","ko: «Nuyu nanu la, yaw buuru Yawut yi!»","ko: «Nuyu nanu la, yaw buuru yawut yi!»",Majuscule / minuscule,replace
+340,"بوومي دەە, نداختە دەە مێنو كوو تێيە.","buumi dee, ndaxte dee mënu koo téye.","boomi dee, ndaxte dee mënu koo tëye.",Substitution,replace | replace
+341,"بااخ, تە دينا لا تاگگ.","baax, te dina la tagg.","baax, te dina la tàgg.",Diacritique / accent,replace
+342,"دو او فەن. ساما خەل, مي خەل","du aw fen. Sama xel, mi Xel","du aw fen. Sama xel, mi xel",Majuscule / minuscule,replace
+343,مووم اك سەەني دووم اك ڽو سورە,moom ak seeni doom ak ñu sore,Moom ak seeni doom ak ñu sore,Majuscule / minuscule,replace
+344,خەەت يونەنت ني مان; ناڠەەن كو دێگگال,xeet Yonent ni man; nangeen ko déggal,xeet yonent ni man; nangeen ko déggal,Majuscule / minuscule,replace
+345,"سيموڠ مي بوكك چي مبوولوو, ما ڽو","Simoŋ mi bokk ci mbooloo, ma ñu","simoŋ mi bokk ci mbooloo, ma ñu",Majuscule / minuscule,replace
+346,"تە نيت كو بون, لو بون لاي","te nit ku bon, lu bon lay","Te nit ku bon, lu bon lay",Majuscule / minuscule,replace
+347,"ياللا, با بوكك يێپپ ام چا مبێگ مو رێي.","Yàlla, ba bokk yépp am ca mbég mu réy.","Yàlla, ba bokk yépp yap ca mbég mu réy.",Erreur multiple / combinaison,insert | replace
+348,خورو,xuru,xoro,Substitution,replace | replace
+349,باال ڽێپپ ڽي نو تووڽ.تە بو نو تەگ چي يوونو ناتتو.”»,baal ñépp ñi nu tooñ.Te bu nu teg ci yoonu nattu.”»,baal ñépp ñi nu tooñ.Te bu nu teg citu.”»,Suppression,delete
+350,"ندامول باايام, اند اك اي مالااكام; بێس","ndamul Baayam, ànd ak ay malaakam; bés","Ndamul baayam, ànd ak ay malaakam; bés",Majuscule / minuscule,replace | replace
+351,گاگگااي,gàggaay,gaggaay,Diacritique / accent,replace
+352,"ساخ اجي بيند, جي يەللوو چانت با فاوو. اميين.","sax Aji Bind, ji yelloo cant ba fàww. Amiin.","sax aji bind, ji yelloo cant ba fàww. Amiin.",Majuscule / minuscule,replace | replace
+353,ڽوو ما جييتو ساخ چي گێم كيريست.,ñoo ma jiitu sax ci gëm Kirist.,Ñoo ma jiitu sax ci gëm Kirist.,Majuscule / minuscule,replace
+354,"بو ڠەەن چي امەە لو وۆور ناگ,","Bu ngeen ci amee lu wóor nag,","bu ngeen ci amee lu wóor nag,",Majuscule / minuscule,replace
+355,"ڽێپپ ا بوكك بەنن باات, يووخو دييروب","ñépp a bokk benn baat, yuuxu diirub","Ñépp a bokk benn baat, yuuxu diirub",Majuscule / minuscule,replace
+356,"ام دوند گو دول جەەخ, تە بێس","am dund gu dul jeex, te bés","mam dund gu dul jeex, te bés",Insertion,insert
+357,"خام ڠەەن نە, موسوما لەەن ا نێبب","Xam ngeen ne, musuma leen a nëbb","xam ngeen ne, musuma leen a nëbb",Majuscule / minuscule,replace
+358,الاكە,alake,lalake,Duplication / répétition,insert
+359,"واللا: “ما ڠا فالە!” بولەەن دەم, مباا ڠەەن دي لەەن توپپ.","walla: “Ma nga fale!” Buleen dem, mbaa ngeen di leen topp.","Yalla: “Ma nga fale!” buleen dem, mbaa ngeen topp.",Erreur multiple / combinaison,replace | replace | delete
+360,"با موجج ناافێق تاخاو, سەەدە چي مووم ناان:","Ba mujj naaféq taxaw, seede ci moom naan:","ba mujj naaféq taxaw, seede ci moom naan:",Majuscule / minuscule,replace
+361,نديگال يي اك دوگالي بورووم بي يێپپ.,ndigal yi ak dogali Boroom bi yépp.,ndigal yi ak dugali boroom bi yépp.,Substitution,replace | replace
+362,خول بي دال نا.,Xol bi dal na.,xul bi dal na.,Substitution,replace
+363,گا اك سادوسەن يا داانو چي سەەن كاو.,ga ak Sadusen ya daanu ci seen kaw.,ga ak sadusen ya daanu ci seen kaw.,Majuscule / minuscule,replace
+364,"رەكك, واايە يت دينا داانەەل ماگگالوكاايو ارتەميس","rekk, waaye it dina daaneel màggalukaayu Artemis","rekk, waaye it dina daaneel màggalukaayu àrttemis",Erreur multiple / combinaison,replace | insert
+365,"يندي يەنەەن جورۆوم ناان: “كيليفا گي, دێنك","indi yeneen juróom naan: “Kilifa gi, dénk","niddi yeneen juróom naan: “Kilifa gi, dënk",Erreur multiple / combinaison,insert | replace | replace
+366,"مو يۆننەەتي بەنەەن سورگا, ڽو رەي كو.","Mu yónneeti beneen surga, ñu rey ko.","mu yónneeti beneen surga, ñu rey ko.",Majuscule / minuscule,replace
+367,"ڽوي واخ يسوب, تەگ كو چي گێمميڽو يەەسو.","ñuy wax isob, teg ko ci gémmiñu Yeesu.","Ñuy wax Isub, teg ku ci gémmiñu Yeesu.",Substitution,replace | replace | replace | replace
+368,باننەەخي,bànneexi,banneexi,Diacritique / accent,replace
+369,خول يي فەەس نا.,Xol yi fees na.,xul yi fees na.,Substitution,replace
+370,"ڽي جوگگي چي, پيچچي اساماان لەكك كو لێپپ.","ñi joggi ci, picci asamaan lekk ko lépp.","Ñi juggi ci, picci asamaan lekk ku lépp.",Substitution,replace | replace | replace
+371,"پيلاات تونتو لەەن: «املەەن, اي ووتتوكات ا","Pilaat tontu leen: «Amleen, ay wottukat a","Pilaat tontu leen: «Amleen, ay wuttukat a",Substitution,replace
+372,چي فيرندە جيي ڠەەن كوي خاممەە: ديڠەەن,Ci firnde jii ngeen koy xàmmee: dingeen,ci firnde jii ngeen koy xàmmee: dingeen,Majuscule / minuscule,replace
+373,رێەو مي; مان كێلۆدد ليسيياس ماا ڠي لاي نويو.,réew mi; man Këlódd Lisiyas maa ngi lay nuyu.,réew mi; man këlódd lisiias maa ngi lay nuyu.,Substitution,replace | replace | replace
+374,ڠوور ييي اك سەەن ندام نداختە جێببال,nguur yii ak seen ndam ndaxte jébbal,nguur yiy ak seen ndax ndaxte jébbal,Substitution,replace | replace
+375,"اي نديگال, جاارە چي خەل مو سەلل","ay ndigal, jaare ci Xel mu Sell","ay ndigal, jaare ci xel mu Sell",Majuscule / minuscule,replace
+376,جێلە دارا چي لوخوب بااي بي.,jële dara ci loxob Baay bi.,jële dara ci loxob baay bi.,Majuscule / minuscule,replace
+377,يت پييەەر; فەكك لوولو داجە اك بێسي,it Piyeer; fekk loolu daje ak bési,tit Piyeer; fekk loolu daje ak bési,Insertion,insert
+378,"نداخ جاادو نا, نو فەي بوور بي سەساار گالاگ واللا دێەت?»","ndax jaadu na, nu fey buur bi Sesaar galag walla déet?»","ydax jaadu na, nu fey buur bi sesaar galag wélla déet?»",Substitution,replace | replace | replace
+379,"ڽاار نە لەەن: «نو ڠي دەم يەروسالەم,","ñaar ne leen: «Nu ngi dem Yerusalem,","Ñaar ne leen: «Nu ngi dem Yerusalem,",Majuscule / minuscule,replace
+380,"سووف داي مەڽڽ مووم چي بوپپام, مو","Suuf day meññ moom ci boppam, mu","Yuuf day meññ moom ci boppam, mu",Substitution,replace
+381,نەرر,nerr,err,Suppression,delete
+382,نوسە,nose,Nuse,Substitution,replace
+383,داانو چي سووف تە سووبول سەەن بااي.,daanu ci suuf te soobul seen Baay.,daanu ci suuf te suubul seen baay.,Substitution,replace | replace
+384,واخ جووجو ناگ دالدي جااخال تااليبە يي,Wax jooju nag daldi jaaxal taalibe yi,wax jooju nag daldi jaaxal taalibe yi,Majuscule / minuscule,replace
+385,خاناا كون ڠێم داي فانق يوونو موساا?,Xanaa kon ngëm day fanq yoonu Musaa?,xanaa kon ngëm day fanq yoonu Musaa?,Majuscule / minuscule,replace
+386,"ڽوي لەكك, تە لااجوون كو نە: «بورووم","ñuy lekk, te laajoon ko ne: «Boroom","Ñuy lekk, te laajoon ko ne: «Boroom",Majuscule / minuscule,replace
+387,"مان پوول, نداوول كيريست يەەسو چي چووبارەگ","Man Pool, ndawul Kirist Yeesu ci coobareg","man Pool, ndawul Kirist Yeesu ci coobareg",Majuscule / minuscule,replace
+388,"ا فاڠاارال دوگگ چيب دێكك, واايە مو","a faŋaaral dugg cib dëkk, waaye mu","Ya fàngaaral dugg cib dëkk, waaye mu",Erreur multiple / combinaison,insert | replace
+389,"ڽي دوون دەف لوولو, جورۆوم-ڽااري دووم لاڽو","Ñi doon def loolu, juróom-ñaari doom lañu","ñi doon def loolu, juróom-ñaari doom lañu",Majuscule / minuscule,replace
+390,كو: «نداخ گێم ڠا دوومو نيت كي?»,ko: «Ndax gëm nga Doomu nit ki?»,ko: «Ndax gëm nga doomu nit ki?»,Majuscule / minuscule,replace
+391,"ڽو جوب نداخ سەەن ڠێم, ڽي خارافول","ñu jub ndax seen ngëm, ñi xaraful","Ñu jub ndax seen ngëm, ñi xaraful",Majuscule / minuscule,replace
+392,"بي لوولو امەە يەەسو جۆگە فووفا, دوگگ چي سەەن جاڠو,","Bi loolu amee Yeesu jóge foofa, dugg ci seen jàngu,","Bi loolu amee Yeesu jóge foofa, dugg càngu,",Suppression,delete
+393,"«كو لەەن دێگلو, دێگلو نا ما; كو","«Ku leen déglu, déglu na ma; ku","«Ku leen déglu, dëglu na ma; ku",Diacritique / accent,replace
+394,"جەگەڽسي نە كو: “كيليفا گي, دێنك ڠا","jegeñsi ne ko: “Kilifa gi, dénk nga","jegeñsi ne ko: “Kilifa gi, dënk nga",Diacritique / accent,replace
+395,گو ڽوي واخ تيبەريادد. نيي لا دەمە ووون:,gu ñuy wax Tiberyàdd. Nii la deme woon:,yu ñuy wax tiberiadd. Nii la deme woon:,Substitution,replace | replace | replace
+396,كو كو. تە ڠەەن رووف اب جاارو,ko ko. Te ngeen roof ab jaaro,ku ko. Te ngeen rouf ab jaaru,Substitution,replace | replace | replace
+397,كي كوي وور دينا توروخ. باڽوون ا,ki koy wor dina torox. Bañoon a,ki koy wor dina turox. Bañoon a,Substitution,replace
+398,"ڽي راب جاپپ, ڽو دي لەەن جێەم","ñi rab jàpp, ñu di leen jéem","Ñi rab jàpp, ñu di leen jéem",Majuscule / minuscule,replace
+399,"لەەن, نداختە داڽوو سونن با نە يوگگ,","leen, ndaxte dañoo sonn ba ne yogg,","leen, ndaxte dañoo sunn ba ne yugg,",Substitution,replace | replace
+400,نوونو يەەسو وێر دێكك يو ماگ يا,Noonu Yeesu wër dëkk yu mag ya,Noonu Yeesu wér dëkk yu mag ya,Diacritique / accent,replace
+401,نيت كي يور خەلوم ياللا دافاي اتتە,Nit ki yor Xelum Yàlla dafay àtte,nit ki yor xelum Yàlla dafay atte,Diacritique / accent,replace | replace | replace
+402,ما كو بااي بي سانتە.»,ma ko Baay bi sante.»,ma ko baay bi sante.»,Majuscule / minuscule,replace
+403,چي كاو لوولو يەەسو نە لەەن: «نانو,Ci kaw loolu Yeesu ne leen: «Nanu,ci kaw loolu Yeesu ne leen: «Nanu,Majuscule / minuscule,replace
+404,"نێەو بي دالدي گێنن, ڽو گيس چاڠااي,","Néew bi daldi génn, ñu gis càngaay,","néew bi daldi gënn, ñu gis càngaay,",Diacritique / accent,replace | replace
+405,لەەن چي ندوخ چي تورو يەەسو بورووم بي.,leen ci ndox ci turu Yeesu Boroom bi.,leen ci ndox ci turu Yeesu boroom bi.,Majuscule / minuscule,replace
+406,"ساما كااس, واايە تووگ چي ساما ندەيجوور","sama kaas, waaye toog ci sama ndeyjoor","Yama kaas, waaye toog ci sama ndeyjoor",Substitution,replace
+407,"فەكك تااليبەي يەەسو يا دي كو گێتێن نە: «كيليفا گي, لەككال.»","Fekk taalibey Yeesu ya di ko gétën ne: «Kilifa gi, lekkal.»","fekk taalibey Yeesu ya di ko gëtën ne: «Kilifa gi, lekkal.»",Diacritique / accent,replace | replace
+408,تانن,tànn,tann,Diacritique / accent,replace
+409,ادديناي,àddinay,dàddinay,Insertion,insert
+410,نجاببوتام,njabbotam,jjabbutam,Substitution,replace | replace
+411,رێگلە,rëgle,régle,Diacritique / accent,replace
+412,ويي? نو ڠەەن خامە ناگ لێەب يي چي دەس?,wii? Nu ngeen xame nag léeb yi ci des?,wiy? Nu ngeen xame nag léeb yi ci des?,Substitution,replace
+413,"ڽوو فەەڽ چي ندامو ياللا, دي واختاانە","Ñoo feeñ ci ndamu Yàlla, di waxtaane","ñoo feeñ ci ndamu Yàlla, di waxtaane",Majuscule / minuscule,replace
+414,كي گێن ا ماگ چي يێەن مووي,Ki gën a mag ci yéen mooy,ki gën a mag ci yéen mooy,Majuscule / minuscule,replace
+415,"تاخاو چا وەتام, ڽو فێل گێمميڽام.","taxaw ca wetam, ñu fél gémmiñam.","taxaw ca wetam, ñu fël gëmmiñam.",Diacritique / accent,replace | replace
+416,"لو بون, ڠير لو بااخ گێنن چا?»","lu bon, ngir lu baax génn ca?»","lu bon, ngir lu baax gënn ca?»",Diacritique / accent,replace
+417,ڽااوتێەفو,ñaawtéefu,Ñaawtéefu,Majuscule / minuscule,replace
+418,مەلوو,melow,meloo,Duplication / répétition,replace
+419,"نيي.» بووبا لا كو تااليبە با يۆببو كێرام, يور كو.","nii.» Booba la ko taalibe ba yóbbu këram, yor ko.","nii.» Booba la ko taalibe ba yóbbu këram, yur ko.",Substitution,replace
+420,يددا,idda,didda,Insertion,insert
+421,"بێگگە, نداختە باككانو نيت اجووول چي الالام, اك لو مو بارەە-بارە.»","bëgge, ndaxte bakkanu nit ajuwul ci alalam, ak lu mu baree-bare.»","yégge, ndaxte bàkkanu nit ajooul ci alalam, ak lu mu baree-bare.»",Substitution,replace | replace | replace
+422,"ياللا, ڠير ليگگێەي بي ڽو اگگالە.","Yàlla, ngir liggéey bi ñu àggale.","Yàlla, ngir liggéey bi ñu aggale.",Diacritique / accent,replace
+423,"نجااتيگەەم نە كو: “دەف ڠا لو بااخ,","Njaatigeem ne ko: “Def nga lu baax,","njaatigeem ne ko: “Def nga lu baax,",Majuscule / minuscule,replace
+424,خام ڠەەن نە ياللا فال نا يەەسوم,Xam ngeen ne Yàlla fal na Yeesum,xam ngeen ne Yàlla fal na Yeesum,Majuscule / minuscule,replace
+425,گيلە,gile,yile,Substitution,replace
+426,"يوواانا, نداخ بێگگ ڠا ما?» مو نە","Yowaana, ndax bëgg nga ma?» Mu ne","yowaana, ndax bëgg nga ma?» Mu ne",Majuscule / minuscule,replace
+427,ماا ڠي ياگگ فيي ات.,Maa ngi yàgg fii at.,maa ngi yàgg fii at.,Majuscule / minuscule,replace
+428,"دەخو يوردان. بي مو فا دەمەە, مبوولوو","dexu Yurdan. Bi mu fa demee, mbooloo","dexu yurdan. Bi mu fa demee, mbooloo",Majuscule / minuscule,replace
+429,"لێەگي ناگ بورووم بي, سەەتال سەەني تێككو","Léegi nag Boroom bi, seetal seeni tëkku","léegi nag boroom bi, seetal seeni tëkku",Majuscule / minuscule,replace | replace
+430,خاناا نداخ نو دەم جێندال مبوولوو ميي لو ڽو لەكك?»,Xanaa ndax nu dem jëndal mbooloo mii lu ñu lekk?»,xanaa ndax nu dem jëndal mbooloo miy lu ñu luklukalu?»,Duplication / répétition,replace | replace | replace | insert | insert
+431,"اك كاتتان; موي وێر, دي دەف لو","ak kàttan; muy wër, di def lu","ak kàttan; muy wér, di def lu",Diacritique / accent,replace
+432,داما جاڠ الخوراان.,Dama jàng Alxuraan.,dama jang alxuraan.,Diacritique / accent,replace | replace | replace
+433,بانني يسراييل تە خامولوو مبير ييي?,bànni Israyil te xamuloo mbir yii?,banni Israyil te xamuloo mbir yiy?,Substitution,replace | replace
+434,"سيموڠ, با اگسي چي بونت بي.","Simoŋ, ba agsi ci bunt bi.","simoŋ, ba agsi ci bunt bi.",Majuscule / minuscule,replace
+435,"يي, ديڠەەن توروخ! نداختە يێەنا ڠي وێر","yi, dingeen torox! Ndaxte yéena ngi wër","yi, dingeen torox! Ndaxte yéena ngi wér",Diacritique / accent,replace
+436,يێەنا ڠي واخ نە: “كو گيڽە كێر,Yéena ngi wax ne: “Ku giñe kër,éeena ngi wax ne: “Ku giñe kër,Duplication / répétition,delete | insert
+437,"بااخ, فەكك داڠەەن بون? نداختە گێمميڽ, لا فەەس خول لاي واخ.","baax, fekk dangeen bon? Ndaxte gémmiñ, la fees xol lay wax.","baax, fekk dangeen bun? Ndaxte gëmmiñ, la fees xol lay wax.",Substitution,replace | replace
+438,"بي مو گيسەە پييەەر اك يوواانا ناگ,","Bi mu gisee Piyeer ak Yowaana nag,","Bi mu gisee piyeer ak yowaana nag,",Majuscule / minuscule,replace | replace
+439,"چا دەس دێگگ ناڽو لوولو, ڽو دالدي مەرە سااگ اك يوواانا.","ca des dégg nañu loolu, ñu daldi mere Saag ak Yowaana.","ca des dégg nañu loolu, ñu daldi mere saag ak yuwaana.",Substitution,replace | replace
+440,"چي كاو لوولو سوول, مي تودد يت","Ci kaw loolu Sool, mi tudd it","ci kaw loolu suul, mi tudd it",Substitution,replace | replace
+441,چي كاو لوولو پييەەر جێل كاددو گي,Ci kaw loolu Piyeer jël kàddu gi,ci kaw loolu Piyeer jël kàddu gi,Majuscule / minuscule,replace
+442,بيي; دوگال نا ساخ اي گەرەگ فيي,bii; dugal na sax ay Gereg fii,bii; dugal na sax ay gereg fii,Majuscule / minuscule,replace
+443,"كو لا گا, ڠا يەنول كو دوخوب","Ku la ga, nga yenul ko doxub","ku la ga, nga yenul ko doxob",Substitution,replace | replace
+444,جاڠ ليي چي مبيند يي?“دوج وي تاباخكات,jàng lii ci Mbind yi?“Doj wi tabaxkat,jàng liy ci mbind yi?“Doj wi tabaxkat,Substitution,replace | replace
+445,چا ڠوون سا فوككي تااليبە يا اك,Ca ngoon sa fukki taalibe ya ak,ca ngoon sa fukki taalibe ya ak,Majuscule / minuscule,replace
+446,تە ليي يتام ام نا: خام ڠەەن,Te lii itam am na: xam ngeen,te lii itam am na: xam ngeen,Majuscule / minuscule,replace
+447,"بي مو كو واخەە, اگاريپا نە پوول:","Bi mu ko waxee, Agaripa ne Pool:","yi mu ko waxee, agaripa ne pool:",Substitution,replace | replace | replace
+448,"ييي, ڽاان چي ياللا رەكك ا لەەن دي داق.»","yii, ñaan ci Yàlla rekk a leen di dàq.»","yiy, ñaan ci Yàlla rekk a leen di dàq.»",Substitution,replace
+449,"دوون, نداختە خام ناڽو نە, بورووم بي لا.","doon, ndaxte xam nañu ne, Boroom bi la.","doon, ndaxte xam nañu ne, boroom bi la.",Majuscule / minuscule,replace
+450,نداخ ياا دي يليياس?» مو نە لەەن:,Ndax yaa di Iliyas?» Mu ne leen:,Yàx yaa di Iliyas?» Mu ne leen:,Substitution,replace
+451,جێييا,jéyya,jéyia,Substitution,replace
+452,دێنك ناا ياووت يي اك گەرەگ يي,Dénk naa Yawut yi ak Gereg yi,dénk naa Yawut yi ak gereg yi,Majuscule / minuscule,replace | replace
+453,"توور خەل مو سەلل, مي مو مايە,","tuur Xel mu Sell, mi mu maye,","tuur xel mu Sell, mi mu maye,",Majuscule / minuscule,replace
+454,ما وەددي ڽەتتي يوون.» مو دالدي جووي جووي يو مەتتي.,ma weddi ñetti yoon.» Mu daldi jooy jooy yu metti.,ya weddi ñetti yoon.» Mu daldi jooy juuy yu metti.,Substitution,replace | replace
+455,"ماريااما دافا تانن چێر بي گێن, تە","Maryaama dafa tànn cér bi gën, te","Maryaama dafa tann cér bi gën, te",Diacritique / accent,replace
+456,"ناڽو لوولو, ڽو دالدي واارو لوول نە","nañu loolu, ñu daldi waaru lool ne","Aañu loolu, ñu daldi waaru luul ne",Substitution,replace | replace
+457,"تاسكاتي رێەو ما يت, يا ڽو دااجاالە","Taskati réew ma it, ya ñu daajaale","taskati réew ma it, ya ñu daajaale",Majuscule / minuscule,replace
+458,گاددااي,gàddaay,gaddaay,Diacritique / accent,replace
+459,"اك سەگوند, ڽي دێكك تەسالونيگ; گايوس, مي","ak Segond, ñi dëkk Tesalonig; Gayus, mi","ak segund, ñi dëkk tesalunig; gayus, mi",Substitution,replace | replace | replace | replace | replace
+460,"ڠەلاو لي, نداختە ڠەلاو لي دا نوو سوفلو.","ngelaw li, ndaxte ngelaw li da noo soflu.","ngelaw li, ndaxte ngelaw li da noo suflu.",Substitution,replace
+461,"راب يوويوو ڠي كو دوون ڽاان, ڠير","Rab yooyoo ngi ko doon ñaan, ngir","rab yooyoo ngi ko doon ñaan, ngir",Majuscule / minuscule,replace
+462,"ديناڽو لەەن داق چا جاڠو يا, تە","Dinañu leen dàq ca jàngu ya, te","dinañu leen dàq ca jàngu ya, te",Majuscule / minuscule,replace
+463,تەي دامم مبورو چا كێر يا; ڽوي,tey damm mburu ca kër ya; ñuy,tey dàmm mburu ca kër ya; ñuy,Diacritique / accent,replace
+464,"كان چي يێەن, بو لا سا دووم","Kan ci yéen, bu la sa doom","kan ci yéen, bu la sa doom",Majuscule / minuscule,replace
+465,ياي,yaay,yay,Suppression,delete
+466,بو نجااتيگەەم ڽێوەە تە گيس موي دەف,Bu njaatigeem ñëwee te gis muy def,bu njaatigeem ñëwee te gis muy def,Majuscule / minuscule,replace
+467,"نە كو: «لو تاخ نوي ووور, نون","ne ko: «Lu tax nuy woor, nun","ne ko: «Lu tax nuy wuur, nun",Substitution,replace
+468,"سي گومبا گي گيس, دالدي توپپ يەەسو چي يوون وي.","si gumba gi gis, daldi topp Yeesu ci yoon wi.","si gumba gi gis, daldi topp yeesu ci.",Erreur multiple / combinaison,replace | delete
+469,"ام نا ڽاار ڽو لەەن فەەڽو, سول يێرە يوي مەلاخ.","am na ñaar ñu leen feeñu, sol yére yuy melax.","yam na ñaar ñu leen feeñu, sul yére yuy melax.",Erreur multiple / combinaison,insert | replace
+470,"كو خامول نە, دێككو ەفەس موو دي","ku xamul ne, dëkku Efes moo di","ko xamul ne, dëkku Efes moo di",Substitution,replace
+471,"مي, بايييل لەەن باراباس, با نوپپي مو","mi, bàyyil leen Barabas, ba noppi mu","yi, bàyyil leen barabas, ba noppi mu",Substitution,replace | replace
+472,"ڽو راببە كاوارو گيلێەم, تاكك گەڽوگ دەر","ñu ràbbe kawaru giléem, takk geñog der","Ñu rabbe kawaru Gilëem, takk geñug der",Substitution,replace | replace | replace | replace | replace
+473,ماڠي بێگگ لەكك چێب نيي.,Mangi bëgg lekk cëb nii.,màngi bëgg lekk cëb nii.,Diacritique / accent,replace
+474,نا خەل مي جاارالە كو چي لوخوي,na Xel mi jaarale ko ci loxoy,na xel mi jaarale ko ci loxoy,Majuscule / minuscule,replace
+475,"چا گێەو, با ڽوي واخ ارەيوپاس. ڽو","ca géew, ba ñuy wax Areyopas. Ñu","ca géew, ba ñuy wax areyupas. Ñu",Substitution,replace | replace
+476,"واا ەلام, نون ڽي دێكك مەسوپوتامي, رێەوو","waa Elam, nun ñi dëkk Mesopotami, réewu","Waa elam, nun ñi dëkk Mesuputami, réewu",Substitution,replace | replace | replace | replace
+477,"ناان دو ماراتي موكك, نداختە داي نەكك","naan du marati mukk, ndaxte day nekk","Naan du marati mukk, ndaxte day nekk",Majuscule / minuscule,replace
+478,"مارت تونتو كو نە: «خام ناا نە,","Màrt tontu ko ne: «Xam naa ne,","Mart tontu ko ne: «Xam naa ne,",Diacritique / accent,replace
+479,لو تاخ ڠاي خوول ڽاخ گي چي,Lu tax ngay xool ñax gi ci,lu tax ngay xool ñax gi ci,Majuscule / minuscule,replace
+480,يوونو موساا داان نا خامب بێگگ-بێگگ يو,yoonu Musaa daan na xamb bëgg-bëgg yu,Yoonu Musaa daan na xàmb bëgg-bëgg yu,Diacritique / accent,replace | replace
+481,"يەەسو گێنن, جاللاات دەخو يوردان, تووگ فا","Yeesu génn, jàllaat dexu Yurdan, toog fa","Yeesu génn, jallaat dexu Yurdan, toog fa",Diacritique / accent,replace
+482,"نيي لا دوون واارەە: «تووبلەەن سەەني باككاار,","Nii la doon waaree: «Tuubleen seeni bàkkaar,","niy la doon waaree: «Tuubleen seeni bàkkaar,",Substitution,replace | replace
+483,واايە ليي لا كو ياللا تونتو: «دەنچال,Waaye lii la ko Yàlla tontu: «Dencal,Waaye liy la ko Yàlla tontu: «Dencal,Substitution,replace
+484,"چي ساا سي تااليبە يي خوول, واايە","Ci saa si taalibe yi xool, waaye","ci saa si taalibe yi xool, waaye",Majuscule / minuscule,replace
+485,بااخ بوي يندي مبێگ مو رێي چي نيت ڽێپپ.,baax buy indi mbég mu réy ci nit ñépp.,Yaax buy yindi mbëg mu réy ci nit ñépp.,Erreur multiple / combinaison,replace | insert | replace
+486,ماي وار ا فێەتەووو چي ندونو لي.”,may war a féetewoo ci ndono li.”,may war a féetewuw ci ndonu li.”,Substitution,replace | replace
+487,"كو بێگگ ا سييو, دوو نێبب ساي","Ku bëgg a siiw, doo nëbb say","ku bëgg a siiw, doo nëbb say",Majuscule / minuscule,replace
+488,فوككي,fukki,Fukki,Majuscule / minuscule,replace
+489,ما خامە بااي بي تە بااي بي,ma xame Baay bi te Baay bi,ma xame baay bi te baay bi,Majuscule / minuscule,replace | replace
+490,فەكك ڽوي روب نێەو بوو خام نە,fekk ñuy rob néew boo xam ne,fekk ñuy rub néew boo xam ne,Substitution,replace
+491,"يسراييل اك ساما ڽاان چي ياللا, مووي ڽو موچچ.","Israyil ak sama ñaan ci Yàlla, mooy ñu mucc.","ysrayil ak sama ñaan ci Yàlla, mooy ñu mucc.",Substitution,replace
+492,"ساراخالەكات, يا اسكانوو چي ابييا. جابارام ەليسابەت","saraxalekat, ya askanoo ci Abiya. Jabaram Elisabet","saraxalekat, ya askanuo ci abiia. Jabaram Elisabet",Substitution,replace | replace | replace
+493,فوو جێم چي ساما خالە.,Foo jëm ci sama xale.,foo jëm ci sama xale.,Majuscule / minuscule,replace
+494,موسال ما چي لي نار ا خەو,musal ma ci li nar a xew,Musal ma ci li nar a xew,Majuscule / minuscule,replace
+495,"موو اموون بێكك-نێەگ بو ڽو جييڽ نە, دافاي پاسار-پاسارەە الال جي.","moo amoon bëkk-néeg bu ñu jiiñ ne, dafay pasar-pasaree alal ji.","yoo amoon bëkk-néeg bu ñu jiiñ ne, dafay pasar-palarareralararee alarerala.",Erreur multiple / combinaison,replace | replace | insert | replace
+496,سيب سەەن تور ڠير دوومو نيت كي.,sib seen tur ngir Doomu nit ki.,sib seen tur ngir doomu nit ki.,Majuscule / minuscule,replace
+497,الل,àll,all,Diacritique / accent,replace
+498,"جو دوومو نيت كي دي ڽێو, واايە دوڠەەن كو گيس.","ju Doomu nit ki di ñëw, waaye dungeen ko gis.","ju doomu nit ki di ñëw, waaye dungeen ko gis.",Majuscule / minuscule,replace
+499,"نداختە خام نانو نە, تارييخا بووبا, كەنن جوبلووو كو فەنن.»","ndaxte xam nanu ne, tariixa booba, kenn jubluwu ko fenn.»","yànte xam nanu ne, tariixa booba, kenn jubloo ko fenn.»",Erreur multiple / combinaison,insert | delete | replace
+500,"تووي گي, لو ڽوي دەف گاراب گو ووو گي?»","tooy gi, lu ñuy def garab gu wow gi?»","wooy gi, lu ñuy def garab gu woo gi?»",Substitution,replace | replace
+501,"نوپپي مبوولووم ڽي گێم چي يەروسالەم, ڽو يەبال بارناباس با انچوس.","noppi mbooloom ñi gëm ci Yerusalem, ñu yebal Barnabas ba Ancos.","noppi mbooloom ñi gëm ci Yerusalem, ñu yebal bar Ma àncos.",Erreur multiple / combinaison,replace | delete | replace | replace
+502,"با پيچچي اساماان ڽێو, تاگگ چيي چارام.»","ba picci asamaan ñëw, tàgg ciy caram.»","ba Picci asamaan ñëw, tàgg ciy caram.»",Majuscule / minuscule,replace
+503,بێگالال,bégalal,bëgalal,Diacritique / accent,replace
+504,سوو دەە لەكك لوي ينديل سا مورووم,Soo dee lekk luy indil sa moroom,soo dee lekk luy yidil sa moroom,Erreur multiple / combinaison,replace | insert | delete
+505,بااي بي چي كاو دينا لەەن باال سەەني تووڽ يێەن يتام.,Baay bi ci kaw dina leen baal seeni tooñ yéen itam.,baay bi ci kaw dina leen baal seeni tooñ yéen itam.,Majuscule / minuscule,replace
+506,"مارت ناگ اموون راكك جو تودد ماريااما,","Màrt nag amoon rakk ju tudd Maryaama,","mart nag amoon rakk ju tudd Maryaama,",Diacritique / accent,replace
+507,واايە وارونوو يەمالە تووڽو ااداما اك مايو,Waaye warunoo yemale tooñu Aadama ak mayu,waaye warunuo yemale tooñu aadama ak mayu,Substitution,replace | replace | replace
+508,توپپاتوو,toppatoo,toppatuo,Erreur multiple / combinaison,insert | delete
+509,"واايە ڠير موي سەەن سورگا, با جوخە","waaye ngir muy seen surga, ba joxe","Waaye ngir muy seen surga, ba joxe",Majuscule / minuscule,replace
+510,بيرەە,biree,Iiree,Substitution,replace
+511,"رێي-ا-رێي لا ووون. نوونو ڽو خوول, گيس نە دوج وا دەڽ.","réy-a-réy la woon. Noonu ñu xool, gis ne doj wa deñ.","réy-a-réy la woon. Noonu ñu xool, gis ne duj wa deñ.",Substitution,replace
+512,تاييەەل,tàyyeel,tayyeel,Diacritique / accent,replace
+513,"ووو, دا لەەن ا اتتە ني ڽو","woo, da leen a àtte ni ñu","woow, da leen a àtte ni ñu",Insertion,insert
+514,نە,ne,ee,Duplication / répétition,delete | insert
+515,"يوداا --دو يوداا يسكارييو دە, بەنەەن لا","Yudaa --du Yudaa Iskariyo de, beneen la","Yuddaa --du Yudaa Iskariyu de, beneen la",Erreur multiple / combinaison,insert | replace
+516,ياا ڠي گيس چي مارچهێ بي,Yaa ngi gis ci marché bi,yaa ngi gis ci marché bi,Majuscule / minuscule,replace
+517,"بون لاي واخ, جێلە كو چا فا مو دەنچ لو بون.","bon lay wax, jële ko ca fa mu denc lu bon.","bun lay wax, jële ko ca fa mu denc lu bon.",Substitution,replace
+518,"ڽو بارە, با چي مان ميي دي واخ اك يێەن.","ñu bare, ba ci man mii di wax ak yéen.","Ñu bare, ba cci man miy di wax ak yéen.",Erreur multiple / combinaison,replace | insert | replace
+519,باات ا ڠي خااچو چا مانديڠ ما,Baat a ngi xaacu ca màndiŋ ma,baat a ngi xaacu ca màndiŋ ma,Majuscule / minuscule,replace
+520,خوبي,xobi,xubi,Substitution,replace
+521,"جاپپولەەن ما. واايە ليي ام نا, ڠير مبيند مي ام.»","jàppuleen ma. Waaye lii am na, ngir Mbind mi am.»","yàppuleen ma. Waaye liy am na, ngir mbind mi am.»",Substitution,replace | replace | replace
+522,"ياللا, سانتال دوج ويي مو نەكك مبورو.»","Yàlla, santal doj wii mu nekk mburu.»","yalla, santal doj wiy mu nekk mburu.»",Substitution,replace | replace
+523,"تەگ چا نيكانور, تيمون, پارمەناس اك نيكولاس,","teg ca Nikanor, Timon, Parmenas ak Nikolas,","Teg ca nikanur, timon, parmenas ak nikulas,",Substitution,replace | replace | replace | replace | replace | replace | replace
+524,دەميين,demiin,demin,Suppression,delete
+525,ڽو بارە دەە; واايە ييوو ياللا اك,ñu bare dee; waaye yiwu Yàlla ak,Ñu bare dee; waaye yiwu Yàlla ak,Majuscule / minuscule,replace
+526,"ڽو نوپپالو, ني كو يوون وي سانتاانەە.","ñu noppalu, ni ko yoon wi santaanee.","ñu noppalu, ni ku yoon wi santaanee.",Substitution,replace
+527,ياو تاميت ام ڠا سولو لوول.,Yaw tamit am nga solo lool.,yaw tamit am nga solo lool.,Majuscule / minuscule,replace
+528,"جێلە, تە خام-خام بيي مو يور, لو","jële, te xam-xam bii mu yor, lu","jële, te xam-xam biy mu yur, lu",Substitution,replace | replace
+529,"چا, تاكك كو چي بانتو گاراب گو","ca, takk ko ci bantu garab gu","ca, takk ku ci bantu garab gu",Substitution,replace
+530,لااج كو اي باتااخال يو موي يۆببول,laaj ko ay bataaxal yu muy yóbbul,Laaj ko ay bataaxal yu muy yóbbul,Majuscule / minuscule,replace
+531,"يەەسو دێگگ كاددو يوويو, دالدي نە نجييت","Yeesu dégg kàddu yooyu, daldi ne njiit","Yeesu dégg kàddu yooyu, daldi njiit",Suppression,delete
+532,چا بێس با ڽو جاپپ ناگ ەرودد,Ca bés ba ñu jàpp nag Erodd,ca bés ba ñu jàpp nag Erodd,Majuscule / minuscule,replace
+533,"ڽێپپ; كي جۆگە چي سووف ناگ, چي","ñépp; ki jóge ci suuf nag, ci","Ñépp; ki jóge ci suuf nag, ci",Majuscule / minuscule,replace
+534,فاراندووي,farandooy,Farandooy,Majuscule / minuscule,replace
+535,"نداخ سونو كيليفا يي داڽوو خام نە, مووي الماسي بي?","Ndax sunu kilifa yi dañoo xam ne, mooy Almasi bi?","Ndax sunu kilifa yi dañoo xam ne, mooy almasi bi?",Majuscule / minuscule,replace
+536,لەەن ا جێببال. دێنك ناا ساما مبير سەساار.»,leen a jébbal. Dénk naa sama mbir Sesaar.»,leen a jébbal. Dënk naa sama mbir sesaar.»,Diacritique / accent,replace | replace
+537,"ديندي ناڽو خەەر, وا ڽو كو وبە ووون.","dindi nañu xeer, wa ñu ko ube woon.","dindi nañu xeer, wa ñu ko weewuon.",Erreur multiple / combinaison,insert | delete
+538,"نوونو كورنەي نە كو جاكك, دالدي تييت","Noonu Korney ne ko jàkk, daldi tiit","Noonu korney ne ku jàkk, daldi tiit",Substitution,replace | replace
+539,بو بااخ بو يەەسو بورووم بي.,bu baax bu Yeesu Boroom bi.,bu baax bu Yeesu boroom bi.,Majuscule / minuscule,replace
+540,واايە بي نو ڠەلاو لي سونالەە بو,Waaye bi nu ngelaw li sonalee bu,Waaye bi nu ngelaw li sunalee bu,Substitution,replace
+541,وايوومماتو,waywommatu,wayoommatu,Substitution,replace
+542,"ناكا لاڽو ڽێو چي كێر نجييت لي,","Naka lañu ñëw ci kër njiit li,","aka lañu ñëw ci kër njiit li,",Suppression,delete
+543,"ياووت يا جييڽ. مو سانتاانە نە, ساراخالەكات","Yawut ya jiiñ. Mu santaane ne, saraxalekat","yawut ya jiiñ. Mu santaane ne, saraxalekat",Majuscule / minuscule,replace
+544,"«ياو رێەووم سابولون اك رێەووم نەفتالي,دي يوونو","«Yaw réewum Sabulon ak réewum Neftali,di yoonu","«Yaw réewum Sabulon ak réewum neftali,di yoonu",Majuscule / minuscule,replace
+545,"""وااو, داما ناڠوو.""","""Waaw, dama nangou.""","""Waaw, dama nanguu.""",Substitution,replace
+546,"جييتو, نا توپپ چي گاننااو ڽێپپ تە نەكك سورگاب ڽێپپ.»","jiitu, na topp ci gannaaw ñépp te nekk surgab ñépp.»","yiitu, na topp ci gannaaw ñépp te nekk surgab ñépp.»",Substitution,replace
+547,"لێەگي كات لورااڠەە ڠي نوي يووت, تە","Léegi kat loraangee ngi nuy yoot, te","léegi kat luraaŋgee ngi nuy yoot, te",Substitution,replace | replace | replace
+548,چووبارەەم تە گيس اجي جوب جي تە ڠا دێگگ اي واخام.,coobareem te gis Aji Jub ji te nga dégg ay waxam.,coobareem te gis aji jub ji te nga dégg ay waxam.,Majuscule / minuscule,replace | replace
+549,"نوونو جيگێەن جا واچچ فا نجاقام, دالدي","Noonu jigéen ja wacc fa njaqam, daldi","Noonu jigéen ja wàcc fa njàqam, daldi",Diacritique / accent,replace | replace
+550,وەدديوول,weddiwul,weeduul,Erreur multiple / combinaison,insert | replace
+551,گێمێدي,gëmëdi,gëmédi,Diacritique / accent,replace
+552,"ني بێسي نۆويين يا, نوونو لاي مەل,","Ni bési Nóoyin ya, noonu lay mel,","ni bési nóoyin ya, noonu lay mel,",Majuscule / minuscule,replace | replace
+553,واايە ليگگێەيكات يي بارەووڽو. ڽاانلەەن ناگ بورووم,waaye liggéeykat yi barewuñu. Ñaanleen nag Boroom,waaye liggéeykat yi barewuñu. Ñaanleen nag boroom,Majuscule / minuscule,replace
+554,"جابار تە دو نجاالوو تاخ, بوو سێيااتەە اك كەنەەن, نجاالوو ڠا.»","jabar te du njaaloo tax, boo séyaatee ak keneen, njaaloo nga.»","yabar te du njaaloo tax, boo sëyaatee ak keneen, njaaloo nga.»",Substitution,replace | replace
+555,گاننااو لوولو نا نيت كو نەكك دێگگال,Gannaaw loolu na nit ku nekk déggal,Gannaaw loolu na nit ku nekk dëggal,Diacritique / accent,replace
+556,"گيس ڽيي لييت اك توخورو, اك مبوولوو","gis ñiy liit ak toxoro, ak mbooloo","gis ñiy liyt ak toxoru, ak mbooloo",Substitution,replace | replace
+557,"مو نە كو: «كەنن, ساڠ بي.» يەەسو","Mu ne ko: «Kenn, Sang bi.» Yeesu","Mu ne ko: «Kenn, sang bi.» Yeesu",Majuscule / minuscule,replace
+558,"ڽو ماي كالاامە, ڽووم ياووت يي.","ñu may kalaame, ñoom Yawut yi.","ñu may kalaame, ñoom yawut yi.",Majuscule / minuscule,replace
+559,"گا, مارياامام ماگدالا اك ماريااما ما چا","ga, Maryaamam Magdala ak Maryaama ma ca","ga, maryaamam magdala ak Maryaama ma ca",Majuscule / minuscule,replace | replace
+560,"يونەنت بو تودد اگابوس جۆگە يودە, اگسي.","yonent bu tudd Agabus jóge Yude, agsi.","yonent bu tudd agabus jóge yude, agsi.",Majuscule / minuscule,replace | replace
+561,ڠا واخ كو كەم سا ڠێم;,nga wax ko kem sa ngëm;,nga wax ku kem sa ngëm;,Substitution,replace
+562,يارام وي تاڠ نا.,Yaram wi tàng na.,yaram wi tàng na.,Majuscule / minuscule,replace
+563,نجاقارە,njàqare,jjàqare,Duplication / répétition,replace
+564,مو تونتو كو نە: «وااو بورووم بي.,Mu tontu ko ne: «Waaw Boroom bi.,mu tontu ko ne: «Waaw boroom bi.,Majuscule / minuscule,replace | replace
+565,بەنن چوگگال اي ام اك بەنن سامم.,Benn coggal ay am ak benn sàmm.,benn coggal ay am ak benn sàmm.,Majuscule / minuscule,replace
+566,"كاييف, يۆببو كو چا كێر بورووم رێەو","Kayif, yóbbu ko ca kër boroom réew","kayif, yóbbu ko ca kër boroom réew",Majuscule / minuscule,replace
+567,"مبووس يي, بييڽ بي توورو, مبووس يي ياقو.","mbuus yi, biiñ bi tuuru, mbuus yi yàqu.","mbuus yi, biyñ bi tuuru, mbuus yi yàqu.",Substitution,replace
+568,"لاا وار ا دەف, با ام دوند گو دول جەەخ?»","laa war a def, ba am dund gu dul jeex?»","yaa war a def, ba am dund gu dul jeex?»",Substitution,replace
+569,نەككاات,nekkaat,ekkaat,Suppression,delete
+570,"وێرەە, كون سا يارام وێپپ لەەر. واايە","wéree, kon sa yaram wépp leer. Waaye","wëree, kon sa yaram wépp leer. Waaye",Diacritique / accent,replace
+571,چەەب بي ڠي تووگ چي سااي بي.,Ceeb bi ngi toog ci saay bi.,ceeb bi ngi toog ci saay bi.,Majuscule / minuscule,replace
+572,"وو بارە, تە اتتە لەەن جوب چي دارا فا كانامام.","wu bare, te àtte leen jub ci dara fa kanamam.","wo bare, te àtte leen jub ci dara fa kanamam.",Substitution,replace
+573,«كيي نەە ووون نا: “مان ناا توج,«Kii nee woon na: “Man naa toj,«Kiy nee woon na: “Man naa toj,Substitution,replace
+574,“لي نو يور دو دوي ڠير نون,“Li nu yor du doy ngir nun,“Li nu yor du duy ngir nun,Duplication / répétition,replace
+575,"بوكك يي, سەەتلەەن سەەن نەككين, بي لەەن","Bokk yi, seetleen seen nekkin, bi leen","bokk yi, seetleen seen nekkin, bi leen",Majuscule / minuscule,replace
+576,"نە پيلاات: «بول بيند: “بوورو ياووت,” بيندال","ne Pilaat: «Bul bind: “Buuru Yawut,” bindal","ne Pilaat: «Bul bind: “Buuru yawut,” bindal",Majuscule / minuscule,replace
+577,"يۆببو ڠەەن ساخ فو نەكك تانت,بيي ماگگالوكاايو","Yóbbu ngeen sax fu nekk tànt,biy màggalukaayu","yóbbu ngeen sax fu nekk tànt,bii màggalukaayu",Substitution,replace | replace
+578,توگگ ناا چەەبو جێن بو نەەخ.,Togg naa ceebu jën bu neex.,togg naa ceebu jën bu neex.,Majuscule / minuscule,replace
+579,جامونو دينا ڽێو تە اگسي نا با,jamono dina ñëw te agsi na ba,jamonu dina ñëw te agsi na ba,Substitution,replace
+580,چا ێللێگ سا ناگ كيليفاي ياووت يي,Ca ëllëg sa nag kilifay Yawut yi,ca ëllëg sa nag kilifay yawut yi,Majuscule / minuscule,replace | replace
+581,"ام نا اي سورگا يو بارە, تە","am na ay surga yu bare, te","Am na ay surga yu bare, te",Majuscule / minuscule,replace
+582,"بو لەەن لو بون ێپپ دوولە, واايە","Bu leen lu bon ëpp doole, waaye","bu leen lu bon ëpp doole, waaye",Majuscule / minuscule,replace
+583,"تاخ ڠەەن اند, دي دييڠات خەلو بورووم","tax ngeen ànd, di diiŋat Xelu Boroom","tax ngeen ànd, di diiŋat xelu boroom",Majuscule / minuscule,replace | replace
+584,"كي جێمبێت ناگ اك كي سووخات, كەنن","Ki jëmbët nag ak ki suuxat, kenn","ki jëmbët nag ak ki suuxat, kenn",Majuscule / minuscule,replace
+585,"يێەنەلەەن لو بااخ ڽي لەەن دي مۆولو,","Yéeneleen lu baax ñi leen di móolu,","yéeneleen lu baax ñi leen di móolu,",Majuscule / minuscule,replace
+586,فاتوو ماا ڠي جاڠ وولوف,Fatou maa ngi jàng wolof,Fatoo maa ngi jàng wolof,Substitution,replace
+587,يۆبب,yóbb,yóóbb,Insertion,insert
+588,چي ساا سي اي تانكام اك اي كوستانام دێگێر.,Ci saa si ay tànkam ak ay kostanam dëgër.,ci saa si ay tànkam ak ay kostanam dégër.,Diacritique / accent,replace | replace
+589,يي لااج كو چي پەگگ: «لو تاخ,yi laaj ko ci pegg: «Lu tax,yi laaj ko ci pegg:: «Lu tax,Ponctuation,insert
+590,مييكااييل,miikaayil,miykaayil,Substitution,replace
+591,"دينا كو ينديل جامم. لو كو موي,","dina ko indil jàmm. Lu ko moy,","dina ko indil jàmm. Lu ko muy,",Substitution,replace
+592,ماگگالو مبورو يا امول لاويير جەگە ووون,Màggalu Mburu ya amul lawiir jege woon,màggalu mburu ya amul lawiir jege woon,Majuscule / minuscule,replace | replace
+593,يەەسو سوپپوون نا مارت اك ماريااما اك لاساار.,Yeesu soppoon na Màrt ak Maryaama ak Lasaar.,yeesu soppoon na mart ak maryaama ak lasaar.,Diacritique / accent,replace | replace | replace | replace
+594,"كو گيسە, موي دەم اساماان.»","ko gise, muy dem asamaan.»","ku gise, muy dem asamaan.»",Substitution,replace
+595,ڽي جاپپ يەەسو يۆببو كو چي ساراخالەكات,Ñi jàpp Yeesu yóbbu ko ci saraxalekat,ñi jàpp Yeesu yóbbu ko ci saraxalekat,Majuscule / minuscule,replace
+596,دێددالە,dëddale,déddale,Diacritique / accent,replace
+597,"جالل دەخ گا, دەللو دێككام.","jàll dex ga, dellu dëkkam.","jall dex ga, dellu dëkkam.",Diacritique / accent,replace
+598,سوننوون نا لوول چي لوخوي فاجكات يو,Sonnoon na lool ci loxoy fajkat yu,Sunnuon na lool ci loxoy fajkat yu,Substitution,replace | replace
+599,دە لا وببيل ساي بێت.» مو نە لەەن: «يونەنت لا.»,de la ubbil say bët.» Mu ne leen: «Yonent la.»,de la ubbil say bët.» Mu ne leen: «Y.»,Suppression,delete
+600,مو تونتو نە: «خاوما نداخ بورووم باككاار,Mu tontu ne: «Xawma ndax boroom bàkkaar,mu tontu ne: «Xawma ndax boroom bàkkaar,Majuscule / minuscule,replace
+601,"جو تودد داماريس, اك ڽەنەەن.","ju tudd Damaris, ak ñeneen.","ju tudd damaris, ak ñeneen.",Majuscule / minuscule,replace
+602,"خوول چي كاو, سانت ياللا. مو دامم","xool ci kaw, sant Yàlla. Mu damm","xool ci kaw, sant yàlla. Mu damm",Majuscule / minuscule,replace
+603,كاددو گي تە دەنچ كو چي خول,kàddu gi te denc ko ci xol,kàddu gi te denc ku ci xol,Substitution,replace
+604,گەنەەن,geneen,eeneen,Duplication / répétition,replace
+605,دوولە دوند چي كاتتانو خەل موومو دێكك چي يێەن.,doole dund ci kàttanu Xel moomu dëkk ci yéen.,doole dund ci kàttanu xel moomu dëkk ci yéen.,Majuscule / minuscule,replace
+606,ياللا يۆننيوول دوومام چي اددينا ڠير مو,Yàlla yónniwul Doomam ci àddina ngir mu,Yàlla yónniwul doomam ci àddina ngir mu,Majuscule / minuscule,replace
+607,بورووم بي تونتو كو: «ناافێق يي! نداخ,Boroom bi tontu ko: «Naaféq yi! Ndax,boroom bi tontu ko: «Naaféq yi! Ndax,Majuscule / minuscule,replace
+608,"نوونو پييەەر اك يوواانا تەگ لەەن لوخو,","Noonu Piyeer ak Yowaana teg leen loxo,","Noonu Piyeer ak yowaana teg leen loxo,",Majuscule / minuscule,replace
+609,ياخانتو,yaxantu,Yaxantu,Majuscule / minuscule,replace
+610,"چي كاو لوولو ڽو بارە گێدد كو,","Ci kaw loolu ñu bare gëdd ko,","ci kaw loolu ñu bare gëdd ko,",Majuscule / minuscule,replace
+611,ميين,miin,miyn,Substitution,replace
+612,"جوللي نا چي ڽەەنتي خەبلا يێپپ,سەەن واخ وێر نا اددينا سێپپ.»","jolli na ci ñeenti xebla yépp,seen wax wër na àddina sépp.»","yulli na ci ñeenti xebla yépp,seen wax wér na dàddina addina sépp.»",Erreur multiple / combinaison,replace | replace | insert | insert
+613,ڽوي جاڠ بێسو نوفلااي بو نەكك; تەەوول,ñuy jàng bésu noflaay bu nekk; teewul,Ñuy jàng bésu noflaay bu nekk; teewul,Majuscule / minuscule,replace
+614,يدرييسا,idriisa,diriisa,Erreur multiple / combinaison,insert | delete
+615,"چي نجاالوو, ياا كوي تەگتال يوونو نجاالوو.","ci njaaloo, yaa koy tegtal yoonu njaaloo.","ci njaaloo, yaa kuy tegtal yoonu njaaloo.",Substitution,replace
+616,"نانو نە, دونو موس دارا, با كەرا نوي رەي پوول.","nanu ne, dunu mos dara, ba kera nuy rey Pool.","yanu ne, dunu Mus dara, ba kera nuy rey pool.",Substitution,replace | replace | replace
+617,چي كاو لوولو مو نە سورگا يا:,Ci kaw loolu mu ne surga ya:,ci kaw loolu mu ne surga ya:,Majuscule / minuscule,replace
+618,گێننلەەن,génnleen,gënnleen,Diacritique / accent,replace
+619,وێرال,wéral,wëral,Diacritique / accent,replace
+620,"تە ماريااما گيس نا كو, گێموڽو كو.","te Maryaama gis na ko, gëmuñu ko.","te maryaama gis na ko, gëmuñu ko.",Majuscule / minuscule,replace
+621,"تييم سووف, ديناا وووتال نيت ڽێپپ چي مان.»","tiim suuf, dinaa wootal nit ñépp ci man.»","yimm suuf, dinaa wootal nit ñépp ci man.»",Substitution,replace | replace
+622,بێسي لايوو اك ڽو ييليف رێەو مي;,bési layoo ak ñu yilif réew mi;,Bési layoo ak ñu yilif réew mi;,Majuscule / minuscule,replace
+623,"دييواانو يتورە اك بو تاراكونيت, تە ليساڽاس ييليف ابيلەن.","diiwaanu Iture ak bu Tarakonit, te Lisañas yilif Abilen.","Yiiwaanu iture ak bu tarakunit, te lisañas yilif abilef.",Substitution,replace | replace | replace | replace | replace | replace | replace
+624,ڽو رەەتاان.,Ñu reetaan.,ñu reetaan.,Majuscule / minuscule,replace
+625,ناكا سا دووم.,Naka sa doom.,naka sa doom.,Majuscule / minuscule,replace
+626,"لوولو ام با موي ڽەتتي يوون, با","Loolu am ba muy ñetti yoon, ba","loolu am ba muy ñetti yoon, ba",Majuscule / minuscule,replace
+627,نجێگ گي بانني يسراييل خايما ووون چي نيت كي;,njëg gi bànni Israyil xayma woon ci nit ki;,njég gi banni Israyil xayma woon ci nit ki;,Diacritique / accent,replace | replace
+628,اڤونس,avons,awuns,Substitution,replace
+629,"واايە بەنەەن تااليبە با راو پييەەر, جێكك كو چا باممەەل با.","waaye beneen taalibe ba raw Piyeer, jëkk ko ca bàmmeel ba.","waaye beneen taalibe ba raw piyeer, jëkk ko ca bàmmeel ba.",Majuscule / minuscule,replace
+630,ما فيتناال? ڠاي بێرە اك مان ني,ma fitnaal? Ngay bëre ak man ni,ma fitnaal? Ngay bére ak man ni,Diacritique / accent,replace
+631,"سەەتلەەن بو بااخ, ني ڠەەن دي دێگلوو","Seetleen bu baax, ni ngeen di dégloo","seetleen bu baax, ni ngeen di dégluw",Substitution,replace | replace
+632,مايەە,mayee,Ayee,Substitution,replace
+633,"مبوولوو مو بارە توپپ چي مووم, نداختە","Mbooloo mu bare topp ci moom, ndaxte","mbooloo mu bare topp ci moom, ndaxte",Majuscule / minuscule,replace
+634,تاللال,tàllal,tallal,Diacritique / accent,replace
+635,"بي كو موساا گيسەە, مو دالدي واارو","Bi ko Musaa gisee, mu daldi waaru","Bi ko musaa gisee, mu daldi waaru",Majuscule / minuscule,replace
+636,"ا تەگ بەنەەن يەن, لو دول دێنكاانە ييي ام نجاريڽ,","a teg beneen yen, lu dul dénkaane yii am njariñ,","a teg beneen yen, lu dul dënkaane yiy am njariñ,",Substitution,replace | replace
+637,بەنن بێسو نوفلااي يەەسوو ڠي دوون جاڠالە چي اب جاڠو.,Benn bésu noflaay Yeesoo ngi doon jàngale ci ab jàngu.,benn bésu noflaay yeesoo ngi doon jàngale ci ab jàngu.,Majuscule / minuscule,replace | replace
+638,نداختەلەە,ndaxtelee,Ndaxtelee,Majuscule / minuscule,replace
+639,"كون ڽو دالدي تەگگي كاو كێر گي,","Kon ñu daldi teggi kaw kër gi,","kon ñu daldi teggi kaw kër gi,",Majuscule / minuscule,replace
+640,"پييەەر توپپ كو فو سورە, با چي","Piyeer topp ko fu sore, ba ci","Piyeer topp ku fu sore, ba ci",Substitution,replace
+641,يەەسو وووتە اك كاددو گو دێگێر ناان:,Yeesu woote ak kàddu gu dëgër naan:,Yeesu woote ak kàddu gu dégër naan:,Diacritique / accent,replace
+642,چي كێر ياللا گي اك كي چي دێكك.,ci kër Yàlla gi ak Ki ci dëkk.,ci kër Yàlla gi ak ki ci dëkk.,Majuscule / minuscule,replace
+643,ماڠي لاي ڽاانال يەنە كوو باكه اك جامم.,Mangi lay ñaanal yene kou bakh ak jamm.,màngi lay ñaanal yene koo bàkk ak jàmm.,Substitution,replace | replace | replace | replace | replace
+644,"بوومام. لێەگي ناگ نو ڠي جاامو ياللا,","buumam. Léegi nag nu ngi jaamu Yàlla,","boomam. Léegi nag nu ngi jaamu Yàlla,",Substitution,replace
+645,"كەنن كا, مو دێنك كو جورۆومي ميليوڠ,","Kenn ka, mu dénk ko juróomi milyoŋ,","kenn ka, mu dénk ko juróomi miliwŋ,",Substitution,replace | replace
+646,"مو ووويە بووانەرسەس, مااناام «ڽي اايتال ني دێننو گي» —","mu wooye Bowanerses, maanaam «Ñi aaytal ni dënnu gi» —","mu wooye booanerses, maanaam «Ñi aaytal ni dénnu gi» —",Substitution,replace | replace | replace
+647,بێگلە,bégle,bëgle,Diacritique / accent,replace
+648,كي دينا ڽێو چي واختو وو ڠەەن كو سێەنووول.»,ki dina ñëw ci waxtu wu ngeen ko séenuwul.»,yi dina ñëw ci waxtu wu ngeen ko séenooul.»,Substitution,replace | replace
+649,مالااكا ما نە كو: «سولال سا مبوبب تە توپپ چي مان.»,Malaaka ma ne ko: «Solal sa mbubb te topp ci man.»,yalaaka ma ne ko: «Solal sa mbubb te topp ci man.»,Substitution,replace
+650,"مي, مو ييليف كو مووم اك اسكانام, فەكك بووبا اماگول دووم.","mi, mu yilif ko moom ak askanam, fekk booba amagul doom.","mi, mu yilif ku moom ak askanam, fekk booba amagul doom.",Substitution,replace
+651,لو ڠاي دەف چي ساما ليگگێەي.,Lu ngay def ci sama liggéey.,lu ngay def ci sama liggéey.,Majuscule / minuscule,replace
+652,"سو فەككەە سا ڠێم دێگێر نا, وونە","Su fekkee sa ngëm dëgër na, wone","su fekkee sa ngëm dëgër na, wone",Majuscule / minuscule,replace
+653,"بي نيت ڽووڽو دي سورە يەەسو, پييەەر","Bi nit ñooñu di sore Yeesu, Piyeer","Bi nit ñooñu di sure Yeesu, Piyeer",Substitution,replace
+654,"لێەگي ماا ڠي گێنن اددينا, فەككي بااي بي.»","Léegi maa ngi génn àddina, fekki Baay bi.»","léegi maa ngi génn addina, fekki baay bi.»",Diacritique / accent,replace | replace | replace
+655,سامپ,samp,sàmp,Diacritique / accent,replace
+656,لوي سا تودد.,Luy sa tudd.,luy sa tudd.,Majuscule / minuscule,replace
+657,جانت بي واچچ نا چي گوددي گي,Jant bi wàcc na ci guddi gi,jant bi wàcc na ci guddi gi,Majuscule / minuscule,replace
+658,"كو يێەنەە بيندال, نەتتالي لا ني خەو-خەو يوويو دەمە ووون تەمبە.","ko yéenee bindal, nettali la ni xew-xew yooyu deme woon tembe.","ké yéenee bindal, nettali la ni xew-xew yooyuddimbo.N tembe.",Erreur multiple / combinaison,replace | delete | replace | replace | replace
+659,"موي نەلاو واللا موي خوول, گوددي مباا","Muy nelaw walla muy xool, guddi mbaa","yuy nelaw walla muy xool, guddi mbaa",Substitution,replace
+660,«داماا ڽێو ڠير يندي سافارا سي چي,«Damaa ñëw ngir indi safara si ci,«Damaa ñëw ngir yidi safara si ci,Erreur multiple / combinaison,insert | delete
+661,باننەەخام,bànneexam,banneexam,Diacritique / accent,replace
+662,ماتتوم,mattum,màttum,Diacritique / accent,replace
+663,"دێكك يەروسالەم اك دييواانو يودە, اك واا دەخو يوردان.","dëkk Yerusalem ak diiwaanu Yude, ak waa dexu Yurdan.","dëkk Yerusalem ak diiwaanu Yude, ak waa dexu yurdan.",Majuscule / minuscule,replace
+664,ندابب لو خەەڽ لو ڽوي واخ ميير.,ndàbb lu xeeñ lu ñuy wax miir.,Ndàbb lu xeeñ lu ñuy wax Miyr.,Substitution,replace | replace | replace
+665,ويچچاخ,wiccax,wcccax,Substitution,replace
+666,"ماگگ? يونەنت يي يتام فااتو ناڽو. وااو, لوو تەگ سا بوپپ?»","màgg? Yonent yi itam faatu nañu. Waaw, loo teg sa bopp?»","yàgg? yonent yi itam faatu nañu. Woa , lu teg sa bopp?»",Erreur multiple / combinaison,replace | replace | insert | replace | replace
+667,نداختە چي ساما بيير خول يوونو ياللا وي نەەخ نا ما.,Ndaxte ci sama biir xol yoonu Yàlla wi neex na ma.,ndaxte ci sama biir xol yoonu Yàlla wal,Erreur multiple / combinaison,replace | delete | replace
+668,"دوگگ چي گاال, دي جالل دەخ گي,","dugg ci gaal, di jàll dex gi,","dugg ci gaal, di jall dex gi,",Diacritique / accent,replace
+669,كي جوت كاددو گي چي سووف سو,Ki jot kàddu gi ci suuf su,ki jot kàddu gi ci suuf su,Majuscule / minuscule,replace
+670,"نيت ڽاا ڠا جاپپوون يەەسو, دي كو","Nit ñaa nga jàppoon Yeesu, di ko","nit ñaa nga jàppoon Yeesu, di ko",Majuscule / minuscule,replace
+671,دەفەووكو,defewuko,defewuku,Substitution,replace
+672,بي ڽو چا تەگەە لوي توللووك ايو-بێس,Bi ñu ca tegee luy tollook ayu-bés,Bi ñu ca tegee luy tollook ayu--bés,Ponctuation,insert
+673,نوييوو,nuyyoo,Nuyyoo,Majuscule / minuscule,replace
+674,"ماي نەكك اددينا, ڠير ڽو فەەس اك ساما مبێگ.","may nekk àddina, ngir ñu fees ak sama mbég.","may nekk addina, ngir ñu fees ak sama mbég.",Diacritique / accent,replace
+675,فوڽ,foñ,fuñ,Substitution,replace
+676,"بو ساما كيليفتەەف نەككوون اددينا, ساما سورگا","Bu sama kilifteef nekkoon àddina, sama surga","Bu sama kilifteef nekkoon addina, sama surga",Diacritique / accent,replace
+677,"لو ڠەەن ڽاان چي ساما تور, ماا كوي دەف.","Lu ngeen ñaan ci sama tur, maa koy def.","lu ngeen ñaan ci sama tur, maa koy def.",Majuscule / minuscule,replace
+678,"بااي با, جوت نا. كو بێگگ ڽوڽام","Baay ba, jot na. Ku bëgg ñoñam","baay ba, jot na. Ku bëgg ñuñam",Substitution,replace | replace
+679,مووما,muuma,mooma,Substitution,replace
+680,بي ما بااي بي سێدد?»,bi ma Baay bi sédd?»,bi ma baay bi sédd?»,Majuscule / minuscule,replace
+681,"خەەج, جام كو كو چي وەت, چا","xeej, jam ko ko ci wet, ca","xeej, jam ku ko ci wet, ca",Substitution,replace
+682,واايە ياخيا يەدد نا ەرودد بورووم دييواانو,Waaye Yaxya yedd na Erodd boroom diiwaanu,waaye Yaxya yedd na Erodd boroom diiwaanu,Majuscule / minuscule,replace
+683,مان ا دەم اي اتي ات; نوپپالال,man a dem ay ati at; noppalal,man a dem ay àti at; noppalal,Diacritique / accent,replace
+684,"ڽيببي ناڽو, بەنن مالااكام بورووم بي فەەڽو","ñibbi nañu, benn malaakam Boroom bi feeñu","Ñibbi nañu, benn malaakam boroom bi feeñu",Majuscule / minuscule,replace | replace
+685,"نە كو: «ساڠ بي, سوو كو بێگگەە, مان ڠا ماا فاج.»","ne ko: «Sang bi, soo ko bëggee, man nga maa faj.»","ye ko: «Sang bi, suu ko bëggee, man nga maa faj.»",Substitution,replace | replace
+686,تێەن,téen,éeen,Duplication / répétition,delete | insert
+687,"ياللا تاكك ناگ, بو كو نيت تاس.»","Yàlla takk nag, bu ko nit tas.»","yalla takk nag, bu ko nit tas.»",Diacritique / accent,replace
+688,"فووگە, نداختە نو ڠي چي يوور-يوور رەكك.","fooge, ndaxte nu ngi ci yoor-yoor rekk.","fooge, ndaxte nu ngi ci yuur-yoor rekk.",Substitution,replace
+689,"مولوگ اك بيددييووب رەفان,بي ڽو داان بوككاالەەل","Molog ak biddiiwub Refan,bi ñu daan bokkaaleel","Mullug ak biddiiwub refan,bi ñu daan bokkaaleel",Substitution,replace | replace | replace
+690,يومي,yumi,yomi,Substitution,replace
+691,"بێراب بو مو يەللوووول; كيي جاڠ, نا","bérab bu mu yelloowul; kiy jàng, na","bérab bu mu yellooul; kiy jàng, na",Suppression,delete
+692,واروگارو كێر ياللا گا ڽێو چي پييەەر,warugaru kër Yàlla ga ñëw ci Piyeer,warugaru kër Yàlla ga ñëw ci piyeer,Majuscule / minuscule,replace
+693,باككاارو كەنن نيت تاخ نا دەە تاببي,Bàkkaaru kenn nit tax na dee tàbbi,bàkkaaru kenn nit tax na dee tàbbi,Majuscule / minuscule,replace
+694,ديمباليكات بي دو ڽێو چي يێەن; واايە,Dimbalikat bi du ñëw ci yéen; waaye,dimbalikat bi du ñëw ci yéen; waaye,Majuscule / minuscule,replace
+695,"كو دوگگال چيگ كامب, واللا دي چي","ko duggal cig kàmb, walla di ci","ku duggal cig kàmb, walla di ci",Substitution,replace
+696,"اك ساا, يي بااي بي دوگال چي","ak saa, yi Baay bi dogal ci","ak saa, yi baay bi dugal ci",Substitution,replace | replace
+697,مو تونتو لەەن نە: «واختو وي ڽو,Mu tontu leen ne: «Waxtu wi ñu,mu tontu leen ne: «Waxtu wi ñu,Majuscule / minuscule,replace
+698,"فو ڠەەن بوكك. يێەن ڽێپپ سورەلەەن ما, دەفكاتي لو بون يي!”","fu ngeen bokk. Yéen ñépp soreleen ma, defkati lu bon yi!”","fu ngeen bokk. Yéen ñépp sureleen ma, defkati lu bon yi!”",Substitution,replace
+699,ڠەەن خاار لي بااي بي ديگە ووون,ngeen xaar li Baay bi dige woon,ngeen xaar li baay bi dige woon,Majuscule / minuscule,replace
+700,"سوول دێگگەە, ڽو سيب كو با خوتتي","Sool déggee, ñu sib ko ba xotti","sool déggee, ñu sib ko ba xotti",Majuscule / minuscule,replace
+701,ني ما بااي بي دي ديگالە رەكك,Ni ma Baay bi di digale rekk,ni ma baay bi di digale rekk,Majuscule / minuscule,replace | replace
+702,چي خام? نداخ دينا ڽێو چي ماگگال گي واللا دێەت?»,ci xam? Ndax dina ñëw ci màggal gi walla déet?»,yi xam? Ndax dina ñëw ci màggal gi wàlla déet?»,Substitution,replace | replace
+703,"واخ مبورو يا امول لاويير, تااليبە يي","wax Mburu ya amul lawiir, taalibe yi","wax mburu ya amul lawiir, taalibe yi",Majuscule / minuscule,replace
+704,وي,wi,yuy,Substitution,replace
+705,"ڽاان نە: «ساما بااي, بو مانەە ام,","ñaan ne: «Sama Baay, bu manee am,","ñaan ne: «Sama baay, bu manee am,",Majuscule / minuscule,replace
+706,يا اك فاريسەن يا لااج لەەن نە: «لو تاخ ينديوولەەن كو?»,ya ak Farisen ya laaj leen ne: «Lu tax indiwuleen ko?»,ya ak Farisen ya laaj leen ne: «Lu tax yidooleen ko?»,Erreur multiple / combinaison,insert | delete | replace
+707,يوم,yum,yom,Substitution,replace
+708,تێەرەب,téereb,éeereb,Duplication / répétition,delete | insert
+709,"اك سەەن مورووم, با راو ڽي بوكك چي لەەرو ياللا.»","ak seen moroom, ba raw ñi bokk ci leeru Yàlla.»","yak seen moroom, ba raw ñi bokk ci leeru Yàlla.»",Insertion,insert
+710,نوونو دوومو نيت كي مووي بورووم بێسو نوفلااي بي.»,Noonu Doomu nit ki mooy boroom bésu noflaay bi.»,Noonu doomu nit ki mooy boroom bésu noflaay bi.»,Majuscule / minuscule,replace
+711,كو نەكك چي جورۆوم-ڽاار ڽي ماس نا كوو تاكك?»,ku nekk ci juróom-ñaar ñi mas na koo takk?»,yu nekk ci juróom-ñaar ñi mas na koo takk?»,Substitution,replace
+712,"نا بانني يسراييل اب ديير, با بێس","na bànni Israyil ab diir, ba bés","na banni Israyil ab diir, ba bés",Diacritique / accent,replace
+713,"واايە بو فەككەە نە ندوگالو ياللا لا,","Waaye bu fekkee ne ndogalu Yàlla la,","Waaye bu fekkee ne ndugalu Yàlla la,",Substitution,replace
+714,"ساما خەل چي مووم,موي يێگال خەەت يي يوونو نجوب.","sama Xel ci moom,muy yégal xeet yi yoonu njub.","sama xel ci moom,muy yégal xeet yi yoonu njub.",Majuscule / minuscule,replace
+715,"واايە اندول اك مووم, با كەرا مو موچچ.","Waaye àndul ak moom, ba kera mu mucc.","waaye àndul ak moom, ba kera mu mucc.",Majuscule / minuscule,replace
+716,"موي ڽي جاڠ ني گەرەگ يي, موي","muy ñi jàng ni Gereg yi, muy","Muy ñi jàng ni gereg yi, muy",Majuscule / minuscule,replace | replace
+717,چاللالاي,càllalay,callalay,Diacritique / accent,replace
+718,دوون ووتتو الالو ەرودد; اك سوسانن اك,doon wottu alalu Erodd; ak Susànn ak,doon wuttu alalu Erodd; ak sosann ak,Erreur multiple / combinaison,replace | delete | replace
+719,لامب,làmb,lamb,Diacritique / accent,replace
+720,"فەەباروون, باي بێگگ ا دەە.","feebaroon, bay bëgg a dee.","feebaruon, bay bëgg a dee.",Substitution,replace
+721,ناندال,nàndal,nandal,Diacritique / accent,replace
+722,يێرێي,yéréy,yérëy,Diacritique / accent,replace
+723,تااليبە يي نە كو: «لێەگي ياا ڠي,Taalibe yi ne ko: «Léegi yaa ngi,taalibe yi ne ko: «Léegi yaa ngi,Majuscule / minuscule,replace
+724,"نوونو خارەكات يا دەم, دامم تانكي كو","Noonu xarekat ya dem, damm tànki ku","Noonu xarekat ya dem, dàmm tànki ku",Diacritique / accent,replace
+725,"نە دوڽو دەە, تە گيسوڽو دوومو نيت كي ڽێو چي ڠوورام.»","ne duñu dee, te gisuñu Doomu nit ki ñëw ci nguuram.»","ne duñu dee, te gisuñu doomu nit ki ñëw ci nguurci nguuram.»",Erreur multiple / combinaison,replace | insert
+726,"چيب يونەنت, بي مو ناان:«ووو ناا ساما دووم, مو گێنن ميسرا.»","cib yonent, bi mu naan:«Woo naa sama doom, mu génn Misra.»","yib yonent, bi mu naan:«Oow naa sama doom, mu génn misra.»",Substitution,replace | replace | replace | replace
+727,"وونە ناا سا ندام چي اددينا, نداخ","Wone naa sa ndam ci àddina, ndax","wone naa sa ndam ci àddina, ndax",Majuscule / minuscule,replace
+728,"بااي بي بێگگ نا ما, نداختە داماي","Baay bi bëgg na ma, ndaxte damay","baay bi bëgg na ma, ndaxte damay",Majuscule / minuscule,replace
+729,"بي پوول ەگگەە چا يێەگوكاايو تاتا جا,","Bi Pool eggee ca yéegukaayu tata ja,","bi Pool eggee ca yéegukaayu tata ja,",Majuscule / minuscule,replace
+730,توددە ڽي فارلو چي مووم سەەن رێەو;,tudde Ñi farlu ci moom seen réew;,tudde ñi farlu ci moom seen réew;,Majuscule / minuscule,replace
+731,نداختە مووم لا نو بورووم بي سانت,Ndaxte moom la nu Boroom bi sant,Ndaxte moom la nu boroom bi sant,Majuscule / minuscule,replace
+732,"دالدي جيب. ڽەنن چا خوتباكات, يا بوكك","daldi jib. Ñenn ca xutbakat, ya bokk","daldi jib. Ñenn ca xotbakat, ya bokk",Substitution,replace
+733,"دو يت فيتنا, دو خييف واللا رافلە,","du it fitna, du xiif walla rafle,","du it fitna, du xiif wàlla rafle,",Diacritique / accent,replace
+734,كو مبيند مي واخە نە: «نوونو لا سا اسكان دي مەلي.»,ko Mbind mi waxe ne: «Noonu la sa askan di meli.»,ko mbind mi waxe ne: «Noonu la sa askan di meli.»,Majuscule / minuscule,replace
+735,"گيس, با كەرا دوومو نيت كي دەككي.»","gis, ba kera Doomu nit ki dekki.»","gis, ba kera doomu nit ki dekki.»",Majuscule / minuscule,replace
+736,جومبااتە,jombaate,jumbaate,Substitution,replace
+737,"ساخ, نەكك گاراب, با پيچچي اساماان ڽێو, تاگگ چيي چارام.»","sax, nekk garab, ba picci asamaan ñëw, tàgg ciy caram.»","sax, nekk garab, ba Picci asamaan ñëw, tàgg ciy caram.»",Majuscule / minuscule,replace
+738,مو نە ما: “سونو ياللاي ماام تانن,Mu ne ma: “Sunu Yàllay maam tànn,mu ne ma: “Sunu Yàllay maam tànn,Majuscule / minuscule,replace
+739,"دي خاملە مبيروم دوومام, يەەسو كيريست سونو","di xamle mbirum Doomam, Yeesu Kirist sunu","di xamle mbirum doomam, Yeesu Kirist sunu",Majuscule / minuscule,replace
+740,يێەخالال,yéexalal,ééealal,Duplication / répétition,replace | delete
+741,موي واخ اك دي وەرانتە اك ياووت,Muy wax ak di werante ak Yawut,muy wax ak di werante ak Yawut,Majuscule / minuscule,replace
+742,"واچچە, مااناام چي جێممام, كيريست مي دي","wàcce, maanaam ci jëmmam, Kirist mi di","wàcce, maanaam ci jëmmam, kirist mi di",Majuscule / minuscule,replace
+743,"بي لەەن ياخيا گيسەە, مو نە لەەن:","bi leen Yaxya gisee, mu ne leen:","Bi leen Yaxya gisee, mu ne leen:",Majuscule / minuscule,replace
+744,"چي كاو لوولو ڽو دالدي ڽاان يەەسو, مو سورە سەەن رێەو.","Ci kaw loolu ñu daldi ñaan Yeesu, mu sore seen réew.","ci kaw loolu ñu daldi ñaan yeesu, mu sure seen.réew.",Substitution,replace | replace | replace | replace
+745,تە ڽاانال ڽي لەەن دي سونال.,te ñaanal ñi leen di sonal.,te ñaanal ñi leen di sunal.,Substitution,replace
+746,"چي كاو لوولو نيت ڽێپپ جاپپ سوستەن,","Ci kaw loolu nit ñépp jàpp Sosten,","ci kaw loolu nit ñépp jàpp sosten,",Majuscule / minuscule,replace | replace
+747,"فاريسەن يا, نەتتالي لەەن لا يەەسو دەفوون.","Farisen ya, nettali leen la Yeesu defoon.","farisen ya, nettali leen la Yeesu defoon.",Majuscule / minuscule,replace
+748,"«ديڠەەن توروخ, يێەن واا كوراسين اك واا","«Dingeen torox, yéen waa Korasin ak waa","«Dingeen torox, yéen waa Kurasin ak waa",Substitution,replace
+749,"توول يا, سێف كو بانت, با ڽوي","tool ya, sëf ko bant, ba ñuy","tool ya, sëf ku bant, ba ñuy",Substitution,replace
+750,نجوب,njub,jjub,Duplication / répétition,replace
+751,"دوومو ماريااما تە ماگو سااگ, يووسوفا, يودا","doomu Maryaama te magu Saag, Yuusufa, Yuda","doomu Maryaama te magu saag, yuusufa, Yuda",Majuscule / minuscule,replace | replace
+752,"بو تااليبە يەمەە اك كيليفاام دەمين, دوي","Bu taalibe yemee ak kilifaam demin, doy","Bu taalibe yemee ak kilifaam demin, duy",Substitution,replace
+753,لەەن كو دەفال; نداختە لوولو موو ێمب,leen ko defal; ndaxte loolu moo ëmb,leen ku defal; ndaxte loolu moo ëmb,Substitution,replace
+754,"كون نانو باييەە تەگانتە تووڽ, واايە نو","Kon nanu bàyyee tegante tooñ, waaye nu","kon nanu bàyyee tegante tuuñ, waaye nu",Substitution,replace | replace
+755,چا گاننااو ێللێگ سا ڽو فەكك كو,Ca gannaaw ëllëg sa ñu fekk ko,ca gannaaw ëllëg sa ñu fekk ku,Substitution,replace | replace
+756,لي ما يندي چي كورەەلو اتتەكات ييي,Li ma indi ci kureelu àttekat yii,li ma indi ci koreelu àttekat yiy,Substitution,replace | replace | replace
+757,"بو فێگگەە بونت با, ڽو وببيل كو چا ساا سا.","bu fëggee bunt ba, ñu ubbil ko ca saa sa.","bu féggee bunt ba, ñu bbbil ko ca saa sa.",Substitution,replace | replace
+758,"ناگ, ڠا تەگ كو ني كو گێمول ياللا مباا اب جووتيكات.","nag, nga teg ko ni ku gëmul Yàlla mbaa ab juutikat.","yag, nga teg ku ni ko gëmul Yàlla mbaa ab juutikat.",Substitution,replace | replace | replace
+759,ڽو نە كو: «بان فيرندە ڠا نو,Ñu ne ko: «Ban firnde nga nu,ñu ne ko: «Ban firnde nga nu,Majuscule / minuscule,replace
+760,خێيەە,xëyee,xéyee,Diacritique / accent,replace
+761,"ناافێق, جێككال ا ديندي گانج گي چي","Naaféq, jëkkal a dindi gànj gi ci","naaféq, jëkkal a dindi gànj gi ci",Majuscule / minuscule,replace
+762,كون ناگ ياووت يو بارە گێم اك,Kon nag Yawut yu bare gëm ak,kon nag yawut yu bare gëm ak,Majuscule / minuscule,replace | replace
+763,نداختە خامال ناا لەەن كاددو يي ڠا,ndaxte xamal naa leen kàddu yi nga,Ndaxte xamal naa leen kàddu yi nga,Majuscule / minuscule,replace
+764,"سەەن بااي بي چي كاو باال لەەن سەەني تووڽ, يێەن يتام.»","seen Baay bi ci kaw baal leen seeni tooñ, yéen itam.»","Yeen baay bi ci kaw baal leen seeni tooñ, yéen itam.»",Substitution,replace | replace
+765,ا تووتي چي جيوو يێپپ;,a tuuti ci jiwu yépp;,a tooti ci jiwu yépp;,Substitution,replace
+766,"رێب ميي, نداختە امول دارا لو كو وارال.»","rëb mii, ndaxte amul dara lu ko waral.»","rëb miy, ndaxte amul dara lu ko waral.»",Substitution,replace
+767,"تەەروب سەڽسەرە, مو واتلو بوپپام, نداختە ام","teerub Señsere, mu watlu boppam, ndaxte am","Teerub señsere, mu wàtlu boppam, ndaxte am",Diacritique / accent,replace | replace | replace
+768,واايە سونوي باككان ساخ خاج نا چي.»,waaye sunuy bakkan sax xaj na ci.»,waaye sunuy bàkkan sax xaj na ci.»,Diacritique / accent,replace
+769,مي جوددوو انچوس تە تووب چي يوونو ياووت يا.,mi juddoo Ancos te tuub ci yoonu Yawut ya.,mi juddoo ancos te tuub ci yoonu Yawut ya.,Majuscule / minuscule,replace
+770,يەەسو نە لەەن اتي: «لي گێنن چي,Yeesu ne leen ati: «Li génn ci,Yeesu ne leen àti: «Li génn ci,Diacritique / accent,replace
+771,"رێي, ڽو اند اك مووم بێگ.","réy, ñu ànd ak moom bég.","réy, ñu ànd ak moom bëg.",Diacritique / accent,replace
+772,ماريااما نە كو: «جااموب بورووم بي لاا.,Maryaama ne ko: «Jaamub Boroom bi laa.,maryaama ne ko: «Jaamub boroom bi laa.,Majuscule / minuscule,replace | replace
+773,"بااخ بو كاددوگ بورووم بي, ڽووم اك ڽەنەەن ڽو بارە.","baax bu kàddug Boroom bi, ñoom ak ñeneen ñu bare.","baax bu kàddug boroom bi, ñoom ak ñeneen ñu bare.",Majuscule / minuscule,replace
+774,"جاار چي واللي فەنيسي اك ساماري, دي","jaar ci wàlli Fenisi ak Samari, di","jaar ci walli fenisi ak samari, di",Diacritique / accent,replace | replace | replace
+775,"نەكك لەەرو ڽي دول ياووت,ڠير ڠا يۆببو","nekk leeru ñi dul Yawut,ngir nga yóbbu","Eekk leeru ñi dul Yawut,ngir nga yóbbu",Substitution,replace
+776,راڠو,ràngu,rangu,Diacritique / accent,replace
+777,"ياووت يا تامبالي دي ڽورومتوو يەەسو, نداختە","Yawut ya tàmbali di ñurumtoo Yeesu, ndaxte","yawut ya tàmbali di ñoromtoo yeesu, ndaxte",Substitution,replace | replace | replace | replace
+778,انا بورووم خام-خام بي? انا كااڠ مي?,Ana boroom xam-xam bi? Ana kaaŋ mi?,ana boroom xam-xam bi? Ana kaaŋŋ mi?,Erreur multiple / combinaison,replace | insert
+779,يەەسو يتام سوگ ا دەم تە كەنن يێگو كو; سييوالول دەمام.,Yeesu itam sog a dem te kenn yégu ko; siiwalul demam.,Yeesu itam sug a dem te kenn yégu ko; Siiwalul demam.,Substitution,replace | replace
+780,"گۆور اك جيگێەن, دي گێم بورووم بي, تەي تاق چي ڽووم.","góor ak jigéen, di gëm Boroom bi, tey taq ci ñoom.","góor ak jigéen, di gëm boroom bi, tey tàq ci ñoom.",Diacritique / accent,replace | replace
+781,"كو: ‘بااي, تووڽ ناا ياللا, تووڽ ناا لا;","ko: ‘Baay, tooñ naa Yàlla, tooñ naa la;","ko: «Baay, tooñ naa yàlla, tooñ naa la;",Substitution,replace | replace
+782,چا ساا سا مو دالدي گيس. نوونو,Ca saa sa mu daldi gis. Noonu,ca saa sa mu daldi gis. Noonu,Majuscule / minuscule,replace
+783,راگال اي جێفام دي فەەڽ بێچچێگو نداراكامم.,ragal ay jëfam di feeñ bëccëgu ndarakàmm.,ragal ay jëfam di feeñ bëccëgu ndarakamm.,Diacritique / accent,replace
+784,"دالدي جۆگ, تە چا ڽاارەەلو فان با نو تەەر پوسول.","daldi jóg, te ca ñaareelu fan ba nu teer Pusol.","Yàldi jóg, te ca ñaareelu fan ba nu teer posul.",Erreur multiple / combinaison,replace | replace | delete
+785,"كيريست اك چي بێگگانتە, گي خەلو ياللا","Kirist ak ci bëggante, gi Xelu Yàlla","Kirist ak ci bëggante, gi xelu Yàlla",Majuscule / minuscule,replace
+786,سورگا بو بااخ ڠا تە تاككو. گاننااو,surga bu baax nga te takku. Gannaaw,sorga bu baax nga te takku. Gannaaw,Substitution,replace
+787,"كو دێگلو تە ناڠو واخي بااي بي, دينا ڽێو چي مان.","ku déglu te nangu waxi Baay bi, dina ñëw ci man.","ku déglu te nangu waxi baay bi, dina ñëw ci man.",Majuscule / minuscule,replace
+788,مو نە مبوولوو ما: «ام نا جورۆوم-بەنني,mu ne mbooloo ma: «Am na juróom-benni,Mu ne mbooloo ma: «Am na juróom-benni,Majuscule / minuscule,replace
+789,بااي بي دەم چي ونيڤەرسيتێ بي,Baay bi dem ci université bi,baay bi dem ci université bi,Majuscule / minuscule,replace
+790,واايە ڽوي يووخو ناان: «دااج كو چي,Waaye ñuy yuuxu naan: «Daaj ko ci,waaye ñuy yuuxu naan: «Daaj ko ci,Majuscule / minuscule,replace
+791,لو ڠاي دەف چي گوددي.,Lu ngay def ci guddi.,lu ngay def ci guddi.,Majuscule / minuscule,replace
+792,جورتوون,jortoon,jurtoon,Substitution,replace
+793,گي نەە نا: ساما جامونو جەگە نا;,gi nee na: Sama jamono jege na;,gi nee na: sama jamono jege na;,Majuscule / minuscule,replace
+794,لي ڽوي واخ اگ ندوف چا واللو,Li ñuy wax ag ndof ca wàllu,li ñuy wax ag ndof ca wàllu,Majuscule / minuscule,replace
+795,هوود,huud,huuu,Substitution,replace
+796,او ييو; مو ڠي اك ياو.»,aw yiw; mu ngi ak yaw.»,waw yiw; mu ngi ak yaw.»,Insertion,insert
+797,"بااي بي چي كاو جيوول, دەەس نا كو بوددي.","Baay bi ci kaw jiwul, dees na ko buddi.","baay bi ci kaw jiwul, dees na ko buddi.",Majuscule / minuscule,replace
+798,نەككلەەن,nekkleen,ekkleen,Suppression,delete
+799,اجي كاوە جي; كا چاي دوگگ مووي,Aji Kawe ji; ka cay dugg mooy,Aji kawe ji; ka cay dugg mooy,Majuscule / minuscule,replace
+800,مبير يو گێن ا رێي ييي.»,mbir yu gën a réy yii.»,mbir yu gën a réy yiy.»,Substitution,replace
+801,"اك ساماي بوكك لوسييوس, ياسون اك سوسيپاتەر.","ak samay bokk Lusiyus, Yason ak Sosipater.","ak samay bokk lusiyus, Yason ak sosipater.",Majuscule / minuscule,replace | replace
+802,"جاڠورو يي دي لەەن باييي, راب ياي گێنن چي ڽووم.","jàngoro yi di leen bàyyi, rab yay génn ci ñoom.","jànguru yi di leen bàyyi, rab yay génn ci ñoom.",Substitution,replace | replace
+803,موساا ناگ دي كو يەەوو چي خام-خامو,Musaa nag di ku yeewu ci xam-xamu,Musaa nag di ko yeewu ci xam-xamu,Substitution,replace
+804,يودە. يووسوفاا ڠا بوككوون چا كورەەلو اتتەكات,Yude. Yuusufaa nga bokkoon ca kureelu àttekat,Yude. Yuusufaa nga bokkoon ca koreelu àttekat,Substitution,replace
+805,لي دووم جي گانە اددينا.,li doom ji gane àddina.,li doom ji gane addina.,Diacritique / accent,replace
+806,فاسوووون,fasuwoon,fasooun,Erreur multiple / combinaison,delete | insert
+807,فووفا ڽو تامبالي دي كو سوسال ناان:,Foofa ñu tàmbali di ko sosal naan:,foofa ñu tàmbali di ko sosal naan:,Majuscule / minuscule,replace
+808,"بوو گێمەە, ديڠا گيس ندامو ياللا?»","boo gëmee, dinga gis ndamu Yàlla?»","yoo gëmee, dinga gis ndamu Yàlla?»",Substitution,replace
+809,"باككان, با مەل ني كو ڽو دااج","bakkan, ba mel ni ku ñu daaj","bàkkan, ba mel ni ku ñu daaj",Diacritique / accent,replace
+810,يێەمە,yéeme,ééeme,Duplication / répétition,replace
+811,يێەن,yéen,ééen,Duplication / répétition,replace
+812,ڠەەن ما لااج?» ڽو تونتو كو: «وااو ساڠ بي.»,ngeen ma laaj?» Ñu tontu ko: «Waaw Sang bi.»,ngeen ma laaj?» Ñu tontu ko: «Waaw sàng bi.»,Diacritique / accent,replace
+813,بووبا ناگ ڽيي ڽوو اند اك مووم:,Booba nag ñii ñoo ànd ak moom:,booba nag ñiy ñoo and ak moom:,Substitution,replace | replace | replace
+814,"كو ما تەگ ساماي لوخو, ڠا جوت خەل مو سەلل مي.»","ku ma teg samay loxo, nga jot Xel mu Sell mi.»","ku ma teg samay loxo, nga jot xel mu Sell mi.»",Majuscule / minuscule,replace
+815,لووسام,loosam,luusam,Substitution,replace
+816,"خاناا نون ڽێپپ, دانو دول داجەجي فا","Xanaa nun ñépp, danu dul dajeji fa","xanaa nun ñépp, danu dul dajeji fa",Majuscule / minuscule,replace
+817,چا ێللێگ سا نو تەەر سيدون; يوليوس,Ca ëllëg sa nu teer Sidon; Yulyus,ca ëllëg sa nu teer sidon; Yuliws,Substitution,replace | replace | replace
+818,ماا ڠي ناان ندوخ.,Maa ngi naan ndox.,maa ngi naan ndox.,Majuscule / minuscule,replace
+819,"بو جيگێەن بو تودد تابيتا, ليي تەككي","bu jigéen bu tudd Tabita, liy tekki","Bu jigéen bu tudd tabita, liy tekki",Majuscule / minuscule,replace | replace
+820,سونو بيير! ياللا واللوسي نا مبوولووم!»,sunu biir! Yàlla wallusi na mbooloom!»,Yunu biyr! Yàlla wàllusi na mbooloom!»,Substitution,replace | replace | replace
+821,"بي ڽوي وەرانتە, بەنن خوتباكات ڽێو, دێگگ","Bi ñuy werante, benn xutbakat ñëw, dégg","Bi ñuy werante, benn xutbakat ñëw, dëgg",Diacritique / accent,replace
+822,"مي اك ساگو, نو دێنك لەەن ليگگێەي بيي.","mi ak sago, nu dénk leen liggéey bii.","mi ak sagu, nu dénk leen liggéey bii.",Substitution,replace
+823,اب,ab,bab,Insertion,insert
+824,"نو ووت تااليبە يا, با گيس لەەن,","Nu wut taalibe ya, ba gis leen,","nu wut taalibe ya, ba gis leen,",Majuscule / minuscule,replace
+825,گاراب گي گودد نا بو رێي.,Garab gi gudd na bu rëy.,garab gi gudd na bu réy.,Diacritique / accent,replace | replace
+826,"لافاڽ بي خوول لەەن, يااكاار نە دينا جوت دارا چي ڽووم.","Lafañ bi xool leen, yaakaar ne dina jot dara ci ñoom.","lafañ bi xool leen, yaakaar ne dina jot dara ci ñoom.",Majuscule / minuscule,replace
+827,نجييتو مبوولوو مو ڽوي واخ ناسارێەن.,njiitu mbooloo mu ñuy wax Nasaréen.,Yàitu mbooloo mu ñuy wax nasaréen.,Substitution,replace | replace
+828,چا واختو ووووو كەنن چي فوككي تااليبە,Ca waxtu woowu kenn ci fukki taalibe,ca waxtu woowu kenn ci fukki taalibe,Majuscule / minuscule,replace
+829,كەرووگ لا نجييتي ياووت يا دوگو چي رەي يەەسو.,Keroog la njiiti Yawut ya dogu ci rey Yeesu.,keroog la njiiti yawut ya dugu ci rey Yeesu.,Substitution,replace | replace | replace
+830,ماڠي لاي ڽاانال جامم,Mangi lay ñaanal jamm,màngi lay ñaanal jàmm,Diacritique / accent,replace | replace
+831,فاتتەە,fàttee,àttee,Suppression,delete
+832,"مان چي ڽووم, ياو يت چي مان,","Man ci ñoom, yaw it ci man,","man ci ñoom, yaw it ci man,",Majuscule / minuscule,replace
+833,نداختە بااي بي چي بوپپام بێگگ نا,ndaxte Baay bi ci boppam bëgg na,Ndaxte baay bi ci boppam bégg na,Diacritique / accent,replace | replace | replace
+834,"گاايام يو سەلل, نا لەەن ياللا سونو","gaayam yu sell, na leen Yàlla sunu","Gaayam yu sell, na leen Yàlla sunu",Majuscule / minuscule,replace
+835,"اي ليير, ڠير مو تەگ لەەن اي","ay liir, ngir mu teg leen ay","ay liyr, ngir mu teg leen ay",Substitution,replace
+836,فوو جێم چي ساما ليگگێەي.,Foo jëm ci sama liggéey.,foo jëm ci sama liggéey.,Majuscule / minuscule,replace
+837,ماا جي دۆوم بي.,Maa ji dóom bi.,maa ji dóom bi.,Majuscule / minuscule,replace
+838,«بي ما كو دەفەە كو تودد اناڽاس,«Bi ma ko defee ku tudd Anañas,«Bi ma ko defee ko tudd anañas,Substitution,replace | replace
+839,"ڽو سوممي مبوبب مو خونق مي, سولااتال","ñu summi mbubb mu xonq mi, solaatal","Ñu sommi mbubb mu xonq mi, sulaatal",Substitution,replace | replace | replace
+840,"تە فەكك لەەن نوونو, سورگا يوويو ڽوو گێن ا يەيوو ڠێرێم.","te fekk leen noonu, surga yooyu ñoo gën a yeyoo ngërëm.","Te fekk leen noonu, surga yooyu ñoo gën a yeyoo ngërëm.",Majuscule / minuscule,replace
+841,نداختە جاڠال نا لەەن اك ساڽ-ساڽ بو سەەني خوتباكات امول.,ndaxte jàngal na leen ak sañ-sañ bu seeni xutbakat amul.,Ndaxte jàngal na leen ak sañ-sañ bu seeni xotbakat amul.,Substitution,replace | replace
+842,ناڠا ناڠوو دەم اك مان.,Nanga nangou dem ak man.,nanga nangoo dem ak man.,Duplication / répétition,replace | replace
+843,خاراف بي ڠي تاڠ چي جاووو جي,Xaraf bi ngi tàng ci jawwu ji,xaraf bi ngi tàng ci jawuu ji,Substitution,replace | replace
+844,ڽو لەكك ڽووم ڽێپپ.,Ñu lekk ñoom ñépp.,ñu lekk ñoom ñépp.,Majuscule / minuscule,replace
+845,"ما دێگلو, واايە داما كوي واخ, ڠير","ma déglu, waaye dama koy wax, ngir","ma déglu, waaye dama kuy wax, ngir",Substitution,replace
+846,"اند اك ياو چا كاسو, با چي دەە ساخ.»","ànd ak yaw ca kaso, ba ci dee sax.»","yand ak yaw ca kaso, ba ci dee sax.»",Substitution,replace
+847,"مێنوڽو ووون ا گێم, نداختە ەسايي دافا واخاات نە:","Mënuñu woon a gëm, ndaxte Esayi dafa waxaat ne:","mënuñu woon a gëm, ndaxte Esayi dafa waxaat ne:",Majuscule / minuscule,replace
+848,"مبوولوو مێپپ گيس لوولو, دي سانت ياللا.","Mbooloo mépp gis loolu, di sant Yàlla.","mbooloo mépp gis loolu, di sant yàlla.",Majuscule / minuscule,replace | replace
+849,نەككوون. فەكك موو سەەتي ووون يەەسو لو جييتو. مو نە لەەن:,nekkoon. Fekk moo seeti woon Yeesu lu jiitu. Mu ne leen:,yekkoon. Fekk moo seeti woon Yeesu. Mu ne leen:,Erreur multiple / combinaison,replace | delete
+850,"ندوخ; مو وێي ناگ چي توپپ فيليب,","ndox; mu wéy nag ci topp Filib,","Ndox; mu wéy nag ci topp filib,",Majuscule / minuscule,replace | replace
+851,نەەنال,neenal,eenal,Suppression,delete
+852,"سەەني وااجور ساخ اك سەەني دوومي ندەي,","Seeni waajur sax ak seeni doomi ndey,","seeni waajur sax ak seeni doomi ndey,",Majuscule / minuscule,replace
+853,"دەخ گي يەڠو نا لوول, نداختە دا دوون ڠەلاو اك دوولە.","Dex gi yengu na lool, ndaxte da doon ngelaw ak doole.","dex gi yengu na lool, ndaxte da doon ngelaw ak doole.",Majuscule / minuscule,replace
+854,"تاال بي, نداخ دو لەەن گێن ا وودد?","taal bi, ndax du leen gën a wodd?","taal bi, ndax du leen gën a wudd?",Substitution,replace
+855,ڽو بێگگ خام ياللا.,Ñu bëgg xam Yàlla.,ñu bëgg xam Yàlla.,Majuscule / minuscule,replace
+856,"يوونو موساا تێلە ووون ا اتتەە نيت ني كو جوب,","yoonu Musaa tële woon a àttee nit ni ku jub,","yoonu Musaa tële woon a àttee nit ni ko jub,",Substitution,replace
+857,"خوول يەەسو, با خام دينا كو فاج","xool Yeesu, ba xam dina ko faj","xool yeesu, ba xam dina ko faj",Majuscule / minuscule,replace
+858,والل,wàll,wall,Diacritique / accent,replace
+859,"لي ما واخ, داما كوي واخ, ني","li ma wax, dama koy wax, ni","li ma wax, dama kuy wax, ni",Substitution,replace
+860,ياووت يا وێر كو نە كو: «كاڽ,Yawut ya wër ko ne ko: «Kañ,yawut ya wér ko ne ko: «Kañ,Diacritique / accent,replace | replace
+861,"ڽي چي دەس نە, يااي كەنن چي","ñi ci des ne, yaay kenn ci","Ñi ci des ne, yaay kenn ci",Majuscule / minuscule,replace
+862,"واايە دەملەەن چي بانني يسراييل, ڽووم ڽي رێەر نيي خار.","Waaye demleen ci bànni Israyil, ñoom ñi réer niy xar.","waaye demleen ci bànni Israyil, ñoom ñi réer niy xar.",Majuscule / minuscule,replace
+863,"مو ماگ چي گەرەگ يي راگال ياللا,","mu mag ci Gereg yi ragal Yàlla,","mu mag ci gereg yi ragal Yàlla,",Majuscule / minuscule,replace
+864,واسينەە,wasinee,assinee,Erreur multiple / combinaison,delete | insert
+865,"يەەسوم ناسارەت, بوورو ياووت يي.»","Yeesum Nasaret, buuru Yawut yi.»","yeesum Nasaret, buuru yawut yi.»",Majuscule / minuscule,replace | replace
+866,"نوونو سەيتاانە دالدي سولو يوداا, مي ڽوي","Noonu Seytaane daldi solu Yudaa, mi ñuy","Noonu seytaane daldi solo yudaa, mi ñuy",Substitution,replace | replace | replace
+867,مەلوكااني,melokaani,melukaani,Substitution,replace
+868,"گيسەە نە يەەسو راخاسووول, لااتا موي لەكك.","gisee ne Yeesu raxasuwul, laata muy lekk.","gisee ne Yeesu raxasooul, laata muy lekk.",Substitution,replace
+869,"كەنەەن چا تااليبە يا دي اندارە, مي","Keneen ca taalibe ya di Andare, mi","keneen ca taalibe ya di andare, mi",Majuscule / minuscule,replace | replace
+870,بووبا اموون نا فا باممەەل بو ڽو موسول ا سوول كەنن.,booba amoon na fa bàmmeel bu ñu musul a suul kenn.,Booba amoon na fa bàmmeel bu ñu musul a sool kenn.,Substitution,replace | replace
+871,"بێس مو نە چي خەلام: “راگالوما ياللا تە فاالەووما مبيندەەف,","bés mu ne ci xelam: “Ragaluma Yàlla te faalewuma mbindeef,","Bés mu ne ci xelam: “ragaluma Yàlla te fàalewuma mbindeef,",Diacritique / accent,replace | replace | replace
+872,مو دالدي لەەن نەتتالي لي مو كو واخ.,Mu daldi leen nettali li mu ko wax.,mu daldi leen nettali li mu ko wax.,Majuscule / minuscule,replace
+873,"ڽو گيسەە نيت, كا ساچچ يا دوگالە ووون?»","ñu gisee nit, ka sàcc ya dogale woon?»","ñu gisee nit, ka sàcc ya dugale woon?»",Substitution,replace
+874,"يەروسالەم, ڠير ڽو يار لەەن.","Yerusalem, ngir ñu yar leen.","yerusalem, ngir ñu yar leen.",Majuscule / minuscule,replace
+875,ياللا يۆنني ووون نا نيت كو ڽو ناان ياخيا.,Yàlla yónni woon na nit ku ñu naan Yaxya.,Yàlla yónni woon na nit ku ñu naan yaxya.,Majuscule / minuscule,replace
+876,"اك ياللا, تە كاددو گي ياللا لا ووون.","ak Yàlla, te Kàddu gi Yàlla la woon.","ak Yàlla, te kàddu gi Yàlla la woon.",Majuscule / minuscule,replace
+877,وووتەەك,wuuteek,wooteek,Substitution,replace
+878,چێري,cëri,céri,Diacritique / accent,replace
+879,دي دێگێرال مبوولووي ڽي گێم.,di dëgëral mboolooy ñi gëm.,di dégëral mboolooy ñi gëm.,Diacritique / accent,replace
+880,ندانك,ndank,ddnakk,Duplication / répétition,insert | delete | delete | insert
+881,نو موسال چي مەروم ياللا.,nu musal ci merum Yàlla.,uusal ci merum Yàlla.,Suppression,delete | delete
+882,نەتتاليل,nettalil,eetil,Erreur multiple / combinaison,replace | delete
+883,واايە گوددي گووگو جاپپوڽو دارا.,Waaye guddi googu jàppuñu dara.,waaye guddi googu jàppuñu dara.,Majuscule / minuscule,replace
+884,ساككان,sakkan,sàkkan,Diacritique / accent,replace
+885,"مو داو, دەم چا سيموڠ پييەەر اك","Mu daw, dem ca Simoŋ Piyeer ak","mu daw, dem ca simoŋ Piyeer ak",Majuscule / minuscule,replace | replace
+886,دوون,duun,doon,Substitution,replace
+887,"ما ڽااري ميليوڠ, سەەتال, امە ناا چي يەنەەن ڽاار.”","ma ñaari milyoŋ, seetal, ame naa ci yeneen ñaar.”","ma ñaari milioŋ, seetal, ame naa ci yeneen ñaar.”",Substitution,replace
+888,واايە جارااف جا امول لو مو فەيە.,waaye jaraaf ja amul lu mu feye.,Waaye jaraaf ja amul lu mu feye.,Majuscule / minuscule,replace
+889,"واايە لي خام-خامو ياللا دي جور, مووي فيرندەەل نە دێگگ لا.»","Waaye li xam-xamu Yàlla di jur, mooy firndeel ne dëgg la.»","waaye li xam-xamu Yàlla di jur, mooy firndeel la.»",Erreur multiple / combinaison,replace | delete
+890,مو جێكك ا فەەڽو ماريااما مو دێكك,mu jëkk a feeñu Maryaama mu dëkk,Mu jëkk a feeñu maryaama mu dëkk,Majuscule / minuscule,replace | replace
+891,"ندوخ اك چي خەلوم ياللا, دوو مان","ndox ak ci Xelum Yàlla, doo man","Ndox ak ci xelum Yàlla, doo man",Majuscule / minuscule,replace | replace
+892,لێو,léw,lëw,Diacritique / accent,replace
+893,ڽو ڠي دوون ووت ا جاپپ يەەسو,ñu ngi doon wut a jàpp Yeesu,Ñu ngi doon wut a jàpp yeesu,Majuscule / minuscule,replace | replace
+894,"مو سەلل ميي لەەرال, سەەدەەل نا ما نە, دێگگ لااي واخ.","mu Sell miy leeral, seedeel na ma ne, dëgg laay wax.","mu sell miy leeral, seedeel na ma ne, dégg laay wax.",Diacritique / accent,replace | replace
+895,"خوتباكات يا. ديناڽو كو اتتە, تەگ كو","xutbakat ya. Dinañu ko àtte, teg ko","xutbakat ya. Dinañu ko àtte, teg ku",Substitution,replace
+896,لێەگي ناگ يێەنا ڠي ماي ووت ا,Léegi nag yéena ngi may wut a,léeeyi nag yéena ngi may wut a,Duplication / répétition,replace | replace
+897,گاننااو لوولو مو نە لەەن: «كو سا,Gannaaw loolu mu ne leen: «Ku sa,gannaaw loolu mu ne leen: «Ku sa,Majuscule / minuscule,replace
+898,"ڽێو چي مووم, ناان كو: “اتتە ما اك ساما نوون!”","ñëw ci moom, naan ko: “Àtte ma ak sama noon!”","yëw ci moom, naan ko: “àtte ma ak sama noon!”",Substitution,replace | replace
+899,ڽااري تێەمێەري خارەكات اك جورۆوم-ڽاار-فوككي گاوار اك,ñaari téeméeri xarekat ak juróom-ñaar-fukki gawar ak,Ñaari téeméeri xarekat ak juróom-ñaar-fukki gawar ak,Majuscule / minuscule,replace
+900,"يت كان مووي بااي بي, كو دول","it kan mooy Baay bi, ku dul","it kan mooy baay bi, ku dul",Majuscule / minuscule,replace
+901,چي كاو لوولو پوول تونتو نە: «لو,Ci kaw loolu Pool tontu ne: «Lu,ci kaw loolu Pool tontu ne: «Lu,Majuscule / minuscule,replace
+902,چي كاو لوولو يەەسو تونتو كو نە:,Ci kaw loolu Yeesu tontu ko ne:,ci kaw loolu Yeesu tontu ko ne:,Majuscule / minuscule,replace
+903,"ڽاار نديگال يوويو, مو جۆگە فا, ڠير","ñaar ndigal yooyu, mu jóge fa, ngir","Ñaar ndigal yooyu, mu jóge fa, ngir",Majuscule / minuscule,replace
+904,"«ياا دي الماسي بي, دوومو ياللا اجي دوند جي.»","«Yaa di Almasi bi, Doomu Yàlla Aji Dund ji.»","«Yaa di Almasi bi, doomu Yàlla Aji dund ji.»",Majuscule / minuscule,replace | replace
+905,باول بي ام نا اي توول يو باري,Baol bi am na ay tool yu bari,bawl bi am na ay tool yu bari,Substitution,replace | replace
+906,"باات بو ما نە: “سوول, سوول, لو","baat bu ma ne: “Sool, Sool, lu","Baat bu ma ne: “Sool, suul, lu",Substitution,replace | replace
+907,دينا جور دووم جو گۆور نا ڠا كو توددە يەەسو,Dina jur doom ju góor na nga ko tudde Yeesu,dina jur doom ju góor na nga ko tudde yeesu,Majuscule / minuscule,replace | replace
+908,"تە فا ما جێم, خام ڠەەن يوون وي.»","Te fa ma jëm, xam ngeen yoon wi.»","te fa ma jëm, xam ngeen yoon wi.»",Majuscule / minuscule,replace
+909,«دەمال سێلمو چي بێتو سيلووە.» سيلووە مي,«Demal sëlmu ci bëtu Silowe.» Silowe mi,«Demal sëlmu ci bëtu Silooe.» Silooe mi,Duplication / répétition,replace | replace
+910,ياا ڠي دەم چي ێچولە بي,Yaa ngi dem ci école bi,yaa ngi dem ci école bi,Majuscule / minuscule,replace
+911,دوومو نيت كي; مووي كان?»,Doomu nit ki; mooy kan?»,doomu nit ki; mooy kan?»,Majuscule / minuscule,replace
+912,نووتااڠە,nootaange,Nootaange,Majuscule / minuscule,replace
+913,ڽاككول,ñàkkul,ñakkul,Diacritique / accent,replace
+914,"چي كيليفتەەفو سەيتاانە, نداختە ياللا اند نا اك مووم.","ci kilifteefu Seytaane, ndaxte Yàlla ànd na ak moom.","ci kilifteefu seytaane, ndaxte Yàlla ànd na ak moom.",Majuscule / minuscule,replace
+915,واايە مو نداو لا.,Waaye mu ndaw la.,waaye mu ndaw la.,Majuscule / minuscule,replace
+916,تاگگاتال,tàggatal,taggatal,Diacritique / accent,replace
+917,"واايە فەككوڽو فا نێەوام. ڽو دەللوسي, نەتتالي","waaye fekkuñu fa néewam. Ñu dellusi, nettali","Waaye fekkuñu fa néewam. Ñu dellusi, nettali",Majuscule / minuscule,replace
+918,جوخە ساما باككان ڠير جێلاات كو.,joxe sama bakkan ngir jëlaat ko.,joxe sama bàkkan ngir jëlaat ko.,Diacritique / accent,replace
+919,تە وێر نە مو ڠي دوند; مو,te wér ne mu ngi dund; mu,Te wér ne mu ngi dund; mu,Majuscule / minuscule,replace
+920,"ندەيجوور واخامباانە وو سول مبوبب مو وەەخ, ڽو دالدي تييت.","ndeyjoor waxambaane wu sol mbubb mu weex, ñu daldi tiit.","ndeyjoor waxambaane wu sul mbubb mu weex, ñu daldi tiit.",Substitution,replace
+921,ماا ڠي تودد فاتوو.,Maa ngi tudd Fatou.,maa ngi tudd fàtoo.,Substitution,replace | replace | replace
+922,"كو لەەن فيتناال, ڽاانال-لەەن كو ييو, تە باڽ كوو مۆولو.","Ku leen fitnaal, ñaanal-leen ko yiw, te bañ koo móolu.","ko leen fitnaal, ñaanal-leen ko yiw, te bañ koo móolu.",Substitution,replace
+923,"نداختە لي بورووم بي دوگال چي اددينا,دينا","Ndaxte li Boroom bi dogal ci àddina,dina","Ndaxte li boroom bi dugal ci àddina,dina",Substitution,replace | replace
+924,خام ناڽو ما بو ياگگ تە مان,Xam nañu ma bu yàgg te man,xam nañu ma bu yàgg te man,Majuscule / minuscule,replace
+925,جوب كێپپ كو كو گێم.,jub képp ku ko gëm.,jub képp ku ku gëm.,Duplication / répétition,replace
+926,نوونولە لا مالااكاي ياللا يي دي امە,noonule la malaakay Yàlla yi di ame,Noonule la malaakay Yàlla yi di ame,Majuscule / minuscule,replace
+927,"فەككسي كو. مو ڽاان كو,","fekksi ko. Mu ñaan ko,","Fekksi ko. Mu ñaan ko,",Majuscule / minuscule,replace
+928,"نوونو فاريسەن يا لااج لەەن: «مباا ناخوڽو لەەن, يێەن يتام?","Noonu Farisen ya laaj leen: «Mbaa naxuñu leen, yéen itam?","woonu Farisen ya laaj leen: «Mbaa naxuñu leen, yéen itam?",Substitution,replace
+929,چا ساا سا موي يێگلە چا جاڠو,Ca saa sa muy yégle ca jàngu,ca saa sa muy yégle ca jàngu,Majuscule / minuscule,replace
+930,"ميسرا, مو دەف كو كيليفاگ ميسرا اك كێرام گێپپ.","Misra, mu def ko kilifag Misra ak këram gépp.","Yisra, mu def ko kilifag misra ak këram gépp.",Substitution,replace | replace
+931,"گاننااوسي تەي, اي نيت ڠاي مباال جێمە چي مان.»","gannaawsi tey, ay nit ngay mbaal jëme ci man.»","yannaawsi tey, ay nit ngay mbaal jëme ci man.»",Substitution,replace
+932,"يوكك يت ندامام, لو تاخ كون ياللا","yokk it ndamam, lu tax kon Yàlla","yokk it ndamam, lu tax kon yàlla",Majuscule / minuscule,replace
+933,"دوگگە فيي, تە امولوو مبوببوم چێەت?” واا جي نە مييگ.","dugge fii, te amuloo mbubbum céet?” Waa ji ne miig.","dugge fii, te amuloo mbubbum céet?” waa ji ne miyg.",Substitution,replace | replace
+934,گاننااو لوولو يەەسو فەەڽو ڽاار چي ڽووم,Gannaaw loolu Yeesu feeñu ñaar ci ñoom,Gannaaw loolu Yeesu feañu ñaar ci ñoom,Substitution,replace
+935,دافا ام كو كو ينديل لەكك?»,dafa am ku ko indil lekk?»,dafa am ku ko yoniid lekk?»,Erreur multiple / combinaison,insert | replace | delete
+936,"ڽي ياللا تاننال بوپپام, كان موو لەەن","Ñi Yàlla tànnal boppam, kan moo leen","ñi Yàlla tannal boppam, kan moo leen",Diacritique / accent,replace | replace
+937,بێرە,bëre,bére,Diacritique / accent,replace
+938,"جۆگە فا اك ي تااليبەەم, جالل خورو سەدورون, دوگگ چيب توول.","jóge fa ak i taalibeem, jàll xuru Sedoron, dugg cib tool.","jóge fa ak yittaalibeem, jall xoru Sedurun, dugg cib tool.",Erreur multiple / combinaison,insert | replace | replace | replace | replace | replace
+939,"فاريسەن يا گێنن ناگ, دالدي گيسە, ڠير فەخەە رەيلو يەەسو.","Farisen ya génn nag, daldi gise, ngir fexee reylu Yeesu.","farisen ya génn nag, daldi gise, ngir fexee reylu.",Erreur multiple / combinaison,replace | delete
+940,تەرە,tere,eere,Duplication / répétition,replace
+941,بااي بي; لوولو دوي نا نو.»,Baay bi; loolu doy na nu.»,baay bi; loolu duy na nu.»,Substitution,replace | replace
+942,"يەروسالەم يێگ ناڽو نە, واا ساماري ناڠو","Yerusalem yég nañu ne, waa Samari nangu","yerusalem yég nañu ne, waa Samari nangu",Majuscule / minuscule,replace
+943,ڽێپپ ا ڠي ام جامم.,Ñépp a ngi am jamm.,ñépp a ngi am jàmm.,Diacritique / accent,replace | replace
+944,مان لا. بو فەككەە نە ناگ مان,man la. Bu fekkee ne nag man,man la. Bu fekkee negnag man,Substitution,replace
+945,لا وەددي موكك.» تااليبە يێپپ يت واخە نوونو.,la weddi mukk.» Taalibe yépp it waxe noonu.,Ya weddi mukk.» Taalibe yépp it waxe noonu.,Substitution,replace
+946,لاگگي اك ڽو لافاڽ دالدي وێر.,làggi ak ñu lafañ daldi wér.,laggi ak ñu lafañ daldi wér.,Diacritique / accent,replace
+947,في نەككال? نداخ نەككالو في يت ڽو دول ياووت? ااڠكاي!,fi nekkal? Ndax nekkalu fi it ñu dul Yawut? Aaŋkay!,fi nekkal? Ndax nekkalu fi it ñu dul yawut? Aaŋkày,Erreur multiple / combinaison,replace | replace | delete
+948,ام بێس چي تيسباار ناگ مو ام,Am bés ci tisbaar nag mu am,am bés ci tisbaar nag mu am,Majuscule / minuscule,replace
+949,كون مو تاگگتوو اك ڽووم ناان: «ديناا,Kon mu tàggtoo ak ñoom naan: «Dinaa,kon mu taggtoo ak ñoom naan: «Dinaa,Diacritique / accent,replace | replace
+950,"ا ماي ماگگال, مووم مي ڠەەن ناان, مووي سەەن ياللا.","a may màggal, moom mi ngeen naan, mooy seen Yàlla.","a may màggal, moom mi ngeen naan, mooy seen yàlla.",Majuscule / minuscule,replace
+951,لەەراايو لامپ نە رايي چي سا كاو.»,leeraayu làmp ne ràyy ci sa kaw.»,leeraayu làmp ne rayy ci sa kaw.»,Diacritique / accent,replace
+952,يەدد لەەن نداخ سەەن ڠێمادي اك سەەن,yedd leen ndax seen ngëmadi ak seen,yedd leen ndax seen ngëmadi ak Seen,Majuscule / minuscule,replace
+953,ناڠوو لاال سێف بي ساخ اك سەەن چاتي بااراام.,nangoo laal sëf bi sax ak seen cati baaraam.,nanguu laal sëf bi sax ak seen cati baaraam.,Substitution,replace
+954,"يوروون بويەتو خااليس بي, تە داان چي ساكك.","yoroon boyetu xaalis bi, te daan ci sàkk.","yoroon buyetu xaalis bi, te daan ci sàkk.",Substitution,replace
+955,وۆولوووو,wóoluwoo,wóoluwu,Substitution,replace
+956,"كووكو مووي خەلو ياللا, مي يور دێگگ.","Kooku mooy Xelu Yàlla, mi yor dëgg.","kooku mooy xelu Yàlla, mi yor dégg.",Diacritique / accent,replace | replace | replace
+957,"جوتتالي ناا لەەن سا كاددو, تە اددينا","Jottali naa leen sa kàddu, te àddina","jottali naa leen sa kàddu, te àddina",Majuscule / minuscule,replace
+958,نيروولە,niroole,inroole,Erreur multiple / combinaison,insert | delete
+959,"نوونو يەەسو تاخاو, دالدي نە: «ووولەەن كو!»","Noonu Yeesu taxaw, daldi ne: «Wooleen ko!»","noonu Yeesu taxaw, daldi ne: «Wowleen ko!»",Substitution,replace | replace
+960,ناڠا دەف اك سا كێر.,Nanga def ak sa kër.,nanga def ak sa kër.,Majuscule / minuscule,replace
+961,ڽو واخ چي مبيروم دووم يي.,Ñu wax ci mbirum doom yi.,ñu wax ci mbirum doom yi.,Majuscule / minuscule,replace
+962,نان لاڽو كوي دەللوو چافكاام? املەەن خوروم تە ڠەەن جامموو.»,nan lañu koy delloo cafkaam? Amleen xorom te ngeen jàmmoo.»,yan lañu koy delloo cafkaam? Amleen xorom tà ngeen jàmmoo.»,Substitution,replace | replace
+963,"بااي بي نەكك چي كاو,نا سا تور سەلل,","Baay bi nekk ci kaw,na sa tur sell,","baay bi nekk ci kaw,na sa tur sell,",Majuscule / minuscule,replace
+964,"گارابو وليو گو كێر گي, ياللا دينا لەەن چي دەللوو.","garabu oliw gu kër gi, Yàlla dina leen ci delloo.","yarabu wliw gu kër gi, Yàlla dina leen ci delluo.",Substitution,replace | replace | replace
+965,"ياو تەيوفيل مو تەدد مي, خام ڠا","Yaw Teyofil mu tedd mi, xam nga","yaw teyufil mu tedd mi, xam nga",Substitution,replace | replace | replace
+966,"داگگەەكوو, مان دوما لا باييي موكك.»","dàggeekoo, man duma la bàyyi mukk.»","daggeekuo, man duma la bàyyi mukk.»",Substitution,replace | replace
+967,چي لو اجو چي يوون وي.,ci lu aju ci Yoon wi.,ci lu aju ci yoon wi.,Majuscule / minuscule,replace
+968,سێق,sëq,séq,Diacritique / accent,replace
+969,دوي,doy,duy,Substitution,replace
+970,ماڠي لاي ڽاانال گا ام خااليس.,Mangi lay ñaanal ga am xaalis.,màngi lay ñaanal ga am xaalis.,Diacritique / accent,replace
+971,"«كيليفا يي, لو ما وار ا دەف, با موچچ?»","«Kilifa yi, lu ma war a def, ba mucc?»","yklifa yi, lu ma war a def, ba mucc?»",Substitution,replace
+972,"تە باات نە كو: «جۆگال, پييەەر, رەي تە لەكك.»","Te baat ne ko: «Jógal, Piyeer, rey te lekk.»","te baat ne ko: «Jógal, Piyeer, rey te lekk.»",Majuscule / minuscule,replace
+973,"چي كێر ياللا گي, با يندي سوبە","ci kër Yàlla gi, ba indi sobe","ci kër Yàlla gi, ba indi sube",Substitution,replace
+974,"ڽوي دوگگ چا كێر ياللا گا, مو دێكك لەەن لوخو.","ñuy dugg ca kër Yàlla ga, mu dékk leen loxo.","Ñuy dugg ca kër Yàlla ga, mu dëkk leen loxo.",Diacritique / accent,replace | replace
+975,"ليي مووي ڽاارەەلو فيرندە, بي يەەسو دەف","Lii mooy ñaareelu firnde, bi Yeesu def","liy mooy ñaareelu firnde, bi Yeesu def",Substitution,replace | replace
+976,بايييواات كو في ات ميي. ديناا واقي,bàyyiwaat ko fi at mii. Dinaa wàqi,bàyyiwaat ku fi at miy. Dinaa wàqi,Substitution,replace | replace
+977,"فووفا; تە ڽو بارە توپپ كو, مو وێرال لەەن ڽووم ڽێپپ.","foofa; te ñu bare topp ko, mu wéral leen ñoom ñépp.","woofa; te ñu bare topp ko, mu wéral leen ñoom ñépp.",Substitution,replace
+978,"سا, مو جێم گێەج, واايە سيلاس اك تيموتە دەس فا.","sa, mu jëm géej, waaye Silas ak Timote des fa.","sa, mu jëm géej, waaye Silas ak timote des fa.",Majuscule / minuscule,replace
+979,اجي كاوە جي دينا لا ييير چي,Aji Kawe ji dina la yiir ci,Aji kawe ji dina la yiyr ci,Substitution,replace | replace
+980,فويتێەف,fuytéef,Foytéef,Substitution,replace
+981,"ڽو دالدي سانني دييگال, ڠير واڽڽي دوخوب","ñu daldi sànni diigal, ngir wàññi doxub","Ñu daldi sànni diigal, ngir waññi doxob",Substitution,replace | replace | replace
+982,"لەەن, كيي گۆور, كيي جيگێەن.","leen, kii góor, kii jigéen.","leen, kiy góor, kiy jigéen.",Substitution,replace | replace
+983,ندام,ndam,ddàm,Duplication / répétition,delete | replace
+984,گيس پوول چا كێر ياللا گا. ڽو,gis Pool ca kër Yàlla ga. Ñu,yis Pool ca kër Yàlla ga. Ñu,Substitution,replace
+985,ام ناا ڽاار دووم.,Am naa ñaar doom.,am naa ñaar doom.,Majuscule / minuscule,replace
+986,ندێنكاان,ndénkaan,ddnnaan,Erreur multiple / combinaison,insert | delete | delete
+987,يەيوووول ا ليگگێەي چي ڠوورو ياللا.»,yeyoowul a liggéey ci nguuru Yàlla.»,yeyoowula liggéey ci nguuru Yàlla.»,Suppression,delete
+988,لەوپوول,leopool,lewpool,Substitution,replace
+989,"بااخ, ساخ, ناڠو با مەڽڽ تێەمێەري يوون","baax, sax, nangu ba meññ téeméeri yoon","baax, Sax, nangu ba meññ téeméeri yoon",Majuscule / minuscule,replace
+990,پوليتيگ,politig,pulitig,Substitution,replace
+991,اسماان,asmaan,sasmaan,Insertion,insert
+992,اموڽو,amuñu,Amuñu,Majuscule / minuscule,replace
+993,"نداختە گاراب, مەڽڽەەفام لاڽو كوي خاممەە. دەەسول","Ndaxte garab, meññeefam lañu koy xàmmee. Deesul","Yànte garab, meññeefam lañu koy xàmmee. Deesul",Substitution,replace
+994,"نيت ناگ, نداخ ێپپول ماانا خار? كون","Nit nag, ndax ëppul maana xar? Kon","nit nag, ndax ëppul maana xar? Kon",Majuscule / minuscule,replace
+995,وببەە,ubbee,bubbee,Insertion,insert
+996,"ياو مي ناافێق, باي ساماندااي ميير بو","yaw mi naaféq, bay samandaay miir bu","yaw mi naaféq, bay samandaay miyr bu",Substitution,replace
+997,"وار نا سونن لو بارە, ڽو خەەب كو, دێددو كو.","war na sonn lu bare, ñu xeeb ko, dëddu ko.","war na sunn lu bare, ñu xeeb ko, dëddu ko.",Substitution,replace
+998,گاننااو ياللا باالول چار يا چوساانوو چا,Gannaaw Yàlla baalul car ya cosaanoo ca,Gannaaw Yàlla baalul car ya cosaanuo ca,Substitution,replace
+999,تووبوون,tuuboon,tuubuon,Substitution,replace
+1000,ماڠي دەم توگگ چي چين بي.,Mangi dem togg ci cin bi.,mangi dem togg ci cin bi.,Majuscule / minuscule,replace
+1001,ندابي,ndabi,ddàbi,Duplication / répétition,delete | replace
+1002,"مو سەەدەە كو نيي: “گيس ناا دااوودا,","mu seedee ko nii: “Gis naa Daawuda,","mu seedee ku nii: “Gis naa daawuda,",Substitution,replace | replace
+1003,كوو لەكك چێب امنا وێرسێگ.,Kou lekk cëb amna wërsëg.,koo lekk cëb amna wërsëg.,Substitution,replace | replace
+1004,"""بو ما يەەووو, داماي وێر.""","""Bu ma yeewoo, damay wér.""","""Bu ma yeewu, damay wér.""",Substitution,replace
+1005,ڽي ما گێم ديناڽو اند اك فيرندە,Ñi ma gëm dinañu ànd ak firnde,ñi ma gëm dinañu ànd ak firnde,Majuscule / minuscule,replace
+1006,نداختە كو دەف ساما چووبارەگ بااي بي,Ndaxte ku def sama coobareg Baay bi,Ndaxte ku def sama coobareg baay bi,Majuscule / minuscule,replace
+1007,تە بولەەن راگال ڽو مان ا رەي,Te buleen ragal ñu man a rey,te buleen ragal ñu man a rey,Majuscule / minuscule,replace
+1008,مان اك بااي بي بەنن لانو.»,Man ak Baay bi benn lanu.»,man ak baay bi benn lanu.»,Majuscule / minuscule,replace | replace
+1009,يسراييل داڽوو خامول? ااڠكاي! موساا دافا جێككوون,Israyil dañoo xamul? Aaŋkay! Musaa dafa jëkkoon,Ysrayil dañoo xamul? Aangàk! Musaa dafa jëkkoon,Erreur multiple / combinaison,replace | replace | delete
+1010,"بانت, جوخ كو كو, مو مووچو. مو","bant, jox ko ko, mu muucu. Mu","bant, jox ko ko, mu mooco. Mu",Substitution,replace | replace
+1011,"سوو كو لااجەە, ياو چي سا بوپپ,","Soo ko laajee, yaw ci sa bopp,","soo ko laajee, yaw ci sa bopp,",Majuscule / minuscule,replace
+1012,ڽو بارە چي يسراييل داانو تە يێككاتيكو.,ñu bare ci Israyil daanu te yékkatiku.,Ñu bare ci Israyil daanu te yékkatiku.,Majuscule / minuscule,replace
+1013,تێيە,téye,ëéye,Substitution,replace
+1014,"جۆگلەەن نو دەم; كي ماي وور ا ڠي نيي, دي ڽێو.»","Jógleen nu dem; ki may wor a ngi nii, di ñëw.»","jógleen nu dem; ki may wur a ngi nii, di ñëw.»",Substitution,replace | replace
+1015,ێللێگ; نو ڠي نە سەەو ياللا بوولە,ëllëg; nu ngi ne seew Yàlla boole,yëllëg; nu ngi ne seew Yàlla boole,Insertion,insert
+1016,"«كيليفا گي, موساا بيندال نا نو نە,","«Kilifa gi, Musaa bindal na nu ne,","«Kilifa gi, musaa bindal na nu ne,",Majuscule / minuscule,replace
+1017,"بي, ياا ساكك اساماان, سووف, گێەج اك","bi, yaa sàkk asamaan, suuf, géej ak","bi, yaa sakk asamaan, suuf, géej ak",Diacritique / accent,replace
+1018,"ڽو تاق چي مووم, نداخ لي مو","Ñu taq ci moom, ndax li mu","Ñu tàq ci moom, ndax li mu",Diacritique / accent,replace
+1019,"نيير كو, دێگگ بااتو بورووم بي نە كو:","niir ko, dégg baatu Boroom bi ne ko:","niir ku, dégg baatu boroom bi ne ko:",Substitution,replace | replace
+1020,"باككاارام ا كو وارال, واللا بو وااجورام?»","bàkkaaram a ko waral, walla bu waajuram?»","bàkkaaram a ku waral, walla bu waajuram?»",Substitution,replace
+1021,"لو وۆور چي مبيروم ماام دااوودا, نە","lu wóor ci mbirum maam Daawuda, ne","lu wóor ci mbirum maam daawuda, ne",Majuscule / minuscule,replace
+1022,"داماي واخ نە, مبورو مێپپ سەلل نا,","Damay wax ne, mburu mépp sell na,","damay wax ne, mburu mépp sell na,",Majuscule / minuscule,replace
+1023,"اك اي جاڠورو يو وووتە, تە داق","ak ay jàngoro yu wuute, te dàq","ak ay jàngoro yu woote, te dàq",Substitution,replace
+1024,يێوويكوو,yéwwikoo,yéwuyoo,Substitution,replace
+1025,"چي مبارام. نداخ واروماا ناان كااسو ناقار,","ci mbaram. Ndax warumaa naan kaasu naqar,",ci mbaram. Ndax warumaa naan kaasu naqarararararararara,Duplication / répétition,replace
+1026,نوونو ناڠوووڽوو ييوي ياسون اك ڽي چي,Noonu nanguwuñoo yiwi Yason ak ñi ci,Noonu nanguwuñuoy Yiwi Yasun ak ñi ci,Erreur multiple / combinaison,insert | replace | replace | replace
+1027,"فەكك, تە ڽو بوكك چي يوون وي,","fekk, te ñu bokk ci yoon wi,","Fekk, te ñu bokk ci yoon wi,",Majuscule / minuscule,replace
+1028,با تاخ تورام سييو با چي بيير,ba tax turam siiw ba ci biir,ba tax turam Siiw ba ci biir,Majuscule / minuscule,replace
+1029,يۆننيل لێەگي ناگ اي نيت چي دێككو,Yónnil léegi nag ay nit ci dëkku,yónnil léegi nag ay nit ci dëkku,Majuscule / minuscule,replace
+1030,دوي ڠير مبوولوو مو توللو نيي?»,doy ngir mbooloo mu tollu nii?»,duy ngir mbooloo mu tollu nii?»,Substitution,replace
+1031,"ڽو نە: « “تەگ چاب ديير,” لو","Ñu ne: « “Teg cab diir,” lu","Ñu ne: «TTgg cab diir,” lu",Erreur multiple / combinaison,delete | replace
+1032,"نوونو مو يووخو نە: «يەەسو, سێتو دااوودا, يێرێم ما!»","Noonu mu yuuxu ne: «Yeesu, Sëtu Daawuda, yërëm ma!»","woonu mu yuuxu ne: «Yeesu, sëtu Daawuda, yërëm ma!»",Substitution,replace | replace
+1033,"تە يت بوولە ووون نا چي يەنەەن ڽااوتەەف,","te it boole woon na ci yeneen ñaawteef,","Te it boole woon na ci yeneen ñaawteef,",Majuscule / minuscule,replace
+1034,"كاو, گێرێم ياللا, با نوپپي مو دامم","kaw, gërëm Yàlla, ba noppi mu damm","kaw, gërëm Yàlla, ba noppi mu dàmm",Diacritique / accent,replace
+1035,"يووخ گو رێي,راسەل مووي جووي اي دوومامتە","yuux gu réy,Rasel mooy jooy ay doomamte","yuux gu réy,rasel mooy jooy ay doomamte",Majuscule / minuscule,replace
+1036,خامااكوونو,xamaakoonu,xamaakuonu,Substitution,replace
+1037,"فەكك بووبا مو رومب فا, جۆگە چا","Fekk booba mu romb fa, jóge ca","fekk booba mu romb fa, jóge ca",Majuscule / minuscule,replace
+1038,"فيليب مو ڠا دێككوون بەتسايدا, دێككو اندارە اك پييەەر.","Filib mu nga dëkkoon Betsayda, dëkku Andare ak Piyeer.","filib mu nga dëkkoon betsayda, dëkku Andare ak Piyeer.",Majuscule / minuscule,replace | replace
+1039,نداوول,ndawul,Nddawul,Duplication / répétition,replace
+1040,ماا ڠي سانت ياللا چي لي ما,Maa ngi sant Yàlla ci li ma,maa ngi sant Yàlla ci li ma,Majuscule / minuscule,replace
+1041,"چا ێللێگ سا چا فاجار, مو دەللو","Ca ëllëg sa ca fajar, mu dellu","ca ëllëg sa ca fajar, mu dellu",Majuscule / minuscule,replace
+1042,"سا مبير دو دێگگ, واايە ياا ڠي","sa mbir du dëgg, waaye yaa ngi","sa mbir du dégg, waaye yaa ngi",Diacritique / accent,replace
+1043,ڽو رێچچ كو.,Ñu rëcc ko.,ñu rëcc ko.,Majuscule / minuscule,replace
+1044,نە لەەن: «لێەگي ڽو جێببال دوومو نيت,ne leen: «Léegi ñu jébbal Doomu nit,ne leen: «Léegi ñu jébbal doomu nit,Majuscule / minuscule,replace

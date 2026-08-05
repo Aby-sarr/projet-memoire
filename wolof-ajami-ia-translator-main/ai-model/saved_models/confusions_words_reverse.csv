@@ -1,0 +1,349 @@
+﻿confusion,attendu_caractere,predit_caractere,mot_attendu,mot_predit,position_dans_mot,position_caractere,phrase_attendue,phrase_predite,Ajami
+o -> u,o,u,ko,ku,Fin du mot,1,"ko nii: dafa yónni Doomam, ngir mu","ku nii: dafa yónni doomam, ngir mu","كو نيي: دافا يۆنني دوومام, ڠير مو"
+o -> u,o,u,sorewul,Surewul,Milieu du mot,1,"Gannaaw Lidd sorewul ak Yope nag, te","Gannaaw lidd Surewul ak yope nag, te","گاننااو ليدد سورەوول اك يوپە ناگ, تە"
+o -> u,o,u,ko,ku,Fin du mot,1,"ko gën a xamle, ngir mbëggeel, gi","ku gën a xamle, ngir mbéggeel, gi","كو گێن ا خاملە, ڠير مبێگگەەل, گي"
+o -> u,o,u,mënunoo,mënunuoo,Milieu du mot,5,Waaye nun mënunoo bañ a wax li,Waaye nun mënunuoo bañ a wax li,واايە نون مێنونوو باڽ ا واخ لي
+o -> u,o,u,ko,ku,Fin du mot,1,Waaye Yàlla wax ko ne:«Yanqóoba rakk ji,Waaye Yàlla wax ku ne:«Yànqóoba rakk ji,واايە ياللا واخ كو نە:«يانقۆوبا راكك جي
+o -> u,o,u,ko,ku,Fin du mot,1,"ko ba noppi, waaye gëmuleen. Jëf yi","ku ba noppi, waaye gëmuleen. Jëf yi","كو با نوپپي, واايە گێمولەەن. جێف يي"
+o -> u,o,u,ko,ku,Fin du mot,1,"ko tontu: “Bu ma lakkal, tëj naa","ku tontu: “Bu ma lakkal, tëj naa","كو تونتو: “بو ما لاككال, تێج ناا"
+u -> o,u,o,luu.,loo.,Milieu du mot,1,"mu gumba te luu. Yeesu faj ko,","mu gumba te loo. Yeesu faj ko,","مو گومبا تە لوو. يەەسو فاج كو,"
+u -> o,u,o,luu.,loo.,Milieu du mot,2,"mu gumba te luu. Yeesu faj ko,","mu gumba te loo. Yeesu faj ko,","مو گومبا تە لوو. يەەسو فاج كو,"
+o -> u,o,u,ko,ku,Fin du mot,1,"ko fa; fekk moom fas na yéeney dox, ba agsi fa.","ku fa; fekk moom fas na yéeney dox, ba agsi fa.","كو فا; فەكك مووم فاس نا يێەنەي دوخ, با اگسي فا."
+i -> y,i,y,kii,kiy,Fin du mot,2,"Ñu naan: «Ndax kii du Yeesu, doomu","Ñu naan: «Ndax kiy du Yeesu, doomu","ڽو ناان: «نداخ كيي دو يەەسو, دوومو"
+o -> u,o,u,dogaloon,dugaloon,Milieu du mot,1,"nas, bi Yàlla dogaloon te xam ko","nas, bi Yàlla dugaloon te xam ku","ناس, بي ياللا دوگالوون تە خام كو"
+o -> u,o,u,ko,ku,Milieu du mot,1,"nas, bi Yàlla dogaloon te xam ko","nas, bi Yàlla dugaloon te xam ku","ناس, بي ياللا دوگالوون تە خام كو"
+y -> i,y,i,niy,nii,Fin du mot,2,"ba mel niy xale, dungeen dugg mukk","ba mel nii xale, dungeen dugg mukk","با مەل نيي خالە, دوڠەەن دوگگ موكك"
+o -> u,o,u,doy,duy,Milieu du mot,1,neen la; fu nuy jële lu doy ngir dundal leen?»,yeen la; fu nuy jële lu duy ngir dundal leen?»,نەەن لا; فو نوي جێلە لو دوي ڠير دوندال لەەن?»
+o -> u,o,u,booru,buuru,Milieu du mot,1,"Gannaaw loolu Yeesu génnaat, aw booru dex","gannaaw loolu Yeesu génnaat, aw buuru dex","گاننااو لوولو يەەسو گێنناات, او بوورو دەخ"
+o -> u,o,u,booru,buuru,Milieu du mot,2,"Gannaaw loolu Yeesu génnaat, aw booru dex","gannaaw loolu Yeesu génnaat, aw buuru dex","گاننااو لوولو يەەسو گێنناات, او بوورو دەخ"
+o -> u,o,u,"loxo,","luxu,",Milieu du mot,1,"faatu léegi, waaye ñëwal, teg ko say loxo, te dina dundaat.»","yaatu léegi, waaye ñëwal, teg ko say luxu, te dina dundaat.»","فااتو لێەگي, واايە ڽێوال, تەگ كو ساي لوخو, تە دينا دونداات.»"
+o -> u,o,u,"loxo,","luxu,",Milieu du mot,3,"faatu léegi, waaye ñëwal, teg ko say loxo, te dina dundaat.»","yaatu léegi, waaye ñëwal, teg ko say luxu, te dina dundaat.»","فااتو لێەگي, واايە ڽێوال, تەگ كو ساي لوخو, تە دينا دونداات.»"
+u -> o,u,o,duy,doy,Milieu du mot,1,"Kirist? Xanaa duy nattu, te du njàqare,","kirist? Xanaa doy nattu, te du njàqare,","كيريست? خاناا دوي ناتتو, تە دو نجاقارە,"
+u -> o,u,o,kumpa,kompa,Milieu du mot,1,"biral, mbaa luy kumpa lu ñu warul a siiwal.","yiral, mbaa luy kompa lu ñu warul a siiwal.","بيرال, مباا لوي كومپا لو ڽو وارول ا سييوال."
+o -> u,o,u,ko,ku,Milieu du mot,1,ca bérab bu wéet. Waaye bi ko,ca bérab bu wéet. Waaye bi ku,چا بێراب بو وێەت. واايە بي كو
+o -> u,o,u,ko,ku,Fin du mot,1,"ya, ngir ñu teeru ko teeru bu","ya, ngir ñu teeru ku teeru bu","يا, ڠير ڽو تەەرو كو تەەرو بو"
+i -> y,i,y,nii,niy,Fin du mot,2,"nii ci yoon wi?» Noonu ñu taxaw, seen xol jeex.","niy ci yoon wi?» Noonu ñu taxaw, seex.","نيي چي يوون وي?» نوونو ڽو تاخاو, سەەن خول جەەخ."
+u -> o,u,o,buuxante,booxante,Milieu du mot,1,"Senesaret. Mbooloo ma wër ko, di buuxante ngir déglu kàddug Yàlla.","senesaret. Mbooloo ma wér ko, di booxante ngir déglu Kàddug yàldag.","سەنەسارەت. مبوولوو ما وێر كو, دي بووخانتە ڠير دێگلو كاددوگ ياللا."
+u -> o,u,o,buuxante,booxante,Milieu du mot,2,"Senesaret. Mbooloo ma wër ko, di buuxante ngir déglu kàddug Yàlla.","senesaret. Mbooloo ma wér ko, di booxante ngir déglu Kàddug yàldag.","سەنەسارەت. مبوولوو ما وێر كو, دي بووخانتە ڠير دێگلو كاددوگ ياللا."
+i -> y,i,y,yii,yiy,Fin du mot,2,"Yëf yii leer na buur bi, moo","yëf yiy leer na buur bi, moo","يێف ييي لەەر نا بوور بي, موو"
+i -> y,i,y,foofii,foofiy,Milieu du mot,5,foofii,foofiy,فووفيي
+o -> u,o,u,jollil,yullil,Milieu du mot,1,jollil ndamu Yàlla. Noonu Yeesu ne ko: «Toppal ci man!»,yullil ndamu Yàlla. Noonu Yeesu ne ko: «Toppal ci man!»,جولليل ندامو ياللا. نوونو يەەسو نە كو: «توپپال چي مان!»
+u -> o,u,o,ku,ko,Fin du mot,1,Am ca mbooloo ma ku ne Yeesu:,am ca mbooloo ma ko ne Yeesu:,ام چا مبوولوو ما كو نە يەەسو:
+o -> u,o,u,moy,muy,Milieu du mot,1,"ngeen fekksi ma ci li ma nekk, lu moy jéng yii!»","ngeen fekksi ma ci li ma nekk, lu muy jéng yii!»","ڠەەن فەككسي ما چي لي ما نەكك, لو موي جێڠ ييي!»"
+o -> u,o,u,ko,ku,Fin du mot,1,"Pool, mu dëkk fa ko lew, moom","Pool, mu dëkk fa ku lew, moom","پوول, مو دێكك فا كو لەو, مووم"
+i -> y,i,y,yii,yiy,Fin du mot,2,ngeen yii yépp? Ci dëgg maa ngi,ngeen yiy yépp? Ci dëgg maa ngi,ڠەەن ييي يێپپ? چي دێگگ ماا ڠي
+o -> u,o,u,deewoon,deewun,Milieu du mot,4,deewoon,deewun,دەەووون
+i -> y,i,y,indil,yindil,Début du mot,0,Ca ngoon sa ñu indil ko ñu,ca ngoon sa ñu yindil ko ñu,چا ڠوون سا ڽو ينديل كو ڽو
+u -> o,u,o,Suleymaan,soleymaan,Milieu du mot,1,te ku sut Suleymaan a ngi fi.,te ku sut soleymaan a ngi fi.,تە كو سوت سولەيماان ا ڠي في.
+y -> i,y,i,biy,bii,Fin du mot,2,kàttanam. Moo tax xale biy juddu dinañu,kàttanam. Moo tax xale bii juddu dinañu,كاتتانام. موو تاخ خالە بيي جوددو ديناڽو
+o -> u,o,u,niroowul,niruuuul,Milieu du mot,3,benn niroowul ak moroomam liggéey.,benn niruuuul ak moroomam liggéey.,بەنن نيروووول اك موروومام ليگگێەي.
+o -> u,o,u,niroowul,niruuuul,Milieu du mot,4,benn niroowul ak moroomam liggéey.,benn niruuuul ak moroomam liggéey.,بەنن نيروووول اك موروومام ليگگێەي.
+o -> u,o,u,looloo,looluo,Milieu du mot,4,"looloo ñëw, ngir bu waxtu wa agsee, ngeen gëm.","looluo ñëw, ngir bu waxtu wa agsee, ngeen gëm.","لوولوو ڽێو, ڠير بو واختو وا اگسەە, ڠەەن گێم."
+u -> o,u,o,luu,loo,Milieu du mot,1,"làggi, ay gumba, ay luu ak ñeneen","laggi, ay gumba, ay loo ak ñeneen","لاگگي, اي گومبا, اي لوو اك ڽەنەەن"
+u -> o,u,o,luu,loo,Fin du mot,2,"làggi, ay gumba, ay luu ak ñeneen","laggi, ay gumba, ay loo ak ñeneen","لاگگي, اي گومبا, اي لوو اك ڽەنەەن"
+o -> u,o,u,sonal,sunal,Milieu du mot,1,ñëw naan: «Sa doom faatu na; matatul ngay sonal kilifa gi.»,ñëw naan: «Sa doom faatu na; matatul ngay sunal kilifa gi.»,ڽێو ناان: «سا دووم فااتو نا; ماتاتول ڠاي سونال كيليفا گي.»
+o -> u,o,u,xol,xul,Milieu du mot,1,di la gërëm ak sunu xol bépp.,Yi la gërëm ak sunu xul bépp.,دي لا گێرێم اك سونو خول بێپپ.
+y -> i,y,i,jiyi.,jiii.,Milieu du mot,2,«Dafa amoon beykat bu demoon jiyi. Bi,«Dafa amoon beykat bu demoon jiii. Bi,«دافا اموون بەيكات بو دەموون جييي. بي
+u -> o,u,o,wutsi,wotsi,Milieu du mot,1,wutsi,wotsi,ووتسي
+o -> u,o,u,njortu,jjurtu,Milieu du mot,2,njortu,jjurtu,نجورتو
+o -> u,o,u,woddee,wuddee,Milieu du mot,1,Yéen ñi néew ngëm! Bu Yàlla woddee,Yéen ñi néew ngëm! Bu Yàlla wuddee,يێەن ڽي نێەو ڠێم! بو ياللا ووددەە
+o -> u,o,u,soosa,suusa,Milieu du mot,1,Li dale ci saa soosa nag Yudaa,li dale ci saa suusa nag yudaa,لي دالە چي ساا سووسا ناگ يوداا
+o -> u,o,u,soosa,suusa,Milieu du mot,2,Li dale ci saa soosa nag Yudaa,li dale ci saa suusa nag yudaa,لي دالە چي ساا سووسا ناگ يوداا
+o -> u,o,u,soosu,suusu,Milieu du mot,1,Ca saa soosu Xel mu Sell mi,ca saa suusu xel mu Sell mi,چا ساا سووسو خەل مو سەلل مي
+o -> u,o,u,soosu,suusu,Milieu du mot,2,Ca saa soosu Xel mu Sell mi,ca saa suusu xel mu Sell mi,چا ساا سووسو خەل مو سەلل مي
+o -> u,o,u,noonoo,Noonuo,Milieu du mot,4,noonoo,Noonuo,نوونوو
+o -> u,o,u,ron,run,Milieu du mot,1,walla mu di ko def ci ron,walla mu di ko def ci run,واللا مو دي كو دەف چي رون
+u -> o,u,o,nuy,noy,Milieu du mot,1,"te bi nuy dem, ñu jox nu li nuy soxla lépp.","Ye bi nuy dem, ñu jox nu li noy soxla lépp.","تە بي نوي دەم, ڽو جوخ نو لي نوي سوخلا لێپپ."
+o -> u,o,u,ràññeewoo,raññeewuw,Milieu du mot,7,"ci yaw, ndaxte ràññeewoo jamono ji Yàlla ñëwe, wallusi la.»","yi yaw, ndaxte raññeewuw jamono ji Yàlla ñëwe, wallusi la.»","چي ياو, نداختە راڽڽەەووو جامونو جي ياللا ڽێوە, واللوسي لا.»"
+o -> u,o,u,Looloo,Yooluo,Milieu du mot,4,Looloo tax waajur ya ne: «Laajleen ko; magum jëmm la.»,Yooluo tax waajur ya ne: «Laajleen ko; magum jëmm la.»,لوولوو تاخ وااجور يا نە: «لااجلەەن كو; ماگوم جێمم لا.»
+o -> u,o,u,wottu,wuttu,Milieu du mot,1,"ca, bay wottu sax yérey ñi ko doon rey.”","ca, bay wuttu sax yërey ñi ko doon rey.”","چا, باي ووتتو ساخ يێرەي ڽي كو دوون رەي.”"
+o -> u,o,u,njombe,jjumbe,Milieu du mot,2,njombe,jjumbe,نجومبە
+u -> o,u,o,fàttalikuwuleen,fattalikooule,Milieu du mot,8,Ndax xamaguleen ba tey? Xanaa fàttalikuwuleen juróomi,Ndax xamaguleen ba tey? Xanaa fattalikooule,نداخ خاماگولەەن با تەي? خاناا فاتتاليكووولەەن جورۆومي
+o -> u,o,u,xottikoo,xuttikuu,Milieu du mot,1,xottikoo,xuttikuu,خوتتيكوو
+o -> u,o,u,xottikoo,xuttikuu,Milieu du mot,6,xottikoo,xuttikuu,خوتتيكوو
+o -> u,o,u,xottikoo,xuttikuu,Milieu du mot,7,xottikoo,xuttikuu,خوتتيكوو
+i -> y,i,y,"wii,","wiy,",Milieu du mot,2,"biir kër ci waxtu wii, maanaam tisbaar.","biir kër ci waxtu wiy, maanaam tisbaar.","بيير كێر چي واختو ويي, مااناام تيسباار."
+o -> u,o,u,doy,duy,Milieu du mot,1,ngeen def lu doy waar? Xanaa ñi,ngeen def lu duy waar? Xanaa ñi,ڠەەن دەف لو دوي واار? خاناا ڽي
+o -> u,o,u,joyoo,juyoo,Milieu du mot,1,joyoo,juyoo,جويوو
+u -> o,u,o,"jumtukaay,","jomtukaay,",Milieu du mot,1,"ak seeni loxo jumtukaay, yi ñu yeboon ngir fàggu.","ak seeni loxo jomtukaay, yi ñu yeboon ngir fàggu.","اك سەەني لوخو جومتوكااي, يي ڽو يەبوون ڠير فاگگو."
+o -> u,o,u,bon,bun,Milieu du mot,1,"bon lu jar dee, kon duma tinu","bun lu jar dee, kon duma tinu","بون لو جار دەە, كون دوما تينو"
+y -> i,y,i,Piyeer,Piyeer,Milieu du mot,2,itam ci ñoom nga bokk.» Piyeer tontu,Yitam ci ñoom nga bokk.» Piyeer tontu,يتام چي ڽووم ڠا بوكك.» پييەەر تونتو
+u -> o,u,o,ku,ko,Fin du mot,1,Foofa ñu indil ko ku tëdd ci,Foofa ñu indil ko ko tëdd ci,فووفا ڽو ينديل كو كو تێدد چي
+o -> u,o,u,joor,juur,Milieu du mot,1,"ya, daldi taxaw ca joor ga, fa","ya, daldi taxaw ca juur ga, fa","يا, دالدي تاخاو چا جوور گا, فا"
+o -> u,o,u,joor,juur,Milieu du mot,2,"ya, daldi taxaw ca joor ga, fa","ya, daldi taxaw ca juur ga, fa","يا, دالدي تاخاو چا جوور گا, فا"
+o -> u,o,u,xewoon,xewuon,Milieu du mot,3,nettali la xewoon ca yoon wa ak,nettali la xewuon ca yoon wa ak,نەتتالي لا خەووون چا يوون وا اك
+u -> o,u,o,«Wutuma,«Wootuma,Milieu du mot,2,«Wutuma tagg yu jóge ci nit.,«Wootuma tagg yu jóge ci nit.,«ووتوما تاگگ يو جۆگە چي نيت.
+o -> u,o,u,melokan,melukan,Milieu du mot,3,melokan,melukan,مەلوكان
+o -> u,o,u,faatoo.,faatuw.,Milieu du mot,4,Ci baat yooyu la doon misaale ni mu war a faatoo.,ci baat yooyu la doon misaale ni mu war a faatuw.,چي باات يوويو لا دوون ميساالە ني مو وار ا فااتوو.
+i -> y,i,y,ñooñii,ñooñiy,Milieu du mot,5,ñooñii,ñooñiy,ڽووڽيي
+o -> u,o,u,sago.»,sagu.»,Milieu du mot,3,réy mi da laa xañ sago.»,réy mi da laa xañ sagu.»,رێي مي دا لاا خاڽ ساگو.»
+o -> u,o,u,moy,muy,Milieu du mot,1,am alal. Lu ko moy ñooñu itam,am alal. Lu ko muy ñooñu itam,ام الال. لو كو موي ڽووڽو يتام
+o -> u,o,u,"Babilon,","bàbilun,",Milieu du mot,5,"Ba ñu leen yóbboo ca Babilon, Yekoñas jur Salacel; Salacel Sorobabel,","ba ñu leen yóbboo ca bàbilun, yekuñas jur salacel; salacel; salacellusulubabell surubabell surubabel","با ڽو لەەن يۆببوو چا بابيلون, يەكوڽاس جور سالاچەل; سالاچەل سوروبابەل,"
+o -> u,o,u,Yekoñas,yekuñas,Milieu du mot,3,"Ba ñu leen yóbboo ca Babilon, Yekoñas jur Salacel; Salacel Sorobabel,","ba ñu leen yóbboo ca bàbilun, yekuñas jur salacel; salacel; salacellusulubabell surubabell surubabel","با ڽو لەەن يۆببوو چا بابيلون, يەكوڽاس جور سالاچەل; سالاچەل سوروبابەل,"
+i -> y,i,y,kii,kiy,Fin du mot,2,"kii moo daan toog, di yelwaan?»","kiy moo daan toog, di yelwaan?»","كيي موو داان تووگ, دي يەلواان?»"
+y -> i,y,i,biy,bii,Milieu du mot,2,biy,bii,بيي
+o -> u,o,u,ko,ku,Milieu du mot,1,"Noonu ñu for ay xeer, bëgg ko","Noonu ñu for ay xeer, bëgg ku","نوونو ڽو فور اي خەەر, بێگگ كو"
+o -> u,o,u,koy,kuy,Milieu du mot,1,koy yërëm ne ko: «Bul jooyati.»,kuy yérëm ne ko: «Bul jooyati.»,كوي يێرێم نە كو: «بول جووياتي.»
+o -> u,o,u,xaritoo,xarituw,Milieu du mot,5,tey xaritoo ak ay juutikat ak ay boroom bàkkaar.”,tey xarituw ak ay juutikat ak ay boroom bàkkaar.”,تەي خاريتوو اك اي جووتيكات اك اي بورووم باككاار.”
+o -> u,o,u,Naxor;,naxur;,Milieu du mot,3,Yanqóoba; Isaaxa; Ibraayma; Teraa; Naxor;,yanqóoba; Isaaxa; Ibraayma; teraa; naxur;,يانقۆوبا; يسااخا; يبراايما; تەراا; ناخور;
+o -> u,o,u,Wottu,Wuttu,Milieu du mot,1,"wi nga ma jox. Wottu naa leen,","wi nga ma jox. Wuttu naa leen,","وي ڠا ما جوخ. ووتتو ناا لەەن,"
+y -> i,y,i,Tiberyàdd.,tiberi.,Milieu du mot,5,"Gannaaw loolu Yeesu dafa jàll dexu Galile, maanaam dexu Tiberyàdd.","Gannaaw loolu Yeesu dafa jall dexu Galile, maanaam dexu tiberi.","گاننااو لوولو يەەسو دافا جالل دەخو گاليلە, مااناام دەخو تيبەريادد."
+i -> y,i,y,ñii,ñiy,Fin du mot,2,"te ñii xam nañu ne, yaa ma yónni.","te ñiy xam nañu ne, yaa ma yónni.","تە ڽيي خام ناڽو نە, ياا ما يۆنني."
+o -> u,o,u,doylu,duylu,Milieu du mot,1,doylu,duylu,دويلو
+o -> u,o,u,wormaal,wurmaal,Milieu du mot,1,wormaal,wurmaal,وورماال
+u -> o,u,o,«“Suul-leen,«Sool-leen,Milieu du mot,3,ci sunu kaw!’te naan jànj yi: «“Suul-leen nu!»“ “,ci sunu kaw! Te naan janj yi: «Sool-leen nu!» “,چي سونو كاو!’تە ناان جانج يي: «“سوول-لەەن نو!»“ “
+o -> u,o,u,dénkoon,dénkuon,Milieu du mot,4,dénkoon,dénkuon,دێنكوون
+o -> u,o,u,Gomor,gumur,Milieu du mot,1,ak Gomor ñooy tane dëkk boobu.,ak gumur ñooy tane dëkk boobu.,اك گومور ڽووي تانە دێكك بووبو.
+o -> u,o,u,Gomor,gumur,Milieu du mot,3,ak Gomor ñooy tane dëkk boobu.,ak gumur ñooy tane dëkk boobu.,اك گومور ڽووي تانە دێكك بووبو.
+u -> o,u,o,wu,wo,Fin du mot,1,"wu réy ci baatam, sànni ko ca","wo réy ci baatam, sànni ko ca","وو رێي چي بااتام, سانني كو چا"
+u -> o,u,o,buumi,boomi,Milieu du mot,1,"buumi dee, ndaxte dee mënu koo téye.","boomi dee, ndaxte dee mënu koo tëye.","بوومي دەە, نداختە دەە مێنو كوو تێيە."
+u -> o,u,o,buumi,boomi,Milieu du mot,2,"buumi dee, ndaxte dee mënu koo téye.","boomi dee, ndaxte dee mënu koo tëye.","بوومي دەە, نداختە دەە مێنو كوو تێيە."
+u -> o,u,o,xuru,xoro,Milieu du mot,1,xuru,xoro,خورو
+u -> o,u,o,xuru,xoro,Milieu du mot,3,xuru,xoro,خورو
+o -> u,o,u,dogali,dugali,Milieu du mot,1,ndigal yi ak dogali Boroom bi yépp.,ndigal yi ak dugali boroom bi yépp.,نديگال يي اك دوگالي بورووم بي يێپپ.
+o -> u,o,u,Xol,xul,Milieu du mot,1,Xol bi dal na.,xul bi dal na.,خول بي دال نا.
+o -> u,o,u,"isob,","Isub,",Milieu du mot,2,"ñuy wax isob, teg ko ci gémmiñu Yeesu.","Ñuy wax Isub, teg ku ci gémmiñu Yeesu.","ڽوي واخ يسوب, تەگ كو چي گێمميڽو يەەسو."
+o -> u,o,u,ko,ku,Fin du mot,1,"ñuy wax isob, teg ko ci gémmiñu Yeesu.","Ñuy wax Isub, teg ku ci gémmiñu Yeesu.","ڽوي واخ يسوب, تەگ كو چي گێمميڽو يەەسو."
+o -> u,o,u,Xol,xul,Milieu du mot,1,Xol yi fees na.,xul yi fees na.,خول يي فەەس نا.
+o -> u,o,u,joggi,juggi,Milieu du mot,1,"ñi joggi ci, picci asamaan lekk ko lépp.","Ñi juggi ci, picci asamaan lekk ku lépp.","ڽي جوگگي چي, پيچچي اساماان لەكك كو لێپپ."
+o -> u,o,u,ko,ku,Fin du mot,1,"ñi joggi ci, picci asamaan lekk ko lépp.","Ñi juggi ci, picci asamaan lekk ku lépp.","ڽي جوگگي چي, پيچچي اساماان لەكك كو لێپپ."
+o -> u,o,u,wottukat,wuttukat,Milieu du mot,1,"Pilaat tontu leen: «Amleen, ay wottukat a","Pilaat tontu leen: «Amleen, ay wuttukat a","پيلاات تونتو لەەن: «املەەن, اي ووتتوكات ا"
+y -> i,y,i,Lisiyas,lisiias,Milieu du mot,4,réew mi; man Këlódd Lisiyas maa ngi lay nuyu.,réew mi; man këlódd lisiias maa ngi lay nuyu.,رێەو مي; مان كێلۆدد ليسيياس ماا ڠي لاي نويو.
+i -> y,i,y,yii,yiy,Fin du mot,2,nguur yii ak seen ndam ndaxte jébbal,nguur yiy ak seen ndax ndaxte jébbal,ڠوور ييي اك سەەن ندام نداختە جێببال
+y -> i,y,i,Piyeer;,Piyeer;,Milieu du mot,2,it Piyeer; fekk loolu daje ak bési,tit Piyeer; fekk loolu daje ak bési,يت پييەەر; فەكك لوولو داجە اك بێسي
+o -> u,o,u,nose,Nuse,Milieu du mot,1,nose,Nuse,نوسە
+o -> u,o,u,soobul,suubul,Milieu du mot,1,daanu ci suuf te soobul seen Baay.,daanu ci suuf te suubul seen baay.,داانو چي سووف تە سووبول سەەن بااي.
+o -> u,o,u,soobul,suubul,Milieu du mot,2,daanu ci suuf te soobul seen Baay.,daanu ci suuf te suubul seen baay.,داانو چي سووف تە سووبول سەەن بااي.
+y -> i,y,i,Tiberyàdd.,tiberiadd.,Milieu du mot,5,gu ñuy wax Tiberyàdd. Nii la deme woon:,yu ñuy wax tiberiadd. Nii la deme woon:,گو ڽوي واخ تيبەريادد. نيي لا دەمە ووون:
+o -> u,o,u,ko,ku,Fin du mot,1,ko ko. Te ngeen roof ab jaaro,ku ko. Te ngeen rouf ab jaaru,كو كو. تە ڠەەن رووف اب جاارو
+o -> u,o,u,roof,rouf,Milieu du mot,2,ko ko. Te ngeen roof ab jaaro,ku ko. Te ngeen rouf ab jaaru,كو كو. تە ڠەەن رووف اب جاارو
+o -> u,o,u,jaaro,jaaru,Milieu du mot,4,ko ko. Te ngeen roof ab jaaro,ku ko. Te ngeen rouf ab jaaru,كو كو. تە ڠەەن رووف اب جاارو
+o -> u,o,u,torox.,turox.,Milieu du mot,1,ki koy wor dina torox. Bañoon a,ki koy wor dina turox. Bañoon a,كي كوي وور دينا توروخ. باڽوون ا
+o -> u,o,u,sonn,sunn,Milieu du mot,1,"leen, ndaxte dañoo sonn ba ne yogg,","leen, ndaxte dañoo sunn ba ne yugg,","لەەن, نداختە داڽوو سونن با نە يوگگ,"
+o -> u,o,u,"yogg,","yugg,",Milieu du mot,1,"leen, ndaxte dañoo sonn ba ne yogg,","leen, ndaxte dañoo sunn ba ne yugg,","لەەن, نداختە داڽوو سونن با نە يوگگ,"
+o -> u,o,u,njabbotam,jjabbutam,Milieu du mot,5,njabbotam,jjabbutam,نجاببوتام
+i -> y,i,y,wii?,wiy?,Milieu du mot,2,wii? Nu ngeen xame nag léeb yi ci des?,wiy? Nu ngeen xame nag léeb yi ci des?,ويي? نو ڠەەن خامە ناگ لێەب يي چي دەس?
+o -> u,o,u,yor,yur,Milieu du mot,1,"nii.» Booba la ko taalibe ba yóbbu këram, yor ko.","nii.» Booba la ko taalibe ba yóbbu këram, yur ko.","نيي.» بووبا لا كو تااليبە با يۆببو كێرام, يور كو."
+u -> o,u,o,ajuwul,ajooul,Milieu du mot,2,"bëgge, ndaxte bakkanu nit ajuwul ci alalam, ak lu mu baree-bare.»","yégge, ndaxte bàkkanu nit ajooul ci alalam, ak lu mu baree-bare.»","بێگگە, نداختە باككانو نيت اجووول چي الالام, اك لو مو بارەە-بارە.»"
+i -> y,i,y,mii,miy,Fin du mot,2,Xanaa ndax nu dem jëndal mbooloo mii lu ñu lekk?»,xanaa ndax nu dem jëndal mbooloo miy lu ñu luklukalu?»,خاناا نداخ نو دەم جێندال مبوولوو ميي لو ڽو لەكك?»
+i -> y,i,y,yii?,yiy?,Milieu du mot,2,bànni Israyil te xamuloo mbir yii?,banni Israyil te xamuloo mbir yiy?,بانني يسراييل تە خامولوو مبير ييي?
+o -> u,o,u,bon?,bun?,Milieu du mot,1,"baax, fekk dangeen bon? Ndaxte gémmiñ, la fees xol lay wax.","baax, fekk dangeen bun? Ndaxte gëmmiñ, la fees xol lay wax.","بااخ, فەكك داڠەەن بون? نداختە گێمميڽ, لا فەەس خول لاي واخ."
+o -> u,o,u,Yowaana.,yuwaana.,Milieu du mot,1,"ca des dégg nañu loolu, ñu daldi mere Saag ak Yowaana.","ca des dégg nañu loolu, ñu daldi mere saag ak yuwaana.","چا دەس دێگگ ناڽو لوولو, ڽو دالدي مەرە سااگ اك يوواانا."
+o -> u,o,u,"Sool,","suul,",Milieu du mot,1,"Ci kaw loolu Sool, mi tudd it","ci kaw loolu suul, mi tudd it","چي كاو لوولو سوول, مي تودد يت"
+o -> u,o,u,"Sool,","suul,",Milieu du mot,2,"Ci kaw loolu Sool, mi tudd it","ci kaw loolu suul, mi tudd it","چي كاو لوولو سوول, مي تودد يت"
+u -> o,u,o,doxub,doxob,Milieu du mot,3,"Ku la ga, nga yenul ko doxub","ku la ga, nga yenul ko doxob","كو لا گا, ڠا يەنول كو دوخوب"
+i -> y,i,y,lii,liy,Fin du mot,2,jàng lii ci Mbind yi?“Doj wi tabaxkat,jàng liy ci mbind yi?“Doj wi tabaxkat,جاڠ ليي چي مبيند يي?“دوج وي تاباخكات
+i -> y,i,y,"yii,","yiy,",Milieu du mot,2,"yii, ñaan ci Yàlla rekk a leen di dàq.»","yiy, ñaan ci Yàlla rekk a leen di dàq.»","ييي, ڽاان چي ياللا رەكك ا لەەن دي داق.»"
+i -> y,i,y,Iliyas?»,Iliyas?»,Milieu du mot,2,Ndax yaa di Iliyas?» Mu ne leen:,Yàx yaa di Iliyas?» Mu ne leen:,نداخ ياا دي يليياس?» مو نە لەەن:
+y -> i,y,i,jéyya,jéyia,Milieu du mot,3,jéyya,jéyia,جێييا
+o -> u,o,u,jooy,juuy,Milieu du mot,1,ma weddi ñetti yoon.» Mu daldi jooy jooy yu metti.,ya weddi ñetti yoon.» Mu daldi jooy juuy yu metti.,ما وەددي ڽەتتي يوون.» مو دالدي جووي جووي يو مەتتي.
+o -> u,o,u,jooy,juuy,Milieu du mot,2,ma weddi ñetti yoon.» Mu daldi jooy jooy yu metti.,ya weddi ñetti yoon.» Mu daldi jooy juuy yu metti.,ما وەددي ڽەتتي يوون.» مو دالدي جووي جووي يو مەتتي.
+o -> u,o,u,lool,luul,Milieu du mot,1,"nañu loolu, ñu daldi waaru lool ne","Aañu loolu, ñu daldi waaru luul ne","ناڽو لوولو, ڽو دالدي واارو لوول نە"
+o -> u,o,u,lool,luul,Milieu du mot,2,"nañu loolu, ñu daldi waaru lool ne","Aañu loolu, ñu daldi waaru luul ne","ناڽو لوولو, ڽو دالدي واارو لوول نە"
+o -> u,o,u,"Segond,","segund,",Milieu du mot,3,"ak Segond, ñi dëkk Tesalonig; Gayus, mi","ak segund, ñi dëkk tesalunig; gayus, mi","اك سەگوند, ڽي دێكك تەسالونيگ; گايوس, مي"
+o -> u,o,u,Tesalonig;,tesalunig;,Milieu du mot,5,"ak Segond, ñi dëkk Tesalonig; Gayus, mi","ak segund, ñi dëkk tesalunig; gayus, mi","اك سەگوند, ڽي دێكك تەسالونيگ; گايوس, مي"
+o -> u,o,u,soflu.,suflu.,Milieu du mot,1,"ngelaw li, ndaxte ngelaw li da noo soflu.","ngelaw li, ndaxte ngelaw li da noo suflu.","ڠەلاو لي, نداختە ڠەلاو لي دا نوو سوفلو."
+o -> u,o,u,"woor,","wuur,",Milieu du mot,1,"ne ko: «Lu tax nuy woor, nun","ne ko: «Lu tax nuy wuur, nun","نە كو: «لو تاخ نوي ووور, نون"
+o -> u,o,u,"woor,","wuur,",Milieu du mot,2,"ne ko: «Lu tax nuy woor, nun","ne ko: «Lu tax nuy wuur, nun","نە كو: «لو تاخ نوي ووور, نون"
+u -> o,u,o,ku,ko,Fin du mot,1,"ku xamul ne, dëkku Efes moo di","ko xamul ne, dëkku Efes moo di","كو خامول نە, دێككو ەفەس موو دي"
+o -> u,o,u,geñog,geñug,Milieu du mot,3,"ñu ràbbe kawaru giléem, takk geñog der","Ñu rabbe kawaru Gilëem, takk geñug der","ڽو راببە كاوارو گيلێەم, تاكك گەڽوگ دەر"
+o -> u,o,u,Areyopas.,areyupas.,Milieu du mot,4,"ca géew, ba ñuy wax Areyopas. Ñu","ca géew, ba ñuy wax areyupas. Ñu","چا گێەو, با ڽوي واخ ارەيوپاس. ڽو"
+o -> u,o,u,"Mesopotami,","Mesuputami,",Milieu du mot,3,"waa Elam, nun ñi dëkk Mesopotami, réewu","Waa elam, nun ñi dëkk Mesuputami, réewu","واا ەلام, نون ڽي دێكك مەسوپوتامي, رێەوو"
+o -> u,o,u,"Mesopotami,","Mesuputami,",Milieu du mot,5,"waa Elam, nun ñi dëkk Mesopotami, réewu","Waa elam, nun ñi dëkk Mesuputami, réewu","واا ەلام, نون ڽي دێكك مەسوپوتامي, رێەوو"
+i -> y,i,y,Nii,niy,Fin du mot,2,"Nii la doon waaree: «Tuubleen seeni bàkkaar,","niy la doon waaree: «Tuubleen seeni bàkkaar,","نيي لا دوون واارەە: «تووبلەەن سەەني باككاار,"
+i -> y,i,y,lii,liy,Fin du mot,2,Waaye lii la ko Yàlla tontu: «Dencal,Waaye liy la ko Yàlla tontu: «Dencal,واايە ليي لا كو ياللا تونتو: «دەنچال
+i -> y,i,y,indi,yindi,Début du mot,0,baax buy indi mbég mu réy ci nit ñépp.,Yaax buy yindi mbëg mu réy ci nit ñépp.,بااخ بوي يندي مبێگ مو رێي چي نيت ڽێپپ.
+o -> u,o,u,féetewoo,féetewuw,Milieu du mot,6,may war a féetewoo ci ndono li.”,may war a féetewuw ci ndonu li.”,ماي وار ا فێەتەووو چي ندونو لي.”
+o -> u,o,u,ndono,ndonu,Fin du mot,4,may war a féetewoo ci ndono li.”,may war a féetewuw ci ndonu li.”,ماي وار ا فێەتەووو چي ندونو لي.”
+o -> u,o,u,rob,rub,Milieu du mot,1,fekk ñuy rob néew boo xam ne,fekk ñuy rub néew boo xam ne,فەكك ڽوي روب نێەو بوو خام نە
+o -> u,o,u,askanoo,askanuo,Milieu du mot,5,"saraxalekat, ya askanoo ci Abiya. Jabaram Elisabet","saraxalekat, ya askanuo ci abiia. Jabaram Elisabet","ساراخالەكات, يا اسكانوو چي ابييا. جابارام ەليسابەت"
+y -> i,y,i,Abiya.,abiia.,Milieu du mot,3,"saraxalekat, ya askanoo ci Abiya. Jabaram Elisabet","saraxalekat, ya askanuo ci abiia. Jabaram Elisabet","ساراخالەكات, يا اسكانوو چي ابييا. جابارام ەليسابەت"
+u -> o,u,o,jubluwu,jubloo,Milieu du mot,4,"ndaxte xam nanu ne, tariixa booba, kenn jubluwu ko fenn.»","yànte xam nanu ne, tariixa booba, kenn jubloo ko fenn.»","نداختە خام نانو نە, تارييخا بووبا, كەنن جوبلووو كو فەنن.»"
+i -> y,i,y,indil,yidil,Début du mot,0,Soo dee lekk luy indil sa moroom,soo dee lekk luy yidil sa moroom,سوو دەە لەكك لوي ينديل سا مورووم
+o -> u,o,u,warunoo,warunuo,Milieu du mot,5,Waaye warunoo yemale tooñu Aadama ak mayu,waaye warunuo yemale tooñu aadama ak mayu,واايە وارونوو يەمالە تووڽو ااداما اك مايو
+o -> u,o,u,toppatoo,toppatuo,Milieu du mot,6,toppatoo,toppatuo,توپپاتوو
+o -> u,o,u,doj,duj,Milieu du mot,1,"réy-a-réy la woon. Noonu ñu xool, gis ne doj wa deñ.","réy-a-réy la woon. Noonu ñu xool, gis ne duj wa deñ.","رێي-ا-رێي لا ووون. نوونو ڽو خوول, گيس نە دوج وا دەڽ."
+y -> i,y,i,Iskariyo,Iskariyu,Milieu du mot,6,"Yudaa --du Yudaa Iskariyo de, beneen la","Yuddaa --du Yudaa Iskariyu de, beneen la","يوداا --دو يوداا يسكارييو دە, بەنەەن لا"
+o -> u,o,u,bon,bun,Milieu du mot,1,"bon lay wax, jële ko ca fa mu denc lu bon.","bun lay wax, jële ko ca fa mu denc lu bon.","بون لاي واخ, جێلە كو چا فا مو دەنچ لو بون."
+o -> u,o,u,xobi,xubi,Milieu du mot,1,xobi,xubi,خوبي
+i -> y,i,y,lii,liy,Fin du mot,2,"jàppuleen ma. Waaye lii am na, ngir Mbind mi am.»","yàppuleen ma. Waaye liy am na, ngir mbind mi am.»","جاپپولەەن ما. واايە ليي ام نا, ڠير مبيند مي ام.»"
+i -> y,i,y,wii,wiy,Fin du mot,2,"Yàlla, santal doj wii mu nekk mburu.»","yalla, santal doj wiy mu nekk mburu.»","ياللا, سانتال دوج ويي مو نەكك مبورو.»"
+o -> u,o,u,"Nikanor,","nikanur,",Milieu du mot,5,"teg ca Nikanor, Timon, Parmenas ak Nikolas,","Teg ca nikanur, timon, parmenas ak nikulas,","تەگ چا نيكانور, تيمون, پارمەناس اك نيكولاس,"
+o -> u,o,u,"Nikolas,","nikulas,",Milieu du mot,3,"teg ca Nikanor, Timon, Parmenas ak Nikolas,","Teg ca nikanur, timon, parmenas ak nikulas,","تەگ چا نيكانور, تيمون, پارمەناس اك نيكولاس,"
+o -> u,o,u,ko,ku,Fin du mot,1,"ñu noppalu, ni ko yoon wi santaanee.","ñu noppalu, ni ku yoon wi santaanee.","ڽو نوپپالو, ني كو يوون وي سانتاانەە."
+i -> y,i,y,bii,biy,Fin du mot,2,"jële, te xam-xam bii mu yor, lu","jële, te xam-xam biy mu yur, lu","جێلە, تە خام-خام بيي مو يور, لو"
+o -> u,o,u,"yor,","yur,",Milieu du mot,1,"jële, te xam-xam bii mu yor, lu","jële, te xam-xam biy mu yur, lu","جێلە, تە خام-خام بيي مو يور, لو"
+o -> u,o,u,ko,ku,Fin du mot,1,"ca, takk ko ci bantu garab gu","ca, takk ku ci bantu garab gu","چا, تاكك كو چي بانتو گاراب گو"
+o -> u,o,u,ko,ku,Fin du mot,1,"Noonu Korney ne ko jàkk, daldi tiit","Noonu korney ne ku jàkk, daldi tiit","نوونو كورنەي نە كو جاكك, دالدي تييت"
+o -> u,o,u,sonalee,sunalee,Milieu du mot,1,Waaye bi nu ngelaw li sonalee bu,Waaye bi nu ngelaw li sunalee bu,واايە بي نو ڠەلاو لي سونالەە بو
+o -> u,o,u,"nangou.""","nanguu.""",Milieu du mot,4,"""Waaw, dama nangou.""","""Waaw, dama nanguu.""","""وااو, داما ناڠوو."""
+o -> u,o,u,loraangee,luraaŋgee,Milieu du mot,1,"Léegi kat loraangee ngi nuy yoot, te","léegi kat luraaŋgee ngi nuy yoot, te","لێەگي كات لورااڠەە ڠي نوي يووت, تە"
+i -> y,i,y,liit,liyt,Milieu du mot,2,"gis ñiy liit ak toxoro, ak mbooloo","gis ñiy liyt ak toxoru, ak mbooloo","گيس ڽيي لييت اك توخورو, اك مبوولوو"
+o -> u,o,u,"toxoro,","toxoru,",Milieu du mot,5,"gis ñiy liit ak toxoro, ak mbooloo","gis ñiy liyt ak toxoru, ak mbooloo","گيس ڽيي لييت اك توخورو, اك مبوولوو"
+o -> u,o,u,ko,ku,Fin du mot,1,nga wax ko kem sa ngëm;,nga wax ku kem sa ngëm;,ڠا واخ كو كەم سا ڠێم;
+i -> y,i,y,biiñ,biyñ,Milieu du mot,2,"mbuus yi, biiñ bi tuuru, mbuus yi yàqu.","mbuus yi, biyñ bi tuuru, mbuus yi yàqu.","مبووس يي, بييڽ بي توورو, مبووس يي ياقو."
+u -> o,u,o,wu,wo,Fin du mot,1,"wu bare, te àtte leen jub ci dara fa kanamam.","wo bare, te àtte leen jub ci dara fa kanamam.","وو بارە, تە اتتە لەەن جوب چي دارا فا كانامام."
+i -> y,i,y,«Kii,«Kiy,Fin du mot,3,«Kii nee woon na: “Man naa toj,«Kiy nee woon na: “Man naa toj,«كيي نەە ووون نا: “مان ناا توج
+o -> u,o,u,doy,duy,Milieu du mot,1,“Li nu yor du doy ngir nun,“Li nu yor du duy ngir nun,“لي نو يور دو دوي ڠير نون
+y -> i,y,i,"tànt,biy","tànt,bii",Fin du mot,7,"Yóbbu ngeen sax fu nekk tànt,biy màggalukaayu","yóbbu ngeen sax fu nekk tànt,bii màggalukaayu","يۆببو ڠەەن ساخ فو نەكك تانت,بيي ماگگالوكاايو"
+o -> u,o,u,jamono,jamonu,Fin du mot,5,jamono dina ñëw te agsi na ba,jamonu dina ñëw te agsi na ba,جامونو دينا ڽێو تە اگسي نا با
+u -> o,u,o,Fatou,Fatoo,Fin du mot,4,Fatou maa ngi jàng wolof,Fatoo maa ngi jàng wolof,فاتوو ماا ڠي جاڠ وولوف
+i -> y,i,y,miikaayil,miykaayil,Milieu du mot,2,miikaayil,miykaayil,مييكااييل
+o -> u,o,u,"moy,","muy,",Milieu du mot,1,"dina ko indil jàmm. Lu ko moy,","dina ko indil jàmm. Lu ko muy,","دينا كو ينديل جامم. لو كو موي,"
+o -> u,o,u,ko,ku,Fin du mot,1,"ko gise, muy dem asamaan.»","ku gise, muy dem asamaan.»","كو گيسە, موي دەم اساماان.»"
+o -> u,o,u,Sonnoon,Sunnuon,Milieu du mot,1,Sonnoon na lool ci loxoy fajkat yu,Sunnuon na lool ci loxoy fajkat yu,سوننوون نا لوول چي لوخوي فاجكات يو
+o -> u,o,u,Sonnoon,Sunnuon,Milieu du mot,4,Sonnoon na lool ci loxoy fajkat yu,Sunnuon na lool ci loxoy fajkat yu,سوننوون نا لوول چي لوخوي فاجكات يو
+o -> u,o,u,ko,ku,Fin du mot,1,kàddu gi te denc ko ci xol,kàddu gi te denc ku ci xol,كاددو گي تە دەنچ كو چي خول
+i -> y,i,y,miin,miyn,Milieu du mot,2,miin,miyn,ميين
+o -> u,o,u,jolli,yulli,Milieu du mot,1,"jolli na ci ñeenti xebla yépp,seen wax wër na àddina sépp.»","yulli na ci ñeenti xebla yépp,seen wax wér na dàddina addina sépp.»","جوللي نا چي ڽەەنتي خەبلا يێپپ,سەەن واخ وێر نا اددينا سێپپ.»"
+o -> u,o,u,koy,kuy,Milieu du mot,1,"ci njaaloo, yaa koy tegtal yoonu njaaloo.","ci njaaloo, yaa kuy tegtal yoonu njaaloo.","چي نجاالوو, ياا كوي تەگتال يوونو نجاالوو."
+o -> u,o,u,mos,Mus,Milieu du mot,1,"nanu ne, dunu mos dara, ba kera nuy rey Pool.","yanu ne, dunu Mus dara, ba kera nuy rey pool.","نانو نە, دونو موس دارا, با كەرا نوي رەي پوول."
+o -> u,o,u,"Tarakonit,","tarakunit,",Milieu du mot,5,"diiwaanu Iture ak bu Tarakonit, te Lisañas yilif Abilen.","Yiiwaanu iture ak bu tarakunit, te lisañas yilif abilef.","دييواانو يتورە اك بو تاراكونيت, تە ليساڽاس ييليف ابيلەن."
+o -> u,o,u,avons,awuns,Milieu du mot,2,avons,awuns,اڤونس
+o -> u,o,u,dégloo,dégluw,Milieu du mot,4,"Seetleen bu baax, ni ngeen di dégloo","seetleen bu baax, ni ngeen di dégluw","سەەتلەەن بو بااخ, ني ڠەەن دي دێگلوو"
+i -> y,i,y,yii,yiy,Fin du mot,2,"a teg beneen yen, lu dul dénkaane yii am njariñ,","a teg beneen yen, lu dul dënkaane yiy am njariñ,","ا تەگ بەنەەن يەن, لو دول دێنكاانە ييي ام نجاريڽ,"
+o -> u,o,u,ko,ku,Fin du mot,1,"Piyeer topp ko fu sore, ba ci","Piyeer topp ku fu sore, ba ci","پييەەر توپپ كو فو سورە, با چي"
+u -> o,u,o,kou,koo,Fin du mot,2,Mangi lay ñaanal yene kou bakh ak jamm.,màngi lay ñaanal yene koo bàkk ak jàmm.,ماڠي لاي ڽاانال يەنە كوو باكه اك جامم.
+u -> o,u,o,buumam.,boomam.,Milieu du mot,1,"buumam. Léegi nag nu ngi jaamu Yàlla,","boomam. Léegi nag nu ngi jaamu Yàlla,","بوومام. لێەگي ناگ نو ڠي جاامو ياللا,"
+u -> o,u,o,buumam.,boomam.,Milieu du mot,2,"buumam. Léegi nag nu ngi jaamu Yàlla,","boomam. Léegi nag nu ngi jaamu Yàlla,","بوومام. لێەگي ناگ نو ڠي جاامو ياللا,"
+y -> i,y,i,"milyoŋ,","miliwŋ,",Milieu du mot,3,"Kenn ka, mu dénk ko juróomi milyoŋ,","kenn ka, mu dénk ko juróomi miliwŋ,","كەنن كا, مو دێنك كو جورۆومي ميليوڠ,"
+u -> o,u,o,séenuwul.»,séenooul.»,Milieu du mot,4,ki dina ñëw ci waxtu wu ngeen ko séenuwul.»,yi dina ñëw ci waxtu wu ngeen ko séenooul.»,كي دينا ڽێو چي واختو وو ڠەەن كو سێەنووول.»
+o -> u,o,u,ko,ku,Fin du mot,1,"mi, mu yilif ko moom ak askanam, fekk booba amagul doom.","mi, mu yilif ku moom ak askanam, fekk booba amagul doom.","مي, مو ييليف كو مووم اك اسكانام, فەكك بووبا اماگول دووم."
+o -> u,o,u,sore,sure,Milieu du mot,1,"Bi nit ñooñu di sore Yeesu, Piyeer","Bi nit ñooñu di sure Yeesu, Piyeer","بي نيت ڽووڽو دي سورە يەەسو, پييەەر"
+i -> y,i,y,indi,yidi,Début du mot,0,«Damaa ñëw ngir indi safara si ci,«Damaa ñëw ngir yidi safara si ci,«داماا ڽێو ڠير يندي سافارا سي چي
+i -> y,i,y,miir.,Miyr.,Milieu du mot,2,ndàbb lu xeeñ lu ñuy wax miir.,Ndàbb lu xeeñ lu ñuy wax Miyr.,ندابب لو خەەڽ لو ڽوي واخ ميير.
+o -> u,o,u,loo,lu,Milieu du mot,1,"màgg? Yonent yi itam faatu nañu. Waaw, loo teg sa bopp?»","yàgg? yonent yi itam faatu nañu. Woa , lu teg sa bopp?»","ماگگ? يونەنت يي يتام فااتو ناڽو. وااو, لوو تەگ سا بوپپ?»"
+o -> u,o,u,defewuko,defewuku,Milieu du mot,7,defewuko,defewuku,دەفەووكو
+o -> u,o,u,foñ,fuñ,Milieu du mot,1,foñ,fuñ,فوڽ
+o -> u,o,u,ñoñam,ñuñam,Milieu du mot,1,"Baay ba, jot na. Ku bëgg ñoñam","baay ba, jot na. Ku bëgg ñuñam","بااي با, جوت نا. كو بێگگ ڽوڽام"
+u -> o,u,o,muuma,mooma,Milieu du mot,1,muuma,mooma,مووما
+u -> o,u,o,muuma,mooma,Milieu du mot,2,muuma,mooma,مووما
+o -> u,o,u,ko,ku,Fin du mot,1,"xeej, jam ko ko ci wet, ca","xeej, jam ku ko ci wet, ca","خەەج, جام كو كو چي وەت, چا"
+o -> u,o,u,soo,suu,Milieu du mot,1,"ne ko: «Sang bi, soo ko bëggee, man nga maa faj.»","ye ko: «Sang bi, suu ko bëggee, man nga maa faj.»","نە كو: «ساڠ بي, سوو كو بێگگەە, مان ڠا ماا فاج.»"
+o -> u,o,u,soo,suu,Fin du mot,2,"ne ko: «Sang bi, soo ko bëggee, man nga maa faj.»","ye ko: «Sang bi, suu ko bëggee, man nga maa faj.»","نە كو: «ساڠ بي, سوو كو بێگگەە, مان ڠا ماا فاج.»"
+o -> u,o,u,yoor-yoor,yuur-yoor,Milieu du mot,1,"fooge, ndaxte nu ngi ci yoor-yoor rekk.","fooge, ndaxte nu ngi ci yuur-yoor rekk.","فووگە, نداختە نو ڠي چي يوور-يوور رەكك."
+o -> u,o,u,yoor-yoor,yuur-yoor,Milieu du mot,2,"fooge, ndaxte nu ngi ci yoor-yoor rekk.","fooge, ndaxte nu ngi ci yuur-yoor rekk.","فووگە, نداختە نو ڠي چي يوور-يوور رەكك."
+o -> u,o,u,Molog,Mullug,Milieu du mot,1,"Molog ak biddiiwub Refan,bi ñu daan bokkaaleel","Mullug ak biddiiwub refan,bi ñu daan bokkaaleel","مولوگ اك بيددييووب رەفان,بي ڽو داان بوككاالەەل"
+u -> o,u,o,yumi,yomi,Milieu du mot,1,yumi,yomi,يومي
+i -> y,i,y,kiy,kiy,Milieu du mot,1,"bérab bu mu yelloowul; kiy jàng, na","bérab bu mu yellooul; kiy jàng, na","بێراب بو مو يەللوووول; كيي جاڠ, نا"
+o -> u,o,u,ko,ku,Fin du mot,1,"ko duggal cig kàmb, walla di ci","ku duggal cig kàmb, walla di ci","كو دوگگال چيگ كامب, واللا دي چي"
+o -> u,o,u,dogal,dugal,Milieu du mot,1,"ak saa, yi Baay bi dogal ci","ak saa, yi baay bi dugal ci","اك ساا, يي بااي بي دوگال چي"
+o -> u,o,u,soreleen,sureleen,Milieu du mot,1,"fu ngeen bokk. Yéen ñépp soreleen ma, defkati lu bon yi!”","fu ngeen bokk. Yéen ñépp sureleen ma, defkati lu bon yi!”","فو ڠەەن بوكك. يێەن ڽێپپ سورەلەەن ما, دەفكاتي لو بون يي!”"
+i -> y,i,y,indiwuleen,yidooleen,Début du mot,0,ya ak Farisen ya laaj leen ne: «Lu tax indiwuleen ko?»,ya ak Farisen ya laaj leen ne: «Lu tax yidooleen ko?»,يا اك فاريسەن يا لااج لەەن نە: «لو تاخ ينديوولەەن كو?»
+u -> o,u,o,yum,yom,Milieu du mot,1,yum,yom,يوم
+o -> u,o,u,ndogalu,ndugalu,Milieu du mot,2,"Waaye bu fekkee ne ndogalu Yàlla la,","Waaye bu fekkee ne ndugalu Yàlla la,","واايە بو فەككەە نە ندوگالو ياللا لا,"
+o -> u,o,u,wottu,wuttu,Milieu du mot,1,doon wottu alalu Erodd; ak Susànn ak,doon wuttu alalu Erodd; ak sosann ak,دوون ووتتو الالو ەرودد; اك سوسانن اك
+u -> o,u,o,Susànn,sosann,Milieu du mot,1,doon wottu alalu Erodd; ak Susànn ak,doon wuttu alalu Erodd; ak sosann ak,دوون ووتتو الالو ەرودد; اك سوسانن اك
+o -> u,o,u,"feebaroon,","feebaruon,",Milieu du mot,6,"feebaroon, bay bëgg a dee.","feebaruon, bay bëgg a dee.","فەەباروون, باي بێگگ ا دەە."
+u -> o,u,o,"xutbakat,","xotbakat,",Milieu du mot,1,"daldi jib. Ñenn ca xutbakat, ya bokk","daldi jib. Ñenn ca xotbakat, ya bokk","دالدي جيب. ڽەنن چا خوتباكات, يا بوكك"
+o -> u,o,u,jombaate,jumbaate,Milieu du mot,1,jombaate,jumbaate,جومبااتە
+o -> u,o,u,sore,sure,Milieu du mot,1,"Ci kaw loolu ñu daldi ñaan Yeesu, mu sore seen réew.","ci kaw loolu ñu daldi ñaan yeesu, mu sure seen.réew.","چي كاو لوولو ڽو دالدي ڽاان يەەسو, مو سورە سەەن رێەو."
+o -> u,o,u,sonal.,sunal.,Milieu du mot,1,te ñaanal ñi leen di sonal.,te ñaanal ñi leen di sunal.,تە ڽاانال ڽي لەەن دي سونال.
+o -> u,o,u,Korasin,Kurasin,Milieu du mot,1,"«Dingeen torox, yéen waa Korasin ak waa","«Dingeen torox, yéen waa Kurasin ak waa","«ديڠەەن توروخ, يێەن واا كوراسين اك واا"
+o -> u,o,u,ko,ku,Fin du mot,1,"tool ya, sëf ko bant, ba ñuy","tool ya, sëf ku bant, ba ñuy","توول يا, سێف كو بانت, با ڽوي"
+o -> u,o,u,doy,duy,Milieu du mot,1,"Bu taalibe yemee ak kilifaam demin, doy","Bu taalibe yemee ak kilifaam demin, duy","بو تااليبە يەمەە اك كيليفاام دەمين, دوي"
+o -> u,o,u,ko,ku,Fin du mot,1,leen ko defal; ndaxte loolu moo ëmb,leen ku defal; ndaxte loolu moo ëmb,لەەن كو دەفال; نداختە لوولو موو ێمب
+o -> u,o,u,"tooñ,","tuuñ,",Milieu du mot,1,"Kon nanu bàyyee tegante tooñ, waaye nu","kon nanu bàyyee tegante tuuñ, waaye nu","كون نانو باييەە تەگانتە تووڽ, واايە نو"
+o -> u,o,u,"tooñ,","tuuñ,",Milieu du mot,2,"Kon nanu bàyyee tegante tooñ, waaye nu","kon nanu bàyyee tegante tuuñ, waaye nu","كون نانو باييەە تەگانتە تووڽ, واايە نو"
+o -> u,o,u,ko,ku,Milieu du mot,1,Ca gannaaw ëllëg sa ñu fekk ko,ca gannaaw ëllëg sa ñu fekk ku,چا گاننااو ێللێگ سا ڽو فەكك كو
+u -> o,u,o,kureelu,koreelu,Milieu du mot,1,Li ma indi ci kureelu àttekat yii,li ma indi ci koreelu àttekat yiy,لي ما يندي چي كورەەلو اتتەكات ييي
+i -> y,i,y,yii,yiy,Milieu du mot,2,Li ma indi ci kureelu àttekat yii,li ma indi ci koreelu àttekat yiy,لي ما يندي چي كورەەلو اتتەكات ييي
+o -> u,o,u,ko,ku,Fin du mot,1,"nag, nga teg ko ni ku gëmul Yàlla mbaa ab juutikat.","yag, nga teg ku ni ko gëmul Yàlla mbaa ab juutikat.","ناگ, ڠا تەگ كو ني كو گێمول ياللا مباا اب جووتيكات."
+u -> o,u,o,ku,ko,Fin du mot,1,"nag, nga teg ko ni ku gëmul Yàlla mbaa ab juutikat.","yag, nga teg ku ni ko gëmul Yàlla mbaa ab juutikat.","ناگ, ڠا تەگ كو ني كو گێمول ياللا مباا اب جووتيكات."
+u -> o,u,o,tuuti,tooti,Milieu du mot,1,a tuuti ci jiwu yépp;,a tooti ci jiwu yépp;,ا تووتي چي جيوو يێپپ;
+u -> o,u,o,tuuti,tooti,Milieu du mot,2,a tuuti ci jiwu yépp;,a tooti ci jiwu yépp;,ا تووتي چي جيوو يێپپ;
+i -> y,i,y,"mii,","miy,",Milieu du mot,2,"rëb mii, ndaxte amul dara lu ko waral.»","rëb miy, ndaxte amul dara lu ko waral.»","رێب ميي, نداختە امول دارا لو كو وارال.»"
+u -> o,u,o,ñurumtoo,ñoromtoo,Milieu du mot,1,"Yawut ya tàmbali di ñurumtoo Yeesu, ndaxte","yawut ya tàmbali di ñoromtoo yeesu, ndaxte","ياووت يا تامبالي دي ڽورومتوو يەەسو, نداختە"
+u -> o,u,o,ñurumtoo,ñoromtoo,Milieu du mot,3,"Yawut ya tàmbali di ñurumtoo Yeesu, ndaxte","yawut ya tàmbali di ñoromtoo yeesu, ndaxte","ياووت يا تامبالي دي ڽورومتوو يەەسو, نداختە"
+o -> u,o,u,sog,sug,Milieu du mot,1,Yeesu itam sog a dem te kenn yégu ko; siiwalul demam.,Yeesu itam sug a dem te kenn yégu ko; Siiwalul demam.,يەەسو يتام سوگ ا دەم تە كەنن يێگو كو; سييوالول دەمام.
+u -> o,u,o,Pusol.,posul.,Milieu du mot,1,"daldi jóg, te ca ñaareelu fan ba nu teer Pusol.","Yàldi jóg, te ca ñaareelu fan ba nu teer posul.","دالدي جۆگ, تە چا ڽاارەەلو فان با نو تەەر پوسول."
+o -> u,o,u,Pusol.,posul.,Milieu du mot,3,"daldi jóg, te ca ñaareelu fan ba nu teer Pusol.","Yàldi jóg, te ca ñaareelu fan ba nu teer posul.","دالدي جۆگ, تە چا ڽاارەەلو فان با نو تەەر پوسول."
+u -> o,u,o,surga,sorga,Milieu du mot,1,surga bu baax nga te takku. Gannaaw,sorga bu baax nga te takku. Gannaaw,سورگا بو بااخ ڠا تە تاككو. گاننااو
+o -> u,o,u,jortoon,jurtoon,Milieu du mot,1,jortoon,jurtoon,جورتوون
+i -> y,i,y,yiw;,yiw;,Milieu du mot,1,aw yiw; mu ngi ak yaw.»,waw yiw; mu ngi ak yaw.»,او ييو; مو ڠي اك ياو.»
+i -> y,i,y,yii.»,yiy.»,Milieu du mot,2,mbir yu gën a réy yii.»,mbir yu gën a réy yiy.»,مبير يو گێن ا رێي ييي.»
+o -> u,o,u,jàngoro,jànguru,Milieu du mot,4,"jàngoro yi di leen bàyyi, rab yay génn ci ñoom.","jànguru yi di leen bàyyi, rab yay génn ci ñoom.","جاڠورو يي دي لەەن باييي, راب ياي گێنن چي ڽووم."
+o -> u,o,u,jàngoro,jànguru,Fin du mot,6,"jàngoro yi di leen bàyyi, rab yay génn ci ñoom.","jànguru yi di leen bàyyi, rab yay génn ci ñoom.","جاڠورو يي دي لەەن باييي, راب ياي گێنن چي ڽووم."
+u -> o,u,o,ku,ko,Fin du mot,1,Musaa nag di ku yeewu ci xam-xamu,Musaa nag di ko yeewu ci xam-xamu,موساا ناگ دي كو يەەوو چي خام-خامو
+u -> o,u,o,kureelu,koreelu,Milieu du mot,1,Yude. Yuusufaa nga bokkoon ca kureelu àttekat,Yude. Yuusufaa nga bokkoon ca koreelu àttekat,يودە. يووسوفاا ڠا بوككوون چا كورەەلو اتتەكات
+u -> o,u,o,fasuwoon,fasooun,Milieu du mot,3,fasuwoon,fasooun,فاسوووون
+o -> u,o,u,fasuwoon,fasooun,Milieu du mot,5,fasuwoon,fasooun,فاسوووون
+i -> y,i,y,ñii,ñiy,Fin du mot,2,Booba nag ñii ñoo ànd ak moom:,booba nag ñiy ñoo and ak moom:,بووبا ناگ ڽيي ڽوو اند اك مووم:
+o -> u,o,u,loosam,luusam,Milieu du mot,1,loosam,luusam,لووسام
+o -> u,o,u,loosam,luusam,Milieu du mot,2,loosam,luusam,لووسام
+y -> i,y,i,Yulyus,Yuliws,Milieu du mot,3,Ca ëllëg sa nu teer Sidon; Yulyus,ca ëllëg sa nu teer sidon; Yuliws,چا ێللێگ سا نو تەەر سيدون; يوليوس
+i -> y,i,y,biir!,biyr!,Milieu du mot,2,sunu biir! Yàlla wallusi na mbooloom!»,Yunu biyr! Yàlla wàllusi na mbooloom!»,سونو بيير! ياللا واللوسي نا مبوولووم!»
+o -> u,o,u,"sago,","sagu,",Milieu du mot,3,"mi ak sago, nu dénk leen liggéey bii.","mi ak sagu, nu dénk leen liggéey bii.","مي اك ساگو, نو دێنك لەەن ليگگێەي بيي."
+o -> u,o,u,dogu,dugu,Milieu du mot,1,Keroog la njiiti Yawut ya dogu ci rey Yeesu.,keroog la njiiti yawut ya dugu ci rey Yeesu.,كەرووگ لا نجييتي ياووت يا دوگو چي رەي يەەسو.
+i -> y,i,y,"liir,","liyr,",Milieu du mot,2,"ay liir, ngir mu teg leen ay","ay liyr, ngir mu teg leen ay","اي ليير, ڠير مو تەگ لەەن اي"
+u -> o,u,o,ku,ko,Fin du mot,1,«Bi ma ko defee ku tudd Anañas,«Bi ma ko defee ko tudd anañas,«بي ما كو دەفەە كو تودد اناڽاس
+u -> o,u,o,summi,sommi,Milieu du mot,1,"ñu summi mbubb mu xonq mi, solaatal","Ñu sommi mbubb mu xonq mi, sulaatal","ڽو سوممي مبوبب مو خونق مي, سولااتال"
+o -> u,o,u,solaatal,sulaatal,Milieu du mot,1,"ñu summi mbubb mu xonq mi, solaatal","Ñu sommi mbubb mu xonq mi, sulaatal","ڽو سوممي مبوبب مو خونق مي, سولااتال"
+u -> o,u,o,xutbakat,xotbakat,Milieu du mot,1,ndaxte jàngal na leen ak sañ-sañ bu seeni xutbakat amul.,Ndaxte jàngal na leen ak sañ-sañ bu seeni xotbakat amul.,نداختە جاڠال نا لەەن اك ساڽ-ساڽ بو سەەني خوتباكات امول.
+u -> o,u,o,nangou,nangoo,Fin du mot,5,Nanga nangou dem ak man.,nanga nangoo dem ak man.,ناڠا ناڠوو دەم اك مان.
+o -> u,o,u,koy,kuy,Milieu du mot,1,"ma déglu, waaye dama koy wax, ngir","ma déglu, waaye dama kuy wax, ngir","ما دێگلو, واايە داما كوي واخ, ڠير"
+o -> u,o,u,wodd?,wudd?,Milieu du mot,1,"taal bi, ndax du leen gën a wodd?","taal bi, ndax du leen gën a wudd?","تاال بي, نداخ دو لەەن گێن ا وودد?"
+u -> o,u,o,ku,ko,Fin du mot,1,"yoonu Musaa tële woon a àttee nit ni ku jub,","yoonu Musaa tële woon a àttee nit ni ko jub,","يوونو موساا تێلە ووون ا اتتەە نيت ني كو جوب,"
+o -> u,o,u,koy,kuy,Milieu du mot,1,"li ma wax, dama koy wax, ni","li ma wax, dama kuy wax, ni","لي ما واخ, داما كوي واخ, ني"
+u -> o,u,o,solu,solo,Fin du mot,3,"Noonu Seytaane daldi solu Yudaa, mi ñuy","Noonu seytaane daldi solo yudaa, mi ñuy","نوونو سەيتاانە دالدي سولو يوداا, مي ڽوي"
+o -> u,o,u,melokaani,melukaani,Milieu du mot,3,melokaani,melukaani,مەلوكااني
+u -> o,u,o,"raxasuwul,","raxasooul,",Milieu du mot,5,"gisee ne Yeesu raxasuwul, laata muy lekk.","gisee ne Yeesu raxasooul, laata muy lekk.","گيسەە نە يەەسو راخاسووول, لااتا موي لەكك."
+u -> o,u,o,suul,sool,Milieu du mot,1,booba amoon na fa bàmmeel bu ñu musul a suul kenn.,Booba amoon na fa bàmmeel bu ñu musul a sool kenn.,بووبا اموون نا فا باممەەل بو ڽو موسول ا سوول كەنن.
+u -> o,u,o,suul,sool,Milieu du mot,2,booba amoon na fa bàmmeel bu ñu musul a suul kenn.,Booba amoon na fa bàmmeel bu ñu musul a sool kenn.,بووبا اموون نا فا باممەەل بو ڽو موسول ا سوول كەنن.
+o -> u,o,u,dogale,dugale,Milieu du mot,1,"ñu gisee nit, ka sàcc ya dogale woon?»","ñu gisee nit, ka sàcc ya dugale woon?»","ڽو گيسەە نيت, كا ساچچ يا دوگالە ووون?»"
+u -> o,u,o,wuuteek,wooteek,Milieu du mot,1,wuuteek,wooteek,وووتەەك
+u -> o,u,o,wuuteek,wooteek,Milieu du mot,2,wuuteek,wooteek,وووتەەك
+u -> o,u,o,duun,doon,Milieu du mot,1,duun,doon,دوون
+u -> o,u,o,duun,doon,Milieu du mot,2,duun,doon,دوون
+y -> i,y,i,"milyoŋ,","milioŋ,",Milieu du mot,3,"ma ñaari milyoŋ, seetal, ame naa ci yeneen ñaar.”","ma ñaari milioŋ, seetal, ame naa ci yeneen ñaar.”","ما ڽااري ميليوڠ, سەەتال, امە ناا چي يەنەەن ڽاار.”"
+o -> u,o,u,ko,ku,Milieu du mot,1,"xutbakat ya. Dinañu ko àtte, teg ko","xutbakat ya. Dinañu ko àtte, teg ku","خوتباكات يا. ديناڽو كو اتتە, تەگ كو"
+i -> y,i,y,Léegi,léeeyi,Fin du mot,4,Léegi nag yéena ngi may wut a,léeeyi nag yéena ngi may wut a,لێەگي ناگ يێەنا ڠي ماي ووت ا
+o -> u,o,u,"Sool,","suul,",Milieu du mot,1,"baat bu ma ne: “Sool, Sool, lu","Baat bu ma ne: “Sool, suul, lu","باات بو ما نە: “سوول, سوول, لو"
+o -> u,o,u,"Sool,","suul,",Milieu du mot,2,"baat bu ma ne: “Sool, Sool, lu","Baat bu ma ne: “Sool, suul, lu","باات بو ما نە: “سوول, سوول, لو"
+o -> u,o,u,sol,sul,Milieu du mot,1,"ndeyjoor waxambaane wu sol mbubb mu weex, ñu daldi tiit.","ndeyjoor waxambaane wu sul mbubb mu weex, ñu daldi tiit.","ندەيجوور واخامباانە وو سول مبوبب مو وەەخ, ڽو دالدي تييت."
+u -> o,u,o,Fatou.,fàtoo.,Milieu du mot,4,Maa ngi tudd Fatou.,maa ngi tudd fàtoo.,ماا ڠي تودد فاتوو.
+u -> o,u,o,Ku,ko,Fin du mot,1,"Ku leen fitnaal, ñaanal-leen ko yiw, te bañ koo móolu.","ko leen fitnaal, ñaanal-leen ko yiw, te bañ koo móolu.","كو لەەن فيتناال, ڽاانال-لەەن كو ييو, تە باڽ كوو مۆولو."
+o -> u,o,u,dogal,dugal,Milieu du mot,1,"Ndaxte li Boroom bi dogal ci àddina,dina","Ndaxte li boroom bi dugal ci àddina,dina","نداختە لي بورووم بي دوگال چي اددينا,دينا"
+o -> u,o,u,ko,ku,Fin du mot,1,jub képp ku ko gëm.,jub képp ku ku gëm.,جوب كێپپ كو كو گێم.
+i -> y,i,y,miig.,miyg.,Milieu du mot,2,"dugge fii, te amuloo mbubbum céet?” Waa ji ne miig.","dugge fii, te amuloo mbubbum céet?” waa ji ne miyg.","دوگگە فيي, تە امولوو مبوببوم چێەت?” واا جي نە مييگ."
+i -> y,i,y,indil,yoniid,Début du mot,0,dafa am ku ko indil lekk?»,dafa am ku ko yoniid lekk?»,دافا ام كو كو ينديل لەكك?»
+i -> y,i,y,i,"yittaalibeem,",Début du mot,0,"jóge fa ak i taalibeem, jàll xuru Sedoron, dugg cib tool.","jóge fa ak yittaalibeem, jall xoru Sedurun, dugg cib tool.","جۆگە فا اك ي تااليبەەم, جالل خورو سەدورون, دوگگ چيب توول."
+o -> u,o,u,doy,duy,Milieu du mot,1,Baay bi; loolu doy na nu.»,baay bi; loolu duy na nu.»,بااي بي; لوولو دوي نا نو.»
+o -> u,o,u,nangoo,nanguu,Milieu du mot,4,nangoo laal sëf bi sax ak seen cati baaraam.,nanguu laal sëf bi sax ak seen cati baaraam.,ناڠوو لاال سێف بي ساخ اك سەەن چاتي بااراام.
+o -> u,o,u,nangoo,nanguu,Fin du mot,5,nangoo laal sëf bi sax ak seen cati baaraam.,nanguu laal sëf bi sax ak seen cati baaraam.,ناڠوو لاال سێف بي ساخ اك سەەن چاتي بااراام.
+o -> u,o,u,boyetu,buyetu,Milieu du mot,1,"yoroon boyetu xaalis bi, te daan ci sàkk.","yoroon buyetu xaalis bi, te daan ci sàkk.","يوروون بويەتو خااليس بي, تە داان چي ساكك."
+o -> u,o,u,wóoluwoo,wóoluwu,Milieu du mot,6,wóoluwoo,wóoluwu,وۆولوووو
+o -> u,o,u,delloo.,delluo.,Milieu du mot,4,"garabu oliw gu kër gi, Yàlla dina leen ci delloo.","yarabu wliw gu kër gi, Yàlla dina leen ci delluo.","گارابو وليو گو كێر گي, ياللا دينا لەەن چي دەللوو."
+o -> u,o,u,Teyofil,teyufil,Milieu du mot,3,"Yaw Teyofil mu tedd mi, xam nga","yaw teyufil mu tedd mi, xam nga","ياو تەيوفيل مو تەدد مي, خام ڠا"
+o -> u,o,u,"dàggeekoo,","daggeekuo,",Milieu du mot,7,"dàggeekoo, man duma la bàyyi mukk.»","daggeekuo, man duma la bàyyi mukk.»","داگگەەكوو, مان دوما لا باييي موكك.»"
+o -> u,o,u,doy,duy,Milieu du mot,1,doy,duy,دوي
+y -> i,y,i,"yi,","yi,",Début du mot,0,"«Kilifa yi, lu ma war a def, ba mucc?»","yklifa yi, lu ma war a def, ba mucc?»","«كيليفا يي, لو ما وار ا دەف, با موچچ?»"
+o -> u,o,u,sobe,sube,Milieu du mot,1,"ci kër Yàlla gi, ba indi sobe","ci kër Yàlla gi, ba indi sube","چي كێر ياللا گي, با يندي سوبە"
+i -> y,i,y,Lii,liy,Fin du mot,2,"Lii mooy ñaareelu firnde, bi Yeesu def","liy mooy ñaareelu firnde, bi Yeesu def","ليي مووي ڽاارەەلو فيرندە, بي يەەسو دەف"
+o -> u,o,u,ko,ku,Fin du mot,1,bàyyiwaat ko fi at mii. Dinaa wàqi,bàyyiwaat ku fi at miy. Dinaa wàqi,بايييواات كو في ات ميي. ديناا واقي
+i -> y,i,y,mii.,miy.,Milieu du mot,2,bàyyiwaat ko fi at mii. Dinaa wàqi,bàyyiwaat ku fi at miy. Dinaa wàqi,بايييواات كو في ات ميي. ديناا واقي
+i -> y,i,y,yiir,yiyr,Milieu du mot,2,Aji Kawe ji dina la yiir ci,Aji kawe ji dina la yiyr ci,اجي كاوە جي دينا لا ييير چي
+u -> o,u,o,fuytéef,Foytéef,Milieu du mot,1,fuytéef,Foytéef,فويتێەف
+u -> o,u,o,doxub,doxob,Milieu du mot,3,"ñu daldi sànni diigal, ngir wàññi doxub","Ñu daldi sànni diigal, ngir waññi doxob","ڽو دالدي سانني دييگال, ڠير واڽڽي دوخوب"
+i -> y,i,y,kii,kiy,Fin du mot,2,"leen, kii góor, kii jigéen.","leen, kiy góor, kiy jigéen.","لەەن, كيي گۆور, كيي جيگێەن."
+i -> y,i,y,kii,kiy,Fin du mot,2,"leen, kii góor, kii jigéen.","leen, kiy góor, kiy jigéen.","لەەن, كيي گۆور, كيي جيگێەن."
+o -> u,o,u,politig,pulitig,Milieu du mot,1,politig,pulitig,پوليتيگ
+i -> y,i,y,miir,miyr,Milieu du mot,2,"yaw mi naaféq, bay samandaay miir bu","yaw mi naaféq, bay samandaay miyr bu","ياو مي ناافێق, باي ساماندااي ميير بو"
+o -> u,o,u,sonn,sunn,Milieu du mot,1,"war na sonn lu bare, ñu xeeb ko, dëddu ko.","war na sunn lu bare, ñu xeeb ko, dëddu ko.","وار نا سونن لو بارە, ڽو خەەب كو, دێددو كو."
+o -> u,o,u,cosaanoo,cosaanuo,Milieu du mot,6,Gannaaw Yàlla baalul car ya cosaanoo ca,Gannaaw Yàlla baalul car ya cosaanuo ca,گاننااو ياللا باالول چار يا چوساانوو چا
+o -> u,o,u,tuuboon,tuubuon,Milieu du mot,4,tuuboon,tuubuon,تووبوون
+o -> u,o,u,ko,ku,Fin du mot,1,"mu seedee ko nii: “Gis naa Daawuda,","mu seedee ku nii: “Gis naa daawuda,","مو سەەدەە كو نيي: “گيس ناا دااوودا,"
+u -> o,u,o,Kou,koo,Fin du mot,2,Kou lekk cëb amna wërsëg.,koo lekk cëb amna wërsëg.,كوو لەكك چێب امنا وێرسێگ.
+o -> u,o,u,"yeewoo,","yeewu,",Milieu du mot,4,"""Bu ma yeewoo, damay wér.""","""Bu ma yeewu, damay wér.""","""بو ما يەەووو, داماي وێر."""
+u -> o,u,o,muucu.,mooco.,Milieu du mot,1,"bant, jox ko ko, mu muucu. Mu","bant, jox ko ko, mu mooco. Mu","بانت, جوخ كو كو, مو مووچو. مو"
+u -> o,u,o,muucu.,mooco.,Milieu du mot,2,"bant, jox ko ko, mu muucu. Mu","bant, jox ko ko, mu mooco. Mu","بانت, جوخ كو كو, مو مووچو. مو"
+u -> o,u,o,muucu.,mooco.,Milieu du mot,4,"bant, jox ko ko, mu muucu. Mu","bant, jox ko ko, mu mooco. Mu","بانت, جوخ كو كو, مو مووچو. مو"
+o -> u,o,u,wor,wur,Milieu du mot,1,"Jógleen nu dem; ki may wor a ngi nii, di ñëw.»","jógleen nu dem; ki may wur a ngi nii, di ñëw.»","جۆگلەەن نو دەم; كي ماي وور ا ڠي نيي, دي ڽێو.»"
+o -> u,o,u,"ko,","ku,",Milieu du mot,1,"niir ko, dégg baatu Boroom bi ne ko:","niir ku, dégg baatu boroom bi ne ko:","نيير كو, دێگگ بااتو بورووم بي نە كو:"
+o -> u,o,u,ko,ku,Fin du mot,1,"bàkkaaram a ko waral, walla bu waajuram?»","bàkkaaram a ku waral, walla bu waajuram?»","باككاارام ا كو وارال, واللا بو وااجورام?»"
+u -> o,u,o,"wuute,","woote,",Milieu du mot,1,"ak ay jàngoro yu wuute, te dàq","ak ay jàngoro yu woote, te dàq","اك اي جاڠورو يو وووتە, تە داق"
+u -> o,u,o,"wuute,","woote,",Milieu du mot,2,"ak ay jàngoro yu wuute, te dàq","ak ay jàngoro yu woote, te dàq","اك اي جاڠورو يو وووتە, تە داق"
+i -> y,i,y,yéwwikoo,yéwuyoo,Milieu du mot,4,yéwwikoo,yéwuyoo,يێوويكوو
+o -> u,o,u,nanguwuñoo,nanguwuñuoy,Milieu du mot,8,Noonu nanguwuñoo yiwi Yason ak ñi ci,Noonu nanguwuñuoy Yiwi Yasun ak ñi ci,نوونو ناڠوووڽوو ييوي ياسون اك ڽي چي
+o -> u,o,u,doy,duy,Milieu du mot,1,doy ngir mbooloo mu tollu nii?»,duy ngir mbooloo mu tollu nii?»,دوي ڠير مبوولوو مو توللو نيي?»
+o -> u,o,u,xamaakoonu,xamaakuonu,Milieu du mot,6,xamaakoonu,xamaakuonu,خامااكوونو

@@ -1,0 +1,96 @@
+﻿id,expected,predicted,category,operations
+1,يااكااراتوڽوو,يااكااراتوڽوڽوو,Duplication / répétition,insert | insert
+2,ڽەنەەنتي,ڽەنەەتتي,Substitution,replace
+3,گێرێمەە,گێرێەە,Suppression,delete
+4,"چيگ رێەر, نداختە خامولەەن مبيند مي مباا كاتتانو ياللا.","چيگ رێەر, نداختە خامولەەن مبيند مي مباا كاتتا.",Suppression,delete
+5,"واايە سو ڠەەن دي لااج لەنەەن, مبوولووم دێگگ دينا كو اتتە.","واايە سو ڠەەن دي لااج لەنەەن, مبوولووم دێگگ ديڠا كو اتتە.",Substitution,replace
+6,"سەنەسارەت. مبوولوو ما وێر كو, دي بووخانتە ڠير دێگلو كاددوگ ياللا.","سەنەسارەت. مبوولوو ما وێر كو, دي بووخانتە ڠير دێگلو كادلو. داللا.",Erreur multiple / combinaison,insert | delete
+7,فافادو,فافا,Suppression,delete
+8,فادد,فافد,Erreur multiple / combinaison,insert | delete
+9,"چا فوككي تااليبە يا اك ڽاار, موو كو ناروون ا وور.","چا فوككي تااليبە يا اك ڽاار, موو كو  ناروون ا وور.",Ponctuation,insert
+10,دااجوڽو,دااوو,Suppression,delete | delete
+11,"«ساڠ بي, ياو سێتو دااوودا بي, يێرێم نو!»","سساڠ بي, ياو سێتو دااوودا بي, يێرێم نو!»",Substitution,replace
+12,"بووري اددينا داڽوو بوولوو,تە كيليفا يي داجالوو,دي","بووري اددينا داڽوو بوولوو,تە كيليفا يي داجالوو,ددي",Insertion,insert
+13,يوويو يێپپ?— مووم لا بورووم بي دوون واخ.”,يوويو يێپپ? مووم لا بورووم بي دوون واخ.”,Ponctuation,delete
+14,"نە يەەسو مووي الماسي بي, ڽو داق لا چا جاڠو با.","نە يەەسو مووي الماسي بي, ڽو داق لا چاڠج با.",Erreur multiple / combinaison,replace | delete
+15,"«واايە يێەن باركەەل ڠەەن, نداختە سەەني بێت","ووايە يێەن باركەەل ڠەەن, نداختە سەەني بێت",Erreur multiple / combinaison,delete | replace
+16,"جانت بي دينا دالدي لێندێم,وەەر وي دەرەتال,بالا","جانت بي دينا دالدي لێندێم,ووەەر وي دەرەتال,بالا",Insertion,insert
+17,"ڽو لاال چاتي مبوببام رەكك, تە كو كو لاال دالدي وێر.","ڽو لاال چاتي مبوببام رەكك, تە كو كا لاال دالدي وێر.",Substitution,replace
+18,تيڤاووانە مووي دێكك بو جامم,تيفاووانە مووي دێكك بو جامم,Substitution,replace
+19,سەەدەلوو,سەەدوو,Suppression,delete
+20,لوولوو تاخ وااجور يا نە: «لااجلەەن كو; ماگوم جێمم لا.»,لوولوو تاخ وااجور يا نە: «لااجلەەن كو; ماگوم جێمم لێ.م مام»,Erreur multiple / combinaison,insert | replace
+21,بيندلەەن,بيلدەەن,Erreur multiple / combinaison,replace | delete
+22,"يسراييل, دێگلول! ياللا سونو بورووم مووم رەكك مووي بوور.","يسراييل, دێگلول! ياللا سونو بووم رەكك مووي بووي بووي بووي بووي.",Erreur multiple / combinaison,delete | replace
+23,نداخ خاماگولەەن با تەي? خاناا فاتتاليكووولەەن جورۆومي,نداخ خاماگولەەن با تەي? خاناا فاتتاليكوووولوەو ديرۆومي,Duplication / répétition,insert | insert | replace | replace
+24,نيرێلەەل,نيرێەل,Suppression,delete
+25,"تەندەەفال. مو نە لەەن: “لو تاخ ڠەەن يەندوو تەندەەفال, تە ليگگێەييوولەەن?”",تەندەەفال. مو نە لەەن: “لو تاخ ڠەەن يەندوو تەندوو تەندەوف دەەلي وولەەن?”,Erreur multiple / combinaison,replace | insert | insert | replace
+26,"بي ماريااما دێگگەە لوولو, مو دالدي جۆگ, گااوانتوو دەم چا يەەسو.","بي ماريااما دێگگەە لوولو, مو دالدي جۆگ, گااوانتوو دەم چا يەەسو. دەم چا يەەسو. دەم چا يەەسو. دەم چا ",Insertion,insert
+27,دەمونو,دەمو,Suppression,delete
+28,"«يەەسو, كيليفا گي, يێرێم نو!»","ييەەسو, كيليفا گي, يێرێم نو!»",Substitution,replace
+29,دانوي,دايو,Erreur multiple / combinaison,replace | delete
+30,"با ڽو لەەن يۆببوو چا بابيلون, يەكوڽاس جور سالاچەل; سالاچەل سوروبابەل,","با ڽو لەەن يۆببوو چا بابيلون, يەكوڽاس جور سالاچەل; سالوچابەل, ساروبابەل, سوروبابەل, سوروبابەل, سورو",Erreur multiple / combinaison,insert | replace | insert | insert
+31,"گاننااو لوولو يەەسو دافا جالل دەخو گاليلە, مااناام دەخو تيبەريادد.","گاننااو لوولو يەەسو دافا جالل دەخو گاليلە, مااناام دەخو تيبەريادد.دي",Insertion,insert
+32,يسراايييل,يسرااييل,Suppression,delete
+33,چي سونو كاو!’تە ناان جانج يي: «“سوول-لەەن نو!»“ “,چي سونو كاو!يتە ناان جانج يي: «“سوول-لەەن نو!» د,Erreur multiple / combinaison,replace | delete | replace
+34,"ااداما. ام ناا يێەنەي دەف لو بااخ, واايە اوما كاتتانو يەگگالە.","ااداما. ام ناا يێەنەي دەف لو بااخ, واايە اوما كاتتالو.يەگگالە.",Substitution,replace | replace
+35,"موسوڽوو جاڠ مباا ڽوي گێستو چي ديينە,","موسوڽووو جاڠ مباا ڽوي گێستو چي ديينە,",Insertion,insert
+36,"ندامول باايام, اند اك اي مالااكام; بێس","ندامول باايام, اند اك ام مالااكام; بێس",Substitution,replace
+37,ساددەەف,سالدەەف,Substitution,replace
+38,خاناا كون ڠێم داي فانق يوونو موساا?,خاناا كون ڠێم دێم داي فانق يوونو موساا?,Duplication / répétition,insert
+39,واچچەوونو,واچچەوو,Suppression,delete
+40,ڽااوتێەفو,ڽااتێەفو,Suppression,delete
+41,يددا,يداا,Erreur multiple / combinaison,delete | insert
+42,جاڠ ليي چي مبيند يي?“دوج وي تاباخكات,جاڠ ليي چي مبيند يي?“وو جيبتاخكات,Erreur multiple / combinaison,delete | insert | delete | replace | delete
+43,جييڽانتە,جييااتە,Erreur multiple / combinaison,delete | replace
+44,ياي,يااي,Duplication / répétition,insert
+45,رااهيناا,رااهياا,Suppression,delete
+46,"موو اموون بێكك-نێەگ بو ڽو جييڽ نە, دافاي پاسار-پاسارەە الال جي.","موو اموون بێكك-نێەگ بو ڽو جييڽ نە, دافاي پاسار-پاسارەە الالار جي.",Insertion,insert
+47,"بون لاي واخ, جێلە كو چا فا مو دەنچ لو بون.","بون لاي واخ, جێلە كو چا مو دەنچ لو بون.",Suppression,delete
+48,دەميين,دەميي,Suppression,delete
+49,"ڠا, تە راگالوو كەنن, نداختە سەەتولوو جێممي","ڠا, تە راگالوو كەنن, نداختە سەەتول وێممي",Erreur multiple / combinaison,insert | delete
+50,سێرێخي,سێرێيي,Duplication / répétition,delete | insert
+51,مبااخام,مبااخ,Suppression,delete
+52,دێەيتوو,دێەتوو,Suppression,delete
+53,ميين,ميي,Suppression,delete
+54,گێننلەەن,گێننەەن,Suppression,delete
+55,اڤونس,افو,Erreur multiple / combinaison,replace | delete
+56,"كو يێەنەە بيندال, نەتتالي لا ني خەو-خەو يوويو دەمە ووون تەمبە.","كو يێەنەە بيندال, نەتتالي لا ني خەو-خەو يوويو دەمە وووي دەمە ",Erreur multiple / combinaison,replace | replace | delete | replace
+57,باننەەخام,بانەەخام,Suppression,delete
+58,"فەخەەل? ماا ڠي لاي ڽاان, ڠا باڽ ماا مبوگال.»","فەخەەل? ماا ڠي لاي ڽاي ڽاان, ڠا باڽ ماا مبوگال.»",Duplication / répétition,insert
+59,دەفەووكو,دەفەوو,Suppression,delete
+60,جايەەكات,جايەەاا,Erreur multiple / combinaison,delete | replace
+61,تاخاواالوكات,تاخاوالوكات,Suppression,delete
+62,چاللالاي,چاللاي,Suppression,delete
+63,"ماام, ماا ڠي لاي ڽاان, ڠا يەبال","ماام, ماا ڠي لاي لاي ڽاان, ڠا يەبال",Duplication / répétition,insert
+64,خييرتال,خييتال,Suppression,delete
+65,"نە دوڽو دەە, تە گيسوڽو دوومو نيت كي ڽێو چي ڠوورام.»","نە دوڽو دەە, تە گيسوڽو دوومو نيت كي ڠێو چي ڠوورام.»",Substitution,replace
+66,فونكو,فوككو,Duplication / répétition,replace
+67,يااتالام,يااتال,Suppression,delete
+68,"كو: ‘بااي, تووڽ ناا ياللا, تووڽ ناا لا;","كو: نبااي, تووڽ ناا ياللا, تووڽ ناا لا;",Substitution,replace
+69,نەككلەەن,نەككەەن,Suppression,delete
+70,فا. مباام-خووخ يا ناگ ماتوون ناڽو ڽااري جونني.,فا. مباام-خووخ يا ناگ ماتوون ناڽوو ناڽو ڽااري جونني.,Insertion,insert
+71,فاسوووون,فاسووووو,Substitution,replace
+72,بيندكات,بيندات,Suppression,delete
+73,الخاميس,الياس,Erreur multiple / combinaison,replace | delete
+74,ماا جي دۆوم بي.,ماا يي دۆوم بي.,Substitution,replace
+75,اماتول,امال,Suppression,delete
+76,چاپپااچۆلي,چاپپااچۆيلي,Insertion,insert
+77,فاتتەليكول,فاتتەكول,Suppression,delete
+78,كۆولوتە,كۆولو,Suppression,delete
+79,"«ياا دي الماسي بي, دوومو ياللا اجي دوند جي.»","يياا دي الماسي بي, دوومو ياللا اجي دوند جي.»",Substitution,replace
+80,اك دوومام جو جيگێەن; دووم جو جيگێەن,اك دوومام جو جيگێەن; دووم جووج جو جيگێەن,Insertion,insert
+81,"ندەيجوور واخامباانە وو سول مبوبب مو وەەخ, ڽو دالدي تييت.","ندەيجوور واخامباانە وو سول مبوبب مو وەەخ, ڽو والدي تييت.",Substitution,replace
+82,"فەككسي كو. مو ڽاان كو,","فەككي كو. مو ڽاان كو,",Suppression,delete
+83,«بي لوولو وێيەە جامونو جي جەگە ووون,ببي لوولو وێيەە جامونو جي جەگە ووون,Substitution,replace
+84,"فاريسەن يا گێنن ناگ, دالدي گيسە, ڠير فەخەە رەيلو يەەسو.","فاريسەن يا گێنن ناگ, دالدي گيسە, ڠير فەخەە رەيلو.يەەسو.",Substitution,replace
+85,واچچەلوونو,واچچوونو,Suppression,delete
+86,في نەككال? نداخ نەككالو في يت ڽو دول ياووت? ااڠكاي!,في نەككال? نداخ نەككالو في يت ڽو دول ياووت? ااڠااي!,Substitution,replace
+87,وۆولوووو,وۆولووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووووو,Duplication / répétition,insert
+88,"تە باات نە كو: «جۆگال, پييەەر, رەي تە لەكك.»","تە باات نە كو: «جۆگال, پييەەر, رەي تە لە لەكك.»",Duplication / répétition,insert
+89,مەبەتوون,مەبەوون,Suppression,delete
+90,پوليتيگ,پوليت,Suppression,delete
+91,سافاراو,سافاوا,Erreur multiple / combinaison,replace | delete
+92,جورۆومەەلو,جورۆومە,Suppression,delete
+93,"ناگ, مو دالدي گێم, دي يێەمو چي يوونو بورووم بي.","ناگ, مو دالدي گێم, دي يێەمو چي يوونو بي.",Suppression,delete
+94,يێوويكوو,يێوويوو,Suppression,delete
+95,"ڽو نە: « “تەگ چاب ديير,” لو","ڽو نە: « تەەگ چاب ديير,” لو",Erreur multiple / combinaison,delete | insert

@@ -1,5 +1,12 @@
 server:
-  port: 8080  # Port du serveur Spring Boot
+  port: 8080 # Port du serveur Spring Boot
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+      force-request: true
+      force-response: true
 
 spring:
   application:

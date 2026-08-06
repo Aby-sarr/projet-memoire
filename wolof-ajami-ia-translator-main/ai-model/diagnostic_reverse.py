@@ -39,7 +39,6 @@ def load_vocab(path):
     stoi = data["stoi"]
     itos = data["itos"]
 
-    # Certains vocabulaires ont itos sous forme de dictionnaire
     if isinstance(itos, dict):
         itos = {
             int(k): v
@@ -50,7 +49,7 @@ def load_vocab(path):
 
 
 # ============================================================
-# CHARGEMENT VOCABULAIRES
+# CHARGEMENT DES VOCABULAIRES
 # ============================================================
 
 ajami_stoi, ajami_itos = load_vocab(
@@ -63,7 +62,7 @@ wolof_stoi, wolof_itos = load_vocab(
 
 
 # ============================================================
-# TITRE
+# AFFICHAGE
 # ============================================================
 
 print("=" * 70)
@@ -83,8 +82,15 @@ print("\n" + "=" * 70)
 print("VOCABULAIRES")
 print("=" * 70)
 
-print("Vocabulaire Ajami :", len(ajami_stoi))
-print("Vocabulaire Wolof :", len(wolof_stoi))
+print(
+    "Vocabulaire Ajami :",
+    len(ajami_stoi)
+)
+
+print(
+    "Vocabulaire Wolof :",
+    len(wolof_stoi)
+)
 
 
 # ============================================================
@@ -122,7 +128,7 @@ print("  UNK :", WOLOF_UNK_IDX)
 
 
 # ============================================================
-# CONSTRUCTION DU MODELE
+# CONSTRUCTION MODELE
 # ============================================================
 
 print("\n" + "=" * 70)
@@ -132,7 +138,6 @@ print("=" * 70)
 INPUT_DIM = len(ajami_stoi)
 OUTPUT_DIM = len(wolof_stoi)
 
-
 encoder = EncoderGRU(
     input_dim=INPUT_DIM,
     embedding_dim=EMBEDDING_DIM,
@@ -140,18 +145,15 @@ encoder = EncoderGRU(
     pad_idx=AJAMI_PAD_IDX
 )
 
-
 attention = BahdanauAttention(
     hidden_dim=HIDDEN_DIM
 )
-
 
 decoder = DecoderGRU(
     output_dim=OUTPUT_DIM,
     embedding_dim=EMBEDDING_DIM,
     hidden_dim=HIDDEN_DIM
 )
-
 
 model = Seq2Seq(
     encoder=encoder,
@@ -161,18 +163,16 @@ model = Seq2Seq(
     src_pad_idx=AJAMI_PAD_IDX
 ).to(DEVICE)
 
-
 print("Modele reverse construit.")
 
 
 # ============================================================
-# CHARGEMENT DU CHECKPOINT
+# CHARGEMENT CHECKPOINT COMPATIBLE
 # ============================================================
 
 print("\n" + "=" * 70)
 print("CHARGEMENT DE BEST_MODEL_REVERSE")
 print("=" * 70)
-
 
 checkpoint = torch.load(
     MODEL_PATH,
@@ -180,9 +180,9 @@ checkpoint = torch.load(
 )
 
 
-# ============================================================
+# ------------------------------------------------------------
 # RECUPERATION DU STATE DICT
-# ============================================================
+# ------------------------------------------------------------
 
 if (
     isinstance(checkpoint, dict)
@@ -205,30 +205,15 @@ else:
 
     state_dict = checkpoint
 
-    print("Checkpoint chargé directement.")
+    print(
+        "Checkpoint chargé directement."
+    )
 
 
-# ============================================================
-# COMPATIBILITE ANCIEN / NOUVEAU ENCODEUR
-# ============================================================
-#
-# Ancien checkpoint :
-#
-# encoder.rnn.weight_ih_l0
-# encoder.rnn.weight_hh_l0
-# encoder.rnn.bias_ih_l0
-# encoder.rnn.bias_hh_l0
-#
-# Nouveau encoder.py :
-#
-# encoder.gru.weight_ih_l0
-# encoder.gru.weight_hh_l0
-# encoder.gru.bias_ih_l0
-# encoder.gru.bias_hh_l0
-#
-# L'architecture est identique.
-# Seul le nom de l'attribut a changé.
-# ============================================================
+# ------------------------------------------------------------
+# COMPATIBILITE :
+# encoder.rnn -> encoder.gru
+# ------------------------------------------------------------
 
 converted_state_dict = {}
 
@@ -238,7 +223,10 @@ for key, value in state_dict.items():
 
     new_key = key
 
-    if key.startswith("encoder.rnn."):
+    if key.startswith(
+        "encoder.rnn."
+    ):
+
         new_key = key.replace(
             "encoder.rnn.",
             "encoder.gru.",
@@ -251,14 +239,15 @@ for key, value in state_dict.items():
 
 
 print(
-    "Parametres encoder.rnn -> encoder.gru convertis :",
+    "Parametres encoder.rnn -> "
+    "encoder.gru convertis :",
     converted_count
 )
 
 
-# ============================================================
+# ------------------------------------------------------------
 # VERIFICATION DES CLES
-# ============================================================
+# ------------------------------------------------------------
 
 model_keys = set(
     model.state_dict().keys()
@@ -268,30 +257,39 @@ checkpoint_keys = set(
     converted_state_dict.keys()
 )
 
+missing_keys = sorted(
+    model_keys - checkpoint_keys
+)
 
-missing_keys = model_keys - checkpoint_keys
-unexpected_keys = checkpoint_keys - model_keys
+unexpected_keys = sorted(
+    checkpoint_keys - model_keys
+)
 
 
 if missing_keys:
 
-    print("\nATTENTION : clés manquantes")
+    print("\nERREUR : parametres manquants")
 
-    for key in sorted(missing_keys):
-        print("  ", key)
+    for key in missing_keys:
+        print("  -", key)
+
+    raise RuntimeError(
+        "Le checkpoint reverse ne correspond "
+        "pas à l'architecture actuelle."
+    )
 
 
 if unexpected_keys:
 
-    print("\nATTENTION : clés inattendues")
+    print("\nATTENTION : parametres inattendus")
 
-    for key in sorted(unexpected_keys):
-        print("  ", key)
+    for key in unexpected_keys:
+        print("  -", key)
 
 
-# ============================================================
+# ------------------------------------------------------------
 # CHARGEMENT
-# ============================================================
+# ------------------------------------------------------------
 
 model.load_state_dict(
     converted_state_dict,
@@ -300,8 +298,9 @@ model.load_state_dict(
 
 model.eval()
 
-
-print("\nModele reverse chargé avec succès !")
+print(
+    "\nModele reverse chargé avec succès !"
+)
 
 
 # ============================================================
@@ -312,33 +311,26 @@ def encode_ajami(text):
 
     ids = []
 
-    # SOS
-    ids.append(
-        AJAMI_SOS_IDX
-    )
-
-    # Caractères Ajami
     for char in text:
 
-        idx = ajami_stoi.get(
-            char,
-            AJAMI_UNK_IDX
+        ids.append(
+            ajami_stoi.get(
+                char,
+                AJAMI_UNK_IDX
+            )
         )
 
-        ids.append(idx)
-
-    # EOS
-    ids.append(
-        AJAMI_EOS_IDX
+    ids = (
+        [AJAMI_SOS_IDX]
+        + ids
+        + [AJAMI_EOS_IDX]
     )
 
-    tensor = torch.tensor(
+    return torch.tensor(
         ids,
         dtype=torch.long,
         device=DEVICE
     ).unsqueeze(0)
-
-    return tensor
 
 
 # ============================================================
@@ -357,19 +349,22 @@ def decode_wolof(indices):
             0 <= indice
             < len(wolof_itos)
         ):
+
             caractere = wolof_itos[indice]
 
         else:
+
             caractere = "<UNK>"
 
-        # Tokens spéciaux
-        if caractere in [
+        if caractere in (
             "<PAD>",
             "<SOS>"
-        ]:
+        ):
+
             continue
 
         if caractere == "<EOS>":
+
             break
 
         chars.append(
@@ -392,25 +387,9 @@ def predict(
 
     with torch.no_grad():
 
-        # ----------------------------------------------------
-        # ENCODEUR
-        # ----------------------------------------------------
-
-        encoder_outputs, hidden = model.encoder(
-            src
+        encoder_outputs, hidden = (
+            model.encoder(src)
         )
-
-        # ----------------------------------------------------
-        # MASQUE SOURCE
-        # ----------------------------------------------------
-
-        src_mask = model.create_src_mask(
-            src
-        )
-
-        # ----------------------------------------------------
-        # PREMIER TOKEN = SOS WOLOF
-        # ----------------------------------------------------
 
         input_token = torch.tensor(
             [WOLOF_SOS_IDX],
@@ -420,55 +399,50 @@ def predict(
 
         predicted_indices = []
 
-        attention_history = []
-
-        # ----------------------------------------------------
-        # DECODAGE AUTOREGRESSIF
-        # ----------------------------------------------------
-
         for step in range(max_len):
 
-            # Attention Bahdanau
-            context, attention_weights = model.attention(
-                hidden,
-                encoder_outputs,
-                mask=src_mask
+            src_mask = model.create_src_mask(
+                src
             )
 
-            attention_history.append(
-                attention_weights.squeeze(0).cpu()
+            context, attention_weights = (
+                model.attention(
+                    hidden,
+                    encoder_outputs,
+                    mask=src_mask
+                )
             )
 
-            # Decoder
-            output, hidden = model.decoder(
-                input_token,
-                hidden,
-                context
+            output, hidden = (
+                model.decoder(
+                    input_token,
+                    hidden,
+                    context
+                )
             )
 
-            # Meilleure prédiction
             prediction = output.argmax(
                 dim=1
             )
 
-            predicted_idx = prediction.item()
+            predicted_idx = (
+                prediction.item()
+            )
 
             predicted_indices.append(
                 predicted_idx
             )
 
-            # EOS
-            if predicted_idx == WOLOF_EOS_IDX:
+            if (
+                predicted_idx
+                == WOLOF_EOS_IDX
+            ):
+
                 break
 
-            # Le token prédit devient
-            # l'entrée suivante
             input_token = prediction
 
-    return (
-        predicted_indices,
-        attention_history
-    )
+    return predicted_indices
 
 
 # ============================================================
@@ -477,12 +451,14 @@ def predict(
 
 def diagnostic_prediction(sentence):
 
-    print("\n")
-    print("=" * 70)
+    print("\n" + "=" * 70)
     print("ENTREE AJAMI")
     print("=" * 70)
 
-    print("Texte :", sentence)
+    print(
+        "Texte :",
+        sentence
+    )
 
     print(
         "Unicode :",
@@ -493,14 +469,20 @@ def diagnostic_prediction(sentence):
 
 
     # --------------------------------------------------------
-    # ENCODAGE
+    # IDS SOURCE
     # --------------------------------------------------------
 
-    src = encode_ajami(sentence)
+    src = encode_ajami(
+        sentence
+    )
 
     print("\nIDs source :")
+
     print(
-        src.squeeze(0).tolist()
+        src.squeeze(0)
+        .detach()
+        .cpu()
+        .tolist()
     )
 
 
@@ -508,15 +490,11 @@ def diagnostic_prediction(sentence):
     # PREDICTION
     # --------------------------------------------------------
 
-    predicted_indices, attention_history = predict(
+    predicted_indices = predict(
         sentence,
         max_len=100
     )
 
-
-    # --------------------------------------------------------
-    # INDICES
-    # --------------------------------------------------------
 
     print("\n" + "-" * 70)
     print("INDICES PREDITS")
@@ -528,7 +506,7 @@ def diagnostic_prediction(sentence):
 
 
     # --------------------------------------------------------
-    # DETAIL
+    # DETAILS
     # --------------------------------------------------------
 
     print("\n" + "-" * 70)
@@ -545,9 +523,13 @@ def diagnostic_prediction(sentence):
             0 <= indice
             < len(wolof_itos)
         ):
-            caractere = wolof_itos[indice]
+
+            caractere = wolof_itos[
+                indice
+            ]
 
         else:
+
             caractere = "<UNK>"
 
         print(
@@ -581,8 +563,6 @@ def diagnostic_prediction(sentence):
         ).decode()
     )
 
-    return prediction
-
 
 # ============================================================
 # TESTS CIBLES
@@ -590,29 +570,24 @@ def diagnostic_prediction(sentence):
 
 tests = [
 
-    # ndank
     "ندانك",
 
-    # xam
     "خام",
 
-    # nit
     "نيت",
 
-    # jàng
     "جاڠ",
 
 ]
 
 
 # ============================================================
-# EXECUTION DES TESTS
+# EXECUTION
 # ============================================================
 
 print("\n" + "=" * 70)
 print("TESTS CIBLES")
 print("=" * 70)
-
 
 for i, sentence in enumerate(
     tests,
@@ -627,10 +602,6 @@ for i, sentence in enumerate(
         sentence
     )
 
-
-# ============================================================
-# FIN
-# ============================================================
 
 print("\n" + "=" * 70)
 print("DIAGNOSTIC TERMINE")

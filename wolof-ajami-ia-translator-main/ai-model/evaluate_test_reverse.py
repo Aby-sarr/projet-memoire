@@ -1,100 +1,99 @@
-import torch
 import json
-import pandas as pd
 import random
+import numpy as np
+import torch
 
 from config.config import (
     WOLOF_VOCAB_FILE,
     AJAMI_VOCAB_FILE,
     MODEL_DIR,
-    CORPUS_FILE,
     EMBEDDING,
     HIDDEN_SIZE,
     DEVICE,
 )
 
 from models.encoder import EncoderGRU
-from models.attention import BahdanauAttention
 from models.decoder import DecoderGRU
+from models.attention import BahdanauAttention
 from models.seq2seq import Seq2Seq
 
 
 # ============================================================
-# 1. CONFIGURATION
+# CONFIGURATION
 # ============================================================
 
 SEED = 42
-
 MAX_LENGTH = 100
 
+MODEL_PATH = MODEL_DIR / "best_model_reverse.pt"
+
+
+# ============================================================
+# REPRODUCTIBILITE
+# ============================================================
+
 random.seed(SEED)
+np.random.seed(SEED)
 torch.manual_seed(SEED)
 
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(SEED)
 
 
+# ============================================================
+# AFFICHAGE
+# ============================================================
+
 print("=" * 60)
 print("EVALUATION FINALE - AJAMI -> WOLOF LATIN")
 print("=" * 60)
 
 print("Device :", DEVICE)
-print("Seed :", SEED)
+print("Seed   :", SEED)
+print("Model  :", MODEL_PATH)
 
 
 # ============================================================
-# 2. CHARGEMENT DES VOCABULAIRES
+# CHARGEMENT VOCABULAIRE
 # ============================================================
 
-print()
-print("=" * 60)
+print("\n" + "=" * 60)
 print("CHARGEMENT DES VOCABULAIRES")
 print("=" * 60)
 
 
-with open(
-    WOLOF_VOCAB_FILE,
-    "r",
-    encoding="utf-8"
-) as f:
+def load_vocab(path):
 
-    wolof_vocab = json.load(f)
+    with open(
+        path,
+        "r",
+        encoding="utf-8"
+    ) as f:
 
+        data = json.load(f)
 
-with open(
-    AJAMI_VOCAB_FILE,
-    "r",
-    encoding="utf-8"
-) as f:
+    stoi = data["stoi"]
+    itos = data["itos"]
 
-    ajami_vocab = json.load(f)
+    # Certains fichiers peuvent stocker itos
+    # sous forme de dictionnaire.
+    if isinstance(itos, dict):
 
+        itos = {
+            int(k): v
+            for k, v in itos.items()
+        }
 
-wolof_stoi = wolof_vocab["stoi"]
-wolof_itos = wolof_vocab["itos"]
-
-ajami_stoi = ajami_vocab["stoi"]
-ajami_itos = ajami_vocab["itos"]
-
-
-# ============================================================
-# Conversion éventuelle de itos
-# ============================================================
-
-if isinstance(wolof_itos, dict):
-
-    wolof_itos = {
-        int(index): caractere
-        for index, caractere in wolof_itos.items()
-    }
+    return stoi, itos
 
 
-if isinstance(ajami_itos, dict):
+ajami_stoi, ajami_itos = load_vocab(
+    AJAMI_VOCAB_FILE
+)
 
-    ajami_itos = {
-        int(index): caractere
-        for index, caractere in ajami_itos.items()
-    }
+wolof_stoi, wolof_itos = load_vocab(
+    WOLOF_VOCAB_FILE
+)
 
 
 print(
@@ -109,41 +108,29 @@ print(
 
 
 # ============================================================
-# 3. VERIFICATION DES TOKENS SPECIAUX
+# VERIFICATION VOCABULAIRE
 # ============================================================
 
-print()
-print("=" * 60)
+required_tokens = [
+    "<PAD>",
+    "<SOS>",
+    "<EOS>",
+    "<UNK>",
+]
+
+
+print("\n" + "=" * 60)
 print("VERIFICATION DES TOKENS SPECIAUX")
 print("=" * 60)
 
 
-required_ajami_tokens = [
-    "<PAD>",
-    "<SOS>",
-    "<EOS>",
-    "<UNK>"
-]
-
-
-required_wolof_tokens = [
-    "<PAD>",
-    "<SOS>",
-    "<EOS>",
-    "<UNK>"
-]
-
-
-for token in required_ajami_tokens:
+for token in required_tokens:
 
     if token not in ajami_stoi:
 
         raise ValueError(
             f"Token Ajami manquant : {token}"
         )
-
-
-for token in required_wolof_tokens:
 
     if token not in wolof_stoi:
 
@@ -156,92 +143,89 @@ print("Tokens spéciaux Ajami : OK")
 print("Tokens spéciaux Wolof : OK")
 
 
-print()
-print("Indices des tokens :")
+AJAMI_PAD_IDX = ajami_stoi["<PAD>"]
+AJAMI_SOS_IDX = ajami_stoi["<SOS>"]
+AJAMI_EOS_IDX = ajami_stoi["<EOS>"]
+AJAMI_UNK_IDX = ajami_stoi["<UNK>"]
+
+WOLOF_PAD_IDX = wolof_stoi["<PAD>"]
+WOLOF_SOS_IDX = wolof_stoi["<SOS>"]
+WOLOF_EOS_IDX = wolof_stoi["<EOS>"]
+WOLOF_UNK_IDX = wolof_stoi["<UNK>"]
+
+
+print("\nIndices des tokens :")
 
 print(
     "Ajami <PAD> =",
-    ajami_stoi["<PAD>"]
+    AJAMI_PAD_IDX
 )
 
 print(
     "Ajami <SOS> =",
-    ajami_stoi["<SOS>"]
+    AJAMI_SOS_IDX
 )
 
 print(
     "Ajami <EOS> =",
-    ajami_stoi["<EOS>"]
+    AJAMI_EOS_IDX
 )
 
 print(
     "Wolof <PAD> =",
-    wolof_stoi["<PAD>"]
+    WOLOF_PAD_IDX
 )
 
 print(
     "Wolof <SOS> =",
-    wolof_stoi["<SOS>"]
+    WOLOF_SOS_IDX
 )
 
 print(
     "Wolof <EOS> =",
-    wolof_stoi["<EOS>"]
+    WOLOF_EOS_IDX
 )
 
 
 # ============================================================
-# 4. CONSTRUCTION DU MODELE REVERSE
+# CONSTRUCTION MODELE
 # ============================================================
 
-print()
-print("=" * 60)
+print("\n" + "=" * 60)
 print("CONSTRUCTION DU MODELE AJAMI -> WOLOF")
 print("=" * 60)
 
 
-# ------------------------------------------------------------
-# ENCODEUR
-# Source = Ajami
-# ------------------------------------------------------------
+INPUT_DIM = len(ajami_stoi)
+OUTPUT_DIM = len(wolof_stoi)
+
 
 encoder = EncoderGRU(
-    input_dim=len(ajami_stoi),
+    input_dim=INPUT_DIM,
     embedding_dim=EMBEDDING,
-    hidden_dim=HIDDEN_SIZE
+    hidden_dim=HIDDEN_SIZE,
+    pad_idx=AJAMI_PAD_IDX
 )
 
-
-# ------------------------------------------------------------
-# ATTENTION
-# ------------------------------------------------------------
 
 attention = BahdanauAttention(
     HIDDEN_SIZE
 )
 
 
-# ------------------------------------------------------------
-# DECODEUR
-# Cible = Wolof Latin
-# ------------------------------------------------------------
-
 decoder = DecoderGRU(
-    output_dim=len(wolof_stoi),
+    output_dim=OUTPUT_DIM,
     embedding_dim=EMBEDDING,
     hidden_dim=HIDDEN_SIZE
 )
 
 
-# ------------------------------------------------------------
-# SEQ2SEQ
-# ------------------------------------------------------------
-
 model = Seq2Seq(
-    encoder,
-    decoder,
-    attention,
-    DEVICE
+    encoder=encoder,
+    decoder=decoder,
+    attention=attention,
+    device=DEVICE,
+    src_pad_idx=AJAMI_PAD_IDX
 ).to(DEVICE)
 
 
@@ -251,25 +235,18 @@ print(
 
 
 # ============================================================
-# 5. CHARGEMENT DU MEILLEUR MODELE
+# CHARGEMENT DU CHECKPOINT
 # ============================================================
 
-print()
-print("=" * 60)
+print("\n" + "=" * 60)
 print("CHARGEMENT DU MEILLEUR MODELE REVERSE")
 print("=" * 60)
-
-
-MODEL_PATH = (
-    MODEL_DIR
-    / "best_model_reverse.pt"
-)
 
 
 if not MODEL_PATH.exists():
 
     raise FileNotFoundError(
-        f"Modèle reverse introuvable : {MODEL_PATH}"
+        f"Modèle introuvable : {MODEL_PATH}"
     )
 
 
@@ -279,8 +256,122 @@ checkpoint = torch.load(
 )
 
 
+if isinstance(checkpoint, dict):
+
+    print(
+        "Epoch :",
+        checkpoint.get("epoch", "?")
+    )
+
+    # Le checkpoint réel contient "valid_loss"
+    print(
+        "Loss validation :",
+        checkpoint.get("valid_loss", "?")
+    )
+
+    state_dict = checkpoint.get(
+        "model_state_dict",
+        checkpoint
+    )
+
+else:
+
+    state_dict = checkpoint
+
+    print(
+        "Checkpoint sous forme state_dict directe."
+    )
+
+
+# ============================================================
+# COMPATIBILITE ANCIEN NOM encoder.rnn
+# ============================================================
+
+print("\n" + "-" * 60)
+print("VERIFICATION DE COMPATIBILITE DU CHECKPOINT")
+print("-" * 60)
+
+
+converted_state_dict = {}
+
+converted_count = 0
+
+
+for key, value in state_dict.items():
+
+    new_key = key
+
+    if key.startswith("encoder.rnn."):
+
+        new_key = key.replace(
+            "encoder.rnn.",
+            "encoder.gru.",
+            1
+        )
+
+        converted_count += 1
+
+    converted_state_dict[new_key] = value
+
+
+print(
+    "Paramètres encoder.rnn -> encoder.gru convertis :",
+    converted_count
+)
+
+
+# ============================================================
+# VERIFICATION DES CLES
+# ============================================================
+
+model_keys = set(
+    model.state_dict().keys()
+)
+
+checkpoint_keys = set(
+    converted_state_dict.keys()
+)
+
+
+missing_keys = model_keys - checkpoint_keys
+unexpected_keys = checkpoint_keys - model_keys
+
+
+if missing_keys:
+
+    print("\nERREUR : clés manquantes :")
+
+    for key in sorted(missing_keys):
+
+        print(
+            "  -",
+            key
+        )
+
+
+if unexpected_keys:
+
+    print("\nERREUR : clés inattendues :")
+
+    for key in sorted(unexpected_keys):
+
+        print(
+            "  -",
+            key
+        )
+
+
+if missing_keys or unexpected_keys:
+
+    raise RuntimeError(
+        "Le checkpoint n'est pas compatible "
+        "avec l'architecture actuelle."
+    )
+
+
 model.load_state_dict(
-    checkpoint["model_state_dict"]
+    converted_state_dict,
+    strict=True
 )
 
 
@@ -288,176 +379,40 @@ model.eval()
 
 
 print(
-    "Modèle reverse chargé avec succès !"
-)
-
-
-if "epoch" in checkpoint:
-
-    print(
-        "Epoch du meilleur modèle :",
-        checkpoint["epoch"]
-    )
-
-
-if "valid_loss" in checkpoint:
-
-    print(
-        "Loss validation :",
-        checkpoint["valid_loss"]
-    )
-
-
-# ============================================================
-# 6. CHARGEMENT DU CORPUS
-# ============================================================
-
-print()
-print("=" * 60)
-print("CHARGEMENT DU CORPUS")
-print("=" * 60)
-
-
-df = pd.read_csv(
-    CORPUS_FILE
-)
-
-
-df = df.reset_index(
-    drop=True
-)
-
-
-print(
-    "Nombre total de phrases :",
-    len(df)
+    "\nModèle reverse chargé avec succès !"
 )
 
 
 # ============================================================
-# 7. RECONSTRUCTION EXACTE DU SPLIT
+# ENCODAGE AJAMI
 # ============================================================
 
-print()
-print("=" * 60)
-print("SEPARATION TRAIN / VALIDATION / TEST")
-print("=" * 60)
-
-
-generator = torch.Generator().manual_seed(
-    SEED
-)
-
-
-indices = torch.randperm(
-    len(df),
-    generator=generator
-).tolist()
-
-
-total_size = len(df)
-
-
-train_size = int(
-    0.80 * total_size
-)
-
-
-valid_size = int(
-    0.10 * total_size
-)
-
-
-test_size = (
-    total_size
-    - train_size
-    - valid_size
-)
-
-
-train_indices = indices[
-    :train_size
-]
-
-
-valid_indices = indices[
-    train_size:
-    train_size + valid_size
-]
-
-
-test_indices = indices[
-    train_size + valid_size:
-]
-
-
-print(
-    "Train :",
-    len(train_indices)
-)
-
-print(
-    "Validation :",
-    len(valid_indices)
-)
-
-print(
-    "Test :",
-    len(test_indices)
-)
-
-
-test_df = df.iloc[
-    test_indices
-].reset_index(
-    drop=True
-)
-
-
-print()
-print(
-    "Nombre de phrases utilisées pour le test :",
-    len(test_df)
-)
-
-
-# ============================================================
-# 8. PREDICTION AJAMI -> WOLOF
-# ============================================================
-
-def predict(sentence):
-
-    sentence = str(sentence)
-
-
-    # --------------------------------------------------------
-    # Encodage de la source Ajami
-    # --------------------------------------------------------
+def encode_ajami(text):
 
     tokens = []
 
+    for caractere in text:
 
-    for caractere in sentence:
-
-        if caractere in ajami_stoi:
-
-            tokens.append(
-                ajami_stoi[caractere]
+        tokens.append(
+            ajami_stoi.get(
+                caractere,
+                AJAMI_UNK_IDX
             )
+        )
 
-        else:
-
-            tokens.append(
-                ajami_stoi["<UNK>"]
-            )
-
+    # IMPORTANT :
+    # Même convention que l'API reverse :
+    #
+    # Ajami + EOS
+    #
+    # et non :
+    #
+    # SOS + Ajami + EOS
 
     source_indices = (
-        [ajami_stoi["<SOS>"]]
-        + tokens
-        + [ajami_stoi["<EOS>"]]
+        tokens
+        + [AJAMI_EOS_IDX]
     )
-
 
     source = torch.tensor(
         source_indices,
@@ -465,10 +420,65 @@ def predict(sentence):
         device=DEVICE
     ).unsqueeze(0)
 
+    return source
 
-    # --------------------------------------------------------
-    # ENCODEUR
-    # --------------------------------------------------------
+
+# ============================================================
+# DECODAGE WOLOF
+# ============================================================
+
+def decode_wolof(indices):
+
+    chars = []
+
+    for index in indices:
+
+        index = int(index)
+
+        if isinstance(wolof_itos, dict):
+
+            caractere = wolof_itos.get(
+                index,
+                "<UNK>"
+            )
+
+        else:
+
+            if 0 <= index < len(wolof_itos):
+
+                caractere = wolof_itos[index]
+
+            else:
+
+                caractere = "<UNK>"
+
+        if caractere == "<EOS>":
+
+            break
+
+        if caractere in [
+            "<PAD>",
+            "<SOS>",
+            "<UNK>",
+        ]:
+
+            continue
+
+        chars.append(
+            caractere
+        )
+
+    return "".join(chars)
+
+
+# ============================================================
+# PREDICTION
+# ============================================================
+
+def predict(text, max_length=MAX_LENGTH):
+
+    source = encode_ajami(text)
+
 
     with torch.no_grad():
 
@@ -477,32 +487,31 @@ def predict(sentence):
         )
 
 
-    # --------------------------------------------------------
-    # PREMIER TOKEN DU DECODEUR
-    # --------------------------------------------------------
+    # Masque source
+    src_mask = (
+        source != model.src_pad_idx
+    )
+
 
     input_token = torch.tensor(
-        [wolof_stoi["<SOS>"]],
+        [WOLOF_SOS_IDX],
         dtype=torch.long,
         device=DEVICE
     )
 
 
-    resultat = []
+    predicted_indices = []
 
 
-    # --------------------------------------------------------
-    # DECODAGE AUTO-REGRESSIF
-    # --------------------------------------------------------
+    with torch.no_grad():
 
-    for step in range(MAX_LENGTH):
-
-        with torch.no_grad():
+        for step in range(max_length):
 
             context, attention_weights = (
                 model.attention(
                     hidden,
-                    encoder_outputs
+                    encoder_outputs,
+                    mask=src_mask
                 )
             )
 
@@ -516,516 +525,333 @@ def predict(sentence):
             )
 
 
-        predicted_token = (
-            output.argmax(
-                dim=1
-            ).item()
-        )
-
-
-        if (
-            predicted_token < 0
-            or predicted_token >= len(wolof_itos)
-        ):
-
-            break
-
-
-        predicted_char = wolof_itos[
-            predicted_token
-        ]
-
-
-        # ----------------------------------------------------
-        # EOS
-        # ----------------------------------------------------
-
-        if predicted_char == "<EOS>":
-
-            break
-
-
-        # ----------------------------------------------------
-        # Ignorer PAD / SOS
-        # ----------------------------------------------------
-
-        if predicted_char not in [
-            "<PAD>",
-            "<SOS>"
-        ]:
-
-            resultat.append(
-                predicted_char
+            predicted_token = (
+                output.argmax(
+                    dim=1
+                ).item()
             )
 
 
-        # ----------------------------------------------------
-        # Le token prédit devient
-        # l'entrée suivante
-        # ----------------------------------------------------
+            if (
+                predicted_token < 0
+                or predicted_token >= len(wolof_itos)
+            ):
 
-        input_token = torch.tensor(
-            [predicted_token],
-            dtype=torch.long,
-            device=DEVICE
-        )
+                break
 
 
-    return "".join(resultat)
+            predicted_indices.append(
+                predicted_token
+            )
+
+
+            if predicted_token == WOLOF_EOS_IDX:
+
+                break
+
+
+            input_token = torch.tensor(
+                [predicted_token],
+                dtype=torch.long,
+                device=DEVICE
+            )
+
+
+    prediction = decode_wolof(
+        predicted_indices
+    )
+
+
+    return prediction, predicted_indices
 
 
 # ============================================================
-# 9. DISTANCE DE LEVENSHTEIN
+# DISTANCE DE LEVENSHTEIN
 # ============================================================
 
 def levenshtein_distance(
     reference,
-    hypothesis
+    prediction
 ):
 
-    rows = len(reference) + 1
+    m = len(reference)
+    n = len(prediction)
 
-    cols = len(hypothesis) + 1
-
-
-    distance = [
-        [0] * cols
-        for _ in range(rows)
-    ]
+    previous = list(
+        range(n + 1)
+    )
 
 
-    for i in range(rows):
+    for i in range(1, m + 1):
 
-        distance[i][0] = i
-
-
-    for j in range(cols):
-
-        distance[0][j] = j
+        current = [
+            i
+        ] + [0] * n
 
 
-    for i in range(1, rows):
+        for j in range(1, n + 1):
 
-        for j in range(1, cols):
+            insertion = (
+                current[j - 1] + 1
+            )
 
-            if (
-                reference[i - 1]
-                == hypothesis[j - 1]
-            ):
+            deletion = (
+                previous[j] + 1
+            )
 
-                cost = 0
+            substitution = (
+                previous[j - 1]
+                + (
+                    reference[i - 1]
+                    != prediction[j - 1]
+                )
+            )
 
-            else:
-
-                cost = 1
-
-
-            distance[i][j] = min(
-
-                distance[i - 1][j] + 1,
-
-                distance[i][j - 1] + 1,
-
-                distance[i - 1][j - 1] + cost
-
+            current[j] = min(
+                insertion,
+                deletion,
+                substitution
             )
 
 
-    return distance[-1][-1]
+        previous = current
+
+
+    return previous[n]
 
 
 # ============================================================
-# 10. EVALUATION
+# CER
 # ============================================================
 
-print()
-print("=" * 60)
-print("DEBUT DE L'EVALUATION DU JEU DE TEST")
-print("DIRECTION : AJAMI -> WOLOF LATIN")
-print("=" * 60)
+def character_error_rate(
+    reference,
+    prediction
+):
+
+    if len(reference) == 0:
+
+        if len(prediction) == 0:
+
+            return 0.0
+
+        return 1.0
 
 
-correct = 0
-
-total = 0
-
-
-total_char_errors = 0
-
-total_reference_chars = 0
-
-
-total_word_errors = 0
-
-total_reference_words = 0
-
-
-errors = []
-
-
-preview_count = 0
-
-
-# ============================================================
-# PARCOURS DU TEST
-# ============================================================
-
-for index, row in test_df.iterrows():
-
-    ajami = str(
-        row["ajami"]
+    distance = levenshtein_distance(
+        reference,
+        prediction
     )
 
 
-    expected = str(
-        row["Wolof"]
+    return distance / len(reference)
+
+
+# ============================================================
+# TESTS CIBLES
+# ============================================================
+
+tests = [
+
+    {
+        "ajami": "ندانك",
+        "reference": "ndank",
+    },
+
+    {
+        "ajami": "خام",
+        "reference": "xam",
+    },
+
+    {
+        "ajami": "نيت",
+        "reference": "nit",
+    },
+
+    {
+        "ajami": "جاڠ",
+        "reference": "jàng",
+    },
+
+]
+
+
+print("\n" + "=" * 60)
+print("TESTS CIBLES")
+print("=" * 60)
+
+
+results = []
+
+
+for i, test in enumerate(
+    tests,
+    start=1
+):
+
+    ajami = test["ajami"]
+    reference = test["reference"]
+
+
+    print("\n" + "-" * 60)
+    print(
+        f"TEST {i}/{len(tests)}"
     )
 
 
-    prediction = predict(
+    prediction, predicted_indices = (
+        predict(ajami)
+    )
+
+
+    distance = levenshtein_distance(
+        reference,
+        prediction
+    )
+
+
+    cer = character_error_rate(
+        reference,
+        prediction
+    )
+
+
+    exact_match = (
+        reference == prediction
+    )
+
+
+    print(
+        "Ajami      :",
         ajami
     )
 
 
-    # --------------------------------------------------------
-    # Affichage des 10 premiers exemples
-    # --------------------------------------------------------
-
-    if preview_count < 10:
-
-        print()
-        print(
-            f"Exemple {preview_count + 1}"
-        )
-
-        print(
-            "Ajami      :",
-            ajami
-        )
-
-        print(
-            "Attendu    :",
-            expected
-        )
-
-        print(
-            "Prediction :",
-            prediction
-        )
-
-        preview_count += 1
-
-
-    # ========================================================
-    # TOTAL
-    # ========================================================
-
-    total += 1
-
-
-    # ========================================================
-    # ACCURACY
-    # ========================================================
-
-    if prediction == expected:
-
-        correct += 1
-
-
-    # ========================================================
-    # CER
-    # ========================================================
-
-    char_distance = (
-        levenshtein_distance(
-            expected,
-            prediction
-        )
+    print(
+        "Unicode    :",
+        ajami.encode(
+            "unicode_escape"
+        ).decode()
     )
 
-
-    total_char_errors += (
-        char_distance
-    )
-
-
-    total_reference_chars += (
-        len(expected)
-    )
-
-
-    # ========================================================
-    # WER
-    # ========================================================
-
-    reference_words = (
-        expected.split()
-    )
-
-
-    prediction_words = (
-        prediction.split()
-    )
-
-
-    word_distance = (
-        levenshtein_distance(
-            reference_words,
-            prediction_words
-        )
-    )
-
-
-    total_word_errors += (
-        word_distance
-    )
-
-
-    total_reference_words += (
-        len(reference_words)
-    )
-
-
-    # ========================================================
-    # ENREGISTREMENT DES ERREURS
-    # ========================================================
-
-    if prediction != expected:
-
-        errors.append({
-
-            "Ajami":
-                ajami,
-
-            "Wolof_attendu":
-                expected,
-
-            "Wolof_predit":
-                prediction
-
-        })
-
-
-    # ========================================================
-    # PROGRESSION
-    # ========================================================
-
-    if total % 100 == 0:
-
-        print(
-            f"Évaluation : "
-            f"{total}/{len(test_df)} phrases..."
-        )
-
-
-# ============================================================
-# 11. CALCUL DES METRIQUES
-# ============================================================
-
-if total > 0:
-
-    accuracy = (
-        correct / total
-    ) * 100
-
-else:
-
-    accuracy = 0.0
-
-
-if total_reference_chars > 0:
-
-    cer = (
-        total_char_errors
-        / total_reference_chars
-    ) * 100
-
-else:
-
-    cer = 0.0
-
-
-if total_reference_words > 0:
-
-    wer = (
-        total_word_errors
-        / total_reference_words
-    ) * 100
-
-else:
-
-    wer = 0.0
-
-
-incorrect = (
-    total - correct
-)
-
-
-# ============================================================
-# 12. RESULTATS FINAUX
-# ============================================================
-
-print()
-print("=" * 60)
-print("RESULTATS FINAUX - AJAMI -> WOLOF LATIN")
-print("=" * 60)
-
-
-print(
-    "Nombre total de phrases :",
-    total
-)
-
-
-print(
-    "Phrases correctes :",
-    correct
-)
-
-
-print(
-    "Phrases incorrectes :",
-    incorrect
-)
-
-
-print(
-    f"Accuracy : {accuracy:.2f}%"
-)
-
-
-print(
-    f"CER : {cer:.2f}%"
-)
-
-
-print(
-    f"WER : {wer:.2f}%"
-)
-
-
-# ============================================================
-# 13. EXEMPLES D'ERREURS
-# ============================================================
-
-print()
-print("=" * 60)
-print("EXEMPLES D'ERREURS SUR LE JEU DE TEST")
-print("=" * 60)
-
-
-if len(errors) == 0:
 
     print(
-        "Aucune erreur !"
+        "Référence  :",
+        reference
     )
 
-else:
 
-    for i, error in enumerate(
-        errors[:20],
-        start=1
-    ):
-
-        print()
-
-        print(
-            "Erreur",
-            i
-        )
-
-        print(
-            "Ajami      :",
-            error["Ajami"]
-        )
-
-        print(
-            "Attendu    :",
-            error["Wolof_attendu"]
-        )
-
-        print(
-            "Prediction :",
-            error["Wolof_predit"]
-        )
+    print(
+        "Prediction :",
+        prediction
+    )
 
 
-# ============================================================
-# 14. SAUVEGARDE DES ERREURS
-# ============================================================
-
-ERROR_FILE = (
-    MODEL_DIR
-    / "test_errors_reverse.csv"
-)
+    print(
+        "Unicode pred.:",
+        prediction.encode(
+            "unicode_escape"
+        ).decode()
+    )
 
 
-errors_df = pd.DataFrame(
-    errors
-)
+    print(
+        "Indices     :",
+        predicted_indices
+    )
 
 
-errors_df.to_csv(
-    ERROR_FILE,
-    index=False,
-    encoding="utf-8-sig"
-)
+    print(
+        "Distance    :",
+        distance
+    )
 
 
-print()
-print("=" * 60)
-print("SAUVEGARDE")
-print("=" * 60)
+    print(
+        "CER         :",
+        f"{cer:.4f}"
+    )
 
 
-print(
-    "Erreurs du jeu de test reverse sauvegardées dans :"
-)
+    print(
+        "Exact match :",
+        exact_match
+    )
 
 
-print(
-    ERROR_FILE
-)
+    results.append(
+        {
+            "ajami": ajami,
+            "reference": reference,
+            "prediction": prediction,
+            "distance": distance,
+            "cer": cer,
+            "exact_match": exact_match,
+        }
+    )
 
 
 # ============================================================
-# 15. FIN
+# RESUME
 # ============================================================
 
-print()
+number_tests = len(results)
+
+
+exact_matches = sum(
+    1
+    for result in results
+    if result["exact_match"]
+)
+
+
+exact_match_percentage = (
+    100.0 * exact_matches / number_tests
+    if number_tests > 0
+    else 0.0
+)
+
+
+mean_cer = (
+    sum(
+        result["cer"]
+        for result in results
+    )
+    / number_tests
+    if number_tests > 0
+    else 0.0
+)
+
+
+print("\n" + "=" * 60)
+print("RESUME DES TESTS CIBLES")
 print("=" * 60)
-print("EVALUATION REVERSE TERMINEE")
+
+
+print(
+    "Nombre de tests :",
+    number_tests
+)
+
+
+print(
+    "Exact match     :",
+    f"{exact_matches} / {number_tests}"
+)
+
+
+print(
+    "Exact match (%) :",
+    f"{exact_match_percentage:.2f}%"
+)
+
+
+print(
+    "CER moyen       :",
+    f"{mean_cer:.4f}"
+)
+
+
+print("\n" + "=" * 60)
+print("EVALUATION TERMINEE")
 print("=" * 60)
-
-
-print(
-    "Direction : AJAMI -> WOLOF LATIN"
-)
-
-
-print(
-    "Modèle : best_model_reverse.pt"
-)
-
-
-print(
-    "Test :",
-    total,
-    "phrases"
-)
-
-
-print(
-    f"Accuracy : {accuracy:.2f}%"
-)
-
-
-print(
-    f"CER : {cer:.2f}%"
-)
-
-
-print(
-    f"WER : {wer:.2f}%"
-)

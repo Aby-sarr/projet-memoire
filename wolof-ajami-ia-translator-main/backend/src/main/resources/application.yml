@@ -1,5 +1,5 @@
 server:
-  port: 8080 # Port du serveur Spring Boot
+  port: 8080
   servlet:
     encoding:
       charset: UTF-8
@@ -12,12 +12,10 @@ spring:
   application:
     name: wolof-transliteration
 
-# Configuration CORS : autorise les requêtes Angular (port 4200)
 app:
   cors:
-    allowed-origins: "http://localhost:4200,https://insight-nationally-involve-speeches.trycloudflare.com"
-    
-# Logs : INFO pour voir les requêtes, DEBUG pour le détail
+    allowed-origins: "http://localhost:4200"
+
 logging:
   level:
     com.wolof: DEBUG

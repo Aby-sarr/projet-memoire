@@ -12,17 +12,16 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * ============================================================
  * SERVICE DE TRANSLITTÉRATION
  * ============================================================
  *
- * Ce service assure la communication entre Angular,
- * Spring Boot et le modèle IA Python/FastAPI.
- *
- * Architecture :
+ * Ce service assure la communication entre :
  *
  * Angular
  *    ↓
@@ -56,13 +55,18 @@ public class TransliterationService {
      * ADRESSE DE L'API FASTAPI
      * ============================================================
      *
-     * FastAPI fonctionne actuellement sur :
+     * FastAPI fonctionne sur :
      *
      * http://127.0.0.1:8000
      */
     private static final String AI_API_URL =
             "http://127.0.0.1:8000";
 
+    /**
+     * ============================================================
+     * CONSTRUCTEUR
+     * ============================================================
+     */
     public TransliterationService(
             WolofDatasetGenerator generator) {
 
@@ -190,11 +194,14 @@ public class TransliterationService {
          * 4. CALCUL DES SCORES D'ATTENTION
          * --------------------------------------------------------
          *
-         * Les vrais poids Bahdanau ne sont pas encore
-         * retournés directement par FastAPI.
+         * Les vrais poids de Bahdanau sont calculés
+         * dans le modèle Python.
          *
-         * On conserve donc ici le calcul existant
-         * utilisé par l'application.
+         * FastAPI ne les expose actuellement pas
+         * directement dans sa réponse.
+         *
+         * On conserve donc le calcul uniforme existant
+         * utilisé par l'application Spring Boot.
          */
         List<Double> attentionScores =
                 computeAttentionScores(
@@ -243,7 +250,7 @@ public class TransliterationService {
      *
      * POST http://127.0.0.1:8000/predict_reverse
      *
-     * Le corps envoyé à FastAPI est :
+     * Le corps envoyé est uniquement :
      *
      * {
      *     "text": "xam"
@@ -273,21 +280,21 @@ public class TransliterationService {
              * ----------------------------------------------------
              * CHOIX DE L'ENDPOINT
              * ----------------------------------------------------
-             *
-             * Latin → Ajami :
-             * /predict
-             *
-             * Ajami → Latin :
-             * /predict_reverse
              */
             String endpoint;
 
             if ("lat2ajami".equals(direction)) {
 
+                /*
+                 * Latin → Ajami
+                 */
                 endpoint = "/predict";
 
             } else if ("ajami2lat".equals(direction)) {
 
+                /*
+                 * Ajami → Latin
+                 */
                 endpoint = "/predict_reverse";
 
             } else {
@@ -311,7 +318,7 @@ public class TransliterationService {
              *
              * IMPORTANT :
              *
-             * Le FastAPI actuel attend seulement :
+             * L'API FastAPI actuelle attend uniquement :
              *
              * {
              *     "text": "..."
@@ -353,7 +360,7 @@ public class TransliterationService {
 
             /*
              * ----------------------------------------------------
-             * LECTURE JSON
+             * LECTURE DU JSON
              * ----------------------------------------------------
              */
             JsonNode json =
@@ -409,7 +416,8 @@ public class TransliterationService {
      */
     private record PredictionRequest(
             String text
-    ) {}
+    ) {
+    }
 
     /**
      * ============================================================
@@ -432,6 +440,8 @@ public class TransliterationService {
      * ============================================================
      * APERÇU DU DATASET
      * ============================================================
+     *
+     * Méthode conservée pour compatibilité interne.
      */
     public List<WolofPhrase> getDatasetPreview(
             int limit) {
@@ -453,6 +463,30 @@ public class TransliterationService {
                 0,
                 limit
         );
+    }
+
+    /**
+     * ============================================================
+     * ÉCHANTILLON DU DATASET
+     * ============================================================
+     *
+     * Cette méthode est appelée par :
+     *
+     * TransliterationController
+     *
+     * via :
+     *
+     * service.getDatasetSample(limit)
+     *
+     * Elle corrige donc l'erreur de compilation :
+     *
+     * cannot find symbol
+     * method getDatasetSample(int)
+     */
+    public List<WolofPhrase> getDatasetSample(
+            int limit) {
+
+        return getDatasetPreview(limit);
     }
 
     /**
@@ -566,8 +600,8 @@ public class TransliterationService {
     private int countUniqueTokens(
             List<WolofPhrase> dataset) {
 
-        java.util.Set<String> uniqueTokens =
-                new java.util.HashSet<>();
+        Set<String> uniqueTokens =
+                new HashSet<>();
 
         for (WolofPhrase phrase : dataset) {
 
@@ -576,8 +610,7 @@ public class TransliterationService {
             }
 
             /*
-             * Selon la structure de WolofPhrase,
-             * on récupère les textes disponibles.
+             * Texte Latin
              */
             if (phrase.getLatin() != null) {
 
@@ -588,6 +621,9 @@ public class TransliterationService {
                 }
             }
 
+            /*
+             * Texte Ajami
+             */
             if (phrase.getAjami() != null) {
 
                 for (String token :
@@ -610,5 +646,6 @@ public class TransliterationService {
             int totalPhrases,
             int uniqueTokens,
             String model
-    ) {}
+    ) {
+    }
 }

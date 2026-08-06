@@ -15,8 +15,8 @@ spring:
 # Configuration CORS : autorise les requêtes Angular (port 4200)
 app:
   cors:
-    allowed-origins: "http://localhost:4200"
-
+    allowed-origins: "http://localhost:4200,https://insight-nationally-involve-speeches.trycloudflare.com"
+    
 # Logs : INFO pour voir les requêtes, DEBUG pour le détail
 logging:
   level:

@@ -1,11 +1,19 @@
 /**
  * Configuration de l'environnement de développement.
- * Pointe vers le serveur Spring Boot local.
  *
- * Pour la production, créer un fichier environment.prod.ts
- * avec l'URL du serveur déployé.
+ * L'application Angular peut être utilisée :
+ * - localement avec Spring Boot sur localhost:8080
+ * - via Cloudflare Tunnel pour les testeurs externes
  */
+
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:8080/api'  // URL de l'API Spring Boot
+
+  /**
+   * URL publique de Spring Boot.
+   *
+   * Cloudflare Tunnel redirige cette URL vers :
+   * http://localhost:8080
+   */
+  apiUrl: 'https://types-yeast-mini-transition.trycloudflare.com/api'
 };

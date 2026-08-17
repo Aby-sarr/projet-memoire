@@ -190,21 +190,16 @@ MODEL_PATH_LAT2AJAMI = (
     MODEL_DIR / "best_model.pt"
 )
 
-
 if not MODEL_PATH_LAT2AJAMI.exists():
 
     raise FileNotFoundError(
         f"Modele Latin -> Ajami introuvable : "
         f"{MODEL_PATH_LAT2AJAMI}"
     )
-
-
 checkpoint_lat2ajami = torch.load(
     MODEL_PATH_LAT2AJAMI,
     map_location=DEVICE
 )
-
-
 if (
     isinstance(checkpoint_lat2ajami, dict)
     and "model_state_dict" in checkpoint_lat2ajami

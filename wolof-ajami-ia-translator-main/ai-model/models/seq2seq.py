@@ -1,14 +1,6 @@
 import torch
 import torch.nn as nn
-
-
 class Seq2Seq(nn.Module):
-    """
-    Modèle Seq2Seq complet :
-    Encodeur GRU + Attention Bahdanau + Décodeur GRU
-
-    Version avec masque des PAD côté source.
-    """
 
     def __init__(
         self,

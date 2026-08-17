@@ -1,12 +1,6 @@
 import torch
 import torch.nn as nn
-
-
 class BahdanauAttention(nn.Module):
-    """
-    Mécanisme d'attention de Bahdanau avec masque
-    pour ignorer les tokens <PAD>.
-    """
 
     def __init__(self, hidden_dim):
 
@@ -29,30 +23,13 @@ class BahdanauAttention(nn.Module):
         encoder_outputs,
         mask=None
     ):
-        """
-        hidden:
-            [1, batch, hidden_dim]
 
-        encoder_outputs:
-            [batch, source_length, hidden_dim]
-
-        mask:
-            [batch, source_length]
-            True  = vrai token
-            False = <PAD>
-        """
-
-        # [1, batch, hidden_dim]
         hidden = hidden.permute(1, 0, 2)
 
-        # Nombre de positions dans la séquence source
         src_len = encoder_outputs.size(1)
 
-        # [batch, source_length, hidden_dim]
         hidden = hidden.repeat(1, src_len, 1)
 
-        # Concaténation :
-        # hidden + encoder_outputs
         energy = torch.tanh(
             self.W(
                 torch.cat(
